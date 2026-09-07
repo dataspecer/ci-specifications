@@ -1,0 +1,22 @@
+{
+  "iri": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Czech Core Metadata Model"
+    },
+    "description": {
+      "en": "Application profile of Czech Core Metadata Model profiled to DCAT-AP."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:16.082Z",
+    "modificationDate": "2026-09-04T09:17:57.899Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.889Z",
+  "_exportedBy": "http://localhost:3100"
+}

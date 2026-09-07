@@ -1,0 +1,22 @@
+{
+  "iri": "d19697d9-b1fe-427a-874b-0a537119a6e7",
+  "types": [
+    "http://dataspecer.com/resources/local/visual-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "View for Czech Core Metadata Model"
+    },
+    "description": {
+      "en": "View model for the profile"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:16.394Z",
+    "modificationDate": "2026-09-04T06:57:35.973Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.654Z",
+  "_exportedBy": "http://localhost:3100"
+}

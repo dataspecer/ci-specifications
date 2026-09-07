@@ -1,0 +1,24 @@
+{
+  "iri": "c6aa0a4b-e116-4247-9c26-bb59ad90cb83",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Application profile",
+      "en": "Application profile"
+    },
+    "description": {
+      "cs": "Datová struktura pro Application profile. A standard or other specification to which a metadata record conforms.",
+      "en": "Data structure for Application profile. A standard or other specification to which a metadata record conforms."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:17.609Z",
+    "modificationDate": "2026-08-07T08:57:17.701Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.702Z",
+  "_exportedBy": "http://localhost:3100"
+}

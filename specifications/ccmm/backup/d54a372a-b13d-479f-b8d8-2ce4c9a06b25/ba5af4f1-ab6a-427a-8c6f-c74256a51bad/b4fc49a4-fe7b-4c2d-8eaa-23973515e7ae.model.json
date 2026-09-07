@@ -1,0 +1,3424 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/ba5af4f1-ab6a-427a-8c6f-c74256a51bad/b4fc49a4-fe7b-4c2d-8eaa-23973515e7ae",
+  "alias": "model",
+  "pimStore": {
+    "resources": {
+      "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierScheme",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publisher identifier scheme"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the publisher identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publisher scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the publisher identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publisher identifier"
+        },
+        "pimHumanDescription": {
+          "en": "Uniquely identifies the publisher, according to various schemes."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#awardUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#awardUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#awardUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "award URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI leading to a page provided by the funder for more information about the award (grant)."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#funderName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#funderName",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#funderName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "funder name "
+        },
+        "pimHumanDescription": {
+          "en": "Name of the funding provider."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#awardNumber": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#awardNumber",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#awardNumber",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "award number"
+        },
+        "pimHumanDescription": {
+          "en": "The code assigned by the funder to a sponsored award (grant)."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#awardTitle": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#awardTitle",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#awardTitle",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "award title"
+        },
+        "pimHumanDescription": {
+          "en": "The human readable title or name of the award (grant)."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has funder identifier"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#subjectSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#subjectSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#subjectSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "subject scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the subject identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#subjectScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#subjectScheme",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#subjectScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "subject scheme"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the subject scheme or classification code or authority if one is used."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#subjectValueUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#subjectValueUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#subjectValueUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "subject value URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the subject term."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#subjectClassificationCode": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#subjectClassificationCode",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#subjectClassificationCode",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "subject classification code"
+        },
+        "pimHumanDescription": {
+          "en": "The classification code used for the subject term in the subject scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#dateValue": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#dateValue",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#dateValue",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "date value"
+        },
+        "pimHumanDescription": {
+          "en": "Specific date."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Date",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#dateType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#dateType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#dateType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "date type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of date."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Date",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#dateInformation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#dateInformation",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#dateInformation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "date information"
+        },
+        "pimHumanDescription": {
+          "en": "Specific information about the date, if appropriate."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Date",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator name scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the name identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#affiliationIdentifierScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#affiliationIdentifierScheme",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#affiliationIdentifierScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator affiliation identifier scheme"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the affiliation identifier scheme"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorName",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator name"
+        },
+        "pimHumanDescription": {
+          "en": "The full name of the creator."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierScheme",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator name identifier scheme"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the name identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorFamilyName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorFamilyName",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorFamilyName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator family name"
+        },
+        "pimHumanDescription": {
+          "en": "The surname or last name of the creator."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliation",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator affiliation"
+        },
+        "pimHumanDescription": {
+          "en": "The organizational or institutional affiliation of the creator."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#affilitationIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#affilitationIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#affilitationIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator affilitation identifier"
+        },
+        "pimHumanDescription": {
+          "en": "Uniquely identifies the organizational affiliation of the creator."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliationIdentifierSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliationIdentifierSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliationIdentifierSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the affiliation identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator name identifier"
+        },
+        "pimHumanDescription": {
+          "en": "Uniquely identifies an individual or legal entity, according to various schemes."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorNameType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorNameType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorNameType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator name type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of name. Allowed values are Organizational and Personal."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#creatorGivenName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#creatorGivenName",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#creatorGivenName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "creator given name"
+        },
+        "pimHumanDescription": {
+          "en": "The personal or first name of the creator."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "related identifier type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of the RelatedIdentifier. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relatedIdentifierType/."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedMetadataScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedMetadataScheme",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedMetadataScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "related metadata scheme"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the scheme. Use only with hasMetadata or IsMetadataFor relation type."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "related identifier scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": " The URI of the relatedMetadataScheme. The name of the scheme. Use only with hasMetadata or IsMetadataFor relation type."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#resourceTypeGeneral": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#resourceTypeGeneral",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#resourceTypeGeneral",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "resource type general"
+        },
+        "pimHumanDescription": {
+          "en": "The general type of the related resource. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/resourcetype/#a."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "related identifier scheme type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of the relatedMetadataScheme, linked with the schemeURI.  Use only with hasMetadata or IsMetadataFor relation type."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierRelationType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierRelationType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierRelationType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "relation type"
+        },
+        "pimHumanDescription": {
+          "en": "Description of the relationship of the resource being registered (A) and the related resource (B). Value from controlled vocabulary https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relationType/."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#northBoundLatitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#northBoundLatitude",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#northBoundLatitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "north bound latitude"
+        },
+        "pimHumanDescription": {
+          "en": "Northern latitudinal dimension of box."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#westBoundLongitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#westBoundLongitude",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#westBoundLongitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "west bound longitude"
+        },
+        "pimHumanDescription": {
+          "en": "Western longitudinal dimension of box."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#eastBoundLongitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#eastBoundLongitude",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#eastBoundLongitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "east bound longitude"
+        },
+        "pimHumanDescription": {
+          "en": "Eastern longitudinal dimension of box."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#southBoundLatitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#southBoundLatitude",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#southBoundLatitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "south bound latitude"
+        },
+        "pimHumanDescription": {
+          "en": "Southern latitudinal dimension of box."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#identifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#identifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#identifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "identifier"
+        },
+        "pimHumanDescription": {
+          "en": "The Identifier is a unique string that identifies a resource. In DataCite, this MUST be a DIgital Object Identifier (DOI). The format should be 10.21384/foo."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#title": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#title",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#title",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "title"
+        },
+        "pimHumanDescription": {
+          "en": "A name or title by which a resource is known. May be the title of a dataset or the name of a piece of software or an instrument."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#publicationYear": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#publicationYear",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#publicationYear",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publication year"
+        },
+        "pimHumanDescription": {
+          "en": "The year when the data was or will be made publicly available. In the case of resources such as software or dynamic data where there may be multiple releases in one year, include the Date property and sub-properties (dateType/dateInformation) to provide more information about the publication or release date details."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has alternate identifier"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#size": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#size",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#size",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "size"
+        },
+        "pimHumanDescription": {
+          "en": "Size (e.g., bytes, pages, inches, etc.) or duration (extent), e.g., hours, minutes, days, etc., of a resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#tenderLevel": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#tenderLevel",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#tenderLevel",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "version"
+        },
+        "pimHumanDescription": {
+          "en": "The version number of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRights#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRights#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRights": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRights",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasRights",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has rights"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasRights#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasRights#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRights#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRights#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#language": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#language",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#language",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "language"
+        },
+        "pimHumanDescription": {
+          "en": "The primary language of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasCreator#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasCreator#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasCreator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasCreator",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasCreator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has creator"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasCreator#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasCreator#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasCreator#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasCreator#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#other": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#other",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#other",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "other"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDescription#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDescription#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDescription": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDescription",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasDescription",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has description"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasDescription#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasDescription#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDescription#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDescription#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Description",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has related item"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#format": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#format",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#format",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "format"
+        },
+        "pimHumanDescription": {
+          "en": "Technical format of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#alternativeTitle": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#alternativeTitle",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#alternativeTitle",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "alternative title"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#translatedTitle": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#translatedTitle",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#translatedTitle",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "translated title"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has related identifier"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasSubject#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasSubject#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasSubject": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasSubject",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasSubject",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has subject"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasSubject#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasSubject#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasSubject#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasSubject#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDate#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDate#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDate",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasDate",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has date"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasDate#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasDate#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDate#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDate#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Date",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#resourceType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#resourceType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#resourceType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "resource type"
+        },
+        "pimHumanDescription": {
+          "en": "A description of the resource. Gets the value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/resourceTypeGeneral/."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has funding reference"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has geolocation"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasPublisher#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasPublisher#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasPublisher": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasPublisher",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasPublisher",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has publisher"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasPublisher#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasPublisher#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasPublisher#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasPublisher#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasContributor#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasContributor#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasContributor": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasContributor",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasContributor",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has contributor"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasContributor#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasContributor#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasContributor#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasContributor#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#subtitle": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#subtitle",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#subtitle",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "subtitle"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorNameType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorNameType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorNameType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor name type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of name. Allowed values are Organizational and Personal."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliation",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor affiliation"
+        },
+        "pimHumanDescription": {
+          "en": "The organizational or institutional affiliation of the contributor."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorNameIdentifierScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorNameIdentifierScheme",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorNameIdentifierScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor name identifier scheme"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the name identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorNameSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorNameSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorNameSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor name scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the name identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor affiliation scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": "URI of the affiliation identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationIdentifierScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationIdentifierScheme",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationIdentifierScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor affiliation identifier scheme"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the affiliation identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorGivenName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorGivenName",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorGivenName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor given name"
+        },
+        "pimHumanDescription": {
+          "en": "The personal or first name of the contributor."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorFamilyName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorFamilyName",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorFamilyName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor family name"
+        },
+        "pimHumanDescription": {
+          "en": "The surname or last name of the contributor."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorName",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor name"
+        },
+        "pimHumanDescription": {
+          "en": "The full name of the contributor."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contributorType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contributorType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contributorType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of contributor of the resource. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/contributorType/."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#contirbutorNameIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#contirbutorNameIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#contirbutorNameIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "contributor name identifier"
+        },
+        "pimHumanDescription": {
+          "en": "Uniquely identifies an individual or legal entity, according to various schemes."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#geoLocationPlace": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#geoLocationPlace",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#geoLocationPlace",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "geo location place"
+        },
+        "pimHumanDescription": {
+          "en": "Description of a geographic location."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has geo location box"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has geo location polygon"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has geo location point"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": null,
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#descriptionText": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#descriptionText",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#descriptionText",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "description text"
+        },
+        "pimHumanDescription": {
+          "en": "Text describing the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Description",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#descriptionType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#descriptionType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#descriptionType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "description type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of the Description. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/descriptionType/."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Description",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Description",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has description type"
+        },
+        "pimHumanDescription": {
+          "en": "Relation to the type of the description."
+        },
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#DescriptionType",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifierScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifierScheme",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifierScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "rights identifier scheme"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#rightsUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#rightsUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#rightsUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "rights URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the license."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "rights identifier"
+        },
+        "pimHumanDescription": {
+          "en": "A short, standardized version of the license name."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#rightsSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#rightsSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#rightsSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "rights scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the rightsIdentifierScheme."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in polygon point"
+        },
+        "pimHumanDescription": {
+          "en": "For any bound area that is larger than half the earth, define a (random) point inside. "
+        },
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "polygon consist of point"
+        },
+        "pimHumanDescription": {
+          "en": "A point location in a polygon."
+        },
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#pointLongitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#pointLongitude",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#pointLongitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "point longitude"
+        },
+        "pimHumanDescription": {
+          "en": "Longitudinal dimension of point."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#pointLatitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#pointLatitude",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#pointLatitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "point latitude"
+        },
+        "pimHumanDescription": {
+          "en": "Latitudinal dimension of point."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#alternateIdentifierType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#alternateIdentifierType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#alternateIdentifierType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "alternate identifier type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of the Alternate identifier."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "funder identifier type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of the funderIdentifier."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierSchemeUri": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierSchemeUri",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierSchemeUri",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "funder identifier scheme URI"
+        },
+        "pimHumanDescription": {
+          "en": "The URI of the funder identifier scheme."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedItemType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "related item type"
+        },
+        "pimHumanDescription": {
+          "en": "The general type of the related item. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/resourceTypeGeneral/."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has creator"
+        },
+        "pimHumanDescription": {
+          "en": "The institution or person responsible for creating the related resource."
+        },
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemTitle": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemTitle",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedItemTitle",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "title"
+        },
+        "pimHumanDescription": {
+          "en": "Title of the related item."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "related item identifier"
+        },
+        "pimHumanDescription": {
+          "en": "The identifier for the related item."
+        },
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublicationYear": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublicationYear",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublicationYear",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publication year"
+        },
+        "pimHumanDescription": {
+          "en": "The year when the item was or will be made publicly available."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublisher": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublisher",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublisher",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publisher"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemRelationType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemRelationType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedItemRelationType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "relation type"
+        },
+        "pimHumanDescription": {
+          "en": "Description of the relationship of the resource being registered (A) and the related item (B). Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relationType/."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#volume": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#volume",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#volume",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "volume"
+        },
+        "pimHumanDescription": {
+          "en": "Volume of the related item."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#issue": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#issue",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#issue",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "issue"
+        },
+        "pimHumanDescription": {
+          "en": "Issue number or name of the related item."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#number": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#number",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#number",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "number"
+        },
+        "pimHumanDescription": {
+          "en": "Number of the resource within the related item, e.g., report number or article number."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#firstPage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#firstPage",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#firstPage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "first page"
+        },
+        "pimHumanDescription": {
+          "en": "First page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#edition": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#edition",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#edition",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "edition"
+        },
+        "pimHumanDescription": {
+          "en": "Edition or version of the related item."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "related item contributor"
+        },
+        "pimHumanDescription": {
+          "en": "An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this sub-property may be repeated for each contributor."
+        },
+        "pimEnd": [
+          "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor#domain",
+          "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#lastPage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#lastPage",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#lastPage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "last page"
+        },
+        "pimHumanDescription": {
+          "en": "Last page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Publisher": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Publisher"
+        },
+        "pimHumanDescription": {
+          "en": "The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#FundingReference": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Funding reference"
+        },
+        "pimHumanDescription": {
+          "en": "Information about financial support (funding) for the resource being registered."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Subject": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Subject"
+        },
+        "pimHumanDescription": {
+          "en": "Subject, keyword, classification code, or key phrase describing the resource."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Date": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Date",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Date",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date"
+        },
+        "pimHumanDescription": {
+          "en": "Different dates relevant to the work."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Creator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Creator"
+        },
+        "pimHumanDescription": {
+          "en": "The main researchers involved in producing the data, or the authors of the publication, in priority order. For instruments this is the manufacturer or developer of the instrument. To supply multiple creators, repeat this property."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Related identifier"
+        },
+        "pimHumanDescription": {
+          "en": "dentifiers of related resources. These must be globally unique identifiers."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Geo location box"
+        },
+        "pimHumanDescription": {
+          "en": "The spatial limits of a box."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Resource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Resource"
+        },
+        "pimHumanDescription": {
+          "en": "Root element of a single record. This wrapper element represents root element taken from XML implementation and is not defined in the DataCite DOI standard. RDF also needs a root element."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Contributor": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Contributor"
+        },
+        "pimHumanDescription": {
+          "en": "he institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource. To supply multiple contributors, repeat this property.\n\nFor software, if there is an alternate entity that “holds, archives, publishes, prints, distributes, releases, issues, or produces” the code, use the contributorType “HostingInstitution” for the code repository.\n\nFor instruments, if there is an institution responsible for the management of the instrument (for example, the legal owner, the operator, or an institute providing access to the instrument), use the contributorType “HostingInstitution” for the owner of the instrument."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Geolocation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "GeoLocation"
+        },
+        "pimHumanDescription": {
+          "en": "Spatial region or named place where the data was gathered or about which the data is focused."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Description": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Description",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Description",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Description"
+        },
+        "pimHumanDescription": {
+          "en": "All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#Rights": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Rights"
+        },
+        "pimHumanDescription": {
+          "en": "Any rights information for this resource. The property may be repeated to record complex rights characteristics."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#DescriptionType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#DescriptionType",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#DescriptionType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Description type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of the description."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Geo location polygon"
+        },
+        "pimHumanDescription": {
+          "en": "A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Geo location point"
+        },
+        "pimHumanDescription": {
+          "en": "A point location in space."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Alternate identifier"
+        },
+        "pimHumanDescription": {
+          "en": "An identifier other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers, a serial number of an instrument or an inventory number. The AlternateIdentifier should be an additional identifier for the same instance of the resource (i.e., same location, same file)."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Funder identifier"
+        },
+        "pimHumanDescription": {
+          "en": "Uniquely identifies a funding entity, according to various types."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "https://model.ccmm.cz/vocabulary/datacite#RelatedItem": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimInterpretation": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Related item"
+        },
+        "pimHumanDescription": {
+          "en": "Information about a resource related to the one being registered."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://michalmed.github.io/DataCite/en/model.owl.ttl"
+  ]
+}

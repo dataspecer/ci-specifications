@@ -1,0 +1,204 @@
+{
+  "operations": [
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750748737636-e278-167d-98cb",
+      "parent": null,
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "7a3u9dy5afm913ohbm",
+      "dataPsmTechnicalLabel": "checksum_algorithm",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetRoots"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750748737667-5aad-8f07-84d9",
+      "parent": "https://ofn.gov.cz/operation/1750748737636-e278-167d-98cb",
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1750748737636-4a30-db6d-87b9"
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750748737703-d6c4-5220-a482",
+      "parent": "https://ofn.gov.cz/operation/1750748737667-5aad-8f07-84d9",
+      "dataPsmResource": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "dataPsmHumanLabel": {
+        "en": "Checksum algorithm",
+        "cs": "Checksum algorithm"
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanDescription"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750748737733-b3f1-1b2c-8ab9",
+      "parent": "https://ofn.gov.cz/operation/1750748737703-d6c4-5220-a482",
+      "dataPsmResource": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Checksum algorithm. Algorithm used for Checksums.",
+        "cs": "Datová struktura pro Checksum algorithm. Algorithm used for Checksums."
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesHaveIdentity"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750770636210-8562-374c-8c0f",
+      "parent": "https://ofn.gov.cz/operation/1750748737733-b3f1-1b2c-8ab9",
+      "dataPsmClass": "https://ofn.gov.cz/class/1750748737636-4a30-db6d-87b9",
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754378600492-d172-8fc5-a548",
+      "parent": "https://ofn.gov.cz/operation/1750770636210-8562-374c-8c0f",
+      "dataPsmSchema": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "namespace": "https://schema.ccmm.cz/research-data/1.0.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetJsonEnforceContext"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754378600571-f1c3-f448-97ab",
+      "parent": "https://ofn.gov.cz/operation/1754378600492-d172-8fc5-a548",
+      "dataPsmEntity": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "jsonEnforceContext": "no"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754408357612-a6fb-4552-a0f9",
+      "parent": "https://ofn.gov.cz/operation/1754378600571-f1c3-f448-97ab",
+      "dataPsmSchema": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "namespace": "https://schema.ccmm.cz/research-data/1.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1762086480397-dfd1-9946-b90b",
+      "parent": "https://ofn.gov.cz/operation/1754408357612-a6fb-4552-a0f9",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "o12gp0c7voomhf4b1pe",
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1750748737636-4a30-db6d-87b9",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1763039732164-71bb-c8df-bfb7",
+      "parent": "https://ofn.gov.cz/operation/1762086480397-dfd1-9946-b90b",
+      "dataPsmSchema": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "namespace": "https://schema.ccmm.cz/research-data/1.1",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782333907803-f182-6335-b0e1",
+      "parent": "https://ofn.gov.cz/operation/1763039732164-71bb-c8df-bfb7",
+      "dataPsmSchema": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "namespace": "https://schema.ccmm.cz/research-data/1.2",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785941274072-7e4b-7d53-b7b9",
+      "parent": "https://ofn.gov.cz/operation/1782333907803-f182-6335-b0e1",
+      "dataPsmSchema": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "namespace": "https://schema.ccmm.cz/research-data/2.0",
+      "namespacePrefix": "ccmm"
+    }
+  ],
+  "resources": {
+    "7595b26f-8921-4cb9-9430-192c2fed4fb2": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+      "dataPsmHumanLabel": {
+        "en": "Checksum algorithm",
+        "cs": "Checksum algorithm"
+      },
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Checksum algorithm. Algorithm used for Checksums.",
+        "cs": "Datová struktura pro Checksum algorithm. Algorithm used for Checksums."
+      },
+      "dataPsmTechnicalLabel": null,
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1750748737636-4a30-db6d-87b9"
+      ],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/class/1750748737636-4a30-db6d-87b9",
+        "https://ofn.gov.cz/attribute/1762086480397-b347-ff5a-ab30"
+      ],
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/2.0",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "jsonEnforceContext": "no"
+    },
+    "https://ofn.gov.cz/class/1750748737636-4a30-db6d-87b9": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "https://ofn.gov.cz/class/1750748737636-4a30-db6d-87b9",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "checksum_algorithm",
+      "dataPsmInterpretation": "7a3u9dy5afm913ohbm",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/attribute/1762086480397-b347-ff5a-ab30"
+      ],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    "https://ofn.gov.cz/attribute/1762086480397-b347-ff5a-ab30": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1762086480397-b347-ff5a-ab30",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmInterpretation": "o12gp0c7voomhf4b1pe",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    }
+  }
+}

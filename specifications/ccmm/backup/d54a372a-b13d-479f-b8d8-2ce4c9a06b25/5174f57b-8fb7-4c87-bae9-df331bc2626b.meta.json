@@ -1,0 +1,24 @@
+{
+  "iri": "5174f57b-8fb7-4c87-bae9-df331bc2626b",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Location relation type",
+      "cs": "Location relation type"
+    },
+    "description": {
+      "en": "Data structure for Location relation type. Relation of the dataset to the resource.",
+      "cs": "Datová struktura pro Location relation type. Relation of the dataset to the resource."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:20.443Z",
+    "modificationDate": "2026-09-04T09:17:48.292Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.729Z",
+  "_exportedBy": "http://localhost:3100"
+}

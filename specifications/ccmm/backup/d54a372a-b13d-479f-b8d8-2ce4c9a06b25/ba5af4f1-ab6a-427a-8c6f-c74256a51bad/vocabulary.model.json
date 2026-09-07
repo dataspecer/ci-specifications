@@ -1,0 +1,1313 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/ba5af4f1-ab6a-427a-8c6f-c74256a51bad/vocabulary",
+  "modelAlias": "Czech Core Metadata Vocabulary",
+  "baseIri": "https://model.ccmm.cz/vocabulary/ccmm#",
+  "entities": {
+    "https://model.ccmm.cz/vocabulary/ccmm#hasTemporalRepresentation": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasTemporalRepresentation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has temporal representation"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://model.ccmm.cz/vocabulary/ccmm#TimeReference",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has temporal representation"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "https://www.w3.org/2002/07/owl#Thing",
+          "iri": "hasTemporalRepresentation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasRelatedResource": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasRelatedResource",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has related resource"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Dataset",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has related resource"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": "hasRelatedResource"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasDistribution": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasDistribution",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has distribution"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Dataset",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has distribution"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Distribution",
+          "iri": "hasDistribution"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasValidationResult": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasValidationResult",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has validation result"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Dataset",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has validation result"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "https://model.ccmm.cz/vocabulary/ccmm#ValidationResult",
+          "iri": "hasValidationResult"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasTimeReference",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has time reference"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://www.w3.org/2002/07/owl#Thing",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has time reference"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "https://model.ccmm.cz/vocabulary/ccmm#TimeReference",
+          "iri": "hasTimeReference"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#qualifiedRelation": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#qualifiedRelation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "qualified relation"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "qualified relation"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Relationship",
+          "iri": "qualifiedRelation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#relation": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#relation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "relation"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Relationship",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "relation"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "http://purl.org/dc/terms/Agent",
+          "iri": "relation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasAffiliation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has affiliation"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/prov#Person",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has affiliation"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/prov#Organization",
+          "iri": "hasAffiliation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#originalRepository": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#originalRepository",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "original repository"
+      },
+      "description": {
+        "en": "Link to the repository from which the metadata were originally stored and curated."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#CatalogRecord",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "original repository"
+          },
+          "description": {
+            "en": "Link to the repository from which the metadata were originally stored and curated."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/ns/dcat#Catalog",
+          "iri": "originalRepository"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#describes": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#describes",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "describes"
+      },
+      "description": {
+        "en": "Dataset described by the metadata record."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#CatalogRecord",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "describes"
+          },
+          "description": {
+            "en": "Dataset described by the metadata record."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/ns/dcat#Dataset",
+          "iri": "describes"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#inSubjectScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "in subject scheme"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "in subject scheme"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme",
+          "iri": "inSubjectScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has identifier"
+      },
+      "description": {
+        "en": "has identifier"
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has identifier"
+          },
+          "description": {
+            "en": "has identifier"
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/ns/adms#Identifier",
+          "iri": "hasIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#isDescribedBy",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "is described by"
+      },
+      "description": {
+        "en": "Inverse relation between dataset and metadata record."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Dataset",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "is described by"
+          },
+          "description": {
+            "en": "Inverse relation between dataset and metadata record."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/ns/dcat#CatalogRecord",
+          "iri": "isDescribedBy"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has alternate title"
+      },
+      "description": {},
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has alternate title"
+          },
+          "description": {},
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": null,
+          "concept": "https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle",
+          "iri": "hasAlternateTitle"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#phone": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#phone",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "nameProperty": null,
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2006/vcard/ns#Kind",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "Phone"
+          },
+          "description": {
+            "en": "Phone number"
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "phone"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#email": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#email",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "nameProperty": null,
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2006/vcard/ns#Kind",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "Email"
+          },
+          "description": {
+            "en": "Email address"
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "email"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#dataBox": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#dataBox",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "nameProperty": null,
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2006/vcard/ns#Kind",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "Data box"
+          },
+          "description": {
+            "en": "Data box code"
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "dataBox"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasType": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has type"
+      },
+      "description": {
+        "en": "Reference to the codelist value giving the specific type to the attribute."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://www.w3.org/2002/07/owl#Thing",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has type"
+          },
+          "description": {
+            "en": "Reference to the codelist value giving the specific type to the attribute."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2004/02/skos/core#Concept",
+          "iri": "hasType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#inScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#inScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "in scheme"
+      },
+      "description": {
+        "en": "Relation between the identifier and scheme in which it is defined and unique."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/adms#Identifier",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "in scheme"
+          },
+          "description": {
+            "en": "Relation between the identifier and scheme in which it is defined and unique."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme",
+          "iri": "inScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#resourceUrl": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#resourceUrl",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "nameProperty": null,
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "Resource URL"
+          },
+          "description": {
+            "en": "Resolvable URL representing the resource, preferably human readable."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "resourceUrl"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#fundingProgram": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#fundingProgram",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "nameProperty": null,
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "Funding program"
+          },
+          "description": {
+            "en": "Reference to the specific funding program."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "fundingProgram"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#authorized": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#authorized",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "nameProperty": null,
+      "descriptionProperty": null,
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/adms#Identifier",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "Authorized"
+          },
+          "description": {
+            "en": "Specifies whether the identifier is authorized by the subject it represents."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2001/XMLSchema#boolean",
+          "iri": "authorized"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has primary language"
+      },
+      "description": {
+        "en": "A primary language of the Dataset."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Dataset",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has primary language"
+          },
+          "description": {
+            "en": "A primary language of the Dataset."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://purl.org/dc/terms/LinguisticSystem",
+          "iri": "hasPrimaryLanguage"
+        }
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23hasPrimaryLanguage&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Flanguage": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23hasPrimaryLanguage&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Flanguage",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#hasPrimaryLanguage",
+      "parent": "http://purl.org/dc/terms/language"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasOtherLanguage": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasOtherLanguage",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has other language"
+      },
+      "description": {
+        "en": "Any other languages of the Dataset."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/dcat#Dataset",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has other language"
+          },
+          "description": {
+            "en": "Any other languages of the Dataset."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://purl.org/dc/terms/LinguisticSystem",
+          "iri": "hasOtherLanguage"
+        }
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23hasOtherLanguage&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Flanguage": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23hasOtherLanguage&toIri=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Flanguage",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#hasOtherLanguage",
+      "parent": "http://purl.org/dc/terms/language"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasCPMJsonRepresentation": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasCPMJsonRepresentation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has common provenance model json representation"
+      },
+      "description": {
+        "en": "Link to the JSON representation of provenance activity according to the Common provenance model specified in ISO 23494-2 standard."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/prov#Activity",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has common provenance model json representation"
+          },
+          "description": {
+            "en": "Link to the JSON representation of provenance activity according to the Common provenance model specified in ISO 23494-2 standard."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation",
+          "iri": "hasCPMJsonRepresentation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#hasRo-crateJsonRepresentation": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#hasRo-crateJsonRepresentation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has RO-Crate JSON representation"
+      },
+      "description": {
+        "en": "Link to the JSON-LD representation of provenance activity according to the RO-Crate specification."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/ns/prov#Activity",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has RO-Crate JSON representation"
+          },
+          "description": {
+            "en": "Link to the JSON-LD representation of provenance activity according to the RO-Crate specification."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation",
+          "iri": "hasRo-crateJsonRepresentation"
+        }
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23hasRo-crateJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23seeAlso": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23hasRo-crateJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23seeAlso",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#hasRo-crateJsonRepresentation",
+      "parent": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService",
+      "iri": "Distribution-DataService",
+      "name": {
+        "en": "Distribution - data service"
+      },
+      "description": {
+        "en": "Physical embodiment of the dataset as a particular data service. "
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Distribution-DataService&toIri=http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Distribution": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Distribution-DataService&toIri=http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Distribution",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService",
+      "parent": "http://www.w3.org/ns/dcat#Distribution"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Distribution-DataService&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Distribution-DataService&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#TimeReference": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#TimeReference",
+      "iri": "TimeReference",
+      "name": {
+        "en": "Time reference"
+      },
+      "description": {
+        "en": "An object representing time reference relevant to some event related to the resource has happened."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23TimeReference&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23TimeReference&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#TimeReference",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle",
+      "iri": "AlternateTitle",
+      "name": {
+        "en": "Alternate title"
+      },
+      "description": {
+        "en": "Alternate title of the resource."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23AlternateTitle&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23AlternateTitle&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation",
+      "iri": "Ro-crateJsonRepresentation",
+      "name": {
+        "en": "RO-Crate JSON representation"
+      },
+      "description": {
+        "en": "Representation of provenance activity in JSON-LD format corresponding to the RO-Crate specification."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Ro-crateJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Resource": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Ro-crateJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Resource",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation",
+      "parent": "http://www.w3.org/2000/01/rdf-schema#Resource"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Ro-crateJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Ro-crateJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#Ro-crateJsonRepresentation",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation",
+      "iri": "CPMJsonRepresentation",
+      "name": {
+        "en": "Common provenance model JSON representation"
+      },
+      "description": {
+        "en": "Provides link to  the representation of provenance activity information in JSON format according to the Common provenance model specified in  ISO 23494-2 standard."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23CPMJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Resource": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23CPMJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Resource",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation",
+      "parent": "http://www.w3.org/2000/01/rdf-schema#Resource"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23CPMJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23CPMJsonRepresentation&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#CPMJsonRepresentation",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile",
+      "iri": "Distribution-DownloadableFile",
+      "name": {
+        "en": "Distribution - downloadable file"
+      },
+      "description": {
+        "en": "Physical embodiment of the dataset in a particular format. "
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Distribution-DownloadableFile&toIri=http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Distribution": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Distribution-DownloadableFile&toIri=http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Distribution",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile",
+      "parent": "http://www.w3.org/ns/dcat#Distribution"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Distribution-DownloadableFile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23Distribution-DownloadableFile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#ValidationResult": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#ValidationResult",
+      "iri": "ValidationResult",
+      "name": {
+        "en": "Validation result"
+      },
+      "description": {
+        "en": "Class describing the result of validation testing. It may include validation of metadata, data and/or web services accessing the data."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23ValidationResult&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23ValidationResult&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#ValidationResult",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme",
+      "iri": "SubjectScheme",
+      "name": {
+        "en": "Subject scheme"
+      },
+      "description": {
+        "en": "Collection of subjects (keywords, concepts, classification codes) curated by a single source."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23SubjectScheme&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23SubjectScheme&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme",
+      "iri": "IdentifierScheme",
+      "name": {
+        "en": "Identifier scheme"
+      },
+      "description": {
+        "en": "Scheme in which is the identifier value unique, usually representing some authority. Identifier scheme shall always be represented as IRI identifier."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23IdentifierScheme&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fccmm%23IdentifierScheme&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    }
+  }
+}

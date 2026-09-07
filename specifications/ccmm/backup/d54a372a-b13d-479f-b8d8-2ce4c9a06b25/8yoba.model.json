@@ -1,0 +1,4462 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "8yoba",
+  "alias": "vCard Ontology",
+  "pimStore": {
+    "resources": {
+      "http://www.w3.org/2006/vcard/ns#additional-name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#additional-name",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#additional-name",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "additional name"
+        },
+        "pimHumanDescription": {
+          "en": "The additional name associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#anniversary": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#anniversary",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#anniversary",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "anniversary"
+        },
+        "pimHumanDescription": {
+          "en": "The date of marriage, or equivalent, of the object"
+        },
+        "pimDatatype": "n3-68",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#bday": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#bday",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#bday",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "birth date"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the birth date of the object"
+        },
+        "pimDatatype": "n3-71",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#category": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#category",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#category",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "category"
+        },
+        "pimHumanDescription": {
+          "en": "The category information about the object, also known as tags"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#class": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#class",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#class",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "class"
+        },
+        "pimHumanDescription": {
+          "en": "This data property has been deprecated"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#country-name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#country-name",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#country-name",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "country name"
+        },
+        "pimHumanDescription": {
+          "en": "The country name associated with the address of the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#extended-address": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#extended-address",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#extended-address",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "extended address"
+        },
+        "pimHumanDescription": {
+          "en": "This data property has been deprecated"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#family-name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#family-name",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#family-name",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "family name"
+        },
+        "pimHumanDescription": {
+          "en": "The family name associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#fn": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#fn",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#fn",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "formatted name"
+        },
+        "pimHumanDescription": {
+          "en": "The formatted text corresponding to the name of the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#given-name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#given-name",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#given-name",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "given name"
+        },
+        "pimHumanDescription": {
+          "en": "The given name associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#honorific-prefix": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "honorific prefix"
+        },
+        "pimHumanDescription": {
+          "en": "The honorific prefix of the name associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#honorific-suffix": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#honorific-suffix",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#honorific-suffix",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "honorific suffix"
+        },
+        "pimHumanDescription": {
+          "en": "The honorific suffix of the name associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#label": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#label",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#label",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "label"
+        },
+        "pimHumanDescription": {
+          "en": "This data property has been deprecated"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#language": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#language",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#language",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "language"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the language that may be used for contacting the object. May also be used as a property parameter."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#latitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#latitude",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#latitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "latitude"
+        },
+        "pimHumanDescription": {
+          "en": "This data property has been deprecated. See hasGeo"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#locality": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#locality",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#locality",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locality"
+        },
+        "pimHumanDescription": {
+          "en": "The locality (e.g. city or town) associated with the address of the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#longitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#longitude",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#longitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "longitude"
+        },
+        "pimHumanDescription": {
+          "en": "This data property has been deprecated. See hasGeo"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#mailer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#mailer",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#mailer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "mailer"
+        },
+        "pimHumanDescription": {
+          "en": "This data property has been deprecated"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#nickname": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#nickname",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#nickname",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "nickname"
+        },
+        "pimHumanDescription": {
+          "en": "The nick name associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#note": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#note",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#note",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "note"
+        },
+        "pimHumanDescription": {
+          "en": "A note associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#organization-name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#organization-name",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#organization-name",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "organization name"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the organizational name associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#organization-unit": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#organization-unit",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#organization-unit",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "organizational unit name"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the organizational unit name associated with the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#organization-name"
+        ]
+      },
+      "http://www.w3.org/2006/vcard/ns#post-office-box": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#post-office-box",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#post-office-box",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post office box"
+        },
+        "pimHumanDescription": {
+          "en": "This data property has been deprecated"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#postal-code": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#postal-code",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#postal-code",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "postal code"
+        },
+        "pimHumanDescription": {
+          "en": "The postal code associated with the address of the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#prodid": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#prodid",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#prodid",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "product id"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the identifier for the product that created the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#region": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#region",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#region",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "region"
+        },
+        "pimHumanDescription": {
+          "en": "The region (e.g. state or province) associated with the address of the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#rev": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#rev",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#rev",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "revision"
+        },
+        "pimHumanDescription": {
+          "en": "To specify revision information about the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#role": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#role",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#role",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "role"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the function or part played in a particular situation by the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#sort-string": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#sort-string",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#sort-string",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "sort as"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the string to be used for national-language-specific sorting. Used as a property parameter only."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#street-address": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#street-address",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#street-address",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "street address"
+        },
+        "pimHumanDescription": {
+          "en": "The street address associated with the address of the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#title": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#title",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#title",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "title"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the position or job of the object"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#tz": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#tz",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#tz",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "time zone"
+        },
+        "pimHumanDescription": {
+          "en": "To indicate time zone information that is specific to the object. May also be used as a property parameter."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#value": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#value",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#value",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "value"
+        },
+        "pimHumanDescription": {
+          "en": "Used to indicate the literal value of a data property that requires property parameters"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#adr#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#adr#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#adr": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#adr",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#adr",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "address"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#adr#domain",
+          "http://www.w3.org/2006/vcard/ns#adr#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#adr#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#adr#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#agent#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#agent#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#agent",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "agent"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been deprecated"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#agent#domain",
+          "http://www.w3.org/2006/vcard/ns#agent#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#agent#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#agent#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#email#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#email#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#email": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#email",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#email",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "email"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#email#domain",
+          "http://www.w3.org/2006/vcard/ns#email#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#email#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#email#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#geo#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#geo#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#geo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#geo",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#geo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "geo"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#geo#domain",
+          "http://www.w3.org/2006/vcard/ns#geo#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#geo#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#geo#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasAdditionalName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasAdditionalName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasAdditionalName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasAdditionalName",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasAdditionalName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has additional name"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the additional name data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasAdditionalName#domain",
+          "http://www.w3.org/2006/vcard/ns#hasAdditionalName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasAdditionalName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasAdditionalName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasAddress#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasAddress#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasAddress": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasAddress",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has address"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the components of the delivery address for the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasAddress#domain",
+          "http://www.w3.org/2006/vcard/ns#hasAddress#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasAddress#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasAddress#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/vcard/ns#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarBusy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarBusy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarBusy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarBusy",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasCalendarBusy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has calendar busy"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the busy time associated with the object. (Was called FBURL in RFC6350)"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasCalendarBusy#domain",
+          "http://www.w3.org/2006/vcard/ns#hasCalendarBusy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarBusy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarBusy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarLink#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarLink#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarLink": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarLink",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasCalendarLink",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has calendar link"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the calendar associated with the object. (Was called CALURI in RFC6350)"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasCalendarLink#domain",
+          "http://www.w3.org/2006/vcard/ns#hasCalendarLink#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarLink#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarLink#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarRequest#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarRequest#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarRequest": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarRequest",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasCalendarRequest",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has calendar request"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the calendar user address to which a scheduling request be sent for the object. (Was called CALADRURI in RFC6350)"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasCalendarRequest#domain",
+          "http://www.w3.org/2006/vcard/ns#hasCalendarRequest#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCalendarRequest#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCalendarRequest#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCategory#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCategory#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCategory": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCategory",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasCategory",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has category"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the category data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasCategory#domain",
+          "http://www.w3.org/2006/vcard/ns#hasCategory#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCategory#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCategory#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCountryName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCountryName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCountryName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCountryName",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasCountryName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has country name"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the country name data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasCountryName#domain",
+          "http://www.w3.org/2006/vcard/ns#hasCountryName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasCountryName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasCountryName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasEmail#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasEmail#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasEmail": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasEmail",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has email"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the electronic mail address for communication with the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasEmail#domain",
+          "http://www.w3.org/2006/vcard/ns#hasEmail#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasEmail#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasEmail#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/vcard/ns#Email",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasFN#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasFN#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasFN": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasFN",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasFN",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has formatted name"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the formatted name data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasFN#domain",
+          "http://www.w3.org/2006/vcard/ns#hasFN#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasFN#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasFN#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasFamilyName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasFamilyName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasFamilyName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasFamilyName",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasFamilyName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has family name"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the family name data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasFamilyName#domain",
+          "http://www.w3.org/2006/vcard/ns#hasFamilyName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasFamilyName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasFamilyName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGender#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGender#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGender": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGender",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasGender",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has gender"
+        },
+        "pimHumanDescription": {
+          "en": "To specify  the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasGender#domain",
+          "http://www.w3.org/2006/vcard/ns#hasGender#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGender#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGender#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGeo#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGeo#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGeo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGeo",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasGeo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has geo"
+        },
+        "pimHumanDescription": {
+          "en": "To specify information related to the global positioning of the object. May also be used as a property parameter."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasGeo#domain",
+          "http://www.w3.org/2006/vcard/ns#hasGeo#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGeo#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGeo#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGivenName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGivenName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGivenName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGivenName",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasGivenName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has given name"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the given name data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasGivenName#domain",
+          "http://www.w3.org/2006/vcard/ns#hasGivenName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasGivenName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasGivenName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has honorific prefix"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the honorific prefix data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix#domain",
+          "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasHonorificPrefix#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has honorific suffix"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the honorific suffix data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix#domain",
+          "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasHonorificSuffix#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasInstantMessage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasInstantMessage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasInstantMessage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasInstantMessage",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasInstantMessage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has messaging"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the instant messaging and presence protocol communications with the object. (Was called IMPP in RFC6350)"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasInstantMessage#domain",
+          "http://www.w3.org/2006/vcard/ns#hasInstantMessage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasInstantMessage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasInstantMessage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasKey#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasKey#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasKey": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasKey",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasKey",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has key"
+        },
+        "pimHumanDescription": {
+          "en": "To specify a public key or authentication certificate associated with the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasKey#domain",
+          "http://www.w3.org/2006/vcard/ns#hasKey#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasKey#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasKey#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLanguage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLanguage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLanguage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLanguage",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasLanguage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has language"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the language data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasLanguage#domain",
+          "http://www.w3.org/2006/vcard/ns#hasLanguage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLanguage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLanguage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLocality#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLocality#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLocality": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLocality",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasLocality",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has locality"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the locality data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasLocality#domain",
+          "http://www.w3.org/2006/vcard/ns#hasLocality#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLocality#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLocality#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLogo#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLogo#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLogo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLogo",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasLogo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has logo"
+        },
+        "pimHumanDescription": {
+          "en": "To specify a graphic image of a logo associated with the object "
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasLogo#domain",
+          "http://www.w3.org/2006/vcard/ns#hasLogo#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasLogo#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasLogo#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasMember#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasMember#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/vcard/ns#Group",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasMember": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasMember",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasMember",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has member"
+        },
+        "pimHumanDescription": {
+          "en": "To include a member in the group this object represents. (This property can only be used by Group individuals)"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasMember#domain",
+          "http://www.w3.org/2006/vcard/ns#hasMember#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasMember#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasMember#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/vcard/ns#Kind",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasName",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has name"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the components of the name of the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasName#domain",
+          "http://www.w3.org/2006/vcard/ns#hasName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/vcard/ns#Name",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasNickname#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasNickname#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasNickname": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasNickname",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasNickname",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has nickname"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the nickname data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasNickname#domain",
+          "http://www.w3.org/2006/vcard/ns#hasNickname#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasNickname#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasNickname#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasNote#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasNote#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasNote": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasNote",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasNote",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has note"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the note data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasNote#domain",
+          "http://www.w3.org/2006/vcard/ns#hasNote#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasNote#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasNote#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasOrganizationName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasOrganizationName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasOrganizationName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasOrganizationName",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasOrganizationName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has organization name"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the organization name data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasOrganizationName#domain",
+          "http://www.w3.org/2006/vcard/ns#hasOrganizationName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasOrganizationName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasOrganizationName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has organization unit name"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the organization unit name data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit#domain",
+          "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasOrganizationUnit#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasPhoto#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasPhoto#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasPhoto": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasPhoto",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasPhoto",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has photo"
+        },
+        "pimHumanDescription": {
+          "en": "To specify an image or photograph information that annotates some aspect of the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasPhoto#domain",
+          "http://www.w3.org/2006/vcard/ns#hasPhoto#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasPhoto#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasPhoto#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasPostalCode#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasPostalCode#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasPostalCode": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasPostalCode",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasPostalCode",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has postal code"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the postal code data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasPostalCode#domain",
+          "http://www.w3.org/2006/vcard/ns#hasPostalCode#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasPostalCode#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasPostalCode#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRegion#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRegion#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRegion": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRegion",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasRegion",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has region"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the region data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasRegion#domain",
+          "http://www.w3.org/2006/vcard/ns#hasRegion#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRegion#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRegion#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRelated#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRelated#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRelated": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRelated",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasRelated",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has related"
+        },
+        "pimHumanDescription": {
+          "en": "To specify a relationship between another entity and the entity represented by this object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasRelated#domain",
+          "http://www.w3.org/2006/vcard/ns#hasRelated#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRelated#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRelated#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRole#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRole#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRole": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRole",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasRole",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has role"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the role data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasRole#domain",
+          "http://www.w3.org/2006/vcard/ns#hasRole#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasRole#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasRole#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasSound#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasSound#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasSound": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasSound",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasSound",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has sound"
+        },
+        "pimHumanDescription": {
+          "en": "To specify a digital sound content information that annotates some aspect of the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasSound#domain",
+          "http://www.w3.org/2006/vcard/ns#hasSound#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasSound#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasSound#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasSource#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasSource#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasSource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasSource",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasSource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has source"
+        },
+        "pimHumanDescription": {
+          "en": "To identify the source of directory information of the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasSource#domain",
+          "http://www.w3.org/2006/vcard/ns#hasSource#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasSource#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasSource#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasStreetAddress#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasStreetAddress#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasStreetAddress": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasStreetAddress",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasStreetAddress",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has street address"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the street address data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasStreetAddress#domain",
+          "http://www.w3.org/2006/vcard/ns#hasStreetAddress#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasStreetAddress#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasStreetAddress#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasTelephone#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasTelephone#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasTelephone": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasTelephone",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasTelephone",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has telephone"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the telephone number for telephony communication with the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasTelephone#domain",
+          "http://www.w3.org/2006/vcard/ns#hasTelephone#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasTelephone#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasTelephone#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasTitle#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasTitle#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasTitle": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasTitle",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasTitle",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has title"
+        },
+        "pimHumanDescription": {
+          "en": "Used to support property parameters for the title data property"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasTitle#domain",
+          "http://www.w3.org/2006/vcard/ns#hasTitle#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasTitle#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasTitle#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasUID#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasUID#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasUID": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasUID",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasUID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has uid"
+        },
+        "pimHumanDescription": {
+          "en": "To specify a value that represents a globally unique identifier corresponding to the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasUID#domain",
+          "http://www.w3.org/2006/vcard/ns#hasUID#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasUID#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasUID#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasURL#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasURL#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasURL": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasURL",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasURL",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has url"
+        },
+        "pimHumanDescription": {
+          "en": "To specify a uniform resource locator associated with the object"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasURL#domain",
+          "http://www.w3.org/2006/vcard/ns#hasURL#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasURL#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasURL#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasValue#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasValue#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#hasValue": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasValue",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#hasValue",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has value"
+        },
+        "pimHumanDescription": {
+          "en": "Used to indicate the resource value of an object property that requires property parameters"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#hasValue#domain",
+          "http://www.w3.org/2006/vcard/ns#hasValue#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#hasValue#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#hasValue#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#key#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#key#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#key": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#key",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#key",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "key"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#key#domain",
+          "http://www.w3.org/2006/vcard/ns#key#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#key#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#key#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#logo#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#logo#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#logo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#logo",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#logo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "logo"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#logo#domain",
+          "http://www.w3.org/2006/vcard/ns#logo#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#logo#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#logo#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#n#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#n#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#n": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#n",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#n",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "name"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#n#domain",
+          "http://www.w3.org/2006/vcard/ns#n#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#n#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#n#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#org#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#org#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#org": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#org",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#org",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "organization"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped. Use the organization-name data property."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#org#domain",
+          "http://www.w3.org/2006/vcard/ns#org#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#org#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#org#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#photo#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#photo#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#photo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#photo",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#photo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "photo"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#photo#domain",
+          "http://www.w3.org/2006/vcard/ns#photo#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#photo#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#photo#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#sound#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#sound#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#sound": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#sound",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#sound",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "sound"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#sound#domain",
+          "http://www.w3.org/2006/vcard/ns#sound#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#sound#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#sound#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#tel#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#tel#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#tel": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#tel",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#tel",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "telephone"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#tel#domain",
+          "http://www.w3.org/2006/vcard/ns#tel#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#tel#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#tel#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#url#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#url#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#url": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#url",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#url",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "url"
+        },
+        "pimHumanDescription": {
+          "en": "This object property has been mapped"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/vcard/ns#url#domain",
+          "http://www.w3.org/2006/vcard/ns#url#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/vcard/ns#url#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#url#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Acquaintance": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Acquaintance",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Acquaintance",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Acquaintance"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Address": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Address",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Address",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Address"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the components of the delivery address for the  object"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Agent",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Agent"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#BBS": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#BBS",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#BBS",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "BBS"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Car": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Car",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Car",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Car"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Cell": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Cell",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Cell",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Cell"
+        },
+        "pimHumanDescription": {
+          "en": "Also called mobile telephone"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Child": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Child",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Child",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Child"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Colleague": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Colleague",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Colleague",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Colleague"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Contact": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Contact",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Contact",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Contact"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Coresident": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Coresident",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Coresident",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Coresident"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Coworker": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Coworker",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Coworker",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Coworker"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Crush": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Crush",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Crush",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Crush"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Date": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Date",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Date",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Dom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Dom",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Dom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Dom"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Email": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Email",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Email",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Email"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the electronic mail address for communication with the object the vCard represents. Use the hasEmail object property."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Emergency": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Emergency",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Emergency",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Emergency"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Fax": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Fax",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Fax",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Fax"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Female": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Female",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Female",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Female"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Gender",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Friend": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Friend",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Friend",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Friend"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Gender": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Gender",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Gender",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Gender"
+        },
+        "pimHumanDescription": {
+          "en": "Used for gender codes. The URI of the gender code must be used as the value for Gender."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Group": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Group",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Group",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Group"
+        },
+        "pimHumanDescription": {
+          "en": "Object representing a group of persons or entities.  A group object will usually contain hasMember properties to specify the members of the group."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Kind",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Home": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Home",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Home",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Home"
+        },
+        "pimHumanDescription": {
+          "en": "This implies that the property is related to an individual's personal life"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#ISDN": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#ISDN",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#ISDN",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "ISDN"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Individual": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Individual",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Individual",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Individual"
+        },
+        "pimHumanDescription": {
+          "en": "An object representing a single person or entity"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Kind",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Internet": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Internet",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Internet",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Internet"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Intl": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Intl",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Intl",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Intl"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Kin": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Kin",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Kin",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Kin"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Kind": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Kind",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Kind",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Kind"
+        },
+        "pimHumanDescription": {
+          "en": "The parent class for all objects"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Label": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Label",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Label",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Label"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Location": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Location",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Location",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Location"
+        },
+        "pimHumanDescription": {
+          "en": "An object representing a named geographical place"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Kind",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Male": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Male",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Male",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Male"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Gender",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Me": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Me",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Me",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Me"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Met": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Met",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Met",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Met"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Modem": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Modem",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Modem",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Modem"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Msg": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Msg",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Msg",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Msg"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Muse": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Muse",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Muse",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Muse"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Name",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Name",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Name"
+        },
+        "pimHumanDescription": {
+          "en": "To specify the components of the name of the object"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Neighbor": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Neighbor",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Neighbor",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Neighbor"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#None": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#None",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#None",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "None"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Gender",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Organization": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Organization",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Organization",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Organization"
+        },
+        "pimHumanDescription": {
+          "en": "An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.\n"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Kind",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Other": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Other",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Other",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Other"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Gender",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#PCS": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#PCS",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#PCS",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "PCS"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Pager": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Pager",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Pager",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Pager"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Parcel": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Parcel",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Parcel",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Parcel"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Parent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Parent",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Parent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Parent"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Postal": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Postal",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Postal",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Postal"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Pref": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Pref",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Pref",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Pref"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#RelatedType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#RelatedType",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#RelatedType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Relation Type"
+        },
+        "pimHumanDescription": {
+          "en": "Used for relation type codes. The URI of the relation type code must be used as the value for the Relation Type."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Sibling": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Sibling",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Sibling",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Sibling"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Spouse": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Spouse",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Spouse",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Spouse"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Sweetheart": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Sweetheart",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Sweetheart",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Sweetheart"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#RelatedType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Tel": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Tel",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Tel",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Tel"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated. Use the hasTelephone object property."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#TelephoneType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#TelephoneType",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#TelephoneType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Phone"
+        },
+        "pimHumanDescription": {
+          "en": "Used for telephone type codes. The URI of the telephone type code must be used as the value for the Telephone Type."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Text": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Text",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Text",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Text"
+        },
+        "pimHumanDescription": {
+          "en": "Also called sms telephone"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#TextPhone": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#TextPhone",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#TextPhone",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Text phone"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Type": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Type",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Type",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Type"
+        },
+        "pimHumanDescription": {
+          "en": "Used for type codes. The URI of the type code must be used as the value for Type."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Unknown": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Unknown",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Unknown",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Unknown"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Gender",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#VCard": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#VCard",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#VCard",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "VCard"
+        },
+        "pimHumanDescription": {
+          "en": "The vCard class is  equivalent to the new Kind class, which is the parent for the four explicit types of vCards (Individual, Organization, Location, Group)"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Video": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Video",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Video",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Video"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Voice": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Voice",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Voice",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Voice"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#TelephoneType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#Work": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#Work",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#Work",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Work"
+        },
+        "pimHumanDescription": {
+          "en": "This implies that the property is related to an individual's work place"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/vcard/ns#X400": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/vcard/ns#X400",
+        "pimInterpretation": "http://www.w3.org/2006/vcard/ns#X400",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "X400"
+        },
+        "pimHumanDescription": {
+          "en": "This class is deprecated"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/vcard/ns#Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://www.w3.org/2006/vcard/ns#"
+  ]
+}

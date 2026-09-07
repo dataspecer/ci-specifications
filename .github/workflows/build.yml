@@ -1,0 +1,127 @@
+name: Build and export specifications
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      docker_tag:
+        description: Published image tag (also the export branch)
+        required: true
+        type: string
+      docker_image:
+        description: Full pullable image reference, preferably repository@sha256:digest
+        required: true
+        type: string
+      source_commit:
+        description: Full commit SHA from the application repository
+        required: true
+        type: string
+      source_commit_title:
+        description: Application commit subject
+        required: true
+        type: string
+      source_repository:
+        description: Application repository (owner/repository)
+        type: string
+      pr_number:
+        description: Pull request number, if applicable
+        type: string
+      pr_title:
+        description: Pull request title, if applicable
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      builds: ${{ steps.matrix.outputs.builds }}
+      tags: ${{ steps.matrix.outputs.tags }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - name: Discover scripts and image tags
+        id: matrix
+        env:
+          DOCKER_IMAGE_REPOSITORY: ${{ vars.DOCKER_IMAGE_REPOSITORY }}
+          PUSH_DOCKER_TAGS: ${{ vars.PUSH_DOCKER_TAGS || '["branch-main","latest"]' }}
+        run: python3 .github/scripts/prepare-build.py
+
+  build:
+    needs: prepare
+    name: Build ${{ matrix.script }} (${{ matrix.tag }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.prepare.outputs.builds) }}
+    env:
+      DOCKER_TAG: ${{ matrix.tag }}
+      DOCKER_IMAGE: ${{ matrix.image }}
+      EXPORT_DIR: ${{ github.workspace }}/exports
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: docker/setup-buildx-action@v3
+      - name: Pull image and build specification
+        env:
+          BUILD_SCRIPT: ${{ matrix.script }}
+        run: |
+          docker info
+          docker pull "$DOCKER_IMAGE"
+          mkdir -p "$EXPORT_DIR"
+          bash -e "$BUILD_SCRIPT"
+          if ! find "$EXPORT_DIR" -type f -print -quit | grep -q .; then
+            echo '::error::Build script produced no export files'
+            exit 1
+          fi
+          # An archive preserves hidden files, executable bits and symlinks.
+          tar -C "$EXPORT_DIR" -cf "$RUNNER_TEMP/export.tar" .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: export-${{ matrix.tag }}-${{ matrix.id }}
+          path: ${{ runner.temp }}/export.tar
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    needs: [prepare, build]
+    name: Publish ${{ matrix.tag }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.prepare.outputs.tags) }}
+    # Queue publishers instead of canceling pending exports for the same tag.
+    concurrency:
+      group: export-${{ vars.EXPORT_REPOSITORY || format('{0}/ci-exports', github.repository_owner) }}-${{ matrix.tag }}
+      cancel-in-progress: false
+      queue: max
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: export-${{ matrix.tag }}-*
+          path: ${{ runner.temp }}/artifacts
+      - name: Combine exports
+        env:
+          ARTIFACT_DIR: ${{ runner.temp }}/artifacts
+          EXPORT_DIR: ${{ runner.temp }}/combined-export
+        run: |
+          mkdir -p "$EXPORT_DIR"
+          for archive in "$ARTIFACT_DIR"/*/export.tar; do
+            tar -xf "$archive" -C "$EXPORT_DIR"
+          done
+      - name: Commit and push export snapshot
+        env:
+          EXPORT_TOKEN: ${{ secrets.EXPORT_REPOSITORY_TOKEN }}
+          EXPORT_REPOSITORY: ${{ vars.EXPORT_REPOSITORY || format('{0}/ci-exports', github.repository_owner) }}
+          EXPORT_DIR: ${{ runner.temp }}/combined-export
+          DOCKER_TAG: ${{ matrix.tag }}
+          DOCKER_IMAGE: ${{ matrix.image }}
+        run: bash .github/scripts/publish-export.sh

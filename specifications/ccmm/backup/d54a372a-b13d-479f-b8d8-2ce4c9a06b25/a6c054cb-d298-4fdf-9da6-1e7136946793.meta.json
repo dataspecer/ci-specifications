@@ -1,0 +1,24 @@
+{
+  "iri": "a6c054cb-d298-4fdf-9da6-1e7136946793",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Media type",
+      "cs": "Media type"
+    },
+    "description": {
+      "en": "Data structure for Media type. A file format or physical medium.\n",
+      "cs": "Datová struktura pro Media type. A file format or physical medium.\n"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:31.431Z",
+    "modificationDate": "2026-09-03T09:04:55.675Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.867Z",
+  "_exportedBy": "http://localhost:3100"
+}

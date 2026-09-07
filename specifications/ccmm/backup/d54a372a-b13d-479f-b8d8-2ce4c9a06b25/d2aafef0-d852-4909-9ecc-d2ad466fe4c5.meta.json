@@ -1,0 +1,24 @@
+{
+  "iri": "d2aafef0-d852-4909-9ecc-d2ad466fe4c5",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Resource attribution",
+      "cs": "Resource attribution"
+    },
+    "description": {
+      "en": "Data structure for Resource attribution. Attribution is the ascribing of a Resource to an agent. It defines the responsibility of an agent to the resource in a given role.",
+      "cs": "Datová struktura pro Resource attribution. Attribution is the ascribing of a Resource to an agent. It defines the responsibility of an agent to the resource in a given role."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:31.591Z",
+    "modificationDate": "2026-08-07T08:57:31.686Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.868Z",
+  "_exportedBy": "http://localhost:3100"
+}

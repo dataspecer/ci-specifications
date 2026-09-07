@@ -1,0 +1,24 @@
+{
+  "iri": "1ddb5403-d555-4254-9b88-fccc7d9b8ad6",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Distribution - data service",
+      "cs": "Distribution - data service"
+    },
+    "description": {
+      "en": "Data structure for Distribution - data service. Physical embodiment of the dataset distribution as a particular data service. ",
+      "cs": "Datová struktura pro Distribution - data service. Physical embodiment of the dataset distribution as a particular data service. "
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:27.570Z",
+    "modificationDate": "2026-08-07T09:05:10.039Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.824Z",
+  "_exportedBy": "http://localhost:3100"
+}

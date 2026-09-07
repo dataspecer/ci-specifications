@@ -1,0 +1,24 @@
+{
+  "iri": "084a7ed9-d8a3-4f78-81b4-d4cffbb1ed81",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Identifier scheme",
+      "cs": "Identifier scheme"
+    },
+    "description": {
+      "en": "Data structure for Identifier scheme. Scheme in which is the identifier value unique, usually representing some authority. Identifier scheme shall always be represented as IRI identifier.",
+      "cs": "Datová struktura pro Identifier scheme. Scheme in which is the identifier value unique, usually representing some authority. Identifier scheme shall always be represented as IRI identifier."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:21.234Z",
+    "modificationDate": "2026-08-07T08:57:21.327Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.736Z",
+  "_exportedBy": "http://localhost:3100"
+}

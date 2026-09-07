@@ -1,0 +1,2777 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/6c88e100-c7d2-4009-81d3-2760026bbfa3/54b60737-a241-441c-a339-70867389c4d6/87ae8f22-4aa8-46cf-a701-4b311be88253",
+  "alias": "time",
+  "pimStore": {
+    "resources": {
+      "http://www.w3.org/2006/time#day": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#day",
+        "pimInterpretation": "http://www.w3.org/2006/time#day",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "day",
+          "es": "día"
+        },
+        "pimHumanDescription": {
+          "en": "Day position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. ",
+          "es": "Posición de día en un sistema calendario-reloj."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#dayOfYear": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#dayOfYear",
+        "pimInterpretation": "http://www.w3.org/2006/time#dayOfYear",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "day of year",
+          "es": "día del año"
+        },
+        "pimHumanDescription": {
+          "en": "The number of the day within the year",
+          "es": "El número de día en el año."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#days": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#days",
+        "pimInterpretation": "http://www.w3.org/2006/time#days",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "days duration",
+          "es": "duración en días"
+        },
+        "pimHumanDescription": {
+          "en": "length of, or element of the length of, a temporal extent expressed in days",
+          "es": "Longitud de, o elemento de la longitud de, una extensión temporal expresada en días."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#hasXSDDuration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasXSDDuration",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasXSDDuration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has XSD duration",
+          "es": "tiene duración XSD"
+        },
+        "pimHumanDescription": {
+          "en": "Extent of a temporal entity, expressed using xsd:duration",
+          "es": "Extensión de una entidad temporal, expresada utilizando xsd:duration."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#duration",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#hour": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#hour",
+        "pimInterpretation": "http://www.w3.org/2006/time#hour",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hour",
+          "es": "hora"
+        },
+        "pimHumanDescription": {
+          "en": "Hour position in a calendar-clock system.",
+          "es": "Posición de hora en un sistema calendario-reloj."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#hours": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#hours",
+        "pimInterpretation": "http://www.w3.org/2006/time#hours",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hours duration",
+          "es": "duración en horas"
+        },
+        "pimHumanDescription": {
+          "en": "length of, or element of the length of, a temporal extent expressed in hours",
+          "es": "Longitud de, o elemento de la longitud de, una extensión temporal expresada en horas."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#inXSDDate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#inXSDDate",
+        "pimInterpretation": "http://www.w3.org/2006/time#inXSDDate",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in XSD date",
+          "es": "en fecha XSD"
+        },
+        "pimHumanDescription": {
+          "en": "Position of an instant, expressed using xsd:date",
+          "es": "Posición de un instante, expresado utilizando xsd:date."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#inXSDDateTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#inXSDDateTime",
+        "pimInterpretation": "http://www.w3.org/2006/time#inXSDDateTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in XSD Date-Time",
+          "es": "en fecha-tiempo XSD"
+        },
+        "pimHumanDescription": {
+          "en": "Position of an instant, expressed using xsd:dateTime",
+          "es": "Posición de un instante, expresado utilizando xsd:dateTime."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#inXSDDateTimeStamp": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#inXSDDateTimeStamp",
+        "pimInterpretation": "http://www.w3.org/2006/time#inXSDDateTimeStamp",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in XSD Date-Time-Stamp",
+          "es": "en fecha-sello de tiempo XSD"
+        },
+        "pimHumanDescription": {
+          "en": "Position of an instant, expressed using xsd:dateTimeStamp",
+          "es": "Posición de un instante, expresado utilizando xsd:dateTimeStamp."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#inXSDgYear": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#inXSDgYear",
+        "pimInterpretation": "http://www.w3.org/2006/time#inXSDgYear",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in XSD g-Year",
+          "es": "en año gregoriano XSD"
+        },
+        "pimHumanDescription": {
+          "en": "Position of an instant, expressed using xsd:gYear",
+          "es": "Posición de un instante, expresado utilizando xsd:gYear."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#gYear",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#inXSDgYearMonth": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#inXSDgYearMonth",
+        "pimInterpretation": "http://www.w3.org/2006/time#inXSDgYearMonth",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in XSD g-YearMonth",
+          "es": "en año-mes gregoriano XSD"
+        },
+        "pimHumanDescription": {
+          "en": "Position of an instant, expressed using xsd:gYearMonth",
+          "es": "Posición de un instante, expresado utilizando xsd:gYearMonth."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#gYearMonth",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#minute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#minute",
+        "pimInterpretation": "http://www.w3.org/2006/time#minute",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "minute",
+          "es": "minuto"
+        },
+        "pimHumanDescription": {
+          "en": "Minute position in a calendar-clock system.",
+          "es": "Posición de minuto en un sistema calendario-reloj."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#minutes": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#minutes",
+        "pimInterpretation": "http://www.w3.org/2006/time#minutes",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "minutes",
+          "es": "minutos"
+        },
+        "pimHumanDescription": {
+          "en": "length, or element of, a temporal extent expressed in minutes",
+          "es": "Longitud de, o elemento de la longitud de, una extensión temporal expresada en minutos."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#month": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#month",
+        "pimInterpretation": "http://www.w3.org/2006/time#month",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "month",
+          "es": "mes"
+        },
+        "pimHumanDescription": {
+          "en": "Month position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. ",
+          "es": "Posición de mes en un sistema calendario-reloj.\n    El rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un mes de calendario de un calendario cualquiera."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#months": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#months",
+        "pimInterpretation": "http://www.w3.org/2006/time#months",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "months duration",
+          "es": "duración en meses"
+        },
+        "pimHumanDescription": {
+          "en": "length of, or element of the length of, a temporal extent expressed in months",
+          "es": "Longitud de, o elemento de la longitud de, una extensión temporal expresada en meses."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#nominalPosition": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#nominalPosition",
+        "pimInterpretation": "http://www.w3.org/2006/time#nominalPosition",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Name of temporal position",
+          "es": "nombre de posición temporal"
+        },
+        "pimHumanDescription": {
+          "en": "The (nominal) value indicating temporal position in an ordinal reference system ",
+          "es": "El valor (nominal) que indica posición temporal en un sistema de referencia ordinal."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#TimePosition",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#numericDuration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#numericDuration",
+        "pimInterpretation": "http://www.w3.org/2006/time#numericDuration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Numeric value of temporal duration",
+          "es": "valor numérico de duración temporal"
+        },
+        "pimHumanDescription": {
+          "en": "Value of a temporal extent expressed as a decimal number scaled by a temporal unit",
+          "es": "Valor de una extensión temporal expresada como un número decimal escalado por una unidad de tiempo."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#Duration",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#numericPosition": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#numericPosition",
+        "pimInterpretation": "http://www.w3.org/2006/time#numericPosition",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Numeric value of temporal position",
+          "es": "valor numérico de posición temporal"
+        },
+        "pimHumanDescription": {
+          "en": "The (numeric) value indicating position within a temporal coordinate system ",
+          "es": "El valor (numérico) que indica posición temporal en un sistema de referencia ordinal."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#TimePosition",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#second": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#second",
+        "pimInterpretation": "http://www.w3.org/2006/time#second",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "second",
+          "es": "segundo"
+        },
+        "pimHumanDescription": {
+          "en": "Second position in a calendar-clock system.",
+          "es": "Posición de segundo en un sistema calendario-reloj."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#seconds": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#seconds",
+        "pimInterpretation": "http://www.w3.org/2006/time#seconds",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "seconds duration",
+          "es": "duración en segundos"
+        },
+        "pimHumanDescription": {
+          "en": "length of, or element of the length of, a temporal extent expressed in seconds",
+          "es": "Longitud de, o elemento de la longitud de, una extensión temporal expresada en segundos."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#week": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#week",
+        "pimInterpretation": "http://www.w3.org/2006/time#week",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "week",
+          "es": "semana"
+        },
+        "pimHumanDescription": {
+          "en": "Week number within the year.",
+          "es": "Número de semana en el año."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#weeks": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#weeks",
+        "pimInterpretation": "http://www.w3.org/2006/time#weeks",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "weeks duration",
+          "es": "duración en semanas"
+        },
+        "pimHumanDescription": {
+          "en": "length of, or element of the length of, a temporal extent expressed in weeks",
+          "es": "Longitud de, o elemento de la longitud de, una extensión temporal expresada en semanas."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#xsdDateTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#xsdDateTime",
+        "pimInterpretation": "http://www.w3.org/2006/time#xsdDateTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has XSD date-time",
+          "es": "tiene fecha-hora XSD"
+        },
+        "pimHumanDescription": {
+          "en": "Value of DateTimeInterval expressed as a compact value.",
+          "es": "Valor de 'intervalo de fecha-hora' expresado como un valor compacto."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#DateTimeInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#year": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#year",
+        "pimInterpretation": "http://www.w3.org/2006/time#year",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "year"
+        },
+        "pimHumanDescription": {
+          "en": "Year position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar year from any calendar. ",
+          "es": "Posición de año en un sistema calendario-reloj.\n\nl rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un año de calendario de un calendario cualquiera."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#years": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2006/time#years",
+        "pimInterpretation": "http://www.w3.org/2006/time#years",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "years duration",
+          "es": "duración en años"
+        },
+        "pimHumanDescription": {
+          "en": "length of, or element of the length of, a temporal extent expressed in years",
+          "es": "Longitud de, o elemento de la longitud de, una extensión temporal expresada en años."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#decimal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#after#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#after#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#after": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#after",
+        "pimInterpretation": "http://www.w3.org/2006/time#after",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is after",
+          "es": "después"
+        },
+        "pimHumanDescription": {
+          "en": "The subject is a temporal entity that occurs after the object. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2.",
+          "es": "Asume una dirección en el tiempo. Si una entidad temporal T1 está después de otra entidad temporal T2, entonces el principio de T1 está después del final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#after#domain",
+          "http://www.w3.org/2006/time#after#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#after#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#after#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#before#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#before#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#before": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#before",
+        "pimInterpretation": "http://www.w3.org/2006/time#before",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is before",
+          "es": "antes"
+        },
+        "pimHumanDescription": {
+          "en": "The subject is a temporal entity that occurs before the object. If a temporal entity T1 is before another temporal entity T2, then the end of T1 is before the beginning of T2. Thus, \"before\" can be considered to be basic to instants and derived for intervals.",
+          "es": "Asume una dirección en el tiempo. Si una entidad temporal T1 está antes que otra entidad temporal T2, entonces el final de T1 está antes que el principio de T2. Así, \"antes\" se puede considerar básica para instantes y derivada para intervalos."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#before#domain",
+          "http://www.w3.org/2006/time#before#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#before#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#before#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#dayOfWeek#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#dayOfWeek#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#dayOfWeek": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#dayOfWeek",
+        "pimInterpretation": "http://www.w3.org/2006/time#dayOfWeek",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "day of week",
+          "es": "día de la semana"
+        },
+        "pimHumanDescription": {
+          "en": "El día de la semana, cuyo valor es un miembro de la clase 'día de la semana'."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#dayOfWeek#domain",
+          "http://www.w3.org/2006/time#dayOfWeek#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#dayOfWeek#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#dayOfWeek#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#DayOfWeek",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasBeginning#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasBeginning#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasBeginning": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasBeginning",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasBeginning",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has beginning",
+          "es": "tiene principio"
+        },
+        "pimHumanDescription": {
+          "en": "Beginning of a temporal entity",
+          "es": "Comienzo de una entidad temporal."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#hasBeginning#domain",
+          "http://www.w3.org/2006/time#hasBeginning#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#hasTime"
+        ]
+      },
+      "http://www.w3.org/2006/time#hasBeginning#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasBeginning#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasDateTimeDescription#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDateTimeDescription#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#DateTimeInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasDateTimeDescription": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDateTimeDescription",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasDateTimeDescription",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has Date-Time description",
+          "es": "tiene descripción fecha-hora"
+        },
+        "pimHumanDescription": {
+          "en": "Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description.",
+          "es": "Valor de intervalo de fecha-hora expresado como un valor estructurado. El principio y el final del intervalo coincide con los límites del elemento más corto en la descripción."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#hasDateTimeDescription#domain",
+          "http://www.w3.org/2006/time#hasDateTimeDescription#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#hasDateTimeDescription#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDateTimeDescription#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasDuration#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDuration#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasDuration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDuration",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasDuration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has duration",
+          "es": "tiene duración"
+        },
+        "pimHumanDescription": {
+          "en": "Duration of a temporal entity, expressed as a scaled value or nominal value",
+          "es": "Duración de una entidad temporal, expresada como un valor escalado o un valor nominal."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#hasDuration#domain",
+          "http://www.w3.org/2006/time#hasDuration#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#hasTemporalDuration"
+        ]
+      },
+      "http://www.w3.org/2006/time#hasDuration#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDuration#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#Duration",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasDurationDescription#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDurationDescription#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasDurationDescription": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDurationDescription",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasDurationDescription",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has duration description",
+          "es": "tiene descripción de duración"
+        },
+        "pimHumanDescription": {
+          "en": "Duration of a temporal entity, expressed using a structured description",
+          "es": "Duración de una entidad temporal, expresada utilizando una descripción estructurada."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#hasDurationDescription#domain",
+          "http://www.w3.org/2006/time#hasDurationDescription#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#hasTemporalDuration"
+        ]
+      },
+      "http://www.w3.org/2006/time#hasDurationDescription#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasDurationDescription#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasEnd#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasEnd#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasEnd": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasEnd",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasEnd",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has end",
+          "es": "tiene fin"
+        },
+        "pimHumanDescription": {
+          "en": "End of a temporal entity.",
+          "es": "Final de una entidad temporal."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#hasEnd#domain",
+          "http://www.w3.org/2006/time#hasEnd#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#hasTime"
+        ]
+      },
+      "http://www.w3.org/2006/time#hasEnd#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasEnd#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasTRS#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTRS#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "n3-1515",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasTRS": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTRS",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasTRS",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal reference system used",
+          "es": "sistema de referencia temporal utilizado"
+        },
+        "pimHumanDescription": {
+          "en": "The temporal reference system used by a temporal position or extent description. ",
+          "es": "El sistema de referencia temporal utilizado por una posición temporal o descripción de extensión."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#hasTRS#domain",
+          "http://www.w3.org/2006/time#hasTRS#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#hasTRS#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTRS#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TRS",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasTemporalDuration#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTemporalDuration#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasTemporalDuration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTemporalDuration",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasTemporalDuration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has temporal duration",
+          "es": "tiene duración temporal"
+        },
+        "pimHumanDescription": {
+          "en": "Duration of a temporal entity.",
+          "es": "Duración de una entidad temporal."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#hasTemporalDuration#domain",
+          "http://www.w3.org/2006/time#hasTemporalDuration#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#hasTemporalDuration#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTemporalDuration#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalDuration",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasTime#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTime#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#hasTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTime",
+        "pimInterpretation": "http://www.w3.org/2006/time#hasTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has time",
+          "es": "tiene tiempo"
+        },
+        "pimHumanDescription": {
+          "en": "Supports the association of a temporal entity (instant or interval) to any thing",
+          "es": "Proporciona soporte a la asociación de una entidad temporal (instante o intervalo) a cualquier cosa."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#hasTime#domain",
+          "http://www.w3.org/2006/time#hasTime#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#hasTime#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#hasTime#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#inDateTime#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#inDateTime#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#inDateTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#inDateTime",
+        "pimInterpretation": "http://www.w3.org/2006/time#inDateTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in date-time description",
+          "es": "en descripción de fecha-hora"
+        },
+        "pimHumanDescription": {
+          "en": "Position of an instant, expressed using a structured description",
+          "es": "Posición de un instante, expresada utilizando una descripción estructurada."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#inDateTime#domain",
+          "http://www.w3.org/2006/time#inDateTime#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#inTemporalPosition"
+        ]
+      },
+      "http://www.w3.org/2006/time#inDateTime#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#inDateTime#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#inTemporalPosition#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#inTemporalPosition#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#inTemporalPosition": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#inTemporalPosition",
+        "pimInterpretation": "http://www.w3.org/2006/time#inTemporalPosition",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal position",
+          "es": "posición temporal"
+        },
+        "pimHumanDescription": {
+          "en": "Position of a time instant",
+          "es": "Posición de un instante de tiempo."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#inTemporalPosition#domain",
+          "http://www.w3.org/2006/time#inTemporalPosition#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#inTemporalPosition#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#inTemporalPosition#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalPosition",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#inTimePosition#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#inTimePosition#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#inTimePosition": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#inTimePosition",
+        "pimInterpretation": "http://www.w3.org/2006/time#inTimePosition",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Time position",
+          "es": "posición de tiempo"
+        },
+        "pimHumanDescription": {
+          "en": "Position of an instant, expressed as a temporal coordinate or nominal value",
+          "es": "Posición de un instante, expresada como una coordenada temporal o un valor nominal."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#inTimePosition#domain",
+          "http://www.w3.org/2006/time#inTimePosition#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#inTemporalPosition"
+        ]
+      },
+      "http://www.w3.org/2006/time#inTimePosition#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#inTimePosition#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TimePosition",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#inside#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#inside#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#Interval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#inside": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#inside",
+        "pimInterpretation": "http://www.w3.org/2006/time#inside",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has time instant inside",
+          "es": "tiene instante de tiempo dentro"
+        },
+        "pimHumanDescription": {
+          "en": "An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals.",
+          "es": "Un instante que cae dentro del intervalo. Se asume que no es ni el principio ni el final de ningún intervalo."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#inside#domain",
+          "http://www.w3.org/2006/time#inside#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#inside#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#inside#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#Instant",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalAfter#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalAfter#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalAfter": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalAfter",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalAfter",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval after",
+          "es": "intervalo posterior"
+        },
+        "pimHumanDescription": {
+          "en": "Si un intervalo propio T1 es posterior a otro intervalo propio T2, entonces el principio de T1 está después que el final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalAfter#domain",
+          "http://www.w3.org/2006/time#intervalAfter#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#after",
+          "http://www.w3.org/2006/time#intervalDisjoint"
+        ]
+      },
+      "http://www.w3.org/2006/time#intervalAfter#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalAfter#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalBefore#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalBefore#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalBefore": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalBefore",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalBefore",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval before",
+          "es": "intervalo anterior"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2.",
+          "es": "Si un intervalo propio T1 está antes que otro intervalo propio T2, entonces el final de T1 está antes que el principio de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalBefore#domain",
+          "http://www.w3.org/2006/time#intervalBefore#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#before",
+          "http://www.w3.org/2006/time#intervalDisjoint"
+        ]
+      },
+      "http://www.w3.org/2006/time#intervalBefore#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalBefore#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalContains#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalContains#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalContains": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalContains",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalContains",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval contains",
+          "es": "intervalo contiene"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalContains another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is after the end of T2.",
+          "es": "Si un intervalo propio T1 contiene otro intervalo propio T2, entonces el principio de T1 está antes que el principio de T2, y el final de T1 está después del final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalContains#domain",
+          "http://www.w3.org/2006/time#intervalContains#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalContains#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalContains#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalDisjoint#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalDisjoint#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalDisjoint": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalDisjoint",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalDisjoint",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval disjoint",
+          "es": "intervalo disjunto"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known.",
+          "es": "Si un intervalo propio T1 es disjunto con otro intervalo propio T2, entonces el principio de T1 está después del final de T2, o el final de T1 está antes que el principio de T2, es decir, los intervalos no se solapan de ninguna forma, aunque su relación de orden no se conozca."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalDisjoint#domain",
+          "http://www.w3.org/2006/time#intervalDisjoint#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalDisjoint#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalDisjoint#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalDuring#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalDuring#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalDuring": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalDuring",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalDuring",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval during",
+          "es": "intervalo durante"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2.",
+          "es": "Si un intervalo propio T1 está durante otro intervalo propio T2, entonces del principio de T1 está después del principio de T2, y el final de T1 está antes que el final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalDuring#domain",
+          "http://www.w3.org/2006/time#intervalDuring#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#intervalIn"
+        ]
+      },
+      "http://www.w3.org/2006/time#intervalDuring#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalDuring#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalEquals#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalEquals#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalEquals": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalEquals",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalEquals",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval equals",
+          "es": "intervalo igual"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2.",
+          "es": "Si un intervalo propio T1 es igual a otro intervalo propio T2, entonces el principio de T1 coincide con el principio de T2, y el final de T1 coincide con el final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalEquals#domain",
+          "http://www.w3.org/2006/time#intervalEquals#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalEquals#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalEquals#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalFinishedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalFinishedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalFinishedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalFinishedBy",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalFinishedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval finished by",
+          "es": "intervalo terminado por"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalFinishedBy another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is coincident with the end of T2.",
+          "es": "Si un intervalo propio T1 está terminado por otro intervalo propio T2, entonces el principio de T1 está antes que el principio de T2, y el final de T1 coincide con el final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalFinishedBy#domain",
+          "http://www.w3.org/2006/time#intervalFinishedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalFinishedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalFinishedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalFinishes#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalFinishes#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalFinishes": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalFinishes",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalFinishes",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval finishes",
+          "es": "intervalo termina"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2.",
+          "es": "Si un intervalo propio T1 termina otro intervalo propio T2, entonces del principio de T1 está después del principio de T2, y el final de T1 coincide con el final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalFinishes#domain",
+          "http://www.w3.org/2006/time#intervalFinishes#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#intervalIn"
+        ]
+      },
+      "http://www.w3.org/2006/time#intervalFinishes#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalFinishes#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalIn#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalIn#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalIn": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalIn",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalIn",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval in",
+          "es": "intervalo interior"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalIn another proper interval T2, then the beginning of T1 is after the beginning of T2 or is coincident with the beginning of T2, and the end of T1 is before the end of T2, or is coincident with the end of T2, except that end of T1 may not be coincident with the end of T2 if the beginning of T1 is coincident with the beginning of T2.",
+          "es": "Si un intervalo propio T1 es un intervalo interior a otro intervalo propio T2, entonces el principio de T1 está después del principio de T2 o coincide con el principio de T2, y el final de T1 está antes que el final de T2, o coincide con el final de T2, excepto que el final de T1 puede no coincidir con el final de T2 si el principio de T1 coincide con el principio de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalIn#domain",
+          "http://www.w3.org/2006/time#intervalIn#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalIn#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalIn#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalMeets#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalMeets#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalMeets": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalMeets",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalMeets",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval meets",
+          "es": "intervalo se encuentra"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2.",
+          "es": "Si un intervalo propio T1 se encuentra con otro intervalo propio T2, entonces el final de T1 coincide con el principio de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalMeets#domain",
+          "http://www.w3.org/2006/time#intervalMeets#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalMeets#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalMeets#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalMetBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalMetBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalMetBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalMetBy",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalMetBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval met by",
+          "es": "intervalo encontrado por"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalMetBy another proper interval T2, then the beginning of T1 is coincident with the end of T2.",
+          "es": "Si un intervalo propio T1 es 'intervalo encontrado por' otro intervalo propio T2, entonces el principio de T1 coincide con el final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalMetBy#domain",
+          "http://www.w3.org/2006/time#intervalMetBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalMetBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalMetBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalOverlappedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalOverlappedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalOverlappedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalOverlappedBy",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalOverlappedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval overlapped by",
+          "es": "intervalo solapado por"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalOverlappedBy another proper interval T2, then the beginning of T1 is after the beginning of T2, the beginning of T1 is before the end of T2, and the end of T1 is after the end of T2.",
+          "es": "Si un intervalo propio T1 es 'intervalo solapado por' otro intervalo propio T2, entonces el principio de T1 es posterior al principio de T2, y el principio de T1 es anterior al final de T2, y el final de T1 es posterior al final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalOverlappedBy#domain",
+          "http://www.w3.org/2006/time#intervalOverlappedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalOverlappedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalOverlappedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalOverlaps#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalOverlaps#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalOverlaps": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalOverlaps",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalOverlaps",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval overlaps",
+          "es": "intervalo se solapa"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2.",
+          "es": "Asume una dirección en el tiempo. Si una entidad temporal T1 está después de otra entidad temporal T2, entonces el principio de T1 está después del final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalOverlaps#domain",
+          "http://www.w3.org/2006/time#intervalOverlaps#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalOverlaps#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalOverlaps#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalStartedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalStartedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalStartedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalStartedBy",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalStartedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval started by"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalStarted another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is after the end of T2.",
+          "es": "Si un intervalo propio T1 es empezado por otro intervalo propio T2, entonces el principio de T1 coincide con el principio de T2, y el final de T1 es posterior al final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalStartedBy#domain",
+          "http://www.w3.org/2006/time#intervalStartedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#intervalStartedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalStartedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalStarts#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalStarts#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#intervalStarts": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalStarts",
+        "pimInterpretation": "http://www.w3.org/2006/time#intervalStarts",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interval starts",
+          "es": "intervalo empieza"
+        },
+        "pimHumanDescription": {
+          "en": "If a proper interval T1 is intervalStarts another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is before the end of T2.",
+          "es": "Si un intervalo propio T1 empieza otro intervalo propio T2, entonces del principio de T1 con el principio de T2, y el final de T1 es anterior al final de T2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#intervalStarts#domain",
+          "http://www.w3.org/2006/time#intervalStarts#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2006/time#intervalIn"
+        ]
+      },
+      "http://www.w3.org/2006/time#intervalStarts#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#intervalStarts#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#ProperInterval",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#monthOfYear#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#monthOfYear#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#monthOfYear": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#monthOfYear",
+        "pimInterpretation": "http://www.w3.org/2006/time#monthOfYear",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "month of year",
+          "es": "mes del año"
+        },
+        "pimHumanDescription": {
+          "en": "The month of the year, whose value is a member of the class time:MonthOfYear",
+          "es": "El mes del año, cuyo valor es un miembro de la clase 'mes del año'."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#monthOfYear#domain",
+          "http://www.w3.org/2006/time#monthOfYear#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#monthOfYear#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#monthOfYear#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#MonthOfYear",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#timeZone#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#timeZone#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#timeZone": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#timeZone",
+        "pimInterpretation": "http://www.w3.org/2006/time#timeZone",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in time zone",
+          "es": "en huso horario"
+        },
+        "pimHumanDescription": {
+          "en": "The time zone for clock elements in the temporal position"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#timeZone#domain",
+          "http://www.w3.org/2006/time#timeZone#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#timeZone#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#timeZone#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TimeZone",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#unitType#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#unitType#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "n3-1518",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#unitType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2006/time#unitType",
+        "pimInterpretation": "http://www.w3.org/2006/time#unitType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "temporal unit type",
+          "es": "tipo de unidad temporal"
+        },
+        "pimHumanDescription": {
+          "en": "The temporal unit which provides the precision of a date-time value or scale of a temporal extent",
+          "es": "La unidad de tiempo que proporciona la precisión de un valor fecha-hora o la escala de una extensión temporal."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2006/time#unitType#domain",
+          "http://www.w3.org/2006/time#unitType#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/2006/time#unitType#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2006/time#unitType#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2006/time#TemporalUnit",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2006/time#DateTimeDescription": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#DateTimeDescription",
+        "pimInterpretation": "http://www.w3.org/2006/time#DateTimeDescription",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date-Time description",
+          "es": "descripción de fecha-tiempo"
+        },
+        "pimHumanDescription": {
+          "en": "Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively.",
+          "es": "Descripción de fecha y tiempo estructurada con valores separados para los diferentes elementos de un sistema calendario-reloj. El sistema de referencia temporal está fijado al calendario gregoriano, y el rango de las propiedades año, mes, día restringidas a los correspondientes tipos del XML Schema xsd:gYear, xsd:gMonth y xsd:gDay respectivamente."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+          "n3-1450",
+          "n3-1451",
+          "n3-1452",
+          "n3-1453",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#DateTimeInterval": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#DateTimeInterval",
+        "pimInterpretation": "http://www.w3.org/2006/time#DateTimeInterval",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date-time interval",
+          "es": "intervalo de fecha-hora"
+        },
+        "pimHumanDescription": {
+          "en": "DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.",
+          "es": "'intervalo de fecha-hora' es una subclase de 'intervalo propio', definida utilizando el multi-elemento 'descripción de fecha-hora'."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#ProperInterval",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#DayOfWeek": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#DayOfWeek",
+        "pimInterpretation": "http://www.w3.org/2006/time#DayOfWeek",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Day of week",
+          "es": "día de la semana"
+        },
+        "pimHumanDescription": {
+          "en": "The day of week",
+          "es": "El día de la semana"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#Duration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#Duration",
+        "pimInterpretation": "http://www.w3.org/2006/time#Duration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "duración de tiempo"
+        },
+        "pimHumanDescription": {
+          "en": "Duration of a temporal extent expressed as a number scaled by a temporal unit",
+          "es": "Duración de una extensión temporal expresada como un número escalado por una unidad temporal."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#TemporalDuration",
+          "n3-1454",
+          "n3-1455",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#DurationDescription": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#DurationDescription",
+        "pimInterpretation": "http://www.w3.org/2006/time#DurationDescription",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Duration description",
+          "es": "descripción de duración"
+        },
+        "pimHumanDescription": {
+          "en": "Description of temporal extent structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of each of the numeric properties is restricted to xsd:decimal",
+          "es": "Descripción de extensión temporal estructurada con valores separados para los distintos elementos de un sistema de horario-calendario. El sistema de referencia temporal se fija al calendario gregoriano, y el intervalo de cada una de las propiedades numéricas se restringe a xsd:decimal."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#GeneralDurationDescription",
+          "n3-1456",
+          "n3-1457",
+          "n3-1458",
+          "n3-1459",
+          "n3-1460",
+          "n3-1461",
+          "n3-1462",
+          "n3-1463",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#GeneralDateTimeDescription": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimInterpretation": "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Generalized date-time description",
+          "es": "descripción de fecha-hora generalizada"
+        },
+        "pimHumanDescription": {
+          "en": "Description of date and time structured with separate values for the various elements of a calendar-clock system",
+          "es": "Descripción de fecha y hora estructurada con valores separados para los distintos elementos de un sistema calendario-reloj."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#TemporalPosition",
+          "n3-1464",
+          "n3-1465",
+          "n3-1466",
+          "n3-1467",
+          "n3-1468",
+          "n3-1469",
+          "n3-1470",
+          "n3-1471",
+          "n3-1472",
+          "n3-1473",
+          "n3-1474",
+          "n3-1475",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#GeneralDurationDescription": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimInterpretation": "http://www.w3.org/2006/time#GeneralDurationDescription",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Generalized duration description",
+          "es": "descripción de duración generalizada"
+        },
+        "pimHumanDescription": {
+          "en": "Description of temporal extent structured with separate values for the various elements of a calendar-clock system.",
+          "es": "Descripción de extensión temporal estructurada con valores separados para los distintos elementos de un sistema de horario-calendario."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#TemporalDuration",
+          "n3-1476",
+          "n3-1477",
+          "n3-1478",
+          "n3-1479",
+          "n3-1480",
+          "n3-1481",
+          "n3-1482",
+          "n3-1483",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#Instant": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#Instant",
+        "pimInterpretation": "http://www.w3.org/2006/time#Instant",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Time instant",
+          "es": "instante de tiempo."
+        },
+        "pimHumanDescription": {
+          "en": "A temporal entity with zero extent or duration",
+          "es": "Una entidad temporal con una extensión o duración cero."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#TemporalEntity",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#Interval": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#Interval",
+        "pimInterpretation": "http://www.w3.org/2006/time#Interval",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Time interval",
+          "es": "intervalo de tiempo"
+        },
+        "pimHumanDescription": {
+          "en": "A temporal entity with an extent or duration",
+          "es": "Una entidad temporal con una extensión o duración."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#TemporalEntity",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#January": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#January",
+        "pimInterpretation": "http://www.w3.org/2006/time#January",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "January"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2006/time#DateTimeDescription",
+          "n3-1484",
+          "n3-1485",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#MonthOfYear": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#MonthOfYear",
+        "pimInterpretation": "http://www.w3.org/2006/time#MonthOfYear",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Month of year",
+          "es": "mes del año"
+        },
+        "pimHumanDescription": {
+          "en": "The month of the year",
+          "es": "El mes del año."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#DateTimeDescription",
+          "n3-1486",
+          "n3-1487",
+          "n3-1488",
+          "n3-1489",
+          "n3-1490",
+          "n3-1491",
+          "n3-1492",
+          "n3-1493",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#ProperInterval": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#ProperInterval",
+        "pimInterpretation": "http://www.w3.org/2006/time#ProperInterval",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Proper interval",
+          "es": "intervalo propio"
+        },
+        "pimHumanDescription": {
+          "en": "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different",
+          "es": "Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#Interval",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#TRS": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#TRS",
+        "pimInterpretation": "http://www.w3.org/2006/time#TRS",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal Reference System",
+          "es": "sistema de referencia temporal"
+        },
+        "pimHumanDescription": {
+          "en": "A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. \n\nThis is a stub class, representing the set of all temporal reference systems.",
+          "es": "Un sistema de referencia temporal, tal como un sistema de coordenadas temporales (con un origen, una dirección y una escala), una combinación calendario-reloj, o un sistema ordinal (posiblemente jerárquico).\n        Esta clase comodín representa el conjunto de todos los sistemas de referencia temporal."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#TemporalDuration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#TemporalDuration",
+        "pimInterpretation": "http://www.w3.org/2006/time#TemporalDuration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal duration",
+          "es": "duración temporal"
+        },
+        "pimHumanDescription": {
+          "en": "Time extent; duration of a time interval separate from its particular start position",
+          "es": "Extensión de tiempo; duración de un intervalo de tiempo independiente de su posición de inicio particular."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#TemporalEntity": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimInterpretation": "http://www.w3.org/2006/time#TemporalEntity",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal entity",
+          "es": "entidad temporal"
+        },
+        "pimHumanDescription": {
+          "en": "A temporal interval or instant.",
+          "es": "Un intervalo temporal o un instante."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#TemporalPosition": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#TemporalPosition",
+        "pimInterpretation": "http://www.w3.org/2006/time#TemporalPosition",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal position",
+          "es": "posición temporal"
+        },
+        "pimHumanDescription": {
+          "en": "A position on a time-line",
+          "es": "Una posición sobre una línea de tiempo."
+        },
+        "pimExtends": [
+          "n3-1496",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#TemporalUnit": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#TemporalUnit",
+        "pimInterpretation": "http://www.w3.org/2006/time#TemporalUnit",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal unit",
+          "es": "unidad de tiempo"
+        },
+        "pimHumanDescription": {
+          "en": "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position.",
+          "es": "Una duración estándar, que proporciona un factor de escala para una extensión de tiempo, o la granularidad o precisión para una posición de tiempo."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#TemporalDuration",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#TimePosition": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#TimePosition",
+        "pimInterpretation": "http://www.w3.org/2006/time#TimePosition",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Time position",
+          "es": "posición de tiempo"
+        },
+        "pimHumanDescription": {
+          "en": "A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system. ",
+          "es": "Una posición temporal descrita utilizando bien un valor (nominal) de un sistema de referencia ordinal, o un valor (numérico) en un sistema de coordenadas temporales."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#TemporalPosition",
+          "n3-1497",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#TimeZone": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#TimeZone",
+        "pimInterpretation": "http://www.w3.org/2006/time#TimeZone",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Time Zone",
+          "es": "huso horario"
+        },
+        "pimHumanDescription": {
+          "en": "A Time Zone specifies the amount by which the local time is offset from UTC. \n\tA time zone is usually denoted geographically (e.g. Australian Eastern Daylight Time), with a constant value in a given region. \nThe region where it applies and the offset from UTC are specified by a locally recognised governing authority.",
+          "es": "Un huso horario especifica la cantidad en que la hora local está desplazada con respecto a UTC.\n        Un huso horario normalmente se denota geográficamente (p.ej. el horario de verano del este de Australia), con un valor constante en una región dada.\n        La región donde aplica y el desplazamiento desde UTC las especifica una autoridad gubernamental localmente reconocida."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2006/time#Year": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2006/time#Year",
+        "pimInterpretation": "http://www.w3.org/2006/time#Year",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Year"
+        },
+        "pimHumanDescription": {
+          "en": "Year duration"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2006/time#DurationDescription",
+          "n3-1502",
+          "n3-1503",
+          "n3-1504",
+          "n3-1505",
+          "n3-1506",
+          "n3-1507",
+          "n3-1508",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://datagov-cz.github.io/cache-slovniku/time.ttl"
+  ]
+}

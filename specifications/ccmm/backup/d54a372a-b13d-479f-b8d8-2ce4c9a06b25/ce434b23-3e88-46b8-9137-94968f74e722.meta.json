@@ -1,0 +1,24 @@
+{
+  "iri": "ce434b23-3e88-46b8-9137-94968f74e722",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Funding reference",
+      "en": "Funding reference"
+    },
+    "description": {
+      "cs": "Datová struktura pro Funding reference. Information about financial support (funding) for the resource being registered.",
+      "en": "Data structure for Funding reference. Information about financial support (funding) for the resource being registered."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:17.456Z",
+    "modificationDate": "2026-08-07T08:57:17.542Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.701Z",
+  "_exportedBy": "http://localhost:3100"
+}

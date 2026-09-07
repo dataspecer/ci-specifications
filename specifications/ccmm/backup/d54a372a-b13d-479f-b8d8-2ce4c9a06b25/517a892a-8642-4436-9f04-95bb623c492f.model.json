@@ -1,0 +1,159 @@
+{
+  "operations": [
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785943107075-e9eb-0148-a27e",
+      "parent": null,
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "xu3qtxuvps9maurps32",
+      "dataPsmTechnicalLabel": "licence_document",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetRoots"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785943107075-05a3-c1bb-9104",
+      "parent": "https://ofn.gov.cz/operation/1785943107075-e9eb-0148-a27e",
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1785943107074-47da-df8e-9e09"
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785943107076-15f5-5069-8cdf",
+      "parent": "https://ofn.gov.cz/operation/1785943107075-05a3-c1bb-9104",
+      "dataPsmResource": "517a892a-8642-4436-9f04-95bb623c492f",
+      "dataPsmHumanLabel": {
+        "en": "Licence document",
+        "cs": "Licence document"
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanDescription"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785943107076-561b-c102-aa57",
+      "parent": "https://ofn.gov.cz/operation/1785943107076-15f5-5069-8cdf",
+      "dataPsmResource": "517a892a-8642-4436-9f04-95bb623c492f",
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Licence document. A legal document giving official permission to do something with a resource and describing conditions under which it may be done.",
+        "cs": "Datová struktura pro Licence document. A legal document giving official permission to do something with a resource and describing conditions under which it may be done."
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785943117367-a47c-8df6-a1c5",
+      "parent": "https://ofn.gov.cz/operation/1785943107076-561b-c102-aa57",
+      "dataPsmSchema": "517a892a-8642-4436-9f04-95bb623c492f",
+      "namespace": "https://schema.ccmm.cz/research-data/2.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetJsonEnforceContext"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785943117429-2287-fb11-8072",
+      "parent": "https://ofn.gov.cz/operation/1785943117367-a47c-8df6-a1c5",
+      "dataPsmEntity": "517a892a-8642-4436-9f04-95bb623c492f",
+      "jsonEnforceContext": "no"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785943123882-80b6-d926-974b",
+      "parent": "https://ofn.gov.cz/operation/1785943117429-2287-fb11-8072",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "ge6sp0vfasmaurqym2",
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1785943107074-47da-df8e-9e09",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetTechnicalLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1787924462285-a7a1-417e-94a8",
+      "parent": "https://ofn.gov.cz/operation/1785943123882-80b6-d926-974b",
+      "dataPsmResource": "https://ofn.gov.cz/attribute/1785943123882-4abc-53f6-b611",
+      "dataPsmTechnicalLabel": "title"
+    }
+  ],
+  "resources": {
+    "517a892a-8642-4436-9f04-95bb623c492f": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "517a892a-8642-4436-9f04-95bb623c492f",
+      "dataPsmHumanLabel": {
+        "en": "Licence document",
+        "cs": "Licence document"
+      },
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Licence document. A legal document giving official permission to do something with a resource and describing conditions under which it may be done.",
+        "cs": "Datová struktura pro Licence document. A legal document giving official permission to do something with a resource and describing conditions under which it may be done."
+      },
+      "dataPsmTechnicalLabel": null,
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1785943107074-47da-df8e-9e09"
+      ],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/class/1785943107074-47da-df8e-9e09",
+        "https://ofn.gov.cz/attribute/1785943123882-4abc-53f6-b611"
+      ],
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/2.0",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "jsonEnforceContext": "no"
+    },
+    "https://ofn.gov.cz/class/1785943107074-47da-df8e-9e09": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "https://ofn.gov.cz/class/1785943107074-47da-df8e-9e09",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "licence_document",
+      "dataPsmInterpretation": "xu3qtxuvps9maurps32",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/attribute/1785943123882-4abc-53f6-b611"
+      ],
+      "dataPsmIsClosed": null
+    },
+    "https://ofn.gov.cz/attribute/1785943123882-4abc-53f6-b611": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1785943123882-4abc-53f6-b611",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "title",
+      "dataPsmInterpretation": "ge6sp0vfasmaurqym2",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    }
+  }
+}

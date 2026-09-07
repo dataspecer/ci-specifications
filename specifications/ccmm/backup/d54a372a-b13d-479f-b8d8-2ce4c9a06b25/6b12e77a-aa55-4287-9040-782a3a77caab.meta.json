@@ -1,0 +1,22 @@
+{
+  "iri": "6b12e77a-aa55-4287-9040-782a3a77caab",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Czech Core Metadata Model"
+    },
+    "description": {
+      "en": "Semantic model for the profile"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:16.237Z",
+    "modificationDate": "2026-09-04T06:57:25.290Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.647Z",
+  "_exportedBy": "http://localhost:3100"
+}

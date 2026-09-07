@@ -1,0 +1,280 @@
+{
+  "operations": [
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742340936467-3c93-9081-b511",
+      "parent": null,
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "wvptnmmpc3cm7ytmhy8",
+      "dataPsmTechnicalLabel": "geometry",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetRoots"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742340936494-529a-b707-9e02",
+      "parent": "https://ofn.gov.cz/operation/1742340936467-3c93-9081-b511",
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1742340936467-5d87-fae6-b5c7"
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742340936520-9077-d325-973a",
+      "parent": "https://ofn.gov.cz/operation/1742340936494-529a-b707-9e02",
+      "dataPsmResource": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "dataPsmHumanLabel": {
+        "cs": "Geometry",
+        "en": "Geometry"
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanDescription"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742340936548-84eb-7bd2-8d35",
+      "parent": "https://ofn.gov.cz/operation/1742340936520-9077-d325-973a",
+      "dataPsmResource": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Geometry. The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system.",
+        "en": "Data structure for Geometry. The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742340940393-9611-56a3-aef8",
+      "parent": "https://ofn.gov.cz/operation/1742340936548-84eb-7bd2-8d35",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "ou2v1c7zpnhm8f1xsac",
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1742340936467-5d87-fae6-b5c7",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750754717040-80ef-3cf2-bf4f",
+      "parent": "https://ofn.gov.cz/operation/1742340940393-9611-56a3-aef8",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "inbabgmek3gmcaa3qbf",
+      "dataPsmTechnicalLabel": "geography_markup_language_literal",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1742340936467-5d87-fae6-b5c7",
+      "dataPsmDatatype": "http://www.opengis.net/ont/geosparql#gmlLiteral"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750754717078-b018-d9ba-9fa2",
+      "parent": "https://ofn.gov.cz/operation/1750754717040-80ef-3cf2-bf4f",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "3gdztmykss7mcaa1xuk",
+      "dataPsmTechnicalLabel": "well_known_text_literal",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1742340936467-5d87-fae6-b5c7",
+      "dataPsmDatatype": "http://www.opengis.net/ont/geosparql#wktLiteral"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1753447966512-75a4-20f5-85b0",
+      "parent": "https://ofn.gov.cz/operation/1750754717078-b018-d9ba-9fa2",
+      "dataPsmSchema": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "namespace": "https://schema.ccmm.cz/geometry",
+      "namespacePrefix": "ccmm-geometry"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetJsonEnforceContext"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1753447966547-136d-03d9-b36a",
+      "parent": "https://ofn.gov.cz/operation/1753447966512-75a4-20f5-85b0",
+      "dataPsmEntity": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "jsonEnforceContext": "no"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetTechnicalLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1753866953320-2908-14d7-b8be",
+      "parent": "https://ofn.gov.cz/operation/1753447966547-136d-03d9-b36a",
+      "dataPsmResource": "https://ofn.gov.cz/attribute/1750754717040-575d-bfd2-912c",
+      "dataPsmTechnicalLabel": "gml"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetTechnicalLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1753866959327-c7a5-ff80-8d7e",
+      "parent": "https://ofn.gov.cz/operation/1753866953320-2908-14d7-b8be",
+      "dataPsmResource": "https://ofn.gov.cz/attribute/1750754717078-130d-e76a-b879",
+      "dataPsmTechnicalLabel": "wkt"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754378285957-577c-5229-8e8f",
+      "parent": "https://ofn.gov.cz/operation/1753866959327-c7a5-ff80-8d7e",
+      "dataPsmSchema": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "namespace": "https://schema.ccmm.cz/research-data/1.0.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754408049972-55fa-0f29-b555",
+      "parent": "https://ofn.gov.cz/operation/1754378285957-577c-5229-8e8f",
+      "dataPsmSchema": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "namespace": "https://schema.ccmm.cz/research-data/1.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1763039439924-b35c-92a1-8ec4",
+      "parent": "https://ofn.gov.cz/operation/1754408049972-55fa-0f29-b555",
+      "dataPsmSchema": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "namespace": "https://schema.ccmm.cz/research-data/1.1",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782332864408-09f8-b44a-a535",
+      "parent": "https://ofn.gov.cz/operation/1763039439924-b35c-92a1-8ec4",
+      "dataPsmSchema": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "namespace": "https://schema.ccmm.cz/research-data/1.2",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785940949735-3fb3-ceb3-a172",
+      "parent": "https://ofn.gov.cz/operation/1782332864408-09f8-b44a-a535",
+      "dataPsmSchema": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "namespace": "https://schema.ccmm.cz/research-data/2.0",
+      "namespacePrefix": "ccmm"
+    }
+  ],
+  "resources": {
+    "fe716aa9-f14d-44d6-bcf2-f0a1065db9db": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+      "dataPsmHumanLabel": {
+        "cs": "Geometry",
+        "en": "Geometry"
+      },
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Geometry. The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system.",
+        "en": "Data structure for Geometry. The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
+      },
+      "dataPsmTechnicalLabel": null,
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1742340936467-5d87-fae6-b5c7"
+      ],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/class/1742340936467-5d87-fae6-b5c7",
+        "https://ofn.gov.cz/attribute/1742340940393-8587-6ee3-970b",
+        "https://ofn.gov.cz/attribute/1750754717040-575d-bfd2-912c",
+        "https://ofn.gov.cz/attribute/1750754717078-130d-e76a-b879"
+      ],
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/2.0",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "jsonEnforceContext": "no"
+    },
+    "https://ofn.gov.cz/class/1742340936467-5d87-fae6-b5c7": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "https://ofn.gov.cz/class/1742340936467-5d87-fae6-b5c7",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "geometry",
+      "dataPsmInterpretation": "wvptnmmpc3cm7ytmhy8",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/attribute/1742340940393-8587-6ee3-970b",
+        "https://ofn.gov.cz/attribute/1750754717040-575d-bfd2-912c",
+        "https://ofn.gov.cz/attribute/1750754717078-130d-e76a-b879"
+      ],
+      "dataPsmIsClosed": null
+    },
+    "https://ofn.gov.cz/attribute/1742340940393-8587-6ee3-970b": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1742340940393-8587-6ee3-970b",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmInterpretation": "ou2v1c7zpnhm8f1xsac",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "https://ofn.gov.cz/attribute/1750754717040-575d-bfd2-912c": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1750754717040-575d-bfd2-912c",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "gml",
+      "dataPsmInterpretation": "inbabgmek3gmcaa3qbf",
+      "dataPsmDatatype": "http://www.opengis.net/ont/geosparql#gmlLiteral"
+    },
+    "https://ofn.gov.cz/attribute/1750754717078-130d-e76a-b879": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1750754717078-130d-e76a-b879",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "wkt",
+      "dataPsmInterpretation": "3gdztmykss7mcaa1xuk",
+      "dataPsmDatatype": "http://www.opengis.net/ont/geosparql#wktLiteral"
+    }
+  }
+}

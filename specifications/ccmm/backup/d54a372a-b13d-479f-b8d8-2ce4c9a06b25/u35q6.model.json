@@ -1,0 +1,280 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "u35q6",
+  "alias": "Core Location Vocabulary 2.1.0",
+  "pimStore": {
+    "resources": {
+      "http://data.europa.eu/m8g/coordinates": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/coordinates",
+        "pimInterpretation": "http://data.europa.eu/m8g/coordinates",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "coordinates"
+        },
+        "pimHumanDescription": {
+          "en": "\tA list of geographic coordinates that define the extent of the Geometry."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/crs": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/crs",
+        "pimInterpretation": "http://data.europa.eu/m8g/crs",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "crs"
+        },
+        "pimHumanDescription": {
+          "en": "An identifier for the coordinate reference system."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/latitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/latitude",
+        "pimInterpretation": "http://data.europa.eu/m8g/latitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "latitude"
+        },
+        "pimHumanDescription": {
+          "en": "The geographic coordinate that specifies the north / south position of the Geomerty on the Earth's surface."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/longitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/longitude",
+        "pimInterpretation": "http://data.europa.eu/m8g/longitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "longitude"
+        },
+        "pimHumanDescription": {
+          "en": "The geographic coordinate that specifies the east / west position of the Geometry on the Earth's surface."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/code#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/code#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/m8g/AdminUnit",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/code": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/code",
+        "pimInterpretation": "http://data.europa.eu/m8g/code",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "code"
+        },
+        "pimHumanDescription": {
+          "en": "The classification of the administrative unit."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/m8g/code#domain",
+          "http://data.europa.eu/m8g/code#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/code#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/code#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/geometryType#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/geometryType#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/geometryType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/geometryType",
+        "pimInterpretation": "http://data.europa.eu/m8g/geometryType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "geometry type"
+        },
+        "pimHumanDescription": {
+          "en": "The classification of the Geometry."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/m8g/geometryType#domain",
+          "http://data.europa.eu/m8g/geometryType#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/geometryType#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/geometryType#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/level#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/level#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/m8g/AdminUnit",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/level": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/level",
+        "pimInterpretation": "http://data.europa.eu/m8g/level",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "level"
+        },
+        "pimHumanDescription": {
+          "en": "The level of the administrative unit in the hierarchy."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/m8g/level#domain",
+          "http://data.europa.eu/m8g/level#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/level#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/level#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/AdminUnit": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/m8g/AdminUnit",
+        "pimInterpretation": "http://data.europa.eu/m8g/AdminUnit",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Administrative Unit"
+        },
+        "pimHumanDescription": {
+          "en": "A detailed administrative unit organized in a hierarchy."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.1.0/voc/core-location.ttl"
+  ]
+}

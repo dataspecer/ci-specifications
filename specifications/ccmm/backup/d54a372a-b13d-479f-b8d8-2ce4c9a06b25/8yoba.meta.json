@@ -1,0 +1,19 @@
+{
+  "iri": "8yoba",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "vCard Ontology"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:21.395Z",
+    "modificationDate": "2026-09-04T06:57:25.473Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.737Z",
+  "_exportedBy": "http://localhost:3100"
+}

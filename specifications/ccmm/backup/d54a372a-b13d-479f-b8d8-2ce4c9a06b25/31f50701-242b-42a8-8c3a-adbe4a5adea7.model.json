@@ -1,0 +1,120 @@
+{
+  "operations": [
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785999961150-7056-ff74-b314",
+      "parent": null,
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "kg7pnaqc97msd6kff7",
+      "dataPsmTechnicalLabel": "common_provenance_model_json_representation",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetRoots"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785999961150-9a45-775a-92ee",
+      "parent": "https://ofn.gov.cz/operation/1785999961150-7056-ff74-b314",
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1785999961149-3305-94dd-9b25"
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785999961150-413f-640d-8b8d",
+      "parent": "https://ofn.gov.cz/operation/1785999961150-9a45-775a-92ee",
+      "dataPsmResource": "31f50701-242b-42a8-8c3a-adbe4a5adea7",
+      "dataPsmHumanLabel": {
+        "en": "Common provenance model JSON representation",
+        "cs": "Common provenance model JSON representation"
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanDescription"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785999961150-2a18-0843-adcb",
+      "parent": "https://ofn.gov.cz/operation/1785999961150-413f-640d-8b8d",
+      "dataPsmResource": "31f50701-242b-42a8-8c3a-adbe4a5adea7",
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Common provenance model JSON representation. Provides link to  the representation of provenance activity information in JSON format according to the Common provenance model specified in  ISO 23494-2 standard.",
+        "cs": "Datová struktura pro Common provenance model JSON representation. Provides link to  the representation of provenance activity information in JSON format according to the Common provenance model specified in  ISO 23494-2 standard."
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1786000006553-0fec-c55c-ba6c",
+      "parent": "https://ofn.gov.cz/operation/1785999961150-2a18-0843-adcb",
+      "dataPsmSchema": "31f50701-242b-42a8-8c3a-adbe4a5adea7",
+      "namespace": "https://schema.ccmm.cz/research-data/2.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetJsonEnforceContext"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1786000006618-c458-4112-a69c",
+      "parent": "https://ofn.gov.cz/operation/1786000006553-0fec-c55c-ba6c",
+      "dataPsmEntity": "31f50701-242b-42a8-8c3a-adbe4a5adea7",
+      "jsonEnforceContext": "no"
+    }
+  ],
+  "resources": {
+    "31f50701-242b-42a8-8c3a-adbe4a5adea7": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "31f50701-242b-42a8-8c3a-adbe4a5adea7",
+      "dataPsmHumanLabel": {
+        "en": "Common provenance model JSON representation",
+        "cs": "Common provenance model JSON representation"
+      },
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Common provenance model JSON representation. Provides link to  the representation of provenance activity information in JSON format according to the Common provenance model specified in  ISO 23494-2 standard.",
+        "cs": "Datová struktura pro Common provenance model JSON representation. Provides link to  the representation of provenance activity information in JSON format according to the Common provenance model specified in  ISO 23494-2 standard."
+      },
+      "dataPsmTechnicalLabel": null,
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1785999961149-3305-94dd-9b25"
+      ],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/class/1785999961149-3305-94dd-9b25"
+      ],
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/2.0",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "jsonEnforceContext": "no"
+    },
+    "https://ofn.gov.cz/class/1785999961149-3305-94dd-9b25": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "https://ofn.gov.cz/class/1785999961149-3305-94dd-9b25",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "common_provenance_model_json_representation",
+      "dataPsmInterpretation": "kg7pnaqc97msd6kff7",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null
+    }
+  }
+}

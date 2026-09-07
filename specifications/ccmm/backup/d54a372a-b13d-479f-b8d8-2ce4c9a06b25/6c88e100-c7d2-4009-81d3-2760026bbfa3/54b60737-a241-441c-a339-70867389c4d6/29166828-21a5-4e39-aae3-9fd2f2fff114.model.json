@@ -1,0 +1,2617 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/6c88e100-c7d2-4009-81d3-2760026bbfa3/54b60737-a241-441c-a339-70867389c4d6/29166828-21a5-4e39-aae3-9fd2f2fff114",
+  "alias": "foaf",
+  "pimStore": {
+    "resources": {
+      "http://xmlns.com/foaf/0.1/account#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/account#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/account": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/account",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/account",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "account"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates an account held by this agent."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/account#domain",
+          "http://xmlns.com/foaf/0.1/account#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/account#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/account#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/OnlineAccount",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/accountName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/accountName",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/accountName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "account name"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates the name (identifier) associated with this online account."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/OnlineAccount",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/accountServiceHomepage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/accountServiceHomepage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/OnlineAccount",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/accountServiceHomepage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/accountServiceHomepage",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/accountServiceHomepage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "account service homepage"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates a homepage of the service provide for this online account."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/accountServiceHomepage#domain",
+          "http://xmlns.com/foaf/0.1/accountServiceHomepage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/accountServiceHomepage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/accountServiceHomepage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/age": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/age",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/age",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "age"
+        },
+        "pimHumanDescription": {
+          "en": "The age in years of some agent."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/aimChatID": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/aimChatID",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/aimChatID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "AIM chat ID"
+        },
+        "pimHumanDescription": {
+          "en": "An AIM chat ID"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/nick"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/based_near#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/based_near#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/based_near": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/based_near",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/based_near",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "based near"
+        },
+        "pimHumanDescription": {
+          "en": "A location that something is based near, for some broadly human notion of near."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/based_near#domain",
+          "http://xmlns.com/foaf/0.1/based_near#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/based_near#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/based_near#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/birthday": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/birthday",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/birthday",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "birthday"
+        },
+        "pimHumanDescription": {
+          "en": "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/currentProject#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/currentProject#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/currentProject": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/currentProject",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/currentProject",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "current project"
+        },
+        "pimHumanDescription": {
+          "en": "A current project this person works on."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/currentProject#domain",
+          "http://xmlns.com/foaf/0.1/currentProject#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/currentProject#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/currentProject#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/depiction#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/depiction#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/depiction": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/depiction",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/depiction",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "depiction"
+        },
+        "pimHumanDescription": {
+          "en": "A depiction of some thing."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/depiction#domain",
+          "http://xmlns.com/foaf/0.1/depiction#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/depiction#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/depiction#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Image",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/depicts#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/depicts#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Image",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/depicts": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/depicts",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/depicts",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "depicts"
+        },
+        "pimHumanDescription": {
+          "en": "A thing depicted in this representation."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/depicts#domain",
+          "http://xmlns.com/foaf/0.1/depicts#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/depicts#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/depicts#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/dnaChecksum": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/dnaChecksum",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/dnaChecksum",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "DNA checksum"
+        },
+        "pimHumanDescription": {
+          "en": "A checksum for the DNA of some thing. Joke."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/familyName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/familyName",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/familyName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "familyName"
+        },
+        "pimHumanDescription": {
+          "en": "The family name of some person."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/family_name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/family_name",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/family_name",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "family_name"
+        },
+        "pimHumanDescription": {
+          "en": "The family name of some person."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/firstName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/firstName",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/firstName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "firstName"
+        },
+        "pimHumanDescription": {
+          "en": "The first name of a person."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/focus#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/focus#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/focus": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/focus",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/focus",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "focus"
+        },
+        "pimHumanDescription": {
+          "en": "The underlying or 'focal' entity associated with some SKOS-described concept."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/focus#domain",
+          "http://xmlns.com/foaf/0.1/focus#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/focus#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/focus#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/fundedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/fundedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/fundedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/fundedBy",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/fundedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "funded by"
+        },
+        "pimHumanDescription": {
+          "en": "An organization funding a project or person."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/fundedBy#domain",
+          "http://xmlns.com/foaf/0.1/fundedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/fundedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/fundedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/geekcode": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/geekcode",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/geekcode",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "geekcode"
+        },
+        "pimHumanDescription": {
+          "en": "A textual geekcode for this person, see http://www.geekcode.com/geek.html"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/gender": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/gender",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/gender",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "gender"
+        },
+        "pimHumanDescription": {
+          "en": "The gender of this Agent (typically but not necessarily 'male' or 'female')."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/givenName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/givenName",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/givenName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Given name"
+        },
+        "pimHumanDescription": {
+          "en": "The given name of some person."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/givenname": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/givenname",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/givenname",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Given name"
+        },
+        "pimHumanDescription": {
+          "en": "The given name of some person."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/holdsAccount#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/holdsAccount#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/holdsAccount": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/holdsAccount",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/holdsAccount",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "account"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates an account held by this agent."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/holdsAccount#domain",
+          "http://xmlns.com/foaf/0.1/holdsAccount#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/holdsAccount#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/holdsAccount#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/OnlineAccount",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/homepage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/homepage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/homepage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/homepage",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/homepage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "homepage"
+        },
+        "pimHumanDescription": {
+          "en": "A homepage for some thing."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/homepage#domain",
+          "http://xmlns.com/foaf/0.1/homepage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+          "http://xmlns.com/foaf/0.1/page"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/homepage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/homepage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/icqChatID": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/icqChatID",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/icqChatID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "ICQ chat ID"
+        },
+        "pimHumanDescription": {
+          "en": "An ICQ chat ID"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/nick"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/img#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/img#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/img": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/img",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/img",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "image"
+        },
+        "pimHumanDescription": {
+          "en": "An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/img#domain",
+          "http://xmlns.com/foaf/0.1/img#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/depiction"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/img#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/img#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Image",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/interest#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/interest#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/interest": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/interest",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/interest",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "interest"
+        },
+        "pimHumanDescription": {
+          "en": "A page about a topic of interest to this person."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/interest#domain",
+          "http://xmlns.com/foaf/0.1/interest#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/interest#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/interest#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/isPrimaryTopicOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is primary topic of"
+        },
+        "pimHumanDescription": {
+          "en": "A document that this thing is the primary topic of."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/isPrimaryTopicOf#domain",
+          "http://xmlns.com/foaf/0.1/isPrimaryTopicOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/page"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/isPrimaryTopicOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/jabberID": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/jabberID",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/jabberID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "jabber ID"
+        },
+        "pimHumanDescription": {
+          "en": "A jabber ID for something."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/knows#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/knows#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/knows": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/knows",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/knows",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "knows"
+        },
+        "pimHumanDescription": {
+          "en": "A person known by this person (indicating some level of reciprocated interaction between the parties)."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/knows#domain",
+          "http://xmlns.com/foaf/0.1/knows#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/knows#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/knows#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/lastName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/lastName",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/lastName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "lastName"
+        },
+        "pimHumanDescription": {
+          "en": "The last name of a person."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/logo#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/logo#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/logo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/logo",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/logo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "logo"
+        },
+        "pimHumanDescription": {
+          "en": "A logo representing some thing."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/logo#domain",
+          "http://xmlns.com/foaf/0.1/logo#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/logo#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/logo#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/made#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/made#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/made": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/made",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/made",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "made"
+        },
+        "pimHumanDescription": {
+          "en": "Something that was made by this agent."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/made#domain",
+          "http://xmlns.com/foaf/0.1/made#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/made#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/made#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/maker#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/maker#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/maker": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/maker",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/maker",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "maker"
+        },
+        "pimHumanDescription": {
+          "en": "An agent that  made this thing."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/maker#domain",
+          "http://xmlns.com/foaf/0.1/maker#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/maker#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/maker#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/mbox#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/mbox#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/mbox": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/mbox",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/mbox",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "personal mailbox"
+        },
+        "pimHumanDescription": {
+          "en": "A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/mbox#domain",
+          "http://xmlns.com/foaf/0.1/mbox#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/mbox#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/mbox#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/mbox_sha1sum": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/mbox_sha1sum",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/mbox_sha1sum",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "sha1sum of a personal mailbox URI name"
+        },
+        "pimHumanDescription": {
+          "en": "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/member#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/member#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Group",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/member": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/member",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/member",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "member"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates a member of a Group"
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/member#domain",
+          "http://xmlns.com/foaf/0.1/member#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/member#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/member#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/membershipClass#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/membershipClass#attribute",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/membershipClass",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "membershipClass"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates the class of individuals that are a member of a Group"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/membershipClass#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/membershipClass#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/membershipClass": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/membershipClass",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/membershipClass",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "membershipClass"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates the class of individuals that are a member of a Group"
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/membershipClass#domain",
+          "http://xmlns.com/foaf/0.1/membershipClass#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/membershipClass#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/membershipClass#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/msnChatID": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/msnChatID",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/msnChatID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "MSN chat ID"
+        },
+        "pimHumanDescription": {
+          "en": "An MSN chat ID"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/nick"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/myersBriggs": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/myersBriggs",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/myersBriggs",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "myersBriggs"
+        },
+        "pimHumanDescription": {
+          "en": "A Myers Briggs (MBTI) personality classification."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/name",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/name",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "name"
+        },
+        "pimHumanDescription": {
+          "en": "A name for some thing."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#label"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/nick": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/nick",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/nick",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "nickname"
+        },
+        "pimHumanDescription": {
+          "en": "A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/openid#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/openid#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/openid": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/openid",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/openid",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "openid"
+        },
+        "pimHumanDescription": {
+          "en": "An OpenID for an Agent."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/openid#domain",
+          "http://xmlns.com/foaf/0.1/openid#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/isPrimaryTopicOf"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/openid#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/openid#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/page#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/page#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/page": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/page",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/page",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "page"
+        },
+        "pimHumanDescription": {
+          "en": "A page or document about this thing."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/page#domain",
+          "http://xmlns.com/foaf/0.1/page#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/page#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/page#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/pastProject#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/pastProject#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/pastProject": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/pastProject",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/pastProject",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "past project"
+        },
+        "pimHumanDescription": {
+          "en": "A project this person has previously worked on."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/pastProject#domain",
+          "http://xmlns.com/foaf/0.1/pastProject#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/pastProject#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/pastProject#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/phone#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/phone#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/phone": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/phone",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/phone",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "phone"
+        },
+        "pimHumanDescription": {
+          "en": "A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/phone#domain",
+          "http://xmlns.com/foaf/0.1/phone#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/phone#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/phone#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/plan": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/plan",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/plan",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "plan"
+        },
+        "pimHumanDescription": {
+          "en": "A .plan comment, in the tradition of finger and '.plan' files."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/primaryTopic#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/primaryTopic#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/primaryTopic": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/primaryTopic",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/primaryTopic",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "primary topic"
+        },
+        "pimHumanDescription": {
+          "en": "The primary topic of some page or document."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/primaryTopic#domain",
+          "http://xmlns.com/foaf/0.1/primaryTopic#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/primaryTopic#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/primaryTopic#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/publications#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/publications#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/publications": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/publications",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/publications",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publications"
+        },
+        "pimHumanDescription": {
+          "en": "A link to the publications of this person."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/publications#domain",
+          "http://xmlns.com/foaf/0.1/publications#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/publications#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/publications#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/schoolHomepage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/schoolHomepage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/schoolHomepage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/schoolHomepage",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/schoolHomepage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "schoolHomepage"
+        },
+        "pimHumanDescription": {
+          "en": "A homepage of a school attended by the person."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/schoolHomepage#domain",
+          "http://xmlns.com/foaf/0.1/schoolHomepage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/schoolHomepage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/schoolHomepage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/sha1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/sha1",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/sha1",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "sha1sum (hex)"
+        },
+        "pimHumanDescription": {
+          "en": "A sha1sum hash, in hex."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/skypeID": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/skypeID",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/skypeID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Skype ID"
+        },
+        "pimHumanDescription": {
+          "en": "A Skype ID"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/nick"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/status": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/status",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/status",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "status"
+        },
+        "pimHumanDescription": {
+          "en": "A string expressing what the user is happy for the general public (normally) to know about their current activity."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/surname": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/surname",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/surname",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Surname"
+        },
+        "pimHumanDescription": {
+          "en": "The surname of some person."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/theme#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/theme#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/theme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/theme",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/theme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "theme"
+        },
+        "pimHumanDescription": {
+          "en": "A theme."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/theme#domain",
+          "http://xmlns.com/foaf/0.1/theme#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/theme#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/theme#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/thumbnail#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/thumbnail#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Image",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/thumbnail": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/thumbnail",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/thumbnail",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "thumbnail"
+        },
+        "pimHumanDescription": {
+          "en": "A derived thumbnail image."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/thumbnail#domain",
+          "http://xmlns.com/foaf/0.1/thumbnail#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/thumbnail#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/thumbnail#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Image",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/tipjar#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/tipjar#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/tipjar": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/tipjar",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/tipjar",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "tipjar"
+        },
+        "pimHumanDescription": {
+          "en": "A tipjar document for this agent, describing means for payment and reward."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/tipjar#domain",
+          "http://xmlns.com/foaf/0.1/tipjar#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/page"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/tipjar#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/tipjar#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/title": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/title",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/title",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "title"
+        },
+        "pimHumanDescription": {
+          "en": "Title (Mr, Mrs, Ms, Dr. etc)"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/topic#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/topic#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/topic": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/topic",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/topic",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "topic"
+        },
+        "pimHumanDescription": {
+          "en": "A topic of some page or document."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/topic#domain",
+          "http://xmlns.com/foaf/0.1/topic#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/topic#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/topic#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/topic_interest#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/topic_interest#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/topic_interest": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/topic_interest",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/topic_interest",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "topic_interest"
+        },
+        "pimHumanDescription": {
+          "en": "A thing of interest to this person."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/topic_interest#domain",
+          "http://xmlns.com/foaf/0.1/topic_interest#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/topic_interest#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/topic_interest#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/weblog#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/weblog#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/weblog": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/weblog",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/weblog",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "weblog"
+        },
+        "pimHumanDescription": {
+          "en": "A weblog of some thing (whether person, group, company etc.)."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/weblog#domain",
+          "http://xmlns.com/foaf/0.1/weblog#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/page"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/weblog#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/weblog#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/workInfoHomepage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/workInfoHomepage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/workInfoHomepage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/workInfoHomepage",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/workInfoHomepage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "work info homepage"
+        },
+        "pimHumanDescription": {
+          "en": "A work info homepage of some person; a page about their work for some organization."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/workInfoHomepage#domain",
+          "http://xmlns.com/foaf/0.1/workInfoHomepage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/workInfoHomepage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/workInfoHomepage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/workplaceHomepage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/workplaceHomepage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Person",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/workplaceHomepage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/workplaceHomepage",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/workplaceHomepage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "workplace homepage"
+        },
+        "pimHumanDescription": {
+          "en": "A workplace homepage of some person; the homepage of an organization they work for."
+        },
+        "pimEnd": [
+          "http://xmlns.com/foaf/0.1/workplaceHomepage#domain",
+          "http://xmlns.com/foaf/0.1/workplaceHomepage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://xmlns.com/foaf/0.1/workplaceHomepage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/workplaceHomepage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://xmlns.com/foaf/0.1/Document",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://xmlns.com/foaf/0.1/yahooChatID": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/yahooChatID",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/yahooChatID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Yahoo chat ID"
+        },
+        "pimHumanDescription": {
+          "en": "A Yahoo chat ID"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://xmlns.com/foaf/0.1/Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/nick"
+        ]
+      },
+      "http://xmlns.com/foaf/0.1/Agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/Agent",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/Agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Agent"
+        },
+        "pimHumanDescription": {
+          "en": "An agent (eg. person, group, software or physical artifact)."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/Document": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/Document",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/Document",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Document"
+        },
+        "pimHumanDescription": {
+          "en": "A document."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/Group": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/Group",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/Group",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Group"
+        },
+        "pimHumanDescription": {
+          "en": "A class of Agents."
+        },
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/Agent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/Image": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/Image",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/Image",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Image"
+        },
+        "pimHumanDescription": {
+          "en": "An image."
+        },
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/Document",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/LabelProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/LabelProperty",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/LabelProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Label Property"
+        },
+        "pimHumanDescription": {
+          "en": "A foaf:LabelProperty is any RDF property with texual values that serve as labels."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/OnlineAccount": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/OnlineAccount",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/OnlineAccount",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Online Account"
+        },
+        "pimHumanDescription": {
+          "en": "An online account."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/OnlineChatAccount": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/OnlineChatAccount",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/OnlineChatAccount",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Online Chat Account"
+        },
+        "pimHumanDescription": {
+          "en": "An online chat account."
+        },
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/OnlineAccount",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/OnlineEcommerceAccount": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/OnlineEcommerceAccount",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/OnlineEcommerceAccount",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Online E-commerce Account"
+        },
+        "pimHumanDescription": {
+          "en": "An online e-commerce account."
+        },
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/OnlineAccount",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/OnlineGamingAccount": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/OnlineGamingAccount",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/OnlineGamingAccount",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Online Gaming Account"
+        },
+        "pimHumanDescription": {
+          "en": "An online gaming account."
+        },
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/OnlineAccount",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/Organization": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/Organization",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/Organization",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Organization"
+        },
+        "pimHumanDescription": {
+          "en": "An organization."
+        },
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/Agent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/Person": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/Person",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/Person",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Person"
+        },
+        "pimHumanDescription": {
+          "en": "A person."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+          "http://xmlns.com/foaf/0.1/Agent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/PersonalProfileDocument": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "PersonalProfileDocument"
+        },
+        "pimHumanDescription": {
+          "en": "A personal profile RDF document."
+        },
+        "pimExtends": [
+          "http://xmlns.com/foaf/0.1/Document",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://xmlns.com/foaf/0.1/Project": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://xmlns.com/foaf/0.1/Project",
+        "pimInterpretation": "http://xmlns.com/foaf/0.1/Project",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Project"
+        },
+        "pimHumanDescription": {
+          "en": "A project (a collective endeavour of some kind)."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2000/01/rdf-schema#Class": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimInterpretation": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "pimInterpretation": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Spatial Thing"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://datagov-cz.github.io/cache-slovniku/foaf.ttl"
+  ]
+}

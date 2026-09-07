@@ -1,0 +1,24 @@
+{
+  "iri": "adb6cc6f-b5c9-406c-9c32-18b898718ed8",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Resource relation type",
+      "cs": "Resource relation type"
+    },
+    "description": {
+      "en": "Data structure for Resource relation type. Type of the relation between the dataset and given resource.",
+      "cs": "Datová struktura pro Resource relation type. Type of the relation between the dataset and given resource."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:20.125Z",
+    "modificationDate": "2026-09-04T09:17:57.867Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.726Z",
+  "_exportedBy": "http://localhost:3100"
+}

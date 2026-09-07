@@ -1,0 +1,24 @@
+{
+  "iri": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/ba5af4f1-ab6a-427a-8c6f-c74256a51bad",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Czech Core Metadata Vocabulary"
+    },
+    "description": {
+      "en": "Vocabulary containing terms missing or disinterpreted in other vocabularies needed for profile of Czech Core Metadata Model."
+    },
+    "importedFromUrl": "https://techlib.github.io/CCMM-V/en/",
+    "documentBaseUrl": "https://techlib.github.io/CCMM-V/en/"
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:28.350Z",
+    "modificationDate": "2026-09-04T06:57:34.070Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.862Z",
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,708 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/6c88e100-c7d2-4009-81d3-2760026bbfa3/54b60737-a241-441c-a339-70867389c4d6/f2de6a34-0a6f-4097-8f43-91e1fbde518d",
+  "alias": "legacy_locn",
+  "pimStore": {
+    "resources": {
+      "http://www.w3.org/ns/locn#address#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#address#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#address": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#address",
+        "pimInterpretation": "http://www.w3.org/ns/locn#address",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "address"
+        },
+        "pimHumanDescription": {
+          "en": "The locn:address property relationship associates any resource with the locn:Address class "
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#address#domain",
+          "http://www.w3.org/ns/locn#address#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#address#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#address#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#addressArea": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressArea",
+        "pimInterpretation": "http://www.w3.org/ns/locn#addressArea",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "address area"
+        },
+        "pimHumanDescription": {
+          "en": "The name or names of a geographic area or locality that groups a number of addressable objects for addressing purposes, without being an administrative unit. This would typically be part of a city, a neighbourhood or village. The domain of locn:addressArea is locn:Address."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#addressId": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressId",
+        "pimInterpretation": "http://www.w3.org/ns/locn#addressId",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "address ID"
+        },
+        "pimHumanDescription": {
+          "en": "The concept of adding a globally unique identifier for each instance of an address is a crucial part of the INSPIRE data spec. The domain of locn:addressId is locn:Address."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL1#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL1#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#adminUnitL1",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "admin unit level 1"
+        },
+        "pimHumanDescription": {
+          "en": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL1#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL1#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#adminUnitL1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL1",
+        "pimInterpretation": "http://www.w3.org/ns/locn#adminUnitL1",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "admin unit level 1"
+        },
+        "pimHumanDescription": {
+          "en": "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#adminUnitL1#domain",
+          "http://www.w3.org/ns/locn#adminUnitL1#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL1#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL1#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#adminUnitL2#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL2#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#adminUnitL2",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "admin unit level 2"
+        },
+        "pimHumanDescription": {
+          "en": "The region of the address, usually a county, state or other such area that typically encompasses several localities. The domain of  locn:adminUnitL2 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL2#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL2#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#adminUnitL2": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL2",
+        "pimInterpretation": "http://www.w3.org/ns/locn#adminUnitL2",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "admin unit level 2"
+        },
+        "pimHumanDescription": {
+          "en": "The region of the address, usually a county, state or other such area that typically encompasses several localities. The domain of  locn:adminUnitL2 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#adminUnitL2#domain",
+          "http://www.w3.org/ns/locn#adminUnitL2#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL2#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL2#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#fullAddress": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#fullAddress",
+        "pimInterpretation": "http://www.w3.org/ns/locn#fullAddress",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "full address"
+        },
+        "pimHumanDescription": {
+          "en": "The complete address written as a string, with or without formatting. The domain of locn:fullAddress is locn:Address."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#geographicName#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#geographicName#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#geographicName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "geographic name"
+        },
+        "pimHumanDescription": {
+          "en": "\nA geographic name is a proper noun applied to a spatial object. Taking the example used in the relevant INSPIRE data specification (page 18), the following are all valid geographic names for the Greek capital:\n- Αθήνα (the Greek endonym written in the Greek script)\n- Athína (the standard Romanisation of the endonym)\n- Athens (the English language exonym)\nFor INSPIRE-conformant data, provide the metadata for the geographic name using a skos:Concept as a datatype.\n"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#geographicName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#geographicName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#geographicName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#geographicName",
+        "pimInterpretation": "http://www.w3.org/ns/locn#geographicName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "geographic name"
+        },
+        "pimHumanDescription": {
+          "en": "\nA geographic name is a proper noun applied to a spatial object. Taking the example used in the relevant INSPIRE data specification (page 18), the following are all valid geographic names for the Greek capital:\n- Αθήνα (the Greek endonym written in the Greek script)\n- Athína (the standard Romanisation of the endonym)\n- Athens (the English language exonym)\nFor INSPIRE-conformant data, provide the metadata for the geographic name using a skos:Concept as a datatype.\n"
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#geographicName#domain",
+          "http://www.w3.org/ns/locn#geographicName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#geographicName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#geographicName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#geometry#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#geometry#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#geometry": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#geometry",
+        "pimInterpretation": "http://www.w3.org/ns/locn#geometry",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "geometry"
+        },
+        "pimHumanDescription": {
+          "en": "Associates any resource with the corresponding geometry."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#geometry#domain",
+          "http://www.w3.org/ns/locn#geometry#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#geometry#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#geometry#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#location#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#location#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#location": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#location",
+        "pimInterpretation": "http://www.w3.org/ns/locn#location",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "location"
+        },
+        "pimHumanDescription": {
+          "en": "The location property links any resource to the Location Class. Asserting the location relationship implies only that the domain has some connection to a Location in time or space. It does not imply that the resource is necessarily at that location at the time when the assertion is made."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#location#domain",
+          "http://www.w3.org/ns/locn#location#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#location#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#location#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://purl.org/dc/terms/Location",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#locatorDesignator#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorDesignator#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#locatorDesignator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locator designator"
+        },
+        "pimHumanDescription": {
+          "en": "A number or a sequence of characters that uniquely identifies the locator within the relevant scope(s). The full identification of the locator could include one or more locator designators.\n    "
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#locatorDesignator#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorDesignator#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#locatorDesignator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorDesignator",
+        "pimInterpretation": "http://www.w3.org/ns/locn#locatorDesignator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locator designator"
+        },
+        "pimHumanDescription": {
+          "en": "A number or a sequence of characters that uniquely identifies the locator within the relevant scope(s). The full identification of the locator could include one or more locator designators.\n    "
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#locatorDesignator#domain",
+          "http://www.w3.org/ns/locn#locatorDesignator#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#locatorDesignator#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorDesignator#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#locatorName#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorName#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#locatorName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locator name"
+        },
+        "pimHumanDescription": {
+          "en": "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building. \n    "
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#locatorName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#locatorName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorName",
+        "pimInterpretation": "http://www.w3.org/ns/locn#locatorName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locator name"
+        },
+        "pimHumanDescription": {
+          "en": "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building. \n    "
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#locatorName#domain",
+          "http://www.w3.org/ns/locn#locatorName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#locatorName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#poBox": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#poBox",
+        "pimInterpretation": "http://www.w3.org/ns/locn#poBox",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "PO box"
+        },
+        "pimHumanDescription": {
+          "en": "The Post Office Box number. The domain of locn:poBox is locn:Address."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#postCode": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postCode",
+        "pimInterpretation": "http://www.w3.org/ns/locn#postCode",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post code"
+        },
+        "pimHumanDescription": {
+          "en": "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#postName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postName",
+        "pimInterpretation": "http://www.w3.org/ns/locn#postName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post name"
+        },
+        "pimHumanDescription": {
+          "en": "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#thoroughfare": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#thoroughfare",
+        "pimInterpretation": "http://www.w3.org/ns/locn#thoroughfare",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "thoroughfare"
+        },
+        "pimHumanDescription": {
+          "en": "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#Address": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/locn#Address",
+        "pimInterpretation": "http://www.w3.org/ns/locn#Address",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Address"
+        },
+        "pimHumanDescription": {
+          "en": "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type. The locn:addressId property may be used to link this locn:Address to other representations."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/locn#Geometry": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/locn#Geometry",
+        "pimInterpretation": "http://www.w3.org/ns/locn#Geometry",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Geometry"
+        },
+        "pimHumanDescription": {
+          "en": "The locn:Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://www.w3.org/ns/legacy_locn.ttl"
+  ]
+}

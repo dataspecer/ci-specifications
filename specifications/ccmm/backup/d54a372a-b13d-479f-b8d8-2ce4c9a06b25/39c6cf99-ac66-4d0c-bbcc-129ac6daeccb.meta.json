@@ -1,0 +1,24 @@
+{
+  "iri": "39c6cf99-ac66-4d0c-bbcc-129ac6daeccb",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Documentation",
+      "en": "Documentation"
+    },
+    "description": {
+      "cs": "Datová struktura pro Documentation. A textual resource intended for human consumption that contains information about the data service.",
+      "en": "Data structure for Documentation. A textual resource intended for human consumption that contains information about the data service."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:19.345Z",
+    "modificationDate": "2026-08-07T08:57:19.433Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.721Z",
+  "_exportedBy": "http://localhost:3100"
+}

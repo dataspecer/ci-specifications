@@ -1,0 +1,213 @@
+{
+  "modelCompositionConfiguration": {
+    "modelType": "application-profile",
+    "model": "6b12e77a-aa55-4287-9040-782a3a77caab",
+    "canAddEntities": false,
+    "canModify": true,
+    "profiles": {
+      "modelType": "merge",
+      "models": null
+    }
+  },
+  "dataStructuresImportPackages": [],
+  "userPreferences": {
+    "client": {
+      "technicalLabelLanguages": "en",
+      "technicalLabelSpecialCharacters": "remove-all"
+    }
+  },
+  "configuration": {
+    "http://dataspecer.com/resources/local/layout-configuration": {
+      "main": {
+        "none": {
+          "layout_alg": "none",
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_stress": {
+          "layout_alg": "elk_stress",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_layered": {
+          "layout_alg": "elk_layered",
+          "alg_direction": "UP",
+          "layer_gap": 200,
+          "in_layer_gap": 100,
+          "edge_routing": "ORTHOGONAL",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_force": {
+          "layout_alg": "elk_force",
+          "min_distance_between_nodes": 400,
+          "force_alg_type": "FRUCHTERMAN_REINGOLD",
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "random": {
+          "layout_alg": "random",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_radial": {
+          "layout_alg": "elk_radial",
+          "min_distance_between_nodes": 500,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_overlapRemoval": {
+          "layout_alg": "elk_overlapRemoval",
+          "min_distance_between_nodes": 200,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": true
+        },
+        "elk_stress_advanced_using_clusters": {
+          "layout_alg": "elk_stress_advanced_using_clusters",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_stress_profile": {
+          "layout_alg": "elk_stress_profile",
+          "profileEdgeLength": 400,
+          "preferredProfileDirection": "UP",
+          "stress_edge_len": 580,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": true
+        },
+        "automatic": {
+          "layout_alg": "automatic",
+          "min_distance_between_nodes": 500,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        }
+      },
+      "general": {
+        "none": {
+          "layout_alg": "none",
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_stress": {
+          "layout_alg": "elk_stress",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_layered": {
+          "layout_alg": "elk_layered",
+          "alg_direction": "UP",
+          "layer_gap": 200,
+          "in_layer_gap": 100,
+          "edge_routing": "ORTHOGONAL",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_force": {
+          "layout_alg": "elk_force",
+          "min_distance_between_nodes": 400,
+          "force_alg_type": "FRUCHTERMAN_REINGOLD",
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "random": {
+          "layout_alg": "random",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_radial": {
+          "layout_alg": "elk_radial",
+          "min_distance_between_nodes": 500,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_overlapRemoval": {
+          "layout_alg": "elk_overlapRemoval",
+          "min_distance_between_nodes": 200,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": true
+        },
+        "elk_stress_advanced_using_clusters": {
+          "layout_alg": "elk_stress_advanced_using_clusters",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_stress_profile": {
+          "layout_alg": "elk_stress_profile",
+          "profileEdgeLength": 400,
+          "preferredProfileDirection": "UP",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "automatic": {
+          "layout_alg": "automatic",
+          "min_distance_between_nodes": 500,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        }
+      },
+      "chosenMainAlgorithm": "elk_stress_profile",
+      "chosenGeneralAlgorithm": "none",
+      "additionalSteps": {}
+    },
+    "https://schemas.dataspecer.com/documentation-generator-config/": {
+      "partials": {
+        "abstract": "<section id=\"abstract\">\n  <p>\n  {{#iflng \"cs\"}}Czech Core Metadat Model (CCMM) je metadatový model pro popis výzkumných dat, určený pro jejich objevování, porozumění a sdílení napříč evropskými datovými katalogy. Model byl vyvinut a spravován skupinou pro metadata Národní technické knihovny v rámci projektu Czech Academic and Research Discovery Services (CARDS).\n  </p><p>\n  CCMM definuje základní metadatové prvky pro popis datových sad a poskytuje společný referenční metadatový rámec napříč repozitáři a doménami.\n  </p><p>\n  Jmenný prostor CCMM je <a href=\"https://model.ccmm.cz/vocabulary/ccmm#\">https://model.ccmm.cz/vocabulary/ccmm#</a>.\n  </p><p>\n  Navrhovaný prefix pro jmenný prostor CCMM je ccmm.\n  {{lng}}Czech Core Metadata Model for Research Data (CCMM) is a metadata model for description of research data designed for their discovery, understanding and sharing accross European data catalogues. The model was developed and is maintained by the metadata group of the National Library of Technology as a part of the project Czech Academic and Research Discovery Services (CARDS).\n  </p><p>\n  CCMM establishes basic elements for describing datasets and provides a common metadata reference across repositories and domains.\n  </p><p>\n  The namespace of the CCMM is <a href=\"https://model.ccmm.cz/vocabulary/ccmm#\">https://model.ccmm.cz/vocabulary/ccmm#</a>.\n  </p><p>\n  The suggested prefix for the CCMM namespace is ccmm.{{/iflng}}\n  </p>\n</section>",
+        "introduction": "<section>\n  {{#iflng \"cs\"}}<h2>Úvod</h2>\n  <p>\n    Czech Core Metadata Model (CCMM) je metadatový profil pro výzkumná data založený na principech FAIR (Findable, Accessible, Interoperable, Reusable) a profilu DCAT-AP, podporující otevřenou vědu. Nejnovější verze CCMM, 2.0.0, je spravována v repozitáři na Githubu <a href=\"https://github.com/techlib/CCMM/tree/2.0.0\">https://github.com/techlib/CCMM/tree/2.0.0</a>. Model byl vytvořen a je spravován v nástroji Dataspecer, vyvinutém na Univerzitě Karlově a dostupném na <a href=\"https://dataspecer.com/\">https://dataspecer.com/</a>.\n  </p><p>\n    Principy FAIR jsou důležité pro zvýšení srozumitelnosti dat, zlepšení jejich vyhledatelnosti, podporu perzistentních identifikátorů (PID) a zavedení efektivnějšího monitorování výzkumných dat. \n  </p><p>\n    V kontextu českého Národního Metadatového Adresáře (NMA) je většina záznamů zaznamenávána primárně v češtině, sekundárně v angličtině, volba jazyka je však na na výzkumné komunitě. CCMM podporuje libovolnou kombinaci jazyků.\n  </p><p>\n    Protokol Open Archives Initiative for Metadataq Harvesting (OAI-PMH) je komunikační protokol pro sdílení metadat digitálních repozitářů. Pro přenos metadat zaznamenaných v CCMM prostřednictvím protokolu OAI-PMH použijte jmenný prostor <a href=\"https://model.ccmm.cz/research-data\">https://model.ccmm.cz/research-data</a> a nejnovější verzi schématu datové sady, např. <a href=\"https://model.ccmm.cz/research-data/2.0.0/dataset/schema.xsd\">https://model.ccmm.cz/research-data/2.0.0/dataset/schema.xsd</a>. Doporučený prefix pro přenos OAI-PMH je ccmm-xml.\n  </p><p>\n    CCMM používá k identifikaci externích zdrojů perzistentní identifikátory (PID). Přestože volba identifikátorů závisí na správci metadat, pro osoby je doporučeným schématem ORCID (<a href=\"https://orcid.org/\">https://orcid.org/</a>) a pro organizace ROR (<a href=\"https://ror.org/\">https://ror.org/</a>).\n  </p><p>\n    Jako podpora pro CCMM je vyžadována nebo doporučena celá řada řízených slovníků. Pro oborově specifickou terminologii je vhodné použít slovníky, které jsou v dané komunitě zavedené, ale přímo do CCMM je zabudováno několik povinných řízených slovníků. Některé byly znovu použity z existujících registrů, jiné jsou spravovány v nově vytvořeném registru řízených slovníků, který je k dispozici na adrese <a href=\"https://www.ccmm.cz/en/controlled-vocabularies/\">https://www.ccmm.cz/en/controlled-vocabularies/</a>.\n  </p><p>\n    CCMM byl vytvořen jako RDF graf, který se skládá z tříd, jejich atributů a vztahů mezi třídami. V kontextu popisu metadat je základním stavebním kamenem prvek Dataset. Entity jsou rozděleny na hlavní a podpůrné, přičemž hlavní jsou nezbytnými částmi modelu, zatímco podpůrné poskytují doplňující informace. Částečně to pokrývá rozdělení v DCAT-AP, ale důležitost některých tříd je v kontextu CCMM odlišná. \n  </p><p>\n    Hlavním výstupem CCMM je konceptuální model ve formě RDF grafu, serializovaného ve formátu Turtle (soubor dsv.ttl). Technická reprezentace ve strukturovaných formátech je poskytována v souborech XSD, JSON schématech a také ve formě grafu prostřednictvím souborů Turtle a JSON-LD context. Pro technickou reprezentaci použijte jako kořenový element Dataset.\n  </p><p>\n    Podrobný úvod do CCMM v češtině je zde: <a href=\"https://doi.org/10.48813/7825-md51\">https://doi.org/10.48813/7825-md51</a>.\n  </p>\n  {{lng}}\n  <h2>Introduction</h2>\n  <p>\n    Czech Core Metadata Model (CCMM) is a metadata profile for research data based on the FAIR pronciples (Findable, Accessible, Interoperable, Reusable) and DCAT-AP profile, supporting open science. The most recent CCMM version, 2.0.0, is managed in the GitHub repository <a href=\"https://github.com/techlib/CCMM/tree/2.0.0\">https://github.com/techlib/CCMM/tree/2.0.0</a>. The model was created and is maintained in the tool Dataspecer, developed at Charles University and available from <a href=\"https://dataspecer.com/\">https://dataspecer.com/</a>.\n  </p><p>\n    FAIR prinicples are important to increase data understandability, improve its discoverability, support standard persistent identifiers (PIDs), and establish more efficient monitoring of research data.\n  </p><p>\n    In the context of Czech National Metadata Directory (NMA), most of the records are recorded primarily in Czech and secondarily in English, anyway, the language choice depends on a research community. CCMM supports any combination of languages.\n  </p><p>\n    Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a communication protocol for sharing digital repository metadata. To transfer the metadata recorded in CCMM through OAI-PMH protocol, use the namespace <a href=\"https://model.ccmm.cz/research-data\">https://model.ccmm.cz/research-data</a> and the most recent version of the Dataset schema, e.g., <a href=\"https://model.ccmm.cz/research-data/2.0.0/dataset/schema.xsd\">https://model.ccmm.cz/research-data/2.0.0/dataset/schema.xsd</a>. The recommended prefix for OAI-PMH transfer is ccmm-xml.\n  </p><p>\n    CCMM uses Peristent Identifiers (PIDs) to identify external resources. Although the final choices are up to metadata administrators, the recommended PIDs for persons is ORCID (<a href=\"https://orcid.org/\">https://orcid.org/</a>) and for organizations it is ROR (<a href=\"https://ror.org/\">https://ror.org/</a>). \n  </p><p>\n    As a support for CCMM, a wide set of controlled vocabularies is required or recommended. For the domain-specific subject terminologies, any vocabulary is free to use, but there are several required controlled vocabularies embedded in CCMM. Some were reused form existing registries, but some are managed in the newly created controlled vocabulary registry available at <a href=\"https://www.ccmm.cz/en/controlled-vocabularies/\">https://www.ccmm.cz/en/controlled-vocabularies/</a>. \n    </p><p>\n    CCMM has been developed as an RDF graph that consists of classes, their attributes, and relationships between the classes. The first class citizen in the context of metadata description is the element Dataset. Entities are divided into main and supportive, with main are essential parts of the model, while supportive provides additional information. It partly coverrts the division in DCAT-AP, but the importance of some classes is different in the context of CCMM.\n  </p><p>\n    The main representation of CCMM is the conceptual model in the form of RDF Graph, serialized in turtle format (the file dsv.ttl). The technical representation in strucutred formats is provided in XSD files, JSON schemas and also in graphs supported by Turtle and JSON-LD context files. For the technical representation, use Dataset as the root element.\n  </p><p>\n    A detailed introduction to CCMM, in Czech, is here: <a href=\"https://doi.org/10.48813/7825-md51\">https://doi.org/10.48813/7825-md51</a>.\n  </p>\n  {{/iflng}}\n</section>",
+        "respecConfig": "// All config options at https://respec.org/docs/\nvar respecConfig = {\n  specStatus: \"base\",\n  editors: [{ name: \"Dataspecer\", url: \"https://dataspecer.com\" }],\n  //github: \"some-org/mySpec\",\n  shortName: \"todo\",\n  maxTocLevel: 2,\n  historyURI: null,\n  //thisVersion: \"https://xx.github.io/yy/\",\n  //latestVersion: \"https://xx.github.io/yy/\",\n  //publishDate: \"2025-09-29\",\n  //github: \"https://github.com/org/repo\",\n  //xref: \"web-platform\",\n  //group: \"my-working-group\",\n  //otherLinks: [{\n  //    key: \"Repository\",\n  //    data: [{\n  //        value: \"GitHub\",\n  //        href: \"https://github.com/org/repo\"\n  //    }],\n  //}],\n  {{> localBiblio}}\n};"
+      }
+    }
+  }
+}

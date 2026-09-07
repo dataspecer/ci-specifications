@@ -1,0 +1,24 @@
+{
+  "iri": "517a892a-8642-4436-9f04-95bb623c492f",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Licence document",
+      "cs": "Licence document"
+    },
+    "description": {
+      "en": "Data structure for Licence document. A legal document giving official permission to do something with a resource and describing conditions under which it may be done.",
+      "cs": "Datová struktura pro Licence document. A legal document giving official permission to do something with a resource and describing conditions under which it may be done."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:32.700Z",
+    "modificationDate": "2026-08-28T13:41:02.298Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.887Z",
+  "_exportedBy": "http://localhost:3100"
+}

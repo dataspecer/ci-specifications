@@ -1,0 +1,20 @@
+{
+  "iri": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/ba5af4f1-ab6a-427a-8c6f-c74256a51bad/206e04d0-7d0d-48c5-b1b8-f0fa53c3a6a4",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "documentBaseUrl": "https://www.w3.org/ns/prov.ttl",
+    "label": {
+      "en": "prov"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:29.415Z",
+    "modificationDate": "2026-09-04T06:57:32.556Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.843Z",
+  "_exportedBy": "http://localhost:3100"
+}

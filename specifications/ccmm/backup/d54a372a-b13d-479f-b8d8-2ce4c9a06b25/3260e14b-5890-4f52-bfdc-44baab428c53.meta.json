@@ -1,0 +1,24 @@
+{
+  "iri": "3260e14b-5890-4f52-bfdc-44baab428c53",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Person",
+      "cs": "Person"
+    },
+    "description": {
+      "en": "Data structure for Person. Physical person. ",
+      "cs": "Datová struktura pro Person. Physical person. "
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:27.720Z",
+    "modificationDate": "2026-08-07T08:57:27.813Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.825Z",
+  "_exportedBy": "http://localhost:3100"
+}

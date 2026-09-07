@@ -1,0 +1,301 @@
+{
+  "operations": [
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742339809762-53e2-98e8-a42d",
+      "parent": null,
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "8ng0ekeiz4rm7xhjyox",
+      "dataPsmTechnicalLabel": "repository",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetRoots"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742339809791-7628-bf88-9099",
+      "parent": "https://ofn.gov.cz/operation/1742339809762-53e2-98e8-a42d",
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1742339809761-c64b-cd69-80de"
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742339809826-4f8f-22d7-a3c7",
+      "parent": "https://ofn.gov.cz/operation/1742339809791-7628-bf88-9099",
+      "dataPsmResource": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "dataPsmHumanLabel": {
+        "cs": "Katalog",
+        "en": "Repository"
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanDescription"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742339809854-8f4a-3370-b8c1",
+      "parent": "https://ofn.gov.cz/operation/1742339809826-4f8f-22d7-a3c7",
+      "dataPsmResource": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Katalog. Řízená kolekce metadat o datových sadách a datových službách",
+        "en": "Data structure for Repository. A curated collection of metadata about resources."
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1742339813597-c6d1-8653-a12a",
+      "parent": "https://ofn.gov.cz/operation/1742339809854-8f4a-3370-b8c1",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "ymnmol13rem8f1ono6",
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1742339809761-c64b-cd69-80de",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesHaveIdentity"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750770094475-41cf-96af-b9a8",
+      "parent": "https://ofn.gov.cz/operation/1742339813597-c6d1-8653-a12a",
+      "dataPsmClass": "https://ofn.gov.cz/class/1742339809761-c64b-cd69-80de",
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1753447885632-0a18-3127-8ae8",
+      "parent": "https://ofn.gov.cz/operation/1750770094475-41cf-96af-b9a8",
+      "dataPsmSchema": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "namespace": "https://schema.ccmm.cz/repository",
+      "namespacePrefix": "ccmm-repository"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754378192003-5dd7-dd98-a5c6",
+      "parent": "https://ofn.gov.cz/operation/1753447885632-0a18-3127-8ae8",
+      "dataPsmSchema": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "namespace": "https://schema.ccmm.cz/research-data/1.0.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754407999710-3862-2c6a-991f",
+      "parent": "https://ofn.gov.cz/operation/1754378192003-5dd7-dd98-a5c6",
+      "dataPsmSchema": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "namespace": "https://schema.ccmm.cz/research-data/1.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1763039391856-3613-c59a-9412",
+      "parent": "https://ofn.gov.cz/operation/1754407999710-3862-2c6a-991f",
+      "dataPsmSchema": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "namespace": "https://schema.ccmm.cz/research-data/1.1",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782332747132-ce6c-1557-a3ba",
+      "parent": "https://ofn.gov.cz/operation/1763039391856-3613-c59a-9412",
+      "dataPsmSchema": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "namespace": "https://schema.ccmm.cz/research-data/1.2",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetJsonEnforceContext"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782332747199-06a5-775e-8e9d",
+      "parent": "https://ofn.gov.cz/operation/1782332747132-ce6c-1557-a3ba",
+      "dataPsmEntity": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "jsonEnforceContext": "no"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782737072633-2441-9c93-ad76",
+      "parent": "https://ofn.gov.cz/operation/1782332747199-06a5-775e-8e9d",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "5efwrun05sam7w6d54p",
+      "dataPsmTechnicalLabel": "resource_attribution",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAssociationEnd"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782737072635-3f48-ff6f-9b5f",
+      "parent": "https://ofn.gov.cz/operation/1782737072633-2441-9c93-ad76",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "vl56fw7b72rmqz7jy65",
+      "dataPsmTechnicalLabel": "qualified_attribution",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1742339809761-c64b-cd69-80de",
+      "dataPsmPart": "https://ofn.gov.cz/class/1782737072632-ab82-24e1-bb73",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClassReference"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782737082999-f4e9-172f-9a7e",
+      "parent": "https://ofn.gov.cz/operation/1782737072635-3f48-ff6f-9b5f",
+      "dataPsmNewIri": null,
+      "dataPsmSpecification": "d2aafef0-d852-4909-9ecc-d2ad466fe4c5",
+      "dataPsmClass": "https://ofn.gov.cz/class/1782311692513-fbfd-95df-9c5a"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetPart"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782737083000-5a38-32b4-9daf",
+      "parent": "https://ofn.gov.cz/operation/1782737082999-f4e9-172f-9a7e",
+      "dataPsmAssociationEnd": "https://ofn.gov.cz/association/1782737072635-ed6a-02b4-8eba",
+      "dataPsmPart": "https://ofn.gov.cz/class-reference/1782737082999-547a-b403-a852"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/DeleteClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782737083000-64e0-9eb0-a28c",
+      "parent": "https://ofn.gov.cz/operation/1782737083000-5a38-32b4-9daf",
+      "dataPsmClass": "https://ofn.gov.cz/class/1782737072632-ab82-24e1-bb73"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785940902101-528c-27bf-85a0",
+      "parent": "https://ofn.gov.cz/operation/1782737083000-64e0-9eb0-a28c",
+      "dataPsmSchema": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "namespace": "https://schema.ccmm.cz/research-data/2.0",
+      "namespacePrefix": "ccmm"
+    }
+  ],
+  "resources": {
+    "faa381aa-72a5-4318-a36c-dceb209db7ea": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "faa381aa-72a5-4318-a36c-dceb209db7ea",
+      "dataPsmHumanLabel": {
+        "cs": "Katalog",
+        "en": "Repository"
+      },
+      "dataPsmHumanDescription": {
+        "cs": "Datová struktura pro Katalog. Řízená kolekce metadat o datových sadách a datových službách",
+        "en": "Data structure for Repository. A curated collection of metadata about resources."
+      },
+      "dataPsmTechnicalLabel": null,
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1742339809761-c64b-cd69-80de"
+      ],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/class/1742339809761-c64b-cd69-80de",
+        "https://ofn.gov.cz/attribute/1742339813596-b4eb-1f9d-ad64",
+        "https://ofn.gov.cz/association/1782737072635-ed6a-02b4-8eba",
+        "https://ofn.gov.cz/class-reference/1782737082999-547a-b403-a852"
+      ],
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/2.0",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "jsonEnforceContext": "no"
+    },
+    "https://ofn.gov.cz/class/1742339809761-c64b-cd69-80de": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "https://ofn.gov.cz/class/1742339809761-c64b-cd69-80de",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "repository",
+      "dataPsmInterpretation": "8ng0ekeiz4rm7xhjyox",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/attribute/1742339813596-b4eb-1f9d-ad64",
+        "https://ofn.gov.cz/association/1782737072635-ed6a-02b4-8eba"
+      ],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    "https://ofn.gov.cz/attribute/1742339813596-b4eb-1f9d-ad64": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1742339813596-b4eb-1f9d-ad64",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmInterpretation": "ymnmol13rem8f1ono6",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "https://ofn.gov.cz/association/1782737072635-ed6a-02b4-8eba": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "https://ofn.gov.cz/association/1782737072635-ed6a-02b4-8eba",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "qualified_attribution",
+      "dataPsmInterpretation": "vl56fw7b72rmqz7jy65",
+      "dataPsmPart": "https://ofn.gov.cz/class-reference/1782737082999-547a-b403-a852",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "https://ofn.gov.cz/class-reference/1782737082999-547a-b403-a852": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/ClassReference"
+      ],
+      "iri": "https://ofn.gov.cz/class-reference/1782737082999-547a-b403-a852",
+      "dataPsmSpecification": "d2aafef0-d852-4909-9ecc-d2ad466fe4c5",
+      "dataPsmClass": "https://ofn.gov.cz/class/1782311692513-fbfd-95df-9c5a"
+    }
+  }
+}

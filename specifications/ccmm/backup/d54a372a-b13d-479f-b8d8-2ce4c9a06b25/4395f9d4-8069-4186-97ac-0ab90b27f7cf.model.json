@@ -1,0 +1,25 @@
+{
+  "xml": {},
+  "data-specification": {
+    "publicBaseUrl": "https://model.ccmm.cz/research-data/",
+    "instancesHaveIdentity": "OPTIONAL",
+    "instancesSpecifyTypes": "OPTIONAL",
+    "useGenerators": {
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false,
+      "jsonExample": true,
+      "json": true
+    }
+  },
+  "json": {
+    "jsonLabelLanguage": "en",
+    "includeContextInExample": true,
+    "jsonDefaultTypeKeyMapping": "technical-label",
+    "dereferenceSchema": true,
+    "dereferenceContext": true
+  }
+}

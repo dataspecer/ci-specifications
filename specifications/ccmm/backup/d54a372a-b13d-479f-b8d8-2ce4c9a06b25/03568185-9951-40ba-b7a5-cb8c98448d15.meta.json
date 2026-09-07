@@ -1,0 +1,24 @@
+{
+  "iri": "03568185-9951-40ba-b7a5-cb8c98448d15",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Attributed agent role type",
+      "cs": "Attributed agent role type"
+    },
+    "description": {
+      "en": "Data structure for Attributed agent role type. Role of the agent in the attribution to the resource. ",
+      "cs": "Datová struktura pro Attributed agent role type. Role of the agent in the attribution to the resource. "
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:31.754Z",
+    "modificationDate": "2026-09-04T09:16:43.550Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.870Z",
+  "_exportedBy": "http://localhost:3100"
+}

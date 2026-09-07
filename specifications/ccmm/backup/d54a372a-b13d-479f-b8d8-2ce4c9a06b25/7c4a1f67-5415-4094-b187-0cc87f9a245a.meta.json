@@ -1,0 +1,24 @@
+{
+  "iri": "7c4a1f67-5415-4094-b187-0cc87f9a245a",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Contact details",
+      "en": "Contact details"
+    },
+    "description": {
+      "cs": "Datová struktura pro Contact details. Contact details such as telephone, e-mail address etc.",
+      "en": "Data structure for Contact details. Contact details such as telephone, e-mail address etc."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:17.148Z",
+    "modificationDate": "2026-08-07T08:57:17.233Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.696Z",
+  "_exportedBy": "http://localhost:3100"
+}

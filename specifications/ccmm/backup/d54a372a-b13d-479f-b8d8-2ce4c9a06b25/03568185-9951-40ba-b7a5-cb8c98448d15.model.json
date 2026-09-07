@@ -1,0 +1,204 @@
+{
+  "operations": [
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782312422765-c15f-4db9-acbb",
+      "parent": null,
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "ppu00famb3am7w6qsdm",
+      "dataPsmTechnicalLabel": "attributed_agent_role_type",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetRoots"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782312422766-5143-0657-b32e",
+      "parent": "https://ofn.gov.cz/operation/1782312422765-c15f-4db9-acbb",
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1782312422764-790c-7c4c-9803"
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782312422767-d557-4494-a108",
+      "parent": "https://ofn.gov.cz/operation/1782312422766-5143-0657-b32e",
+      "dataPsmResource": "03568185-9951-40ba-b7a5-cb8c98448d15",
+      "dataPsmHumanLabel": {
+        "en": "Attributed agent role type",
+        "cs": "Attributed agent role type"
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanDescription"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782312422767-e632-fe68-9fea",
+      "parent": "https://ofn.gov.cz/operation/1782312422767-d557-4494-a108",
+      "dataPsmResource": "03568185-9951-40ba-b7a5-cb8c98448d15",
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Attributed agent role type. Role of the agent in the attribution to the resource. ",
+        "cs": "Datová struktura pro Attributed agent role type. Role of the agent in the attribution to the resource. "
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782312428997-9ceb-e60b-861a",
+      "parent": "https://ofn.gov.cz/operation/1782312422767-e632-fe68-9fea",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "k1mch2oi1gm8o9ztmd",
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1782312422764-790c-7c4c-9803",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782334330884-b3c3-b953-94c7",
+      "parent": "https://ofn.gov.cz/operation/1782312428997-9ceb-e60b-861a",
+      "dataPsmSchema": "03568185-9951-40ba-b7a5-cb8c98448d15",
+      "namespace": "https://schema.ccmm.cz/research-data/1.2",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetJsonEnforceContext"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782334330963-8a4b-a470-b62d",
+      "parent": "https://ofn.gov.cz/operation/1782334330884-b3c3-b953-94c7",
+      "dataPsmEntity": "03568185-9951-40ba-b7a5-cb8c98448d15",
+      "jsonEnforceContext": "no"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesHaveIdentity"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785741759848-a04e-821f-9414",
+      "parent": "https://ofn.gov.cz/operation/1782334330963-8a4b-a470-b62d",
+      "dataPsmClass": "https://ofn.gov.cz/class/1782312422764-790c-7c4c-9803",
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785941509545-ab10-a650-a55d",
+      "parent": "https://ofn.gov.cz/operation/1785741759848-a04e-821f-9414",
+      "dataPsmSchema": "03568185-9951-40ba-b7a5-cb8c98448d15",
+      "namespace": "https://schema.ccmm.cz/research-data/2.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetDataType"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1788426386038-f7a4-e9c4-92e1",
+      "parent": "https://ofn.gov.cz/operation/1785941509545-ab10-a650-a55d",
+      "dataPsmAttribute": "https://ofn.gov.cz/attribute/1782312428997-5605-18a9-95a8",
+      "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetCardinality"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1788426386099-096f-0826-a9ec",
+      "parent": "https://ofn.gov.cz/operation/1788426386038-f7a4-e9c4-92e1",
+      "entityId": "https://ofn.gov.cz/attribute/1782312428997-5605-18a9-95a8",
+      "dataPsmCardinality": [
+        1,
+        null
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetCardinality"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1788513403539-26c5-623b-b3a2",
+      "parent": "https://ofn.gov.cz/operation/1788426386099-096f-0826-a9ec",
+      "entityId": "https://ofn.gov.cz/attribute/1782312428997-5605-18a9-95a8",
+      "dataPsmCardinality": null
+    }
+  ],
+  "resources": {
+    "03568185-9951-40ba-b7a5-cb8c98448d15": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "03568185-9951-40ba-b7a5-cb8c98448d15",
+      "dataPsmHumanLabel": {
+        "en": "Attributed agent role type",
+        "cs": "Attributed agent role type"
+      },
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Attributed agent role type. Role of the agent in the attribution to the resource. ",
+        "cs": "Datová struktura pro Attributed agent role type. Role of the agent in the attribution to the resource. "
+      },
+      "dataPsmTechnicalLabel": null,
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1782312422764-790c-7c4c-9803"
+      ],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/class/1782312422764-790c-7c4c-9803",
+        "https://ofn.gov.cz/attribute/1782312428997-5605-18a9-95a8"
+      ],
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/2.0",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "jsonEnforceContext": "no"
+    },
+    "https://ofn.gov.cz/class/1782312422764-790c-7c4c-9803": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "https://ofn.gov.cz/class/1782312422764-790c-7c4c-9803",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "attributed_agent_role_type",
+      "dataPsmInterpretation": "ppu00famb3am7w6qsdm",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/attribute/1782312428997-5605-18a9-95a8"
+      ],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    "https://ofn.gov.cz/attribute/1782312428997-5605-18a9-95a8": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1782312428997-5605-18a9-95a8",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmInterpretation": "k1mch2oi1gm8o9ztmd",
+      "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text"
+    }
+  }
+}

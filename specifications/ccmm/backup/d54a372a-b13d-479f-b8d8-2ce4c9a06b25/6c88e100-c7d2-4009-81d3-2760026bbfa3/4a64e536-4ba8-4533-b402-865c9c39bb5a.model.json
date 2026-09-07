@@ -1,0 +1,4305 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/6c88e100-c7d2-4009-81d3-2760026bbfa3/4a64e536-4ba8-4533-b402-865c9c39bb5a",
+  "alias": "eli",
+  "pimStore": {
+    "resources": {
+      "http://data.europa.eu/eli/ontology#cited_by_case_law_reference": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cited_by_case_law_reference",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#cited_by_case_law_reference",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "cited by case law reference"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this LegalResource or LegalExpression is being cited in a case law that cannot be identified by a suitable URI and that is indicated by textual reference. An ECLI (European Case Law Identifier) can be used here.\nWhen the case law can be identified by a suitable URI, the property eli:cited_by_case_law should be used instead."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_148",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#date_applicability": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#date_applicability",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#date_applicability",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "date of applicability"
+        },
+        "pimHumanDescription": {
+          "en": "The date at which the legislation becomes applicable. This is distinct from the date of entry into force : a text may come in force today, and state it will become applicable in 3 months.\n\nThe group notes that applicability dates can lead to complex situations, e.g. a text with different applicability dates for different jurisdictions; specific extensions to the model should be used for such situations."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_151",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#date_document": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#date_document",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#date_document",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "date of the document"
+        },
+        "pimHumanDescription": {
+          "en": "Date of adoption or signature (of the form yyyy-mm-dd)"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#date_no_longer_in_force": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#date_no_longer_in_force",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#date_no_longer_in_force",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "date no longer in force"
+        },
+        "pimHumanDescription": {
+          "en": "The last date any part of the legislation is in force, if the date is known (can be seen as the end date of a dc:valid range for this resource)."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_154",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#topDataProperty"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#date_publication": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#date_publication",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#date_publication",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "date of publication"
+        },
+        "pimHumanDescription": {
+          "en": "Date of publication of the official version of the legislation, in hard copy or online, depending on what the official publication is, and when it was published. Publication dates at the level of legal expressions can be separately asserted, using standard Dublin Core properties."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_157",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#description": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#description",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#description",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "description"
+        },
+        "pimHumanDescription": {
+          "en": "An account of the resource (definition from Dubin Core), e.g a summary."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_160",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#first_date_entry_in_force": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#first_date_entry_in_force",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#first_date_entry_in_force",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "first date of entry into force"
+        },
+        "pimHumanDescription": {
+          "en": "The first date any part of the legal resource or legal expression came into force (can be seen as the start date of a dc:valid range for this resource)"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_163",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#topDataProperty"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#id_local": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#id_local",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#id_local",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "local id"
+        },
+        "pimHumanDescription": {
+          "en": "The unique identifier used in a local reference system to maintain backwards compatibility. For examples the CELEX at EU level, or the NOR in France."
+        },
+        "pimDatatype": "df_2_170",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_166",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#number": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#number",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#number",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "number"
+        },
+        "pimHumanDescription": {
+          "en": "An identifier or other disambiguating feature for a legal resource or legal expression. This can be the number of a legislation, the number of an article, or the issue number of an official journal."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_173",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#published_in": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#published_in",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#published_in",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "published in"
+        },
+        "pimHumanDescription": {
+          "en": "Reference to the Official Journal or other publication manifestation in which this format is published.\nThis property should be used when the value cannot be identified by a suitable URI; if a URI is available, the property \"published_in_format\" should be used."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#publisher": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#publisher",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#publisher",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publisher"
+        },
+        "pimHumanDescription": {
+          "en": "An entity responsible for making the resource available (definition from Dublin Core).\nThis property should be used when the value cannot be identified by a suitable URI; if a URI is available, the property \"publisher_agent\" should be used."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_176",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#responsibility_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#responsibility_of",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#responsibility_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "responsibility of"
+        },
+        "pimHumanDescription": {
+          "en": "An individual, organisation or organisational unit that has some kind of responsibility for the legislation. Typically the ministry who is/was in charge of elaborating the legislation, or the adressee for potential questions about the legislation once it is published.\nThis property should be used when the value cannot be identified by a suitable URI; if a URI is available, the property \"responsibility_of_agent\" should be used."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#rights": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#rights",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#rights",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "rights"
+        },
+        "pimHumanDescription": {
+          "en": "Information about rights held in and over the resource (definition from Dublin Core). For example, that property can be used to provide a link to a page that describes the licensing terms."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#rightsholder": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#rightsholder",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#rightsholder",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "rights holder"
+        },
+        "pimHumanDescription": {
+          "en": "A person or organisation owning or managing rights over the resource (definition from Dublin Core).\nThis property should be used when the value cannot be identified by a suitable URI; if a URI is available, the property \"rightsholder_agent\" should be used."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#title": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#title",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#title",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "title"
+        },
+        "pimHumanDescription": {
+          "en": "The title, or name, of an expression. \n\nNote that, if needed, a title can also be stated on a legal resource using the Dublin Core \"title\" property."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://data.europa.eu/eli/ontology#Expression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#title_alternative": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#title_alternative",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#title_alternative",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "alternative title"
+        },
+        "pimHumanDescription": {
+          "en": "An alternative title of the expression (if any).\n\nNote that, if needed, an alternative title can also be stated on a work using the Dublin Core \"alternative\" property."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://data.europa.eu/eli/ontology#Expression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#title_short": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#title_short",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#title_short",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "short title"
+        },
+        "pimHumanDescription": {
+          "en": "Established short title of the expression (if any)"
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://data.europa.eu/eli/ontology#Expression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#version_date": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#version_date",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#version_date",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "version date"
+        },
+        "pimHumanDescription": {
+          "en": "The point-in-time at which the provided description of the legislation is valid."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#date",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "df_2_179",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#amended_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#amended_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_1",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#amended_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#amended_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#amended_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "amended by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"amends\". Indicates a work that introduced legal changes in this resource. For modifications that don’t have a legal impact, use eli:corrected_by."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#amended_by#domain",
+          "http://data.europa.eu/eli/ontology#amended_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#changed_by"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#amended_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#amended_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_4",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#amends#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#amends#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_7",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#amends": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#amends",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#amends",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "amends"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this work introduces legal changes in another resource. For modifications that don’t have a legal impact, use eli:corrects."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#amends#domain",
+          "http://data.europa.eu/eli/ontology#amends#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#changes"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#amends#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#amends#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_10",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#applied_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#applied_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#applied_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#applied_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#applied_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "applied by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"applies\".\n\nNote that this property is expressed on a legal resource, not on one of its language-specific legal expression."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#applied_by#domain",
+          "http://data.europa.eu/eli/ontology#applied_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#applied_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#applied_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_13",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#applies#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#applies#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_16",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#applies": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#applies",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#applies",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "applies"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this legislation (or part of a legislation) somehow conforms with another legislation. This is an informative link, and it has no legal value. For legally-binding links of transposition, use the property transposes. This can be used for example : \n  - when a pre-existing law already conforms to a recent european directive (in that case it does not \"transposes\" it strictly speaking);\n  - when non-EU member states make sure their legislation is conformant with EU law without strictly speaking transposing it;\n  - when a legislation from a local authority conforms with a national legislation;\n\nNote that this should point to a LegalResource, not to a language-specific expression."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#applies#domain",
+          "http://data.europa.eu/eli/ontology#applies#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#applies#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#applies#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#based_on#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#based_on#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#based_on": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#based_on",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#based_on",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "based on"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"basis_for\". Indicates that thiswork is empowered by another one, typically a constitution, a treaty or an enabling act."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#based_on#domain",
+          "http://data.europa.eu/eli/ontology#based_on#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#based_on#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#based_on#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_19",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#basis_for#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#basis_for#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_22",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#basis_for": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#basis_for",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#basis_for",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "basis for"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this work or expression empowers another . Typically primary legislation is the basis for secondary legislation."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#basis_for#domain",
+          "http://data.europa.eu/eli/ontology#basis_for#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#basis_for#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#basis_for#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#changed_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#changed_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_25",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#changed_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#changed_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#changed_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "changed by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of « changes ». Indicates that this work or expression is being legally changed by another. This encompasses the notions of amendment, replacement, repeal, or other types of change."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#changed_by#domain",
+          "http://data.europa.eu/eli/ontology#changed_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#changed_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#changed_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_28",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#changes#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#changes#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_31",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#changes": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#changes",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#changes",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "changes"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this work or expression legally changes another. This encompasses the notions of amendment, replacement, repeal, or other types of change. This may be a direct change (textual or non-textual amendment) or a consequential or indirect change. Note, the property is to be used to express the existence of a change relationship between two acts rather than the existence of a consolidated version of the text that shows the result of the change. For consolidation relationships, use the \"consolidates\" and \"consolidated_by\" properties."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#changes#domain",
+          "http://data.europa.eu/eli/ontology#changes#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#changes#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#changes#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_34",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#cited_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cited_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#cited_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cited_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#cited_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "cited by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"cites\".\nNote that the intended meaning of this link is to indicate that \"something is cited by a legislation\" and not that \"this legislation is cited by something\"."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#cited_by#domain",
+          "http://data.europa.eu/eli/ontology#cited_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#cited_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cited_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_37",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#cited_by_case_law#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cited_by_case_law#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_40",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#cited_by_case_law": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cited_by_case_law",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#cited_by_case_law",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "cited by case law"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this LegalResource or LegalExpression is being cited in a case law, identified by a suitable URI. If the case law cannot be identified by a suitable URI, the property \"eli:cited_by_case_law_reference\" can be used with a textual reference to the case law.\n\nThe actual citation link is expressed from the case law to the legislation, but legal portals may use the link from a legislation to a case law to e.g. refer to representative case laws about a legislation."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#cited_by_case_law#domain",
+          "http://data.europa.eu/eli/ontology#cited_by_case_law#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#cited_by_case_law#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cited_by_case_law#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#cites#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cites#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_43",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#cites": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cites",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#cites",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "cites"
+        },
+        "pimHumanDescription": {
+          "en": "Citation in the text of the legislation. This may be at the legal resource or legal expression level, as required by the implementation context. This includes verbatim citation and citations in referrals."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#cites#domain",
+          "http://data.europa.eu/eli/ontology#cites#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#cites#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#cites#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#commenced_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#commenced_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_46",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#commenced_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#commenced_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#commenced_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "commenced by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"commences\". Indicates that this legal resource was set in force by another legal resource.\nSituations where a resource enters into force because of more than one resource are explicitely allowed."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#commenced_by#domain",
+          "http://data.europa.eu/eli/ontology#commenced_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#changed_by"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#commenced_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#commenced_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_49",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#commences#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#commences#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_52",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#commences": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#commences",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#commences",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "commences"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this legal resource sets another legal resource into force.\nNote the the date of entry into force of the other resource should be modified accordingly.\nNote also that it is not possible to indicate when the entry into force should happen."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#commences#domain",
+          "http://data.europa.eu/eli/ontology#commences#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#changes"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#commences#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#commences#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_55",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#consolidated_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#consolidated_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_58",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#consolidated_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#consolidated_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#consolidated_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "consolidated by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"consolidates\". Indicates that this legal resource or expression is taken into account in a consolidated text (which is usually the product of an editorial process that revises the legislation)."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#consolidated_by#domain",
+          "http://data.europa.eu/eli/ontology#consolidated_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#consolidated_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#consolidated_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_61",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#consolidates#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#consolidates#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_64",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#consolidates": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#consolidates",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#consolidates",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "consolidates"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this consolidated legal resource or expression (which is usually the product of an editorial process that revises the legislation) takes into account another one. This property should be used multiple times to refer to both the original version or the previous consolidated version, and to the legislations making the change."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#consolidates#domain",
+          "http://data.europa.eu/eli/ontology#consolidates#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#consolidates#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#consolidates#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_67",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#corrected_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#corrected_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_70",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#corrected_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#corrected_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#corrected_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "corrected by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"corrects\". Indicates a resource that introduces textual modifications (like correction of spelling mistakes) with no legal change in this work, expression or manifestation; typically corrigenda in EU legislation. For modifications that have a legal impact, use eli:amended_by."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#corrected_by#domain",
+          "http://data.europa.eu/eli/ontology#corrected_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#topObjectProperty"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#corrected_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#corrected_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_74",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#corrects#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#corrects#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_77",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#corrects": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#corrects",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#corrects",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "corrects"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this work introduces textual modifications (like correction of spelling mistakes) with no legal change in another resource, expression or manifestation; typically corrigenda in EU legislation. For modifications that have a legal impact, use eli:amends."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#corrects#domain",
+          "http://data.europa.eu/eli/ontology#corrects#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#topObjectProperty"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#corrects#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#corrects#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_80",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#countersigned_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#countersigned_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#countersigned_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#countersigned_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#countersigned_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "countersigned by"
+        },
+        "pimHumanDescription": {
+          "en": "A person or organization that countersigned the legislation. Depending on the legal context, a countersignature can indicate that the signed authority undertakes to assume responsibility for texts emanating from a person who is inviolable and irresponsible, (for example a King, Grand Duc or President), or that the authority is in charge of the implementation of the text."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#countersigned_by#domain",
+          "http://data.europa.eu/eli/ontology#countersigned_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#countersigned_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#countersigned_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#embodies#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#embodies#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Manifestation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#embodies": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#embodies",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#embodies",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "embodies"
+        },
+        "pimHumanDescription": {
+          "en": "Relates a manifestation to the expression that it embodies. Inverse of \"is_embodied_by\"."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#embodies#domain",
+          "http://data.europa.eu/eli/ontology#embodies#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#embodies#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#embodies#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Expression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#ensures_implementation_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#ensures_implementation_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_84",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#ensures_implementation_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#ensures_implementation_of",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#ensures_implementation_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "ensures implementation of"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this LegalResource ensures the implementation of another LegalResource. This implies a legal meaning (contrary to eli:applies).\n\nThis can cover links from national legislation to EU legislation, or links from regional to national legislation. It can also cover links from EU implementing acts to EU legislative acts. In the case of implementation of EU legislation at national level, this covers links to EU regulations, decisions, etc. However the transpositions of EU Directives must be captured with eli:transposes.\n\nLinks between national primary and secondary legislation must be captured by eli:based_on / eli:basis_for."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#ensures_implementation_of#domain",
+          "http://data.europa.eu/eli/ontology#ensures_implementation_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#applies"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#ensures_implementation_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#ensures_implementation_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#format#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#format#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Manifestation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#format": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#format",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#format",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "format"
+        },
+        "pimHumanDescription": {
+          "en": "The format of the manifestation, expressed as a custom URI.\nThis field is intended to capture the format of the resource from an application or user perspective, as opposed to the \"media_type\" property that expresses its format from a technical point of view. This property allows to describe different XML schemas (Akoma N'toso vs. proprietary), describe different types of PDFs (scanned PDF, generated-on-the-fly PDF, signed PDF, archival PDF) or describe the paper (printed) version of the legislation.\nELI includes a set of possible values for the most common use-cases and possible URIs values CAN also be taken from http://www.iana.org/assignments/media-types , or can de defined by the Member States."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#format#domain",
+          "http://data.europa.eu/eli/ontology#format#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#format#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#format#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#FormatType",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_annex#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_annex#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_87",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_annex": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_annex",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#has_annex",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has annex"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates an annex to this this work or expression ."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#has_annex#domain",
+          "http://data.europa.eu/eli/ontology#has_annex#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#has_annex#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_annex#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_90",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_another_publication#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_another_publication#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_another_publication": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_another_publication",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#has_another_publication",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has another publication"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"is_another_publication_of\"."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#has_another_publication#domain",
+          "http://data.europa.eu/eli/ontology#has_another_publication#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#has_another_publication#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_another_publication#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_derivative#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_derivative#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_93",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_derivative": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_derivative",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#has_derivative",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has derivative"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of is_derivative_of"
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#has_derivative#domain",
+          "http://data.europa.eu/eli/ontology#has_derivative#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#has_derivative#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_derivative#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_96",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_member#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_member#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_member": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_member",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#has_member",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has member"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this work conceptually includes another one. For the notion of physical inclusion, use eli:has_part."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#has_member#domain",
+          "http://data.europa.eu/eli/ontology#has_member#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#has_member#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_member#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_part#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_part#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_part": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_part",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#has_part",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has part"
+        },
+        "pimHumanDescription": {
+          "en": "inverse of \"is_part_of\""
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#has_part#domain",
+          "http://data.europa.eu/eli/ontology#has_part#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#has_part#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_part#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_translation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_translation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#has_translation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_translation",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#has_translation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has translation"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"is_translation_of\". Indicates that this expression has been translated into another derived expression. See the definition of \"is_translation_of\"."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#has_translation#domain",
+          "http://data.europa.eu/eli/ontology#has_translation#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#has_translation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#has_translation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#implementation_ensured_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implementation_ensured_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#implementation_ensured_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implementation_ensured_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#implementation_ensured_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "implementation ensured by"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that the implementation of this LegalResource is ensured by another LegalResource. This implies a legal meaning (contrary to eli:applies). See the definition of eli:ensures_implementation_of."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#implementation_ensured_by#domain",
+          "http://data.europa.eu/eli/ontology#implementation_ensured_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#applied_by"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#implementation_ensured_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implementation_ensured_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_99",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#implemented_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implemented_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#implemented_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implemented_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#implemented_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "implemented by"
+        },
+        "pimHumanDescription": {
+          "en": "This property is deprecated. Use \"applied_by\" instead."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#implemented_by#domain",
+          "http://data.europa.eu/eli/ontology#implemented_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#implemented_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implemented_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#implements#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implements#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#implements": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implements",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#implements",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "implements"
+        },
+        "pimHumanDescription": {
+          "en": "This property is deprecated. Use \"applies\" instead."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#implements#domain",
+          "http://data.europa.eu/eli/ontology#implements#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#implements#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#implements#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#in_force#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#in_force#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_102",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#in_force": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#in_force",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#in_force",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "in force"
+        },
+        "pimHumanDescription": {
+          "en": "A value indicating the legal force of a legal resource or a legal expression. A set of values is defined by ELI in the corresponding concept scheme. These values are :\n  - in force\n  - partially in force\n  - not in force"
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#in_force#domain",
+          "http://data.europa.eu/eli/ontology#in_force#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#in_force#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#in_force#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#InForce",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_about#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_about#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_about": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_about",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_about",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is about"
+        },
+        "pimHumanDescription": {
+          "en": "A subject for this work. The use of Eurovoc (http://eurovoc.europa.eu) is encouraged to select values for this property. Member states are encouraged to align local values to Eurovoc."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_about#domain",
+          "http://data.europa.eu/eli/ontology#is_about#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#is_about#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_about#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_annex_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_annex_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_annex_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_annex_of",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_annex_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is annex of"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates this work or expression is an annex of another one."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_annex_of#domain",
+          "http://data.europa.eu/eli/ontology#is_annex_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#is_annex_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_annex_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_another_publication_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_another_publication_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_another_publication_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_another_publication_of",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_another_publication_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is another publication of"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this resource is a new publication, in a different official journal, of another resource already published elsewhere, and cannot be considered to be the same resource (owl:sameAs cannot be used to avoid potential duplication of certain metadata, like the date of publication, or the publisher).\n\nNote that this is different from the exceptionnal cases of \"republication\", where the same resource is actually republished in the same official journal a few days after its initial publication, in case of errors."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_another_publication_of#domain",
+          "http://data.europa.eu/eli/ontology#is_another_publication_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#is_another_publication_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_another_publication_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_derivative_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_derivative_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_105",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_derivative_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_derivative_of",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_derivative_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is derivative of"
+        },
+        "pimHumanDescription": {
+          "en": "A Work or Expression from which this one derives"
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_derivative_of#domain",
+          "http://data.europa.eu/eli/ontology#is_derivative_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#is_derivative_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_derivative_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_108",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_embodied_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_embodied_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Expression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_embodied_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_embodied_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_embodied_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is embodied by"
+        },
+        "pimHumanDescription": {
+          "en": "Relates an expression to a manifestation of that expression. Inverse of \"embodies\"."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_embodied_by#domain",
+          "http://data.europa.eu/eli/ontology#is_embodied_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#is_embodied_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_embodied_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Manifestation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_exemplified_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_exemplified_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Manifestation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_exemplified_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_exemplified_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_exemplified_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is exemplified by"
+        },
+        "pimHumanDescription": {
+          "en": "Link to a concrete file URL.\nRelates a manifestation to a single exemplar or instance of that manifestation."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_exemplified_by#domain",
+          "http://data.europa.eu/eli/ontology#is_exemplified_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#is_exemplified_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_exemplified_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_member_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_member_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_member_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_member_of",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_member_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is member of"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this work is conceptually included in another one. In the case of a legislation, its successive temporal versions are conceptually members of a single « abstract » resource. For the notion of physical inclusion, use eli:is_part_of."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_member_of#domain",
+          "http://data.europa.eu/eli/ontology#is_member_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#is_member_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_member_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_part_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_part_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_part_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_part_of",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_part_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is part of"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates a work in which this one is physically included. Covers the case of text included in an Official Journal, or an article included in a text. For the notion of conceptual/temporal inclusion, use eli:is_member_of."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_part_of#domain",
+          "http://data.europa.eu/eli/ontology#is_part_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#is_part_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_part_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_realized_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_realized_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_realized_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_realized_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_realized_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is realized by"
+        },
+        "pimHumanDescription": {
+          "en": "Relates a work to an expression of this work in the form of a \"sequence of signs\" (typically alpha-numeric characters in a legal context). Inverse of \"realizes\"."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_realized_by#domain",
+          "http://data.europa.eu/eli/ontology#is_realized_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#is_realized_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_realized_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Expression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_translation_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_translation_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#is_translation_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_translation_of",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#is_translation_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is translation of"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this expression has been translated from another original expression; this can be used to distinguish original from derived expressions.\n\nNote that asserting this link does not have any implication on the legal value of the original and translated expressions : depending on the context, a translation can be as legally binding as the original version, or can be published for informative purposes only (e.g. a country translating some legal acts in English).\n\nThe expressions linked with this property can be realisations of the same LegalResource, or different LegalResources. Multilingual legislations that do not need to distinguish between original and derived expressions of the same LegalResource (e.g. european legislation) will not use this property."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#is_translation_of#domain",
+          "http://data.europa.eu/eli/ontology#is_translation_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#is_translation_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#is_translation_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#jurisdiction#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#jurisdiction#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_111",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#jurisdiction": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#jurisdiction",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#jurisdiction",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "jurisdiction"
+        },
+        "pimHumanDescription": {
+          "en": "The jurisdiction from which the legal resource originates. \n\nThe place identifier can be taken from the Administrative Territorial Unit table published of the EU Publications Office at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/atu. Member States don't have to recreate their own list of values."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#jurisdiction#domain",
+          "http://data.europa.eu/eli/ontology#jurisdiction#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#relevant_for"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#jurisdiction#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#jurisdiction#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#AdministrativeArea",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#language#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#language#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Expression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#language": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#language",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#language",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "language"
+        },
+        "pimHumanDescription": {
+          "en": "The language of an expression.\n\nEU Publications Office provides a list of languages at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language. This list is large enough so that member states should not have to declare local values.\n\nNote that, if needed, a language can also be stated on a legal resource using the DublinCore \"language\" property."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#language#domain",
+          "http://data.europa.eu/eli/ontology#language#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#language#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#language#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Language",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#legal_value#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#legal_value#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#legal_value": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#legal_value",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#legal_value",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "legal value"
+        },
+        "pimHumanDescription": {
+          "en": "The legal value associated with a specific format of a resource. A set of values is defined by ELI in the corresponding concept scheme. These values are :\n  - unofficial : no particular or special standing;\n  - official : published by an organisation with the public task of making the information available (e.g. a consolidated version of a EU directive) ;\n  - authoritative : the publisher gives some special status to the publication (e.g. \"the Queens Printer\" version of an Act of Parliament, or the OJ version of a EU Directive);\n  - definitive : the text is conclusively what the law says, (e.g. the digitally signed version of an OJ)."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#legal_value#domain",
+          "http://data.europa.eu/eli/ontology#legal_value#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#legal_value#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#legal_value#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalValue",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#licence#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#licence#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#licence": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#licence",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#licence",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "licence"
+        },
+        "pimHumanDescription": {
+          "en": "A legal document giving official permission to do something with the resource (Definition from Dublin Core)"
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#licence#domain",
+          "http://data.europa.eu/eli/ontology#licence#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#licence#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#licence#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#media_type#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#media_type#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Manifestation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#media_type": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#media_type",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#media_type",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "media type"
+        },
+        "pimHumanDescription": {
+          "en": "The file format of the manifestation.\nThis field is intended to capture the technical file format and will serve as a basis for content negotiation for the server to return the appropriate file based on the client preference.\nAlthough not mandatory, this property is highly encouraged.\nPossible URIs values MUST be taken from http://www.iana.org/assignments/media-types (e.g. http://www.iana.org/assignments/media-types/application/xml).\nSee also the \"format\" property."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#media_type#domain",
+          "http://data.europa.eu/eli/ontology#media_type#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#media_type#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#media_type#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#passed_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#passed_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#passed_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#passed_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#passed_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "passed by"
+        },
+        "pimHumanDescription": {
+          "en": "The person or organization that originally passed or made the law : typically parliament (for primary legislation) or government (for secondary legislation). This indicates the \"legal author\" of the law, as opposed to its physical author. \n\nThis property can be used multiple times to indicate both the agent that authored the text, and/or the agent that signed the text, thus turning it into an actual legislation.\n\nThe relationship between current and any former law making body should be represented in the description of the agent itself.\n\nMember states are encouraged to make their own list of Agents. EU Publications Office provides a list of corporate bodies at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/corporate-body."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#passed_by#domain",
+          "http://data.europa.eu/eli/ontology#passed_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#passed_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#passed_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#published_in_format#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#published_in_format#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#published_in_format": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#published_in_format",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#published_in_format",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "published in format"
+        },
+        "pimHumanDescription": {
+          "en": "Reference to the Official Journal or other publication manifestation in which this format is published.\nThis property should be used when the value can be identified by a suitable URI; in the absence of such a URI, the property \"published_in\" should be used with a string value."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#published_in_format#domain",
+          "http://data.europa.eu/eli/ontology#published_in_format#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#published_in_format#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#published_in_format#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#publisher_agent#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#publisher_agent#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_114",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#publisher_agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#publisher_agent",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#publisher_agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publisher agent"
+        },
+        "pimHumanDescription": {
+          "en": "An entity responsible for making the resource available (definition from Dublin Core).\nThis property should be used when the value can be identified by a suitable URI; in the absence of such a URI, the property \"publisher\" should be used with a string value."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#publisher_agent#domain",
+          "http://data.europa.eu/eli/ontology#publisher_agent#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#publisher_agent#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#publisher_agent#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#publishes#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#publishes#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#publishes": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#publishes",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#publishes",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "publishes"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"published_in_format\". Note this property does not link a publisher with a resource, but rather a specific Format of a resource with a specific Format of another resource, indicating that the subject Format publishes the object Format."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#publishes#domain",
+          "http://data.europa.eu/eli/ontology#publishes#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#publishes#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#publishes#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#realizes#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#realizes#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Expression",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#realizes": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#realizes",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#realizes",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "realizes"
+        },
+        "pimHumanDescription": {
+          "en": "Relates an expression to a work realised through that expression. Inverse of \"is_realized_by\"."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#realizes#domain",
+          "http://data.europa.eu/eli/ontology#realizes#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#realizes#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#realizes#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#related_to#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#related_to#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_117",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#related_to": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#related_to",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#related_to",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "related to"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates a somehow related other document, not necessarily a legal resource. Note that citation links should use the cites property."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#related_to#domain",
+          "http://data.europa.eu/eli/ontology#related_to#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#related_to#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#related_to#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#relevant_for#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#relevant_for#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_120",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#relevant_for": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#relevant_for",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#relevant_for",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "relevant for"
+        },
+        "pimHumanDescription": {
+          "en": "Refers to a place or an area associated with the resource. This covers the notions of jurisdiction, sovereignty, applicability or administrative area. The place identifier can be taken from the Administrative Territorial Unit table published of the EU Publications Office at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/atu. Member States don't have to recreate their own list of values.\n\nThe group notes the limitations of what can be said with a single property; member states can refine this notion by declaring specific sub properties."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#relevant_for#domain",
+          "http://data.europa.eu/eli/ontology#relevant_for#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#relevant_for#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#relevant_for#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#AdministrativeArea",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#repealed_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#repealed_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_123",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#repealed_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#repealed_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#repealed_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "repealed by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"repeals\". Indicates that this legal resource or legal expression is being completely canceled, abrogated or replaced by another legal resource. If a resource is partially repealed by another, this link can be used at the corresponding subdivision level being completely repealed."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#repealed_by#domain",
+          "http://data.europa.eu/eli/ontology#repealed_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#changed_by"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#repealed_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#repealed_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_126",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#repeals#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#repeals#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_129",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#repeals": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#repeals",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#repeals",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "repeals"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this legal resource or legal expression completely cancels, abrogates or replaces another. If a resource partially repeals another, this link can be used at the corresponding subdivision level being completely repealed."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#repeals#domain",
+          "http://data.europa.eu/eli/ontology#repeals#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#changes"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#repeals#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#repeals#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_132",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#responsibility_of_agent#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#responsibility_of_agent#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#responsibility_of_agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#responsibility_of_agent",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#responsibility_of_agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "responsibility of agent"
+        },
+        "pimHumanDescription": {
+          "en": "An individual, organisation or organisational unit that has some kind of responsibility for the legislation. Typically the ministry who is/was in charge of elaborating the legislation, or the adressee for potential questions about the legislation once it is published.\nThis property should be used when the value can be identified by a suitable URI; in the absence of such a URI, the property \"responsibility_of\" should be used with a string value."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#responsibility_of_agent#domain",
+          "http://data.europa.eu/eli/ontology#responsibility_of_agent#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#responsibility_of_agent#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#responsibility_of_agent#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#rightsholder_agent#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#rightsholder_agent#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Format",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#rightsholder_agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#rightsholder_agent",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#rightsholder_agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "rightsholder agent"
+        },
+        "pimHumanDescription": {
+          "en": "A person or organisation owning or managing rights over the resource (definition from Dublin Core).\nThis property should be used when the value can be identified by a suitable URI; in the absence of such a URI, the property \"rightsholder\" should be used with a string value."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#rightsholder_agent#domain",
+          "http://data.europa.eu/eli/ontology#rightsholder_agent#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#rightsholder_agent#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#rightsholder_agent#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#transposed_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#transposed_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#transposed_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#transposed_by",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#transposed_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "transposed by"
+        },
+        "pimHumanDescription": {
+          "en": "Inverse of \"transposes\".\n\nNote that this property is expressed on a legal resource, not on one of its language-specific legal expression."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#transposed_by#domain",
+          "http://data.europa.eu/eli/ontology#transposed_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#applied_by"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#transposed_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#transposed_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_135",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#transposes#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#transposes#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_138",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#transposes": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#transposes",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#transposes",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "transposes"
+        },
+        "pimHumanDescription": {
+          "en": "Indicates that this legislation (or part of legislation) fulfills the objectives set by another legislation, by passing appropriate implementation measures. Typically, some legislations of European Union's member states or regions transpose European Directives. This indicates a legally binding link between the 2 legislations, at act or article level, from the original version of a national implementing measure to the legal resource Directive as published in the EU Official Journal. Can be used for transposition tables, once EU Publication Office has introduced ELI support down to the article level.\n\nThe implementation of EU legislation at national level, involving links to EU regulations, decisions, etc. must be captured with eli:ensures_implementation_of.\n\nNote that this should point to the legal resource of the Directive itself, not to one of its language-specific legal expression."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#transposes#domain",
+          "http://data.europa.eu/eli/ontology#transposes#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#applies"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#transposes#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#transposes#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#type_document#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#type_document#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#type_document": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#type_document",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#type_document",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "type of document"
+        },
+        "pimHumanDescription": {
+          "en": "The type of a legal resource (e.g. \"Directive\", \"Règlement grand ducal\", \"law\", \"règlement ministériel\", \"draft proposition\", \"Parliamentary act\", etc.). \n\nMember states are encouraged to make their own list of values in the corresponding concept scheme. EU Publications Office provides a list of values for EU resource types at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/resource-type"
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#type_document#domain",
+          "http://data.europa.eu/eli/ontology#type_document#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#work_type"
+        ]
+      },
+      "http://data.europa.eu/eli/ontology#type_document#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#type_document#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#ResourceType",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#type_subdivision#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#type_subdivision#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#type_subdivision": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#type_subdivision",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#type_subdivision",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "type of subdivision"
+        },
+        "pimHumanDescription": {
+          "en": "The type of a document subdivision (e.g. \"Article\", \"Paragraph\", \"Section\", etc.).\nA subdivision can have only one type.\n\nELI does not specify a list of possible values. Member states are encouraged to make their own list of values in the corresponding concept scheme. EU Publication Office provies a list of values for EU resource types at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subdivision"
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#type_subdivision#domain",
+          "http://data.europa.eu/eli/ontology#type_subdivision#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#type_subdivision#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#type_subdivision#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#uri_schema#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#uri_schema#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_141",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#uri_schema": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#uri_schema",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#uri_schema",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "uri schema"
+        },
+        "pimHumanDescription": {
+          "en": "Schema describing the URI of an ELI instance. ELI uses URI template specifications (IETF RFC 6570). Schemes should be associated with member states and will be published in a registry."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#uri_schema#domain",
+          "http://data.europa.eu/eli/ontology#uri_schema#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#uri_schema#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#uri_schema#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#version#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#version#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "df_2_145",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#version": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#version",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#version",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "version"
+        },
+        "pimHumanDescription": {
+          "en": "A skos concept scheme, could be locally defined? Group proposal is to start with an initial ELI scheme, that might include concepts of \"Official Journal\" \"made\" \"consolidated\" \"proposed\" \"prospective\""
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#version#domain",
+          "http://data.europa.eu/eli/ontology#version#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#version#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#version#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Version",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#work_type#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#work_type#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#Work",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#work_type": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#work_type",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#work_type",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "work type"
+        },
+        "pimHumanDescription": {
+          "en": "The type of a work, taken from a controlled vocabulary.\n\nMember States need to define their own work type values."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/eli/ontology#work_type#domain",
+          "http://data.europa.eu/eli/ontology#work_type#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/eli/ontology#work_type#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#work_type#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#WorkType",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member#domain",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of#domain",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in#domain",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises#domain",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by#domain",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of#domain",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example#domain",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/eli/ontology#AdministrativeArea": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#AdministrativeArea",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#AdministrativeArea",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Administrative Area"
+        },
+        "pimHumanDescription": {
+          "en": "Formally defined as the set of skos:Concept either in concept scheme eli:AdministrativeAreaTable or in concept scheme https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/atu (Administrative Territorial Unit table published of the EU Publications Office)."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Agent",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Agent"
+        },
+        "pimHumanDescription": {
+          "en": "Individual people or groups of people, like an institution with a legal recognition, who have the potential to perform intentional actions for which they can be held responsible."
+        },
+        "pimExtends": [
+          "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#ComplexWork": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#ComplexWork",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#ComplexWork",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Complex Work"
+        },
+        "pimHumanDescription": {
+          "en": "Works that have other works as members. The members of a Complex Work may constitute alternatives to or derivatives of other members of the same Complex Work. Typically the members of the complex work represent the successive temporal versions of an act, while the complex work represents the act independantly of one of its version."
+        },
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#Work",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Expression": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Expression",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Expression",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Expression"
+        },
+        "pimHumanDescription": {
+          "en": "The intellectual realisation of a Work in the form of identifiable immaterial objects, such as, but not limited to, text.\n\nThe substance of Expression is signs.\n\nAn Expression cannot exist without a physical carrier but do not depend on a specific physical carrier and can exist on one or more carriers simultaneously."
+        },
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Format": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Format",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Format",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Format"
+        },
+        "pimHumanDescription": {
+          "en": "The physical embodiment of a legal expression, either on paper or in any electronic format.\nFor example, any electronic or physical format of the legal expression (XML, TIFF, PDF, etc.) ; e.g. PDF version of act 3 of 2005.  (adapted from Akoma Ntoso).\nNote that the notion of Format in ELI is more precise than a FRBR Manifestation in the sense that a Format in ELI can carry a legal value (see the property eli:legal_value)."
+        },
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#Manifestation",
+          "df_2_190",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#FormatType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#FormatType",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#FormatType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Format type"
+        },
+        "pimHumanDescription": {
+          "en": "Formally defined as the set of skos:Concept in concept scheme eli:MediaTypeTable."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#InForce": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#InForce",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#InForce",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "In force"
+        },
+        "pimHumanDescription": {
+          "en": "Formally defined as the set of skos:Concept in concept scheme eli:InForceTable"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Language": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Language",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Language",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Language"
+        },
+        "pimHumanDescription": {
+          "en": "Formally defined as the set of skos:Concept in concept scheme http://publications.europa.eu/resource/authority/language"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#LegalExpression": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Legal Expression"
+        },
+        "pimHumanDescription": {
+          "en": "The intellectual realisation of a legal resource in the form of a \"sequence of signs\" (typically alpha-numeric characters in a legal context).\nFor example, any version of the legal resource whose content is specified and different from others for any reason: language, versions, etc.;\n\nNote that ELI ontology accommodates different point of view on what should be considered a new legal resource, or a new legal expression of the same resource. Typically, a consolidated version can be viewed, in the context of ELI, either as separate legal resource (linked to original version and previous consolidated version using corresponding ELI relations), or as a different legal expression of the same legal resource."
+        },
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#Expression",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#LegalResource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Legal Resource"
+        },
+        "pimHumanDescription": {
+          "en": "A work in a legislative corpus. This applies to acts that have been legally enacted (whether or not they are still in force).\nFor example, the abstract concept of the legal resource; e.g. \"act 3 of 2005\" (adapted from Akoma Ntoso)\n\nA legal resource can represent a legal act or any component of a legal act, like an article.  Legal resources can be linked together using properties defined in the model.\n\nNote that ELI ontology accommodates different point of view on what should be considered a new legal resource, or a new legal expression of the same resource. Typically, a consolidated version can be viewed, in the context of ELI, either as separate legal resource (linked to original version and previous consolidated version using corresponding ELI relations), or as a different legal expression of the same legal resource."
+        },
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#Work",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#LegalResourceSubdivision": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Legal Resource Subdivision"
+        },
+        "pimHumanDescription": {
+          "en": "A component of a legal act, at an arbitrary level of precision, like a chapter, an article, an alinea, a paragraph or an list item. A subdivision can be linked with its parent and children subdivision using the properties eli:has_part / eli:is_part_of."
+        },
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#LegalResource",
+          "http://data.europa.eu/eli/ontology#WorkSubdivision",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#LegalValue": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#LegalValue",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Legal value"
+        },
+        "pimHumanDescription": {
+          "en": "Formally defined as the set of skos:Concept in concept scheme eli:LegalValueTable"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Manifestation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Manifestation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Manifestation"
+        },
+        "pimHumanDescription": {
+          "en": "The physical embodiment of an Expression, either on paper or in any electronic format.\n\nThe substance of Manifestation is not only signs, but also the manner in which they are presented to be consumed by users, including the kind of media adopted."
+        },
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Organization": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Organization",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Organization",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Organization"
+        },
+        "pimHumanDescription": {
+          "en": "Institutions or groups of people that have obtained a legal recognition as a group and can act collectively as agents."
+        },
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#Agent",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/F11_Corporate_Body",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Person": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Person",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Person",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Person"
+        },
+        "pimHumanDescription": {
+          "en": "A real person who live or has lived."
+        },
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#Agent",
+          "http://iflastandards.info/ns/fr/frbr/frbroo/F10_Person",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#ResourceType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#ResourceType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Resource type"
+        },
+        "pimHumanDescription": {
+          "en": "Formally defined as the set of skos:Concept in concept scheme eli:ResourceTypeTable"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#SubdivisionType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Subdivision type"
+        },
+        "pimHumanDescription": {
+          "en": "Formally defined as the set of skos:Concept in concept scheme eli:SubdivisionTypeTable"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Version": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Version",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Version",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Version"
+        },
+        "pimHumanDescription": {
+          "en": "Formally defined as the set of skos:Concept in concept scheme eli:VersionTable"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#Work": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#Work",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#Work",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Work"
+        },
+        "pimHumanDescription": {
+          "en": "Any distinct intellectual creation (i.e., the intellectual content), in the context of ELI.\n\nThe substance of Work is ideas."
+        },
+        "pimExtends": [
+          "http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#WorkSubdivision": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Work Subdivision"
+        },
+        "pimHumanDescription": {
+          "en": "A component of a work, at an arbitrary level of precision. A subdivision can be linked with its parent and children subdivision using eli:has_part / eli:is_part_of."
+        },
+        "pimExtends": [
+          "http://data.europa.eu/eli/ontology#Work",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/eli/ontology#WorkType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/eli/ontology#WorkType",
+        "pimInterpretation": "http://data.europa.eu/eli/ontology#WorkType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Work Type"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/F10_Person": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/F10_Person",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/F10_Person",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/F11_Corporate_Body": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/F11_Corporate_Body",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/F11_Corporate_Body",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type",
+        "pimInterpretation": "http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/E39_Actor": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+        "pimInterpretation": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://op.europa.eu/documents/3938058/11669184/eli.owl/"
+  ]
+}

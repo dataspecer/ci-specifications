@@ -1,0 +1,24 @@
+{
+  "iri": "31f50701-242b-42a8-8c3a-adbe4a5adea7",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Common provenance model JSON representation",
+      "cs": "Common provenance model JSON representation"
+    },
+    "description": {
+      "en": "Data structure for Common provenance model JSON representation. Provides link to  the representation of provenance activity information in JSON format according to the Common provenance model specified in  ISO 23494-2 standard.",
+      "cs": "Datová struktura pro Common provenance model JSON representation. Provides link to  the representation of provenance activity information in JSON format according to the Common provenance model specified in  ISO 23494-2 standard."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:32.852Z",
+    "modificationDate": "2026-08-07T08:57:32.937Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.889Z",
+  "_exportedBy": "http://localhost:3100"
+}

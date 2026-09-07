@@ -1,0 +1,2899 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/6c88e100-c7d2-4009-81d3-2760026bbfa3/54b60737-a241-441c-a339-70867389c4d6/0a726888-e163-4508-89b6-060dda6d884c",
+  "alias": "prov-o",
+  "pimStore": {
+    "resources": {
+      "http://www.w3.org/ns/prov#atTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/prov#atTime",
+        "pimInterpretation": "http://www.w3.org/ns/prov#atTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "atTime"
+        },
+        "pimHumanDescription": {
+          "en": "The time at which an InstantaneousEvent occurred, in the form of xsd:dateTime."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/prov#InstantaneousEvent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#endedAtTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/prov#endedAtTime",
+        "pimInterpretation": "http://www.w3.org/ns/prov#endedAtTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "endedAtTime"
+        },
+        "pimHumanDescription": {
+          "en": "The time at which an activity ended. See also prov:startedAtTime."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/prov#generatedAtTime",
+        "pimInterpretation": "http://www.w3.org/ns/prov#generatedAtTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "generatedAtTime"
+        },
+        "pimHumanDescription": {
+          "en": "The time at which an entity was completely created and is available for use."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#invalidatedAtTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/prov#invalidatedAtTime",
+        "pimInterpretation": "http://www.w3.org/ns/prov#invalidatedAtTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "invalidatedAtTime"
+        },
+        "pimHumanDescription": {
+          "en": "The time at which an entity was invalidated (i.e., no longer usable)."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#startedAtTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/prov#startedAtTime",
+        "pimInterpretation": "http://www.w3.org/ns/prov#startedAtTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "startedAtTime"
+        },
+        "pimHumanDescription": {
+          "en": "The time at which an activity started. See also prov:endedAtTime."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#value": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/prov#value",
+        "pimInterpretation": "http://www.w3.org/ns/prov#value",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "value"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#actedOnBehalfOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#actedOnBehalfOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#actedOnBehalfOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#actedOnBehalfOf",
+        "pimInterpretation": "http://www.w3.org/ns/prov#actedOnBehalfOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "actedOnBehalfOf"
+        },
+        "pimHumanDescription": {
+          "en": "An object property to express the accountability of an agent towards another agent. The subordinate agent acted on behalf of the responsible agent in an actual activity. "
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#actedOnBehalfOf#domain",
+          "http://www.w3.org/ns/prov#actedOnBehalfOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#actedOnBehalfOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#actedOnBehalfOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#activity#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#activity#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#ActivityInfluence",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#activity": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#activity",
+        "pimInterpretation": "http://www.w3.org/ns/prov#activity",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "activity"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#activity#domain",
+          "http://www.w3.org/ns/prov#activity#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#influencer"
+        ]
+      },
+      "http://www.w3.org/ns/prov#activity#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#activity#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#agent#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#agent#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#AgentInfluence",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#agent",
+        "pimInterpretation": "http://www.w3.org/ns/prov#agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "agent"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#agent#domain",
+          "http://www.w3.org/ns/prov#agent#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#influencer"
+        ]
+      },
+      "http://www.w3.org/ns/prov#agent#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#agent#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#alternateOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#alternateOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#alternateOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#alternateOf",
+        "pimInterpretation": "http://www.w3.org/ns/prov#alternateOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "alternateOf"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#alternateOf#domain",
+          "http://www.w3.org/ns/prov#alternateOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#alternateOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#alternateOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#atLocation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#atLocation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "n3-1385",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#atLocation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#atLocation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#atLocation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "atLocation"
+        },
+        "pimHumanDescription": {
+          "en": "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#atLocation#domain",
+          "http://www.w3.org/ns/prov#atLocation#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#atLocation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#atLocation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Location",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#entity#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#entity#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#EntityInfluence",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#entity": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#entity",
+        "pimInterpretation": "http://www.w3.org/ns/prov#entity",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "entity"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#entity#domain",
+          "http://www.w3.org/ns/prov#entity#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#influencer"
+        ]
+      },
+      "http://www.w3.org/ns/prov#entity#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#entity#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#generated#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#generated#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#generated": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#generated",
+        "pimInterpretation": "http://www.w3.org/ns/prov#generated",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "generated"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#generated#domain",
+          "http://www.w3.org/ns/prov#generated#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#influenced"
+        ]
+      },
+      "http://www.w3.org/ns/prov#generated#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#generated#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadActivity#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadActivity#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://dataspecer.com/cim/abstract-class-union-domain/http://www.w3.org/ns/prov#hadActivity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadActivity": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadActivity",
+        "pimInterpretation": "http://www.w3.org/ns/prov#hadActivity",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hadActivity"
+        },
+        "pimHumanDescription": {
+          "en": "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#hadActivity#domain",
+          "http://www.w3.org/ns/prov#hadActivity#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#hadActivity#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadActivity#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadGeneration#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadGeneration#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Derivation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadGeneration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadGeneration",
+        "pimInterpretation": "http://www.w3.org/ns/prov#hadGeneration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hadGeneration"
+        },
+        "pimHumanDescription": {
+          "en": "The _optional_ Generation involved in an Entity's Derivation."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#hadGeneration#domain",
+          "http://www.w3.org/ns/prov#hadGeneration#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#hadGeneration#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadGeneration#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Generation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadMember#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadMember#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Collection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadMember": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadMember",
+        "pimInterpretation": "http://www.w3.org/ns/prov#hadMember",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hadMember"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#hadMember#domain",
+          "http://www.w3.org/ns/prov#hadMember#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#hadMember#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadMember#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadPlan#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadPlan#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Association",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadPlan": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadPlan",
+        "pimInterpretation": "http://www.w3.org/ns/prov#hadPlan",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hadPlan"
+        },
+        "pimHumanDescription": {
+          "en": "The _optional_ Plan adopted by an Agent in Association with some Activity. Plan specifications are out of the scope of this specification."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#hadPlan#domain",
+          "http://www.w3.org/ns/prov#hadPlan#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#hadPlan#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadPlan#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Plan",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadPrimarySource#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadPrimarySource#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadPrimarySource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadPrimarySource",
+        "pimInterpretation": "http://www.w3.org/ns/prov#hadPrimarySource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hadPrimarySource"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#hadPrimarySource#domain",
+          "http://www.w3.org/ns/prov#hadPrimarySource#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom"
+        ]
+      },
+      "http://www.w3.org/ns/prov#hadPrimarySource#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadPrimarySource#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadRole#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadRole#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "https://dataspecer.com/cim/abstract-class-union-domain/http://www.w3.org/ns/prov#hadRole",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadRole": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadRole",
+        "pimInterpretation": "http://www.w3.org/ns/prov#hadRole",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hadRole"
+        },
+        "pimHumanDescription": {
+          "en": "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#hadRole#domain",
+          "http://www.w3.org/ns/prov#hadRole#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#hadRole#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadRole#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Role",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadUsage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadUsage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Derivation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#hadUsage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadUsage",
+        "pimInterpretation": "http://www.w3.org/ns/prov#hadUsage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hadUsage"
+        },
+        "pimHumanDescription": {
+          "en": "The _optional_ Usage involved in an Entity's Derivation."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#hadUsage#domain",
+          "http://www.w3.org/ns/prov#hadUsage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#hadUsage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#hadUsage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Usage",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#influenced#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#influenced#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#influenced": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#influenced",
+        "pimInterpretation": "http://www.w3.org/ns/prov#influenced",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "influenced"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#influenced#domain",
+          "http://www.w3.org/ns/prov#influenced#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#influenced#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#influenced#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#influencer#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#influencer#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Influence",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#influencer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#influencer",
+        "pimInterpretation": "http://www.w3.org/ns/prov#influencer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "influencer"
+        },
+        "pimHumanDescription": {
+          "en": "Subproperties of prov:influencer are used to cite the object of an unqualified PROV-O triple whose predicate is a subproperty of prov:wasInfluencedBy (e.g. prov:used, prov:wasGeneratedBy). prov:influencer is used much like rdf:object is used."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#influencer#domain",
+          "http://www.w3.org/ns/prov#influencer#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#influencer#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#influencer#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#invalidated#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#invalidated#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#invalidated": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#invalidated",
+        "pimInterpretation": "http://www.w3.org/ns/prov#invalidated",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "invalidated"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#invalidated#domain",
+          "http://www.w3.org/ns/prov#invalidated#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#influenced"
+        ]
+      },
+      "http://www.w3.org/ns/prov#invalidated#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#invalidated#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedAssociation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedAssociation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedAssociation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedAssociation"
+        },
+        "pimHumanDescription": {
+          "en": "If this Activity prov:wasAssociatedWith Agent :ag, then it can qualify the Association using prov:qualifiedAssociation [ a prov:Association;  prov:agent :ag; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedAssociation#domain",
+          "http://www.w3.org/ns/prov#qualifiedAssociation#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedAssociation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedAssociation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Association",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedAttribution#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedAttribution#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedAttribution": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedAttribution"
+        },
+        "pimHumanDescription": {
+          "en": "If this Entity prov:wasAttributedTo Agent :ag, then it can qualify how it was influenced using prov:qualifiedAttribution [ a prov:Attribution;  prov:agent :ag; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedAttribution#domain",
+          "http://www.w3.org/ns/prov#qualifiedAttribution#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedAttribution#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedAttribution#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Attribution",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedCommunication#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedCommunication#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedCommunication": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedCommunication",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedCommunication",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedCommunication"
+        },
+        "pimHumanDescription": {
+          "en": "If this Activity prov:wasInformedBy Activity :a, then it can qualify how it was influenced using prov:qualifiedCommunication [ a prov:Communication;  prov:activity :a; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedCommunication#domain",
+          "http://www.w3.org/ns/prov#qualifiedCommunication#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedCommunication#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedCommunication#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Communication",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedDelegation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedDelegation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedDelegation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedDelegation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedDelegation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedDelegation"
+        },
+        "pimHumanDescription": {
+          "en": "If this Agent prov:actedOnBehalfOf Agent :ag, then it can qualify how with prov:qualifiedResponsibility [ a prov:Responsibility;  prov:agent :ag; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedDelegation#domain",
+          "http://www.w3.org/ns/prov#qualifiedDelegation#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedDelegation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedDelegation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Delegation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedDerivation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedDerivation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedDerivation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedDerivation"
+        },
+        "pimHumanDescription": {
+          "en": "If this Entity prov:wasDerivedFrom Entity :e, then it can qualify how it was derived using prov:qualifiedDerivation [ a prov:Derivation;  prov:entity :e; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedDerivation#domain",
+          "http://www.w3.org/ns/prov#qualifiedDerivation#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedDerivation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedDerivation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Derivation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedEnd#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedEnd#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedEnd": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedEnd",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedEnd",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedEnd"
+        },
+        "pimHumanDescription": {
+          "en": "If this Activity prov:wasEndedBy Entity :e1, then it can qualify how it was ended using prov:qualifiedEnd [ a prov:End;  prov:entity :e1; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedEnd#domain",
+          "http://www.w3.org/ns/prov#qualifiedEnd#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedEnd#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedEnd#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#End",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedGeneration#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedGeneration#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedGeneration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedGeneration",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedGeneration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedGeneration"
+        },
+        "pimHumanDescription": {
+          "en": "If this Activity prov:generated Entity :e, then it can qualify how it performed the Generation using prov:qualifiedGeneration [ a prov:Generation;  prov:entity :e; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedGeneration#domain",
+          "http://www.w3.org/ns/prov#qualifiedGeneration#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedGeneration#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedGeneration#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Generation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedInfluence#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedInfluence#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "n3-1400",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedInfluence": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedInfluence",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedInfluence",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedInfluence"
+        },
+        "pimHumanDescription": {
+          "en": "Because prov:qualifiedInfluence is a broad relation, the more specific relations (qualifiedCommunication, qualifiedDelegation, qualifiedEnd, etc.) should be used when applicable."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence#domain",
+          "http://www.w3.org/ns/prov#qualifiedInfluence#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#qualifiedInfluence#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedInfluence#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Influence",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedInvalidation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedInvalidation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedInvalidation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedInvalidation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedInvalidation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedInvalidation"
+        },
+        "pimHumanDescription": {
+          "en": "If this Entity prov:wasInvalidatedBy Activity :a, then it can qualify how it was invalidated using prov:qualifiedInvalidation [ a prov:Invalidation;  prov:activity :a; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedInvalidation#domain",
+          "http://www.w3.org/ns/prov#qualifiedInvalidation#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedInvalidation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedInvalidation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Invalidation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedPrimarySource#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedPrimarySource#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedPrimarySource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedPrimarySource",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedPrimarySource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedPrimarySource"
+        },
+        "pimHumanDescription": {
+          "en": "If this Entity prov:hadPrimarySource Entity :e, then it can qualify how using prov:qualifiedPrimarySource [ a prov:PrimarySource; prov:entity :e; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedPrimarySource#domain",
+          "http://www.w3.org/ns/prov#qualifiedPrimarySource#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedPrimarySource#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedPrimarySource#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#PrimarySource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedQuotation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedQuotation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedQuotation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedQuotation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedQuotation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedQuotation"
+        },
+        "pimHumanDescription": {
+          "en": "If this Entity prov:wasQuotedFrom Entity :e, then it can qualify how using prov:qualifiedQuotation [ a prov:Quotation;  prov:entity :e; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedQuotation#domain",
+          "http://www.w3.org/ns/prov#qualifiedQuotation#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedQuotation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedQuotation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Quotation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedRevision#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedRevision#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedRevision": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedRevision",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedRevision",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedRevision"
+        },
+        "pimHumanDescription": {
+          "en": "If this Entity prov:wasRevisionOf Entity :e, then it can qualify how it was revised using prov:qualifiedRevision [ a prov:Revision;  prov:entity :e; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedRevision#domain",
+          "http://www.w3.org/ns/prov#qualifiedRevision#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedRevision#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedRevision#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Revision",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedStart#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedStart#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedStart": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedStart",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedStart",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedStart"
+        },
+        "pimHumanDescription": {
+          "en": "If this Activity prov:wasStartedBy Entity :e1, then it can qualify how it was started using prov:qualifiedStart [ a prov:Start;  prov:entity :e1; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedStart#domain",
+          "http://www.w3.org/ns/prov#qualifiedStart#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedStart#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedStart#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Start",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedUsage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedUsage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#qualifiedUsage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedUsage",
+        "pimInterpretation": "http://www.w3.org/ns/prov#qualifiedUsage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedUsage"
+        },
+        "pimHumanDescription": {
+          "en": "If this Activity prov:used Entity :e, then it can qualify how it used it using prov:qualifiedUsage [ a prov:Usage; prov:entity :e; :foo :bar ]."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#qualifiedUsage#domain",
+          "http://www.w3.org/ns/prov#qualifiedUsage#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#qualifiedInfluence"
+        ]
+      },
+      "http://www.w3.org/ns/prov#qualifiedUsage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#qualifiedUsage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Usage",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#specializationOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#specializationOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#specializationOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#specializationOf",
+        "pimInterpretation": "http://www.w3.org/ns/prov#specializationOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "specializationOf"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#specializationOf#domain",
+          "http://www.w3.org/ns/prov#specializationOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#alternateOf"
+        ]
+      },
+      "http://www.w3.org/ns/prov#specializationOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#specializationOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#used#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#used#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#used": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#used",
+        "pimInterpretation": "http://www.w3.org/ns/prov#used",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "used"
+        },
+        "pimHumanDescription": {
+          "en": "A prov:Entity that was used by this prov:Activity. For example, :baking prov:used :spoon, :egg, :oven ."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#used#domain",
+          "http://www.w3.org/ns/prov#used#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#used#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#used#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasAssociatedWith#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasAssociatedWith#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasAssociatedWith": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasAssociatedWith",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasAssociatedWith",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasAssociatedWith"
+        },
+        "pimHumanDescription": {
+          "en": "An prov:Agent that had some (unspecified) responsibility for the occurrence of this prov:Activity."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasAssociatedWith#domain",
+          "http://www.w3.org/ns/prov#wasAssociatedWith#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasAssociatedWith#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasAssociatedWith#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasAttributedTo#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasAttributedTo#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasAttributedTo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasAttributedTo",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasAttributedTo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasAttributedTo"
+        },
+        "pimHumanDescription": {
+          "en": "Attribution is the ascribing of an entity to an agent."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasAttributedTo#domain",
+          "http://www.w3.org/ns/prov#wasAttributedTo#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasAttributedTo#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasAttributedTo#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Agent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasDerivedFrom#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasDerivedFrom#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasDerivedFrom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasDerivedFrom"
+        },
+        "pimHumanDescription": {
+          "en": "The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom#domain",
+          "http://www.w3.org/ns/prov#wasDerivedFrom#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasDerivedFrom#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasDerivedFrom#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasEndedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasEndedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasEndedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasEndedBy",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasEndedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasEndedBy"
+        },
+        "pimHumanDescription": {
+          "en": "End is when an activity is deemed to have ended. An end may refer to an entity, known as trigger, that terminated the activity."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasEndedBy#domain",
+          "http://www.w3.org/ns/prov#wasEndedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasEndedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasEndedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasGeneratedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasGeneratedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasGeneratedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasGeneratedBy",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasGeneratedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasGeneratedBy"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasGeneratedBy#domain",
+          "http://www.w3.org/ns/prov#wasGeneratedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasGeneratedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasGeneratedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasInfluencedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInfluencedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "n3-1416",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasInfluencedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInfluencedBy",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasInfluencedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasInfluencedBy"
+        },
+        "pimHumanDescription": {
+          "en": "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy#domain",
+          "http://www.w3.org/ns/prov#wasInfluencedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/prov#wasInfluencedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInfluencedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "n3-1420",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasInformedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInformedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasInformedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInformedBy",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasInformedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasInformedBy"
+        },
+        "pimHumanDescription": {
+          "en": "An activity a2 is dependent on or informed by another activity a1, by way of some unspecified entity that is generated by a1 and used by a2."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasInformedBy#domain",
+          "http://www.w3.org/ns/prov#wasInformedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasInformedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInformedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasInvalidatedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInvalidatedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasInvalidatedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInvalidatedBy",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasInvalidatedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasInvalidatedBy"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasInvalidatedBy#domain",
+          "http://www.w3.org/ns/prov#wasInvalidatedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasInvalidatedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasInvalidatedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasQuotedFrom#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasQuotedFrom#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasQuotedFrom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasQuotedFrom",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasQuotedFrom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasQuotedFrom"
+        },
+        "pimHumanDescription": {
+          "en": "An entity is derived from an original entity by copying, or 'quoting', some or all of it."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasQuotedFrom#domain",
+          "http://www.w3.org/ns/prov#wasQuotedFrom#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasQuotedFrom#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasQuotedFrom#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasRevisionOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasRevisionOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasRevisionOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasRevisionOf",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasRevisionOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasRevisionOf"
+        },
+        "pimHumanDescription": {
+          "en": "A revision is a derivation that revises an entity into a revised version."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasRevisionOf#domain",
+          "http://www.w3.org/ns/prov#wasRevisionOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasRevisionOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasRevisionOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasStartedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasStartedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Activity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/prov#wasStartedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasStartedBy",
+        "pimInterpretation": "http://www.w3.org/ns/prov#wasStartedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wasStartedBy"
+        },
+        "pimHumanDescription": {
+          "en": "Start is when an activity is deemed to have started. A start may refer to an entity, known as trigger, that initiated the activity."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/prov#wasStartedBy#domain",
+          "http://www.w3.org/ns/prov#wasStartedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#wasInfluencedBy"
+        ]
+      },
+      "http://www.w3.org/ns/prov#wasStartedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/prov#wasStartedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/prov#Entity",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Activity": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Activity",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Activity",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Activity"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#ActivityInfluence": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#ActivityInfluence",
+        "pimInterpretation": "http://www.w3.org/ns/prov#ActivityInfluence",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "ActivityInfluence"
+        },
+        "pimHumanDescription": {
+          "en": "It is not recommended that the type ActivityInfluence be asserted without also asserting one of its more specific subclasses."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Influence",
+          "n3-1382",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Agent",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Agent"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#AgentInfluence": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#AgentInfluence",
+        "pimInterpretation": "http://www.w3.org/ns/prov#AgentInfluence",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "AgentInfluence"
+        },
+        "pimHumanDescription": {
+          "en": "It is not recommended that the type AgentInfluence be asserted without also asserting one of its more specific subclasses."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Influence",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Association": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Association",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Association",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Association"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Association provides additional descriptions about the binary prov:wasAssociatedWith relation from an prov:Activity to some prov:Agent that had some responsiblity for it. For example, :baking prov:wasAssociatedWith :baker; prov:qualifiedAssociation [ a prov:Association; prov:agent :baker; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#AgentInfluence",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Attribution": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Attribution",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Attribution",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Attribution"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Attribution provides additional descriptions about the binary prov:wasAttributedTo relation from an prov:Entity to some prov:Agent that had some responsible for it. For example, :cake prov:wasAttributedTo :baker; prov:qualifiedAttribution [ a prov:Attribution; prov:entity :baker; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#AgentInfluence",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Bundle": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Bundle",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Bundle",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Bundle"
+        },
+        "pimHumanDescription": {
+          "en": "Note that there are kinds of bundles (e.g. handwritten letters, audio recordings, etc.) that are not expressed in PROV-O, but can be still be described by PROV-O."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Entity",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Collection": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Collection",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Collection",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Collection"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Entity",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Communication": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Communication",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Communication",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Communication"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Communication provides additional descriptions about the binary prov:wasInformedBy relation from an informed prov:Activity to the prov:Activity that informed it. For example, :you_jumping_off_bridge prov:wasInformedBy :everyone_else_jumping_off_bridge; prov:qualifiedCommunication [ a prov:Communication; prov:activity :everyone_else_jumping_off_bridge; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#ActivityInfluence",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Delegation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Delegation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Delegation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Delegation"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Delegation provides additional descriptions about the binary prov:actedOnBehalfOf relation from a performing prov:Agent to some prov:Agent for whom it was performed. For example, :mixing prov:wasAssociatedWith :toddler . :toddler prov:actedOnBehalfOf :mother; prov:qualifiedDelegation [ a prov:Delegation; prov:entity :mother; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#AgentInfluence",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Derivation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Derivation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Derivation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Derivation"
+        },
+        "pimHumanDescription": {
+          "en": "The more specific forms of prov:Derivation (i.e., prov:Revision, prov:Quotation, prov:PrimarySource) should be asserted if they apply."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#EntityInfluence",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#EmptyCollection": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#EmptyCollection",
+        "pimInterpretation": "http://www.w3.org/ns/prov#EmptyCollection",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "EmptyCollection"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Collection",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#End": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#End",
+        "pimInterpretation": "http://www.w3.org/ns/prov#End",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "End"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:End provides additional descriptions about the binary prov:wasEndedBy relation from some ended prov:Activity to an prov:Entity that ended it. For example, :ball_game prov:wasEndedBy :buzzer; prov:qualifiedEnd [ a prov:End; prov:entity :buzzer; :foo :bar; prov:atTime '2012-03-09T08:05:08-05:00'^^xsd:dateTime ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#EntityInfluence",
+          "http://www.w3.org/ns/prov#InstantaneousEvent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Entity": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Entity",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Entity",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Entity"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#EntityInfluence": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#EntityInfluence",
+        "pimInterpretation": "http://www.w3.org/ns/prov#EntityInfluence",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "EntityInfluence"
+        },
+        "pimHumanDescription": {
+          "en": "It is not recommended that the type EntityInfluence be asserted without also asserting one of its more specific subclasses."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Influence",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Generation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Generation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Generation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Generation"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Generation provides additional descriptions about the binary prov:wasGeneratedBy relation from a generated prov:Entity to the prov:Activity that generated it. For example, :cake prov:wasGeneratedBy :baking; prov:qualifiedGeneration [ a prov:Generation; prov:activity :baking; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#ActivityInfluence",
+          "http://www.w3.org/ns/prov#InstantaneousEvent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Influence": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Influence",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Influence",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Influence"
+        },
+        "pimHumanDescription": {
+          "en": "Because prov:Influence is a broad relation, its most specific subclasses (e.g. prov:Communication, prov:Delegation, prov:End, prov:Revision, etc.) should be used when applicable."
+        },
+        "pimExtends": [
+          "https://dataspecer.com/cim/abstract-class-union-domain/http://www.w3.org/ns/prov#hadActivity",
+          "https://dataspecer.com/cim/abstract-class-union-domain/http://www.w3.org/ns/prov#hadRole",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#InstantaneousEvent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#InstantaneousEvent",
+        "pimInterpretation": "http://www.w3.org/ns/prov#InstantaneousEvent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "InstantaneousEvent"
+        },
+        "pimHumanDescription": {
+          "en": "An instantaneous event, or event for short, happens in the world and marks a change in the world, in its activities and in its entities. The term 'event' is commonly used in process algebra with a similar meaning. Events represent communications or interactions; they are assumed to be atomic and instantaneous."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Invalidation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Invalidation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Invalidation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Invalidation"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Invalidation provides additional descriptions about the binary prov:wasInvalidatedBy relation from an invalidated prov:Entity to the prov:Activity that invalidated it. For example, :uncracked_egg prov:wasInvalidatedBy :baking; prov:qualifiedInvalidation [ a prov:Invalidation; prov:activity :baking; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#ActivityInfluence",
+          "http://www.w3.org/ns/prov#InstantaneousEvent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Location": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Location",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Location",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Location"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Organization": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Organization",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Organization",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Organization"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Agent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Person": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Person",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Person",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Person"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Agent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Plan": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Plan",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Plan",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Plan"
+        },
+        "pimHumanDescription": {
+          "en": "There exist no prescriptive requirement on the nature of plans, their representation, the actions or steps they consist of, or their intended goals. Since plans may evolve over time, it may become necessary to track their provenance, so plans themselves are entities. Representing the plan explicitly in the provenance can be useful for various tasks: for example, to validate the execution as represented in the provenance record, to manage expectation failures, or to provide explanations."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Entity",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#PrimarySource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#PrimarySource",
+        "pimInterpretation": "http://www.w3.org/ns/prov#PrimarySource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "PrimarySource"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:PrimarySource provides additional descriptions about the binary prov:hadPrimarySource relation from some secondary prov:Entity to an earlier, primary prov:Entity. For example, :blog prov:hadPrimarySource :newsArticle; prov:qualifiedPrimarySource [ a prov:PrimarySource; prov:entity :newsArticle; :foo :bar ] ."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Derivation",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Quotation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Quotation",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Quotation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Quotation"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Quotation provides additional descriptions about the binary prov:wasQuotedFrom relation from some taken prov:Entity from an earlier, larger prov:Entity. For example, :here_is_looking_at_you_kid prov:wasQuotedFrom :casablanca_script; prov:qualifiedQuotation [ a prov:Quotation; prov:entity :casablanca_script; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Derivation",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Revision": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Revision",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Revision",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Revision"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Revision provides additional descriptions about the binary prov:wasRevisionOf relation from some newer prov:Entity to an earlier prov:Entity. For example, :draft_2 prov:wasRevisionOf :draft_1; prov:qualifiedRevision [ a prov:Revision; prov:entity :draft_1; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Derivation",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Role": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Role",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Role",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Role"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#SoftwareAgent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#SoftwareAgent",
+        "pimInterpretation": "http://www.w3.org/ns/prov#SoftwareAgent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "SoftwareAgent"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#Agent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Start": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Start",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Start",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Start"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Start provides additional descriptions about the binary prov:wasStartedBy relation from some started prov:Activity to an prov:Entity that started it. For example, :foot_race prov:wasStartedBy :bang; prov:qualifiedStart [ a prov:Start; prov:entity :bang; :foo :bar; prov:atTime '2012-03-09T08:05:08-05:00'^^xsd:dateTime ] ."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#EntityInfluence",
+          "http://www.w3.org/ns/prov#InstantaneousEvent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/prov#Usage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/prov#Usage",
+        "pimInterpretation": "http://www.w3.org/ns/prov#Usage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Usage"
+        },
+        "pimHumanDescription": {
+          "en": "An instance of prov:Usage provides additional descriptions about the binary prov:used relation from some prov:Activity to an prov:Entity that it used. For example, :keynote prov:used :podium; prov:qualifiedUsage [ a prov:Usage; prov:entity :podium; :foo :bar ]."
+        },
+        "pimExtends": [
+          "http://www.w3.org/ns/prov#EntityInfluence",
+          "http://www.w3.org/ns/prov#InstantaneousEvent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://www.w3.org/ns/prov-o"
+  ]
+}

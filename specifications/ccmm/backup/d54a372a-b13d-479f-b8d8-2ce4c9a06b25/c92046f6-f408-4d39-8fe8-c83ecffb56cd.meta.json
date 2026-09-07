@@ -1,0 +1,24 @@
+{
+  "iri": "c92046f6-f408-4d39-8fe8-c83ecffb56cd",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "File",
+      "en": "File"
+    },
+    "description": {
+      "cs": "Datová struktura pro File. Downloadable file in given format.",
+      "en": "Data structure for File. Downloadable file in given format."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:17.768Z",
+    "modificationDate": "2026-08-07T08:57:17.857Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.703Z",
+  "_exportedBy": "http://localhost:3100"
+}

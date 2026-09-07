@@ -1,0 +1,24 @@
+{
+  "iri": "99814ead-a783-42ec-85cb-497149c50efa",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Identifier",
+      "cs": "Identifier"
+    },
+    "description": {
+      "en": "Data structure for Identifier. Unique and resolvable identifier containing the notation and identifier scheme in the form of URI.",
+      "cs": "Datová struktura pro Identifier. Unique and resolvable identifier containing the notation and identifier scheme in the form of URI."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:31.277Z",
+    "modificationDate": "2026-08-07T08:57:31.364Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.866Z",
+  "_exportedBy": "http://localhost:3100"
+}

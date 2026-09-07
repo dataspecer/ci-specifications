@@ -1,0 +1,24 @@
+{
+  "iri": "58ef4c27-6d8b-49ce-b2cf-d0f6022e6fae",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "RO-Crate JSON representation",
+      "cs": "RO-Crate JSON representation"
+    },
+    "description": {
+      "en": "Data structure for RO-Crate JSON representation. Representation of provenance activity in JSON-LD format corresponding to the RO-Crate specification.",
+      "cs": "Datová struktura pro RO-Crate JSON representation. Representation of provenance activity in JSON-LD format corresponding to the RO-Crate specification."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:32.545Z",
+    "modificationDate": "2026-08-07T08:57:32.633Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.885Z",
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,24 @@
+{
+  "iri": "0f477e04-ab77-479a-ba9f-5d8ae8ffafbe",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Related resource",
+      "cs": "Related resource"
+    },
+    "description": {
+      "en": "Data structure for Related resource. Resource represents any resource, physical or digital, that is related to the described dataset. ",
+      "cs": "Datová struktura pro Related resource. Resource represents any resource, physical or digital, that is related to the described dataset. "
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:31.124Z",
+    "modificationDate": "2026-08-07T08:57:31.210Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.864Z",
+  "_exportedBy": "http://localhost:3100"
+}

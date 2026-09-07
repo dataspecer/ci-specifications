@@ -1,0 +1,24 @@
+{
+  "iri": "70665777-53b2-41e4-a355-4bc0163ab191",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Provenance activity",
+      "cs": "Provenance activity"
+    },
+    "description": {
+      "en": "Data structure for Provenance activity. An activity is something that occurs over a period of time and acts upon or with the origin or life cycle of dataset; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities.",
+      "cs": "Datová struktura pro Provenance activity. An activity is something that occurs over a period of time and acts upon or with the origin or life cycle of dataset; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:31.913Z",
+    "modificationDate": "2026-08-07T08:57:32.002Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.871Z",
+  "_exportedBy": "http://localhost:3100"
+}

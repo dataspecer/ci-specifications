@@ -1,0 +1,24 @@
+{
+  "iri": "fe716aa9-f14d-44d6-bcf2-f0a1065db9db",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Geometry",
+      "en": "Geometry"
+    },
+    "description": {
+      "cs": "Datová struktura pro Geometry. The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system.",
+      "en": "Data structure for Geometry. The Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:19.187Z",
+    "modificationDate": "2026-08-07T08:57:19.277Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.719Z",
+  "_exportedBy": "http://localhost:3100"
+}

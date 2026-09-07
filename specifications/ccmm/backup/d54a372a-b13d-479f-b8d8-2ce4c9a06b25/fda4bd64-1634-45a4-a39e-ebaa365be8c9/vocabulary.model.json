@@ -1,0 +1,3856 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/fda4bd64-1634-45a4-a39e-ebaa365be8c9/vocabulary",
+  "modelAlias": "DataCite",
+  "baseIri": "https://model.ccmm.cz/vocabulary/datacite#",
+  "entities": {
+    "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Publisher"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "publisher identifier scheme"
+          },
+          "description": {
+            "en": "The name of the publisher identifier scheme."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "publisherIdentifierScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifierSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Publisher"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "publisher scheme URI"
+          },
+          "description": {
+            "en": "The URI of the publisher identifier scheme."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "publisherIdentifierSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#publisherIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Publisher"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "publisher identifier"
+          },
+          "description": {
+            "en": "Uniquely identifies the publisher, according to various schemes."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "publisherIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#awardUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#awardUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FundingReference"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "award URI"
+          },
+          "description": {
+            "en": "The URI leading to a page provided by the funder for more information about the award (grant)."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "awardUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#funderName": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#funderName",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FundingReference"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "funder name "
+          },
+          "description": {
+            "en": "Name of the funding provider."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "funderName"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#awardNumber": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#awardNumber",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FundingReference"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "award number"
+          },
+          "description": {
+            "en": "The code assigned by the funder to a sponsored award (grant)."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "awardNumber"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#awardTitle": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#awardTitle",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FundingReference"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "award title"
+          },
+          "description": {
+            "en": "The human readable title or name of the award (grant)."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "awardTitle"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasFunderIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has funder identifier"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FundingReference"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has funder identifier"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier",
+          "iri": "hasFunderIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#subjectSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#subjectSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Subject"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "subject scheme URI"
+          },
+          "description": {
+            "en": "The URI of the subject identifier scheme."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "subjectSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#subjectScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#subjectScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Subject"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "subject scheme"
+          },
+          "description": {
+            "en": "The name of the subject scheme or classification code or authority if one is used."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "subjectScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#subjectValueUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#subjectValueUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Subject"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "subject value URI"
+          },
+          "description": {
+            "en": "The URI of the subject term."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "subjectValueUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#subjectClassificationCode": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#subjectClassificationCode",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Subject"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "subject classification code"
+          },
+          "description": {
+            "en": "The classification code used for the subject term in the subject scheme."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "subjectClassificationCode"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#dateValue": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#dateValue",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Date"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "date value"
+          },
+          "description": {
+            "en": "Specific date."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#date",
+          "iri": "dateValue"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#dateType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#dateType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Date"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "date type"
+          },
+          "description": {
+            "en": "The type of date."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "dateType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#dateInformation": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#dateInformation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Date"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "date information"
+          },
+          "description": {
+            "en": "Specific information about the date, if appropriate."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "dateInformation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator name scheme URI"
+          },
+          "description": {
+            "en": "The URI of the name identifier scheme."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "creatorNameIdentifierSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#affiliationIdentifierScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#affiliationIdentifierScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator affiliation identifier scheme"
+          },
+          "description": {
+            "en": "The name of the affiliation identifier scheme"
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "affiliationIdentifierScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorName": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorName",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator name"
+          },
+          "description": {
+            "en": "The full name of the creator."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "creatorName"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifierScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator name identifier scheme"
+          },
+          "description": {
+            "en": "The name of the name identifier scheme."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "creatorNameIdentifierScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorFamilyName": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorFamilyName",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator family name"
+          },
+          "description": {
+            "en": "The surname or last name of the creator."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "creatorFamilyName"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliation": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator affiliation"
+          },
+          "description": {
+            "en": "The organizational or institutional affiliation of the creator."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "creatorAffiliation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#affilitationIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#affilitationIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator affilitation identifier"
+          },
+          "description": {
+            "en": "Uniquely identifies the organizational affiliation of the creator."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "affilitationIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliationIdentifierSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorAffiliationIdentifierSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator scheme URI"
+          },
+          "description": {
+            "en": "The URI of the affiliation identifier scheme."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "creatorAffiliationIdentifierSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorNameIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator name identifier"
+          },
+          "description": {
+            "en": "Uniquely identifies an individual or legal entity, according to various schemes."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "creatorNameIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorNameType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorNameType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator name type"
+          },
+          "description": {
+            "en": "The type of name. Allowed values are Organizational and Personal."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "creatorNameType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#creatorGivenName": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#creatorGivenName",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "creator given name"
+          },
+          "description": {
+            "en": "The personal or first name of the creator."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "creatorGivenName"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "related identifier type"
+          },
+          "description": {
+            "en": "The type of the RelatedIdentifier. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relatedIdentifierType/."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "relatedIdentifierType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedMetadataScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedMetadataScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "related metadata scheme"
+          },
+          "description": {
+            "en": "The name of the scheme. Use only with hasMetadata or IsMetadataFor relation type."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "relatedMetadataScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "related identifier scheme URI"
+          },
+          "description": {
+            "en": " The URI of the relatedMetadataScheme. The name of the scheme. Use only with hasMetadata or IsMetadataFor relation type."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "relatedIdentifierSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#resourceTypeGeneral": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#resourceTypeGeneral",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "resource type general"
+          },
+          "description": {
+            "en": "The general type of the related resource. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/resourcetype/#a."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "resourceTypeGeneral"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierSchemeType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "related identifier scheme type"
+          },
+          "description": {
+            "en": "The type of the relatedMetadataScheme, linked with the schemeURI.  Use only with hasMetadata or IsMetadataFor relation type."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "relatedIdentifierSchemeType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierRelationType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedIdentifierRelationType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "relation type"
+          },
+          "description": {
+            "en": "Description of the relationship of the resource being registered (A) and the related resource (B). Value from controlled vocabulary https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relationType/."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "relatedIdentifierRelationType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#northBoundLatitude": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#northBoundLatitude",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "north bound latitude"
+          },
+          "description": {
+            "en": "Northern latitudinal dimension of box."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#decimal",
+          "iri": "northBoundLatitude"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#westBoundLongitude": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#westBoundLongitude",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "west bound longitude"
+          },
+          "description": {
+            "en": "Western longitudinal dimension of box."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#decimal",
+          "iri": "westBoundLongitude"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#eastBoundLongitude": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#eastBoundLongitude",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "east bound longitude"
+          },
+          "description": {
+            "en": "Eastern longitudinal dimension of box."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#decimal",
+          "iri": "eastBoundLongitude"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#southBoundLatitude": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#southBoundLatitude",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "south bound latitude"
+          },
+          "description": {
+            "en": "Southern latitudinal dimension of box."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#decimal",
+          "iri": "southBoundLatitude"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#identifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#identifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "identifier"
+          },
+          "description": {
+            "en": "The Identifier is a unique string that identifies a resource. In DataCite, this MUST be a DIgital Object Identifier (DOI). The format should be 10.21384/foo."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "identifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#title": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#title",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "title"
+          },
+          "description": {
+            "en": "A name or title by which a resource is known. May be the title of a dataset or the name of a piece of software or an instrument."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "title"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#publicationYear": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#publicationYear",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "publication year"
+          },
+          "description": {
+            "en": "The year when the data was or will be made publicly available. In the case of resources such as software or dynamic data where there may be multiple releases in one year, include the Date property and sub-properties (dateType/dateInformation) to provide more information about the publication or release date details."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#date",
+          "iri": "publicationYear"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasAlternateIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has alternate identifier"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has alternate identifier"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier",
+          "iri": "hasAlternateIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#size": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#size",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "size"
+          },
+          "description": {
+            "en": "Size (e.g., bytes, pages, inches, etc.) or duration (extent), e.g., hours, minutes, days, etc., of a resource."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "size"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#tenderLevel": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#tenderLevel",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "version"
+          },
+          "description": {
+            "en": "The version number of the resource."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "tenderLevel"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasRights": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasRights",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has rights"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has rights"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+          "iri": "hasRights"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#language": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#language",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "language"
+          },
+          "description": {
+            "en": "The primary language of the resource."
+          },
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "iri": "language"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasCreator": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasCreator",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has creator"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has creator"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+          "iri": "hasCreator"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#other": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#other",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "other"
+          },
+          "description": {},
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "other"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasDescription": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasDescription",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has description"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has description"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Description",
+          "iri": "hasDescription"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedItem",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has related item"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has related item"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+          "iri": "hasRelatedItem"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#format": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#format",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "format"
+          },
+          "description": {
+            "en": "Technical format of the resource."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "format"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#alternativeTitle": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#alternativeTitle",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "alternative title"
+          },
+          "description": {},
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "alternativeTitle"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#translatedTitle": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#translatedTitle",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "translated title"
+          },
+          "description": {},
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "translatedTitle"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasRelatedIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has related identifier"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has related identifier"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+          "iri": "hasRelatedIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasSubject": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasSubject",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has subject"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has subject"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+          "iri": "hasSubject"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasDate": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasDate",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has date"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has date"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Date",
+          "iri": "hasDate"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#resourceType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#resourceType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "resource type"
+          },
+          "description": {
+            "en": "A description of the resource. Gets the value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/resourceTypeGeneral/."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "resourceType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasFundingReference",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has funding reference"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has funding reference"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+          "iri": "hasFundingReference"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasGeolocation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has geolocation"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has geolocation"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+          "iri": "hasGeolocation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasPublisher": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasPublisher",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has publisher"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has publisher"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+          "iri": "hasPublisher"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasContributor": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasContributor",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has contributor"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has contributor"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+          "iri": "hasContributor"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#subtitle": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#subtitle",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Resource"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "subtitle"
+          },
+          "description": {},
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "subtitle"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorNameType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorNameType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor name type"
+          },
+          "description": {
+            "en": "The type of name. Allowed values are Organizational and Personal."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "contributorNameType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliation": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor affiliation"
+          },
+          "description": {
+            "en": "The organizational or institutional affiliation of the contributor."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "contributorAffiliation"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorNameIdentifierScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorNameIdentifierScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor name identifier scheme"
+          },
+          "description": {
+            "en": "The name of the name identifier scheme."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "contributorNameIdentifierScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorNameSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorNameSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor name scheme URI"
+          },
+          "description": {
+            "en": "The URI of the name identifier scheme."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "contributorNameSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor affiliation scheme URI"
+          },
+          "description": {
+            "en": "URI of the affiliation identifier scheme."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "contributorAffiliationSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationIdentifierScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorAffiliationIdentifierScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor affiliation identifier scheme"
+          },
+          "description": {
+            "en": "The name of the affiliation identifier scheme."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "contributorAffiliationIdentifierScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorGivenName": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorGivenName",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor given name"
+          },
+          "description": {
+            "en": "The personal or first name of the contributor."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "contributorGivenName"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorFamilyName": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorFamilyName",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor family name"
+          },
+          "description": {
+            "en": "The surname or last name of the contributor."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "contributorFamilyName"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorName": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorName",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor name"
+          },
+          "description": {
+            "en": "The full name of the contributor."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "contributorName"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contributorType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contributorType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor type"
+          },
+          "description": {
+            "en": "The type of contributor of the resource. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/contributorType/."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "contributorType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#contirbutorNameIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#contirbutorNameIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "contributor name identifier"
+          },
+          "description": {
+            "en": "Uniquely identifies an individual or legal entity, according to various schemes."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "contirbutorNameIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#geoLocationPlace": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#geoLocationPlace",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Geolocation"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "geo location place"
+          },
+          "description": {
+            "en": "Description of a geographic location."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "geoLocationPlace"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationBox",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has geo location box"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Geolocation"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has geo location box"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+          "iri": "hasGeoLocationBox"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPolygon",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has geo location polygon"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Geolocation"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has geo location polygon"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon",
+          "iri": "hasGeoLocationPolygon"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasGeoLocationPoint",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has geo location point"
+      },
+      "description": {},
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Geolocation"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has geo location point"
+          },
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+          "iri": "hasGeoLocationPoint"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#descriptionText": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#descriptionText",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Description"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "description text"
+          },
+          "description": {
+            "en": "Text describing the resource."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "descriptionText"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#descriptionType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#descriptionType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Description"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "description type"
+          },
+          "description": {
+            "en": "The type of the Description. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/descriptionType/."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "descriptionType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#hasDescriptionType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has description type"
+      },
+      "description": {
+        "en": "Relation to the type of the description."
+      },
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Description"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has description type"
+          },
+          "description": {
+            "en": "Relation to the type of the description."
+          },
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#DescriptionType",
+          "iri": "hasDescriptionType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifierScheme": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifierScheme",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Rights"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "rights identifier scheme"
+          },
+          "description": {
+            "en": "The name of the scheme."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "rightsIdentifierScheme"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#rightsUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#rightsUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Rights"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "rights URI"
+          },
+          "description": {
+            "en": "The URI of the license."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "rightsUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#rightsIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Rights"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "rights identifier"
+          },
+          "description": {
+            "en": "A short, standardized version of the license name."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "rightsIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#rightsSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#rightsSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Rights"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "rights scheme URI"
+          },
+          "description": {
+            "en": "The URI of the rightsIdentifierScheme."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "rightsSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#inPolygonPoint",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "in polygon point"
+      },
+      "description": {
+        "en": "For any bound area that is larger than half the earth, define a (random) point inside. "
+      },
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "in polygon point"
+          },
+          "description": {
+            "en": "For any bound area that is larger than half the earth, define a (random) point inside. "
+          },
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+          "iri": "inPolygonPoint"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#polygonConsistOfPoint",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "polygon consist of point"
+      },
+      "description": {
+        "en": "A point location in a polygon."
+      },
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "polygon consist of point"
+          },
+          "description": {
+            "en": "A point location in a polygon."
+          },
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+          "iri": "polygonConsistOfPoint"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#pointLongitude": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#pointLongitude",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "point longitude"
+          },
+          "description": {
+            "en": "Longitudinal dimension of point."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#decimal",
+          "iri": "pointLongitude"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#pointLatitude": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#pointLatitude",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "point latitude"
+          },
+          "description": {
+            "en": "Latitudinal dimension of point."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#decimal",
+          "iri": "pointLatitude"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#alternateIdentifierType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#alternateIdentifierType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "alternate identifier type"
+          },
+          "description": {
+            "en": "The type of the Alternate identifier."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "alternateIdentifierType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "funder identifier type"
+          },
+          "description": {
+            "en": "The type of the funderIdentifier."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "funderIdentifierType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierSchemeUri": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#funderIdentifierSchemeUri",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "funder identifier scheme URI"
+          },
+          "description": {
+            "en": "The URI of the funder identifier scheme."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "funderIdentifierSchemeUri"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedItemType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedItemType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "related item type"
+          },
+          "description": {
+            "en": "The general type of the related item. Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/resourceTypeGeneral/."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "relatedItemType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedItemHasCreator",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "has creator"
+      },
+      "description": {
+        "en": "The institution or person responsible for creating the related resource."
+      },
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "has creator"
+          },
+          "description": {
+            "en": "The institution or person responsible for creating the related resource."
+          },
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+          "iri": "relatedItemHasCreator"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedItemTitle": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedItemTitle",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "title"
+          },
+          "description": {
+            "en": "Title of the related item."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "relatedItemTitle"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedItemIdentifier",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "related item identifier"
+      },
+      "description": {
+        "en": "The identifier for the related item."
+      },
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "related item identifier"
+          },
+          "description": {
+            "en": "The identifier for the related item."
+          },
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+          "iri": "relatedItemIdentifier"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublicationYear": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublicationYear",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "publication year"
+          },
+          "description": {
+            "en": "The year when the item was or will be made publicly available."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#date",
+          "iri": "relatedItemPublicationYear"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublisher": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedItemPublisher",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "publisher"
+          },
+          "description": {
+            "en": "The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "relatedItemPublisher"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedItemRelationType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedItemRelationType",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "relation type"
+          },
+          "description": {
+            "en": "Description of the relationship of the resource being registered (A) and the related item (B). Value from controlled list https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-1/relationType/."
+          },
+          "concept": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "iri": "relatedItemRelationType"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#volume": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#volume",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "volume"
+          },
+          "description": {
+            "en": "Volume of the related item."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "volume"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#issue": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#issue",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "issue"
+          },
+          "description": {
+            "en": "Issue number or name of the related item."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "issue"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#number": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#number",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "number"
+          },
+          "description": {
+            "en": "Number of the resource within the related item, e.g., report number or article number."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "number"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#firstPage": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#firstPage",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "first page"
+          },
+          "description": {
+            "en": "First page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "firstPage"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#edition": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#edition",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "edition"
+          },
+          "description": {
+            "en": "Edition or version of the related item."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "edition"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#relatedItemContributor",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "related item contributor"
+      },
+      "description": {
+        "en": "An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this sub-property may be repeated for each contributor."
+      },
+      "ends": [
+        {
+          "cardinality": null,
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "related item contributor"
+          },
+          "description": {
+            "en": "An institution or person identified as contributing to the development of the resource. If multiple contributors are identified, this sub-property may be repeated for each contributor."
+          },
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+          "iri": "relatedItemContributor"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#lastPage": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#lastPage",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {},
+          "description": {},
+          "concept": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem"
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "last page"
+          },
+          "description": {
+            "en": "Last page of the resource within the related item, e.g., of the chapter, article, or conference paper in proceedings."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "lastPage"
+        }
+      ]
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Publisher": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+      "iri": "Publisher",
+      "name": {
+        "en": "Publisher"
+      },
+      "description": {
+        "en": "The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Publisher&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Publisher&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Publisher",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#FundingReference": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+      "iri": "FundingReference",
+      "name": {
+        "en": "Funding reference"
+      },
+      "description": {
+        "en": "Information about financial support (funding) for the resource being registered."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23FundingReference&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23FundingReference&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#FundingReference",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Subject": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+      "iri": "Subject",
+      "name": {
+        "en": "Subject"
+      },
+      "description": {
+        "en": "Subject, keyword, classification code, or key phrase describing the resource."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Subject&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Subject&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Subject",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Date": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Date",
+      "iri": "Date",
+      "name": {
+        "en": "Date"
+      },
+      "description": {
+        "en": "Different dates relevant to the work."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Date&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Date&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Date",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Creator": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+      "iri": "Creator",
+      "name": {
+        "en": "Creator"
+      },
+      "description": {
+        "en": "The main researchers involved in producing the data, or the authors of the publication, in priority order. For instruments this is the manufacturer or developer of the instrument. To supply multiple creators, repeat this property."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Creator&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Creator&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Creator",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+      "iri": "RelatedIdentifier",
+      "name": {
+        "en": "Related identifier"
+      },
+      "description": {
+        "en": "dentifiers of related resources. These must be globally unique identifiers."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23RelatedIdentifier&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23RelatedIdentifier&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#RelatedIdentifier",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+      "iri": "GeoLocationBox",
+      "name": {
+        "en": "Geo location box"
+      },
+      "description": {
+        "en": "The spatial limits of a box."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23GeoLocationBox&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23GeoLocationBox&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationBox",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Resource": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+      "iri": "Resource",
+      "name": {
+        "en": "Resource"
+      },
+      "description": {
+        "en": "Root element of a single record. This wrapper element represents root element taken from XML implementation and is not defined in the DataCite DOI standard. RDF also needs a root element."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Resource&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Resource&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Resource",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Contributor": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+      "iri": "Contributor",
+      "name": {
+        "en": "Contributor"
+      },
+      "description": {
+        "en": "he institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource. To supply multiple contributors, repeat this property.\n\nFor software, if there is an alternate entity that “holds, archives, publishes, prints, distributes, releases, issues, or produces” the code, use the contributorType “HostingInstitution” for the code repository.\n\nFor instruments, if there is an institution responsible for the management of the instrument (for example, the legal owner, the operator, or an institute providing access to the instrument), use the contributorType “HostingInstitution” for the owner of the instrument."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Contributor&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Contributor&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Contributor",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Geolocation": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+      "iri": "Geolocation",
+      "name": {
+        "en": "GeoLocation"
+      },
+      "description": {
+        "en": "Spatial region or named place where the data was gathered or about which the data is focused."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Geolocation&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Geolocation&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Geolocation",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Description": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Description",
+      "iri": "Description",
+      "name": {
+        "en": "Description"
+      },
+      "description": {
+        "en": "All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Description&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Description&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Description",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#Rights": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+      "iri": "Rights",
+      "name": {
+        "en": "Rights"
+      },
+      "description": {
+        "en": "Any rights information for this resource. The property may be repeated to record complex rights characteristics."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Rights&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23Rights&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#Rights",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#DescriptionType": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#DescriptionType",
+      "iri": "DescriptionType",
+      "name": {
+        "en": "Description type"
+      },
+      "description": {
+        "en": "The type of the description."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23DescriptionType&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23DescriptionType&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#DescriptionType",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon",
+      "iri": "GeoLocationPolygon",
+      "name": {
+        "en": "Geo location polygon"
+      },
+      "description": {
+        "en": "A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23GeoLocationPolygon&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23GeoLocationPolygon&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPolygon",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+      "iri": "GeoLocationPoint",
+      "name": {
+        "en": "Geo location point"
+      },
+      "description": {
+        "en": "A point location in space."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23GeoLocationPoint&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23GeoLocationPoint&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#GeoLocationPoint",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier",
+      "iri": "AlternateIdentifier",
+      "name": {
+        "en": "Alternate identifier"
+      },
+      "description": {
+        "en": "An identifier other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers, a serial number of an instrument or an inventory number. The AlternateIdentifier should be an additional identifier for the same instance of the resource (i.e., same location, same file)."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23AlternateIdentifier&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23AlternateIdentifier&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#AlternateIdentifier",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier",
+      "iri": "FunderIdentifier",
+      "name": {
+        "en": "Funder identifier"
+      },
+      "description": {
+        "en": "Uniquely identifies a funding entity, according to various types."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23FunderIdentifier&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23FunderIdentifier&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#FunderIdentifier",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://model.ccmm.cz/vocabulary/datacite#RelatedItem": {
+      "id": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+      "iri": "RelatedItem",
+      "name": {
+        "en": "Related item"
+      },
+      "description": {
+        "en": "Information about a resource related to the one being registered."
+      },
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23RelatedItem&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fmodel.ccmm.cz%2Fvocabulary%2Fdatacite%23RelatedItem&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://model.ccmm.cz/vocabulary/datacite#RelatedItem",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "operations": [
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1747685830295-493e-de2d-ab2d",
+      "parent": null,
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "7gp9ruvhjhnmav7em3v",
+      "dataPsmTechnicalLabel": "language_system",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetRoots"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1747685830328-e23b-37e0-89da",
+      "parent": "https://ofn.gov.cz/operation/1747685830295-493e-de2d-ab2d",
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1747685830295-de50-b2ac-bb47"
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1747685830365-3e3d-d97f-a7ee",
+      "parent": "https://ofn.gov.cz/operation/1747685830328-e23b-37e0-89da",
+      "dataPsmResource": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "dataPsmHumanLabel": {
+        "en": "Language system",
+        "cs": "Language system"
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanDescription"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1747685830388-1dbd-f82e-a73f",
+      "parent": "https://ofn.gov.cz/operation/1747685830365-3e3d-d97f-a7ee",
+      "dataPsmResource": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Language system. A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language.",
+        "cs": "Datová struktura pro Language system. A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language."
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1747685836031-291f-0f48-b8b4",
+      "parent": "https://ofn.gov.cz/operation/1747685830388-1dbd-f82e-a73f",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "l2k16ajx3ljmav8gg0k",
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1747685830295-de50-b2ac-bb47",
+      "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesHaveIdentity"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1750770247285-ecf0-9da1-8114",
+      "parent": "https://ofn.gov.cz/operation/1747685836031-291f-0f48-b8b4",
+      "dataPsmClass": "https://ofn.gov.cz/class/1747685830295-de50-b2ac-bb47",
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1753450470733-e0d6-7b4e-a529",
+      "parent": "https://ofn.gov.cz/operation/1750770247285-ecf0-9da1-8114",
+      "dataPsmSchema": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "namespace": "https://schema.ccmm.cz/language-system",
+      "namespacePrefix": "ccmm-lang"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetJsonEnforceContext"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1753450470802-70c3-1dfb-a2d1",
+      "parent": "https://ofn.gov.cz/operation/1753450470733-e0d6-7b4e-a529",
+      "dataPsmEntity": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "jsonEnforceContext": "no"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754378526197-6b91-14f3-adcd",
+      "parent": "https://ofn.gov.cz/operation/1753450470802-70c3-1dfb-a2d1",
+      "dataPsmSchema": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "namespace": "https://schema.ccmm.cz/research-data/1.0.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1754408304177-7635-d141-be32",
+      "parent": "https://ofn.gov.cz/operation/1754378526197-6b91-14f3-adcd",
+      "dataPsmSchema": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "namespace": "https://schema.ccmm.cz/research-data/1.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1763039663847-e463-a050-bfd0",
+      "parent": "https://ofn.gov.cz/operation/1754408304177-7635-d141-be32",
+      "dataPsmSchema": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "namespace": "https://schema.ccmm.cz/research-data/1.1",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1782333773374-2704-d1de-96e7",
+      "parent": "https://ofn.gov.cz/operation/1763039663847-e463-a050-bfd0",
+      "dataPsmSchema": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "namespace": "https://schema.ccmm.cz/research-data/1.2",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785941209040-701e-c3ac-8145",
+      "parent": "https://ofn.gov.cz/operation/1782333773374-2704-d1de-96e7",
+      "dataPsmSchema": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "namespace": "https://schema.ccmm.cz/research-data/2.0",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetDataType"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1788426358261-25a9-a949-9a31",
+      "parent": "https://ofn.gov.cz/operation/1785941209040-701e-c3ac-8145",
+      "dataPsmAttribute": "https://ofn.gov.cz/attribute/1747685836031-a6ab-6f6c-99e9",
+      "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetCardinality"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1788426358321-0e01-0689-bcf8",
+      "parent": "https://ofn.gov.cz/operation/1788426358261-25a9-a949-9a31",
+      "entityId": "https://ofn.gov.cz/attribute/1747685836031-a6ab-6f6c-99e9",
+      "dataPsmCardinality": [
+        1,
+        null
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetCardinality"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1788513366205-d98b-3b0a-8228",
+      "parent": "https://ofn.gov.cz/operation/1788426358321-0e01-0689-bcf8",
+      "entityId": "https://ofn.gov.cz/attribute/1747685836031-a6ab-6f6c-99e9",
+      "dataPsmCardinality": null
+    }
+  ],
+  "resources": {
+    "795a389f-0b63-4654-a2ea-e09acb9e6b41": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "795a389f-0b63-4654-a2ea-e09acb9e6b41",
+      "dataPsmHumanLabel": {
+        "en": "Language system",
+        "cs": "Language system"
+      },
+      "dataPsmHumanDescription": {
+        "en": "Data structure for Language system. A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language.",
+        "cs": "Datová struktura pro Language system. A system of signs, symbols, sounds, gestures, or rules used in communication, e.g. a language."
+      },
+      "dataPsmTechnicalLabel": null,
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1747685830295-de50-b2ac-bb47"
+      ],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/class/1747685830295-de50-b2ac-bb47",
+        "https://ofn.gov.cz/attribute/1747685836031-a6ab-6f6c-99e9"
+      ],
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/2.0",
+          "namespacePrefix": "ccmm"
+        }
+      },
+      "jsonEnforceContext": "no"
+    },
+    "https://ofn.gov.cz/class/1747685830295-de50-b2ac-bb47": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "https://ofn.gov.cz/class/1747685830295-de50-b2ac-bb47",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "language_system",
+      "dataPsmInterpretation": "7gp9ruvhjhnmav7em3v",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/attribute/1747685836031-a6ab-6f6c-99e9"
+      ],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    "https://ofn.gov.cz/attribute/1747685836031-a6ab-6f6c-99e9": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1747685836031-a6ab-6f6c-99e9",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmInterpretation": "l2k16ajx3ljmav8gg0k",
+      "dataPsmDatatype": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text"
+    }
+  }
+}

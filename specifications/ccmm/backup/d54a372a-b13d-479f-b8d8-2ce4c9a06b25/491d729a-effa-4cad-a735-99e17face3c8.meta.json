@@ -1,0 +1,24 @@
+{
+  "iri": "491d729a-effa-4cad-a735-99e17face3c8",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Alternate title type",
+      "cs": "Alternate title type"
+    },
+    "description": {
+      "en": "Data structure for Alternate title type. Type of alternate title.",
+      "cs": "Datová struktura pro Alternate title type. Type of alternate title."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:20.767Z",
+    "modificationDate": "2026-09-04T09:16:24.509Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.731Z",
+  "_exportedBy": "http://localhost:3100"
+}

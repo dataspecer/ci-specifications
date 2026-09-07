@@ -1,0 +1,4935 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/6c88e100-c7d2-4009-81d3-2760026bbfa3/54b60737-a241-441c-a339-70867389c4d6/profile",
+  "modelAlias": "DCAT 3 Default Application Profile",
+  "baseIri": "https://mff-uk.github.io/specifications/dcat-dap#",
+  "entities": {
+    "https://mff-uk.github.io/specifications/dcat-dap#Catalog": {
+      "iri": "Catalog",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#Catalog"
+      ],
+      "usageNote": {
+        "en": "A Web-based data catalog is typically represented as a single instance of this class.\nDatasets and data services are examples of resources in the context of a data catalog."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog",
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/ns/dcat#Catalog",
+      "description": {
+        "en": "A curated collection of metadata about resources.",
+        "es": "Una colección curada de metadatos sobre recursos (por ejemplo, conjuntos de datos y servicios de datos en el contexto de un catálogo de datos).",
+        "it": "Una raccolta curata di metadati sulle risorse (ad es. sui dataset e relativi servizi nel contesto di cataloghi di dati).",
+        "fr": "Une collection élaborée de métadonnées sur les jeux de données",
+        "cs": "Řízená kolekce metadat o datových sadách a datových službách",
+        "el": "Μια επιμελημένη συλλογή μεταδεδομένων περί συνόλων δεδομένων",
+        "ar": "مجموعة من توصيفات قوائم البيانات",
+        "ja": "データ・カタログは、データセットに関するキュレートされたメタデータの集合です。",
+        "da": "En udvalgt og arrangeret samling af metadata om ressourcer (fx datasæt og datatjenester i kontekst af et datakatalog). "
+      },
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#Catalog&toIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#Catalog&toIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+      "parent": "https://mff-uk.github.io/specifications/dcat-dap#Dataset"
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord": {
+      "iri": "CatalogRecord",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#CatalogRecord"
+      ],
+      "usageNote": {
+        "en": "This class is optional and not all catalogs will use it. It exists for catalogs where a distinction is made between metadata about a dataset or service and metadata about the entry in the catalog about the dataset or service. For example, the publication date property of the dataset reflects the date when the information was originally made available by the publishing agency, while the publication date of the catalog record is the date when the dataset was added to the catalog. In cases where both dates differ, or where only the latter is known, the publication date SHOULD only be specified for the catalog record. Notice that the W3C PROV Ontology [[PROV-O]] allows describing further provenance information such as the details of the process and the agent involved in a particular change to a dataset or its registration."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog_Record",
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/ns/dcat#CatalogRecord",
+      "description": {
+        "ja": "1つのデータセットを記述したデータ・カタログ内のレコード。",
+        "en": "A record in a catalog, describing the registration of a single dcat:Resource.",
+        "it": "Un record in un catalogo di dati che descrive un singolo dataset o servizio di dati.",
+        "fr": "Un registre du catalogue ou une entrée du catalogue, décrivant un seul jeu de données.",
+        "es": "Un registro en un catálogo de datos que describe un solo conjunto de datos o un servicio de datos.",
+        "cs": "Záznam v datovém katalogu popisující jednu datovou sadu či datovou službu.",
+        "el": "Μία καταγραφή ενός καταλόγου, η οποία περιγράφει ένα συγκεκριμένο σύνολο δεδομένων.",
+        "da": "En post i et datakatalog der beskriver registreringen af et enkelt datasæt eller en datatjeneste."
+      },
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset": {
+      "iri": "Dataset",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#Dataset"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset",
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/ns/dcat#Dataset",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset&toIri=https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset&toIri=https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+      "parent": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource"
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource": {
+      "iri": "CatalogedResource",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#Resource"
+      ],
+      "usageNote": {
+        "en": "The class of all cataloged resources, the super-class of dcat:Dataset, dcat:DataService, dcat:Catalog and any other member of a dcat:Catalog.\n\nThis class carries properties common to all cataloged resources, including datasets and data services.\n\nThe instances of this class SHOULD be included in a catalog.\n\nWhen describing a resource which is not a dcat:Dataset or dcat:DataService, it is recommended to create a suitable sub-class of dcat:Resource, or use dcat:Resource with the dcterms:type property to indicate the specific type.\n\ndcat:Resource is an extension point that enables the definition of any kind of catalog. Additional sub-classes may be defined in a DCAT profile or other DCAT application for catalogs of other kinds of resources."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Resource",
+      "name": {
+        "en": "Cataloged Resource",
+        "cs": "Katalogizovaný zdroj",
+        "es": "Recurso catalogado",
+        "it": "Risorsa catalogata",
+        "da": "Katalogiseret ressource"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Document": {
+      "iri": "Document",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Document",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://xmlns.com/foaf/0.1/Document"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://xmlns.com/foaf/0.1/Document",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource": {
+      "iri": "rdfs-Resource",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#Resource",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#DataService": {
+      "iri": "DataService",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#DataService",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#DataService"
+      ],
+      "usageNote": {
+        "en": "If a dcat:DataService is bound to one or more specified Datasets, they are indicated by the dcat:servesDataset property.\nThe kind of service can be indicated using the dcterms:type property. Its value may be taken from a controlled vocabulary such as the INSPIRE spatial data service type code list [INSPIRE-SDST]."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Data_Service",
+      "name": {
+        "en": "Data Service",
+        "it": "Servizio di dati",
+        "es": "Servicio de datos",
+        "da": "Datatjeneste"
+      },
+      "nameFromProfiled": null,
+      "description": {
+        "en": "A collection of operations that provides access to one or more datasets or data processing functions.",
+        "cs": "Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.",
+        "es": "Un sitio o end-point que provee operaciones relacionadas a funciones de descubrimiento, acceso, o procesamiento de datos o recursos relacionados.",
+        "it": "Un sito o end-point che fornisce operazioni relative alla scoperta, all'accesso o all'elaborazione di funzioni su dati o risorse correlate.",
+        "da": "Et websted eller endpoint der udstiller operationer relateret til opdagelse af, adgang til eller behandlende funktioner på data eller relaterede ressourcer."
+      },
+      "descriptionFromProfiled": null
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#DataService&toIri=https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#DataService&toIri=https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://mff-uk.github.io/specifications/dcat-dap#DataService",
+      "parent": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource"
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement": {
+      "iri": "RightsStatement",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/RightsStatement"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://purl.org/dc/terms/RightsStatement",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Standard": {
+      "iri": "Standard",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Standard",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/Standard"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://purl.org/dc/terms/Standard",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Kind": {
+      "iri": "Kind",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Kind",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/2006/vcard/ns#Kind"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/2006/vcard/ns#Kind",
+      "description": {},
+      "descriptionFromProfiled": "http://www.w3.org/2006/vcard/ns#Kind"
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Agent": {
+      "iri": "Agent",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Agent",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://xmlns.com/foaf/0.1/Agent"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://xmlns.com/foaf/0.1/Agent",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#LinguisticSystem": {
+      "iri": "LinguisticSystem",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#LinguisticSystem",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/LinguisticSystem"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://purl.org/dc/terms/LinguisticSystem",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Class": {
+      "iri": "Class",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Class",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/2000/01/rdf-schema#Class"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Relationship": {
+      "iri": "Relationship",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#Relationship"
+      ],
+      "usageNote": {
+        "en": "Use to characterize a relationship between datasets, and potentially other resources, where the nature of the relationship is known but is not adequately characterized by the standard [[DCTERMS]] properties (dcterms:hasPart, dcterms:isPartOf, dcterms:conformsTo, dcterms:isFormatOf, dcterms:hasFormat, dcterms:isVersionOf, dcterms:hasVersion, dcterms:replaces, dcterms:isReplacedBy, dcterms:references, dcterms:isReferencedBy, dcterms:requires, dcterms:isRequiredBy) or [[PROV-O]] properties (prov:wasDerivedFrom, prov:wasInfluencedBy, prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource, prov:alternateOf, prov:specializationOf)"
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Organization_Person",
+      "name": {},
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Attribution": {
+      "iri": "Attribution",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Attribution",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/prov#Attribution"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/ns/prov#Attribution",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument": {
+      "iri": "LicenseDocument",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/LicenseDocument"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://purl.org/dc/terms/LicenseDocument",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Policy": {
+      "iri": "Policy",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Policy",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/odrl/2/Policy"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": "http://www.w3.org/ns/odrl/2/Policy"
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution": {
+      "iri": "Distribution",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "usageNote": {
+        "en": "This represents a general availability of a dataset. It implies no information about the actual access method of the data, i.e., whether by direct download, API, or through a Web page. The use of dcat:downloadURL property indicates directly downloadable distributions."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset_Series",
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/ns/dcat#Distribution",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries": {
+      "iri": "DatasetSeries",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#DatasetSeries"
+      ],
+      "usageNote": {
+        "en": "Dataset series can be also soft-typed via property dcterms:type as in the approach used in [[GeoDCAT-AP]], and adopted in [[DCAT-AP-IT]] and [[GeoDCAT-AP-IT]]).\nCommon scenarios for dataset series include: time series composed of periodically released subsets; map-series composed of items of the same type or theme but with differing spatial footprints."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset_Series",
+      "name": {
+        "en": "Dataset Series",
+        "es": "Serie de conjuntos de datos",
+        "it": "Serie di dataset"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries&toIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries&toIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
+      "parent": "https://mff-uk.github.io/specifications/dcat-dap#Dataset"
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Frequency": {
+      "iri": "Frequency",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Frequency",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/Frequency"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Location": {
+      "iri": "Location",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Location",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/Location"
+      ],
+      "usageNote": {
+        "en": "For an extensive geometry (i.e., a set of coordinates denoting the vertices of the relevant geographic area), the property locn:geometry [[LOCN]] SHOULD be used.\nFor a geographic bounding box delimiting a spatial area the property dcat:bbox SHOULD be used.\nFor the geographic center of a spatial area, or another characteristic point, the property dcat:centroid SHOULD be used."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Location",
+      "name": {},
+      "nameFromProfiled": "http://purl.org/dc/terms/Location",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime": {
+      "iri": "PeriodOfTime",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/PeriodOfTime"
+      ],
+      "usageNote": {
+        "en": "The start and end of the interval SHOULD be given by using properties dcat:startDate or time:hasBeginning, and dcat:endDate or time:hasEnd, respectively. The interval can also be open - i.e., it can have just a start or just an end."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Period_of_Time",
+      "name": {},
+      "nameFromProfiled": null,
+      "description": {
+        "en": "An interval of time that is named or defined by its start and end."
+      },
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Entity": {
+      "iri": "Entity",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Entity",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/prov#Entity"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": "http://www.w3.org/ns/prov#Entity"
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#MediaType": {
+      "iri": "MediaType",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/MediaType"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://purl.org/dc/terms/MediaType",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent": {
+      "iri": "MediaTypeOrExtent",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/MediaTypeOrExtent"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://purl.org/dc/terms/MediaTypeOrExtent",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Concept": {
+      "iri": "Concept",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Concept",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "usageNote": {
+        "en": "It is recommended to use either skos:inScheme or skos:topConceptOf on every skos:Concept used to classify datasets to link it to the concept scheme it belongs to. This concept scheme is typically associated with the catalog using dcat:themeTaxonomy."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Concept",
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/2004/02/skos/core#Concept",
+      "description": {
+        "en": "A category or a theme used to describe datasets in the catalog."
+      },
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#ConceptScheme": {
+      "iri": "ConceptScheme",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#ConceptScheme",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Concept_Scheme",
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "description": {
+        "en": "A knowledge organization system (KOS) used to represent themes/categories of datasets in the catalog."
+      },
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Person": {
+      "iri": "Person",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Person",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://xmlns.com/foaf/0.1/Person"
+      ],
+      "usageNote": {
+        "en": "[[FOAF]] provides several properties to describe these entities."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Organization_Person",
+      "name": {},
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Organization": {
+      "iri": "Organization",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Organization",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://xmlns.com/foaf/0.1/Organization"
+      ],
+      "usageNote": {
+        "en": "[[FOAF]] provides several properties to describe these entities."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Organization_Person",
+      "name": {},
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Role": {
+      "iri": "Role",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Role",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/dcat#Role"
+      ],
+      "usageNote": {
+        "en": "Used in a qualified-attribution to specify the role of an Agent with respect to an Entity. It is recommended that the values be managed as a controlled vocabulary of agent roles, such as [[ISO-19115-1]] CI_RoleCode.\nUsed in a qualified-relation to specify the role of an Entity with respect to another Entity. It is recommended that the values be managed as a controlled vocabulary of entity roles such as [[ISO-19115-1]] DS_AssociationTypeCode, IANA Registry of Link Relations [[IANA-RELATIONS]], DataCite metadata schema [[DataCite]], MARC relators."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Role",
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/ns/dcat#Role",
+      "description": {},
+      "descriptionFromProfiled": null,
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Instant": {
+      "iri": "Instant",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Instant",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/2006/time#Instant"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/2006/time#Instant",
+      "description": {},
+      "descriptionFromProfiled": "http://www.w3.org/2006/time#Instant"
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Geometry": {
+      "iri": "Geometry",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/ns/locn#Geometry"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "http://www.w3.org/ns/locn#Geometry",
+      "description": {
+        "en": "The locn:Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
+      },
+      "descriptionFromProfiled": "http://www.w3.org/ns/locn#Geometry",
+      "order": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Checksum": {
+      "iri": "Checksum",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Checksum",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://spdx.org/rdf/terms#Checksum"
+      ],
+      "usageNote": {
+        "en": "The Checksum includes the algorithm (spdx:algorithm) and value (spdx:checksumValue) that allows the integrity of a file to be verified to ensure no errors occurred in transmission or storage."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Class:Checksum",
+      "name": {
+        "en": "Checksum"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm": {
+      "iri": "ChecksumAlgorithm",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://spdx.org/rdf/terms#ChecksumAlgorithm"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Checksum Algorithm"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.title": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.title",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "title"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/title"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.title",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.releaseDate": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.releaseDate",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "release date"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Date of formal issuance (e.g., publication) of the resource."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/issued"
+          ],
+          "usageNote": {
+            "en": "This property SHOULD be set using the first known date of issuance."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.releaseDate",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.update-modificationDate": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.update-modificationDate",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "update/modification date"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Most recent date on which the resource was changed, updated or modified."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/modified"
+          ],
+          "usageNote": {
+            "en": "The value of this property indicates a change to the actual resource, not a change to the catalog record. An absent value MAY indicate that the resource has never changed after its initial publication, or that the date of last modification is not known, or that the resource is continuously updated."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.update-modificationDate",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.identifier": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.identifier",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "identifier"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A unique identifier of the resource being described or cataloged."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/identifier"
+          ],
+          "usageNote": {
+            "en": "The identifier might be used as part of the IRI of the resource, but still having it represented explicitly is useful.\nThe identifier is a text string which is assigned to the resource to provide an unambiguous reference within a particular context."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.identifier",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.keyword": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.keyword",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "keyword/tag",
+            "cs": "klíčové slovo",
+            "fr": "mot-clés ",
+            "es": "palabra clave",
+            "it": "parola chiave",
+            "el": "λέξη-κλειδί",
+            "ar": "كلمة  مفتاحية ",
+            "ja": "キーワード/タグ",
+            "da": "nøgleord"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#keyword"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.keyword",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.version": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.version",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#version",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#version"
+          ],
+          "usageNote": {
+            "en": "DCAT does not prescribe how a version name / identifier should be specified, and refers for guidance to [[DWBP]]'s Best Practice 7: Provide a version indicator."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.version",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.versionInfo": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.versionInfo",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "version notes"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A description of changes between this version and the previous version of the resource [VOCAB-ADMS]."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/adms#versionNotes"
+          ],
+          "usageNote": {
+            "en": "In case of backward compatibility issues with the previous version of the resource, a textual description of them SHOULD be specified by using this property."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_version_notes"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.versionInfo",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.title": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.title",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "title"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A name given to the record."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/title"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:record_title"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.title",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.listingDate": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.listingDate",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "listing date"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "The date of listing (i.e., formal recording) of the corresponding dataset or service in the catalog."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/issued"
+          ],
+          "usageNote": {
+            "en": "This indicates the date of listing the dataset in the catalog and not the publication date of the dataset itself."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:record_listing_date"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.listingDate",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.update-modificationDate": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.update-modificationDate",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "update/modification date"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Most recent date on which the catalog entry was changed, updated or modified."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/modified"
+          ],
+          "usageNote": {
+            "en": "This indicates the date of last change of a catalog entry, i.e., the catalog metadata description of the dataset, and not the date of the dataset itself."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:record_update_date"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.update-modificationDate",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset.spatialResolution": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.spatialResolution",
+          "concept": "http://www.w3.org/2001/XMLSchema#decimal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "cs": "prostorové rozlišení (metry)",
+            "es": "resolución espacial (metros)",
+            "it": "risoluzione spaziale (metri)",
+            "en-us": "spatial resolution (meters)",
+            "en-gb": "spatial resolution (metres)",
+            "da": "geografisk opløsning (meter)",
+            "en": "spatial resolution"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en-us": "minimum spatial separation resolvable in a dataset, measured in meters.",
+            "en-gb": "minimum spatial separation resolvable in a dataset, measured in metres.",
+            "cs": "minimální prostorový rozestup rozeznatelný v datové sadě, měřeno v metrech.",
+            "es": "mínima separacíon espacial disponible en un conjunto de datos, medida en metros.",
+            "it": "separazione spaziale minima risolvibile in un set di dati, misurata in metri.",
+            "da": "mindste geografiske afstand som kan erkendes i et datasæt, målt i meter.",
+            "en": "Minimum spatial separation resolvable in a dataset, measured in meters."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#spatialResolutionInMeters"
+          ],
+          "usageNote": {
+            "en": "If the dataset is an image or grid this should correspond to the spacing of items. For other kinds of spatial datasets, this property will usually indicate the smallest distance between items in the dataset."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.spatialResolution",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset.temporalResolution": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.temporalResolution",
+          "concept": "http://www.w3.org/2001/XMLSchema#duration",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#temporalResolution",
+          "description": {
+            "en": "Minimum time period resolvable in the dataset.",
+            "cs": "minimální doba trvání rozlišitelná v datové sadě.",
+            "it": "periodo di tempo minimo risolvibile in un set di dati.",
+            "es": "período de tiempo mínimo en el conjunto de datos.",
+            "da": "mindste tidsperiode der kan resolveres i datasættet."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#temporalResolution"
+          ],
+          "usageNote": {
+            "en": "If the dataset is a time-series this should correspond to the spacing of items in the series. For other kinds of dataset, this property will usually indicate the smallest time difference between items in the dataset."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal_resolution",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.temporalResolution",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.title": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.title",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "title"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A name given to the distribution."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/title"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.title",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.releaseDate": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.releaseDate",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "release date"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/issued"
+          ],
+          "usageNote": {
+            "en": "This property SHOULD be set using the first known date of issuance."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.releaseDate",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.update-modificationDate": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.update-modificationDate",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "update/modification date"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/modified"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.update-modificationDate",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.byteSize": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.byteSize",
+          "concept": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#byteSize",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#byteSize"
+          ],
+          "usageNote": {
+            "en": "The size in bytes can be approximated (as a non-negative integer) when the precise size is not known.\nWhile it is recommended that the size be given as an integer, alternative literals such as '1.5 MB' are sometimes used."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_size",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.byteSize",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.spatialResolution": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.spatialResolution",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "cs": "prostorové rozlišení (metry)",
+            "es": "resolución espacial (metros)",
+            "it": "risoluzione spaziale (metri)",
+            "en-us": "spatial resolution (meters)",
+            "en-gb": "spatial resolution (metres)",
+            "da": "geografisk opløsning (meter)",
+            "en": "spatial resolution"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en-us": "The minimum spatial separation resolvable in a dataset distribution, measured in meters.",
+            "en-gb": "minimum spatial separation resolvable in a dataset, measured in metres.",
+            "cs": "minimální prostorový rozestup rozeznatelný v datové sadě, měřeno v metrech.",
+            "es": "mínima separacíon espacial disponible en un conjunto de datos, medida en metros.",
+            "it": "separazione spaziale minima risolvibile in un set di dati, misurata in metri.",
+            "da": "mindste geografiske afstand som kan erkendes i et datasæt, målt i meter."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#spatialResolutionInMeters"
+          ],
+          "usageNote": {
+            "en": "If the dataset is an image or grid this should correspond to the spacing of items. For other kinds of spatial datasets, this property will usually indicate the smallest distance between items in the dataset.\nAlternative spatial resolutions might be provided as different dataset distributions"
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.spatialResolution",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.temporalResolution": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.temporalResolution",
+          "concept": "http://www.w3.org/2001/XMLSchema#duration",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#temporalResolution",
+          "description": {
+            "en": "Minimum time period resolvable in the dataset distribution.",
+            "cs": "minimální doba trvání rozlišitelná v datové sadě.",
+            "it": "periodo di tempo minimo risolvibile in un set di dati.",
+            "es": "período de tiempo mínimo en el conjunto de datos.",
+            "da": "mindste tidsperiode der kan resolveres i datasættet."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#temporalResolution"
+          ],
+          "usageNote": {
+            "en": "If the dataset is a time-series this should correspond to the spacing of items in the series. For other kinds of dataset, this property will usually indicate the smallest time difference between items in the dataset.\nAlternative temporal resolutions might be provided in different dataset distributions"
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.temporalResolution",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.startDate": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.startDate",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#startDate",
+          "description": {
+            "en": "The start of the period."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#startDate"
+          ],
+          "usageNote": {
+            "en": "rdfs:Literal encoded using the relevant ISO 8601 Date and Time compliant string [[DATETIME]] and typed using the appropriate XML Schema datatype [[XMLSCHEMA11-2]] (xsd:gYear, xsd:gYearMonth, xsd:date, or xsd:dateTime)."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:period_start_date",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.startDate",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.endDate": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.endDate",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#endDate",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#endDate"
+          ],
+          "usageNote": {
+            "en": "rdfs:Literal encoded using the relevant ISO 8601 Date and Time compliant string [[DATETIME]] and typed using the appropriate XML Schema datatype [[XMLSCHEMA11-2]]"
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:period_end_date",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.endDate",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Location.boundingBox": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Location",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Location.boundingBox",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#bbox",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#bbox"
+          ],
+          "usageNote": {
+            "en": "The range of this property (rdfs:Literal) is intentionally generic, with the purpose of allowing different geometry literal encodings. E.g., the geometry could be encoded as a WKT literal (geosparql:wktLiteral [[GeoSPARQL]])."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:location_bbox",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Location.boundingBox",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Location.centroid": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Location",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Location.centroid",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#centroid",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#centroid"
+          ],
+          "usageNote": {
+            "en": "The range of this property (rdfs:Literal) is intentionally generic, with the purpose of allowing different geometry literal encodings. E.g., the geometry could be encoded as a WKT literal (geosparql:wktLiteral [[GeoSPARQL]])."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:location_centroid",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Location.centroid",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Checksum.checksumValue": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Checksum",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Checksum.checksumValue",
+          "concept": "http://www.w3.org/2001/XMLSchema#hexBinary",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "checksum value"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://spdx.org/rdf/terms#checksumValue"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:checksum_checksum_value"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Checksum.checksumValue",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.description": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.description",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "description"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A free-text account of the record."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/description#attribute"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:record_description"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.description",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.description": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.description",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "description"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A free-text account of the distribution."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/description#attribute"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.description",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.description": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.description",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "description"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A free-text account of the resource."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/description#attribute"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.description",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Catalog.homepage": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.homepage",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Document",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://xmlns.com/foaf/0.1/homepage",
+          "description": {
+            "en": "A homepage of the catalog (a public Web document usually available in HTML)."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://xmlns.com/foaf/0.1/homepage"
+          ],
+          "usageNote": {
+            "en": "foaf:homepage is an inverse functional property (IFP) which means that it MUST be unique and precisely identify the Web-page for the resource. This property indicates the canonical Web-page, which might be helpful in cases where there is more than one Web-page about the resource."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.homepage",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Catalog.themeTaxonomy": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.themeTaxonomy",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#themeTaxonomy",
+          "description": {
+            "es": "El sistema de organización del conocimiento utilizado para clasificar conjuntos de datos de catálogos.",
+            "it": "Il sistema di organizzazione della conoscenza (KOS) usato per classificare i dataset del catalogo.",
+            "fr": "Le systhème d'ogranisation de connaissances utilisé pour classifier les jeux de données du catalogue.",
+            "cs": "Systém organizace znalostí (KOS) použitý pro klasifikaci datových sad v katalogu.",
+            "en": "A knowledge organization system (KOS) used to classify the resources documented in the catalog (e.g., datasets and services).",
+            "el": "Το σύστημα οργάνωσης γνώσης που χρησιμοποιείται για την κατηγοριοποίηση των συνόλων δεδομένων του καταλόγου.",
+            "ar": "لائحة التصنيفات المستخدمه لتصنيف قوائم البيانات ضمن الفهرس",
+            "ja": "カタログのデータセットを分類するために用いられる知識組織化体系（KOS；knowledge organization system）。",
+            "da": "Vidensorganiseringssystem (KOS) som anvendes til at klassificere datasæt i kataloget."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#themeTaxonomy"
+          ],
+          "usageNote": {
+            "en": "It is recommended that the taxonomy is organized in a skos:ConceptScheme, skos:Collection, owl:Ontology or similar, which allows each member to be denoted by an IRI and published as Linked Data."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_themes",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.themeTaxonomy",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Catalog.resource": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.resource",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#resource",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#resource"
+          ],
+          "usageNote": {
+            "en": "This is the most general predicate for membership of a catalog. Use of a more specific sub-property is recommended when available."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_resource",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.resource",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Catalog.dataset": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.dataset",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#dataset",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#dataset"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.dataset",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Catalog.service": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.service",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#DataService",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#service",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#service"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.service",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Catalog.catalog": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.catalog",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#catalog",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#catalog"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.catalog",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Catalog.record": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.record",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#record",
+          "description": {
+            "en": "A record describing the registration of a single resource (e.g., a dataset, a data service) that is part of the catalog.",
+            "es": "Describe la registración de un conjunto de datos o un servicio de datos en el catálogo.",
+            "cs": "Záznam popisující registraci jedné datové sady či datové služby jakožto součásti katalogu.",
+            "fr": "Relie un catalogue à ses registres.",
+            "it": "Un record che descrive la registrazione di un singolo set di dati o di un servizio dati che fa parte del catalogo.",
+            "el": "Συνδέει έναν κατάλογο με τις καταγραφές του.",
+            "ar": "تربط الفهرس بسجل ضمنه",
+            "ja": "カタログの一部であるカタログ・レコード。",
+            "da": "En post der beskriver registreringen af et enkelt datasæt eller en datatjeneste som er opført i kataloget."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#record"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.record",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.accessRights": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.accessRights",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "access rights"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/accessRights"
+          ],
+          "usageNote": {
+            "en": "Information about licenses and rights MAY be provided for the Resource."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.accessRights",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.conformsTo": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.conformsTo",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Standard",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "conforms to"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/conformsTo"
+          ],
+          "usageNote": {
+            "en": "This property SHOULD be used to indicate the model, schema, ontology, view or profile that the cataloged resource content conforms to."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.conformsTo",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.contactPoint": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.contactPoint",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Kind",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#contactPoint",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#contactPoint"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.contactPoint",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.creator": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.creator",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Agent",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "creator"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/creator"
+          ],
+          "usageNote": {
+            "en": "Resources of type foaf:Agent are recommended as values for this property."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.creator",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.language": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.language",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#LinguisticSystem",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "language"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A language of the resource. This refers to the natural language used for textual metadata (i.e., titles, descriptions, etc.) of a cataloged resource (i.e., dataset or service) or the textual values of a dataset distribution"
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/language"
+          ],
+          "usageNote": {
+            "en": "Repeat this property if the resource is available in multiple languages.\nThe value(s) provided for members of a catalog (i.e., dataset or service) override the value(s) provided for the catalog if they conflict.\nIf representations of a dataset are available for each language separately, define an instance of dcat:Distribution for each language and describe the specific language of each distribution using dcterms:language (i.e., the dataset will have multiple dcterms:language values and each distribution will have just one as the value of its dcterms:language property). In case of multilingual distributions, the distributions will have multiple dcterms:language values."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.language",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.publisher": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.publisher",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Agent",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "publisher"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/publisher"
+          ],
+          "usageNote": {
+            "en": "Resources of type foaf:Agent are recommended as values for this property."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.publisher",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.theme-category": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.theme-category",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "es": "tema",
+            "it": "tema",
+            "en": "theme/category",
+            "fr": "thème",
+            "cs": "téma",
+            "el": "Θέμα",
+            "ar": "التصنيف",
+            "ja": "テーマ/カテゴリー",
+            "da": "emne"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#theme"
+          ],
+          "usageNote": {
+            "en": "The set of themes used to categorize the resources are organized in a skos:ConceptScheme, skos:Collection, owl:Ontology or similar, describing all the categories and their relations in the catalog."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.theme-category",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.type-genre": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.type-genre",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Class",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "type/genre"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/type"
+          ],
+          "usageNote": {
+            "en": "The value SHOULD be taken from a well governed and broadly recognised controlled vocabulary, such as:\nDCMI Type vocabulary [[DCTERMS]]\n[[ISO-19115-1]] scope codes\nDatacite resource types [[DataCite]]\nPARSE.Insight content-types used by re3data.org [[RE3DATA-SCHEMA]] (see item 15 contentType)\nMARC intellectual resource types\nSome members of these controlled vocabularies are not strictly suitable for datasets or data services (e.g., DCMI Type Event, PhysicalObject; [[ISO-19115-1]] CollectionHardware, CollectionSession, Initiative, Sample, Repository), but might be used in the context of other kinds of catalogs defined in DCAT profiles or applications.\n\nTo describe the file format, physical medium, or dimensions of the resource, use the dcterms:format element."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.type-genre",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.relation": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.relation",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "relation"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/relation"
+          ],
+          "usageNote": {
+            "en": "dcterms:relation SHOULD be used where the nature of the relationship between a cataloged resource and related resources is not known. A more specific sub-property SHOULD be used if the nature of the relationship of the link is known. The property dcat:distribution SHOULD be used to link from a dcat:Dataset to a representation of the dataset, described as a dcat:Distribution"
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_relation"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.relation",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.qualifiedRelation": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.qualifiedRelation",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#qualifiedRelation",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#qualifiedRelation"
+          ],
+          "usageNote": {
+            "en": "Used to link to another resource where the nature of the relationship is known but does not match one of the standard [[DCTERMS]] properties (dcterms:hasPart, dcterms:isPartOf, dcterms:conformsTo, dcterms:isFormatOf, dcterms:hasFormat, dcterms:isVersionOf, dcterms:hasVersion, dcterms:replaces, dcterms:isReplacedBy, dcterms:references, dcterms:isReferencedBy, dcterms:requires, dcterms:isRequiredBy) or [[PROV-O]] properties (prov:wasDerivedFrom, prov:wasInfluencedBy, prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource, prov:alternateOf, prov:specializationOf).\n"
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.qualifiedRelation",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.landingPage": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.landingPage",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Document",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#landingPage",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#landingPage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.landingPage",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.qualifiedAttribution": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.qualifiedAttribution",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Attribution",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "qualified attribution"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Link to an Agent having some form of responsibility for the resource"
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/prov#qualifiedAttribution"
+          ],
+          "usageNote": {
+            "en": "Used to link to an Agent where the nature of the relationship is known but does not match one of the standard [[DCTERMS]] properties (dcterms:creator, dcterms:publisher). Use dcat:hadRole on the prov:Attribution to capture the responsibility of the Agent with respect to the Resource. See 15.1 Relationships between datasets and agents for usage examples."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_attribution"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.qualifiedAttribution",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.license": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.license",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "license"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A legal document under which the resource is made available."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/license"
+          ],
+          "usageNote": {
+            "en": "Information about licenses and rights MAY be provided for the Resource."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.license",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.rights": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.rights",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "rights"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A statement that concerns all rights not addressed with dcterms:license or dcterms:accessRights, such as copyright statements."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/rights"
+          ],
+          "usageNote": {
+            "en": "Information about licenses and rights MAY be provided for the Resource."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.rights",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasPart": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasPart",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "has part"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/hasPart"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_part"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasPart",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasPolicy": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasPolicy",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Policy",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "has policy"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "An ODRL conformant policy expressing the rights associated with the resource."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/odrl/2/hasPolicy"
+          ],
+          "usageNote": {
+            "en": "Information about rights expressed as an ODRL policy [[ODRL-MODEL]] using the ODRL vocabulary [[ODRL-VOCAB]] MAY be provided for the resource. See also guidance at 9. License and rights statements."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_policy"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasPolicy",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.isReferencedBy": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.isReferencedBy",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "is referenced by"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A related resource, such as a publication, that references, cites, or otherwise points to the cataloged resource."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/isReferencedBy"
+          ],
+          "usageNote": {
+            "en": "In relation to the use case of data citation, when the cataloged resource is a dataset, the dcterms:isReferencedBy property allows to relate the dataset to the resources (such as scholarly publications) that cite or point to the dataset. Multiple dcterms:isReferencedBy properties can be used to indicate the dataset has been referenced by multiple publications, or other resources.\nThis property is used to associate a resource with the resource (of type dcat:Resource) in question. For other relations to resources not covered with this property, the more generic property dcat:qualifiedRelation can be used. See also 15. Qualified relations."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_policy"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.isReferencedBy",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.previousVersion": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.previousVersion",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#previousVersion",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#previousVersion"
+          ],
+          "usageNote": {
+            "en": "This property is meant to be used to specify a version chain, consisting of snapshots of a resource.\n\nThe notion of version used by this property is limited to versions resulting from revisions occurring to a resource as part of its life-cycle. One of the typical cases here is representing the history of the versions of a dataset that have been released over time."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_previous_version",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.previousVersion",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasVersion": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasVersion",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#hasVersion",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#hasVersion"
+          ],
+          "usageNote": {
+            "en": "This property is intended for relating a non-versioned or abstract resource to several versioned resources, e.g., snapshots [[PAV]].\n\nThe notion of version used by this property is limited to versions resulting from revisions occurring to a resource as part of its life-cycle. Therefore, its semantics is more specific than its super-property dcterms:hasVersion, which makes use of a broader notion of version, including editions and adaptations."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_version",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasVersion",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasCurrentVersion": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasCurrentVersion",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#hasCurrentVersion",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#hasCurrentVersion"
+          ],
+          "usageNote": {
+            "en": "This property is intended for relating a non-versioned or abstract resource to a single snapshot that can be used as a permalink to indicate the current version of the content [PAV].\n\nThe notion of version used by this property is limited to versions resulting from revisions occurring to a resource as part of its life-cycle."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_current_version",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasCurrentVersion",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.replaces": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.replaces",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "replaces"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/replaces"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_replaces"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.replaces",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.first": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.first",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#first",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#first"
+          ],
+          "usageNote": {
+            "en": "In DCAT this property is used for resources belonging to a dcat:DatasetSeries."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_first",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.first",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.last": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.last",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#last",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#last"
+          ],
+          "usageNote": {
+            "en": "In DCAT this property is used for resources belonging to a dcat:DatasetSeries."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_last",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.last",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.previous": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.previous",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#prev",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#prev"
+          ],
+          "usageNote": {
+            "en": "In DCAT this property is used for resources belonging to a dcat:DatasetSeries.\n\nIt is important to note that this property is different from dcat:previousVersion, as it does not denote a previous version of the same resource, but a distinct resource immediately preceding the current one in an ordered collection of resources."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:resource_previous",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.previous",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.primaryTopic": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.primaryTopic",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://xmlns.com/foaf/0.1/primaryTopic",
+          "description": {
+            "en": "The dcat:Resource (dataset or service) described in the record."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://xmlns.com/foaf/0.1/primaryTopic"
+          ],
+          "usageNote": {
+            "en": "foaf:primaryTopic property is functional: each catalog record can have at most one primary topic, i.e., describes one cataloged resource."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:record_primary_topic"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.primaryTopic",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.conformsTo": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.conformsTo",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Standard",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "conforms to"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/conformsTo"
+          ],
+          "usageNote": {
+            "en": "This property SHOULD be used to indicate the model, schema, ontology, view or profile that the catalog record metadata conforms to."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:record_conforms_to"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.conformsTo",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset.distribution": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.distribution",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#distribution",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#distribution"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.distribution",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset.frequency": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.frequency",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Frequency",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "frequency"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "The frequency at which a dataset is published."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/accrualPeriodicity"
+          ],
+          "usageNote": {
+            "en": "The value of dcterms:accrualPeriodicity gives the rate at which the dataset-as-a-whole is updated. This may be complemented by dcat:temporalResolution to give the time between collected data points in a time series."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_frequency"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.frequency",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset.inSeries": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.inSeries",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#inSeries",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#inSeries"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.inSeries",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset.spatial-geographicalCoverage": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.spatial-geographicalCoverage",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Location",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "spatial/geographical coverage"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "The geographical area covered by the dataset."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/spatial"
+          ],
+          "usageNote": {
+            "en": "The spatial coverage of a dataset may be encoded as an instance of dcterms:Location, or may be indicated using an IRI reference (link) to a resource describing a location. It is recommended that links are to entries in a well maintained gazetteer such as Geonames."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.spatial-geographicalCoverage",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset.temporalCoverage": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.temporalCoverage",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "temporal coverage"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "The temporal period that the dataset covers."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/temporal"
+          ],
+          "usageNote": {
+            "en": "The temporal coverage of a dataset may be encoded as an instance of dcterms:PeriodOfTime, or may be indicated using an IRI reference (link) to a resource describing a time period or interval."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.temporalCoverage",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Dataset.wasGeneratedBy": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.wasGeneratedBy",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Entity",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "was generated by"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "An activity that generated, or provides the business context for, the creation of the dataset.\n"
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/prov#wasGeneratedBy"
+          ],
+          "usageNote": {
+            "en": "The activity associated with generation of a dataset will typically be an initiative, project, mission, survey, on-going activity (\"business as usual\") etc. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity.\n\nUse prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project"
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.wasGeneratedBy",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.license": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.license",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "license"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A legal document under which the distribution is made available."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/license"
+          ],
+          "usageNote": {
+            "en": "Information about licenses and rights SHOULD be provided on the level of Distribution. Information about licenses and rights MAY be provided for a Dataset in addition to but not instead of the information provided for the Distributions of that Dataset. Providing license or rights information for a Dataset that is different from information provided for a Distribution of that Dataset SHOULD be avoided as this can create legal conflicts. See also guidance at 9. License and rights statements."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.license",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessRights": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessRights",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "access rights"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A rights statement that concerns how the distribution is accessed."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/accessRights"
+          ],
+          "usageNote": {
+            "en": "Information about licenses and rights MAY be provided for the Distribution. See also guidance at 9. License and rights statements."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_rights"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessRights",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.rights": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.rights",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "rights"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Information about rights held in and over the distribution."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/rights"
+          ],
+          "usageNote": {
+            "en": "dcterms:license, which is a sub-property of dcterms:rights, can be used to link a distribution to a license document. However, dcterms:rights allows linking to a rights statement that can include licensing information as well as other information that supplements the license such as attribution.\n\nInformation about licenses and rights SHOULD be provided on the level of Distribution. Information about licenses and rights MAY be provided for a Dataset in addition to but not instead of the information provided for the Distributions of that Dataset. Providing license or rights information for a Dataset that is different from information provided for a Distribution of that Dataset SHOULD be avoided as this can create legal conflicts. See also guidance at 9. License and rights statements."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.rights",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.hasPolicy": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.hasPolicy",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Policy",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "has policy"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "An ODRL conformant policy expressing the rights associated with the distribution."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/odrl/2/hasPolicy"
+          ],
+          "usageNote": {
+            "en": "Information about rights expressed as an ODRL policy [[ODRL-MODEL]] using the ODRL vocabulary [[ODRL-VOCAB]] MAY be provided for the distribution. See also guidance at 9. License and rights statements."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_has_policy"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.hasPolicy",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessUrl": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessUrl",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "fr": "URL d'accès",
+            "es": "URL de acceso",
+            "el": "URL πρόσβασης",
+            "en": "access URL",
+            "it": "indirizzo di accesso",
+            "cs": "přístupová adresa",
+            "ar": "رابط وصول",
+            "ja": "アクセスURL",
+            "da": "adgangsadresse"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A URL of the resource that gives access to a distribution of the dataset. E.g., landing page, feed, SPARQL endpoint.",
+            "fr": "Ceci peut être tout type d'URL qui donne accès à une distribution du jeu de données. Par exemple, un lien à une page HTML contenant un lien au jeu de données, un Flux RSS, un point d'accès SPARQL. Utilisez le lorsque votre catalogue ne contient pas d'information sur quoi il est ou quand ce n'est pas téléchargeable.",
+            "es": "Puede ser cualquier tipo de URL que de acceso a una distribución del conjunto de datos, e.g., página de destino, descarga, URL feed, punto de acceso SPARQL. Esta propriedad se debe usar cuando su catálogo de datos no tiene información sobre donde está o cuando no se puede descargar.",
+            "cs": "URL zdroje, přes které je přístupná distribuce datové sady. Příkladem může být vstupní stránka, RSS kanál či SPARQL endpoint. Použijte ve všech případech kromě URL souboru ke stažení, pro které je lepší použít dcat:downloadURL.",
+            "it": "Un URL di una risorsa che consente di accedere a una distribuzione del set di dati. Per esempio, pagina di destinazione, feed, endpoint SPARQL. Da utilizzare per tutti i casi, tranne  quando  si tratta di un semplice link per il download nel qual caso è preferito downloadURL.",
+            "el": "Μπορεί να είναι οποιουδήποτε είδους URL που δίνει πρόσβαση στη διανομή ενός συνόλου δεδομένων. Π.χ. ιστοσελίδα αρχικής πρόσβασης, μεταφόρτωση, feed URL, σημείο διάθεσης SPARQL. Να χρησιμοποιείται όταν ο κατάλογος δεν περιέχει πληροφορίες εαν πρόκειται ή όχι για μεταφορτώσιμο αρχείο.",
+            "ar": "أي رابط يتيح الوصول إلى البيانات. إذا كان الرابط هو ربط مباشر لملف يمكن تحميله استخدم الخاصية downloadURL",
+            "ja": "データセットの配信にアクセス権を与えるランディング・ページ、フィード、SPARQLエンドポイント、その他の種類の資源。",
+            "da": "En URL for en ressource som giver adgang til en repræsentation af datsættet. Fx destinationsside, feed, SPARQL-endpoint. Anvendes i alle sammenhænge undtagen til angivelse af et simpelt download link hvor anvendelse af egenskaben downloadURL foretrækkes."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#accessURL"
+          ],
+          "usageNote": {
+            "en": "dcat:accessURL SHOULD be used for the URL of a service or location that can provide access to this distribution, typically through a Web form, query or API call.\n\ndcat:downloadURL is preferred for direct links to downloadable resources.\n\nIf the distribution(s) are accessible only through a landing page (i.e., direct download URLs are not known), then the landing page URL associated with the dcat:Dataset SHOULD be duplicated as access URL on a distribution (see 5.7 Dataset available only behind some Web page)."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessUrl",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessService": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessService",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#DataService",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "access service",
+            "es": "servicio de acceso de datos",
+            "it": "servizio di accesso ai dati",
+            "cs": "služba pro přístup k datům",
+            "da": "dataadgangstjeneste"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#accessService"
+          ],
+          "usageNote": {
+            "en": "dcat:accessService SHOULD be used to link to a description of a dcat:DataService that can provide access to this distribution."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessService",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.downloadUrl": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.downloadUrl",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#downloadURL",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#downloadURL"
+          ],
+          "usageNote": {
+            "en": "dcat:downloadURL SHOULD be used for the URL at which this distribution is available directly, typically through a HTTP Get request."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.downloadUrl",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.conformsTo": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.conformsTo",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Standard",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "conforms to"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "An established standard to which the distribution conforms."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/conformsTo"
+          ],
+          "usageNote": {
+            "en": "This property SHOULD be used to indicate the model, schema, ontology, view or profile that this representation of a dataset conforms to. This is (generally) a complementary concern to the media-type or format."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.conformsTo",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.mediaType": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.mediaType",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#mediaType",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#mediaType"
+          ],
+          "usageNote": {
+            "en": "This property SHOULD be used when the media type of the distribution is defined in IANA [[IANA-MEDIA-TYPES]], otherwise dcterms:format MAY be used with different values."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_media_type",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.mediaType",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.format": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.format",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "format"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "The file format of the distribution."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/format"
+          ],
+          "usageNote": {
+            "en": "dcat:mediaType SHOULD be used if the type of the distribution is defined by IANA [[IANA-MEDIA-TYPES]]."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_format"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.format",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.compressionFormat": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.compressionFormat",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#compressFormat",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#compressFormat"
+          ],
+          "usageNote": {
+            "en": "This property to be used when the files in the distribution are compressed, e.g., in a ZIP file. The format SHOULD be expressed using a media type as defined by IANA [[IANA-MEDIA-TYPES]], if available."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.compressionFormat",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.packagingFormat": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.packagingFormat",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#packageFormat",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#packageFormat"
+          ],
+          "usageNote": {
+            "en": "This property to be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA [[IANA-MEDIA-TYPES]], if available."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.packagingFormat",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Distribution.checksum": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.checksum",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Checksum",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "checksum"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://spdx.org/rdf/terms#checksum"
+          ],
+          "usageNote": {
+            "en": "The checksum is related to the download URL."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_checksum"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.checksum",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointUrl": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointUrl",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "es": "end-point del servicio",
+            "it": "end-point del servizio",
+            "cs": "přístupový bod služby",
+            "en": "endpoint URL",
+            "da": "tjenesteendpoint"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#endpointURL"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointUrl",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointDescription": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointDescription",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "es": "descripción del end-point del servicio",
+            "en": "endpoint description",
+            "it": "descrizione dell'endpoint del servizio",
+            "cs": "popis přístupového bodu služby",
+            "da": "endpointbeskrivelse"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#endpointDescription"
+          ],
+          "usageNote": {
+            "en": "The endpoint description gives specific details of the actual endpoint instances, while dcterms:conformsTo is used to indicate the general standard or specification that the endpoints implement.\nAn endpoint description may be expressed in a machine-readable form, such as an OpenAPI (Swagger) description [OpenAPI], an OGC GetCapabilities response [WFS], [ISO-19142], [WMS], [ISO-19128], a SPARQL Service Description [SPARQL11-SERVICE-DESCRIPTION], an [OpenSearch] or [WSDL20] document, a Hydra API description [HYDRA], else in text or some other informal mode if a formal representation is not possible."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_description"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointDescription",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#DataService.servesDataset": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#DataService.servesDataset",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#servesDataset",
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#servesDataset"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_serves_dataset",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#DataService.servesDataset",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Relationship.relation": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Relationship.relation",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "relation"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "The resource related to the source resource."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/relation"
+          ],
+          "usageNote": {
+            "en": "In the context of a dcat:Relationship this is expected to point to another dcat:Dataset or other cataloged resource."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:relationship_relation"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Relationship.relation",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Relationship.hadRole": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Relationship.hadRole",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Role",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "it": "tiene rol",
+            "en": "had role",
+            "cs": "sehraná role",
+            "da": "havde rolle"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#hadRole"
+          ],
+          "usageNote": {
+            "en": "May be used in a qualified-attribution to specify the role of an Agent with respect to an Entity. It is recommended that the value be taken from a controlled vocabulary of agent roles, such as [[ISO-19115]] CI_RoleCode.\nMay be used in a qualified-relation to specify the role of an Entity with respect to another Entity. It is recommended that the value be taken from a controlled vocabulary of entity roles."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:relationship_hadRole"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Relationship.hadRole",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Attribution.hadRole": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Attribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Attribution.hadRole",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Role",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "it": "tiene rol",
+            "en": "had role",
+            "cs": "sehraná role",
+            "da": "havde rolle"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#hadRole"
+          ],
+          "usageNote": {
+            "en": "May be used in a qualified-attribution to specify the role of an Agent with respect to an Entity. It is recommended that the value be taken from a controlled vocabulary of agent roles, such as [[ISO-19115]] CI_RoleCode.\nMay be used in a qualified-relation to specify the role of an Entity with respect to another Entity. It is recommended that the value be taken from a controlled vocabulary of entity roles."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:relationship_hadRole"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Attribution.hadRole",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.beginning": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.beginning",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Instant",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "beginning",
+            "es": "tiene principio"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Beginning of a period or interval.",
+            "es": "Comienzo de una entidad temporal."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2006/time#hasBeginning"
+          ],
+          "usageNote": {
+            "en": "Use of the property time:hasBeginning entails that value of the dcterms:temporal property is a member of the time:TemporalEntity class from [[OWL-TIME]]. In this context this could be taken to imply that dcterms:PeriodOfTime is equivalent to the sub-class time:ProperInterval"
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:period_has_beginning"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.beginning",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.end": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.end",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Instant",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "end",
+            "es": "tiene fin"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "End of a period or interval.",
+            "es": "Final de una entidad temporal."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2006/time#hasEnd"
+          ],
+          "usageNote": {
+            "en": "Use of the property time:hasEnd entails that value of the dcterms:temporal property is a member of the time:TemporalEntity class from [[OWL-TIME]]. In this context this could be taken to imply that dcterms:PeriodOfTime is equivalent to the sub-class time:ProperInterval"
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:period_has_end"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.end",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Location.geometry": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Location",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Location.geometry",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/locn#geometry",
+          "description": {
+            "en": "Associates a spatial thing [SDW-BP] with a corresponding geometry."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/locn#geometry"
+          ],
+          "usageNote": {
+            "en": "The range of this property (locn:Geometry) allows for any type of geometry specification. E.g., the geometry could be encoded by a literal, as WKT (geosparql:wktLiteral [[GeoSPARQL]]), or represented by a class, as geosparql:Geometry (or any of its subclasses) [[GeoSPARQL]]."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:location_geometry",
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Location.geometry",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.status": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+          "cardinality": null,
+          "tags": [],
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.status",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Concept",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/adms#status",
+          "description": {
+            "en": "The status of the resource in the context of a particular workflow process [VOCAB-ADMS]."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/adms#status"
+          ],
+          "usageNote": {
+            "en": "DCAT does not prescribe the use of any specific set of life-cycle statuses, but refers to existing standards and community practices fit for the relevant application scenario."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null,
+          "order": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.status",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-dap#Checksum.algorithm": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#Checksum",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-dap#Checksum.algorithm",
+          "concept": "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "algorithm"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Identifies the algorithm used to produce the subject Checksum [SPDX]."
+          },
+          "descriptionFromProfiled": null,
+          "profiling": [
+            "http://spdx.org/rdf/terms#algorithm"
+          ],
+          "usageNote": {
+            "en": "Version 2.2 of [[SPDX]] defines individuals for the following algorithms: MD2, MD4, MD5, MD6, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://www.w3.org/TR/vocab-dcat-3/#Property:checksum_algorithm"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-dap#Checksum.algorithm",
+      "type": [
+        "relationship-profile"
+      ]
+    }
+  }
+}

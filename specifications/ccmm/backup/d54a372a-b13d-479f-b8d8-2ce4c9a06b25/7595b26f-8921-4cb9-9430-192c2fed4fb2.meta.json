@@ -1,0 +1,24 @@
+{
+  "iri": "7595b26f-8921-4cb9-9430-192c2fed4fb2",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Checksum algorithm",
+      "cs": "Checksum algorithm"
+    },
+    "description": {
+      "en": "Data structure for Checksum algorithm. Algorithm used for Checksums.",
+      "cs": "Datová struktura pro Checksum algorithm. Algorithm used for Checksums."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:22.196Z",
+    "modificationDate": "2026-08-07T08:57:22.284Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.747Z",
+  "_exportedBy": "http://localhost:3100"
+}

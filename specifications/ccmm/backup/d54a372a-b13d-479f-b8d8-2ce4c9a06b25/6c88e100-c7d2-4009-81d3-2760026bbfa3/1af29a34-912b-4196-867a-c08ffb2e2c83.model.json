@@ -1,0 +1,170 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/6c88e100-c7d2-4009-81d3-2760026bbfa3/1af29a34-912b-4196-867a-c08ffb2e2c83",
+  "alias": "r5r",
+  "pimStore": {
+    "resources": {
+      "http://data.europa.eu/r5r/applicableLegislation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/applicableLegislation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/r5r/applicableLegislation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/r5r/applicableLegislation",
+        "pimInterpretation": "http://data.europa.eu/r5r/applicableLegislation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "applicable legislation"
+        },
+        "pimHumanDescription": {
+          "en": "the legislation that is applicable to this resource."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/r5r/applicableLegislation#domain",
+          "http://data.europa.eu/r5r/applicableLegislation#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/r5r/applicableLegislation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/applicableLegislation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/r5r/availability#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/availability#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dcat#Distribution",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/r5r/availability": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/r5r/availability",
+        "pimInterpretation": "http://data.europa.eu/r5r/availability",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "availability"
+        },
+        "pimHumanDescription": {
+          "en": "An indication how long it is planned to keep the Distribution of the Dataset available."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/r5r/availability#domain",
+          "http://data.europa.eu/r5r/availability#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/r5r/availability#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/availability#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/r5r/hvdCategory#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/hvdCategory#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/r5r/hvdCategory": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/r5r/hvdCategory",
+        "pimInterpretation": "http://data.europa.eu/r5r/hvdCategory",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "HVD category"
+        },
+        "pimHumanDescription": {
+          "en": "A data category defined in the High Value Dataset Implementing Regulation."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/r5r/hvdCategory#domain",
+          "http://data.europa.eu/r5r/hvdCategory#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/r5r/hvdCategory#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/hvdCategory#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0/voc/r5r.jsonld"
+  ]
+}

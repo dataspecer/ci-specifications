@@ -1,0 +1,1270 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "d54a372a-b13d-479f-b8d8-2ce4c9a06b25/6c88e100-c7d2-4009-81d3-2760026bbfa3/54b60737-a241-441c-a339-70867389c4d6/5e2d9196-52d4-47cd-ad25-23ce1b779098",
+  "alias": "core-location-ap",
+  "pimStore": {
+    "resources": {
+      "http://data.europa.eu/m8g/adminUnit#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/adminUnit#attribute",
+        "pimInterpretation": "http://data.europa.eu/m8g/adminUnit",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "administrative unit"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/adminUnit#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/adminUnit#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/adminUnit": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/adminUnit",
+        "pimInterpretation": "http://data.europa.eu/m8g/adminUnit",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "administrative unit"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://data.europa.eu/m8g/adminUnit#domain",
+          "http://data.europa.eu/m8g/adminUnit#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/adminUnit#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/adminUnit#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.opengis.net/ont/geosparql#asGML#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.opengis.net/ont/geosparql#asGML#attribute",
+        "pimInterpretation": "http://www.opengis.net/ont/geosparql#asGML",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "gml"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.opengis.net/ont/geosparql#asGML#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.opengis.net/ont/geosparql#asGML#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.opengis.net/ont/geosparql#asGML": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.opengis.net/ont/geosparql#asGML",
+        "pimInterpretation": "http://www.opengis.net/ont/geosparql#asGML",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "gml"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.opengis.net/ont/geosparql#asGML#domain",
+          "http://www.opengis.net/ont/geosparql#asGML#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.opengis.net/ont/geosparql#asGML#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.opengis.net/ont/geosparql#asGML#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.opengis.net/ont/geosparql#asWKT#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.opengis.net/ont/geosparql#asWKT#attribute",
+        "pimInterpretation": "http://www.opengis.net/ont/geosparql#asWKT",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wkt"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.opengis.net/ont/geosparql#asWKT#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.opengis.net/ont/geosparql#asWKT#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.opengis.net/ont/geosparql#asWKT": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.opengis.net/ont/geosparql#asWKT",
+        "pimInterpretation": "http://www.opengis.net/ont/geosparql#asWKT",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "wkt"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.opengis.net/ont/geosparql#asWKT#domain",
+          "http://www.opengis.net/ont/geosparql#asWKT#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.opengis.net/ont/geosparql#asWKT#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.opengis.net/ont/geosparql#asWKT#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#addressArea#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressArea#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#addressArea",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "address area"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#addressArea#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressArea#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#addressArea": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressArea",
+        "pimInterpretation": "http://www.w3.org/ns/locn#addressArea",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "address area"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#addressArea#domain",
+          "http://www.w3.org/ns/locn#addressArea#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#addressArea#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressArea#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#addressID#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressID#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#addressID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "address ID"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#addressID#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressID#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#addressID": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressID",
+        "pimInterpretation": "http://www.w3.org/ns/locn#addressID",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "address ID"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#addressID#domain",
+          "http://www.w3.org/ns/locn#addressID#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#addressID#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#addressID#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#adminUnitL1#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL1#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#adminUnitL1",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "administrative unit level 1 (country)"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL1#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL1#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#adminUnitL1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL1",
+        "pimInterpretation": "http://www.w3.org/ns/locn#adminUnitL1",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "administrative unit level 1 (country)"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#adminUnitL1#domain",
+          "http://www.w3.org/ns/locn#adminUnitL1#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL1#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL1#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#adminUnitL2#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL2#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#adminUnitL2",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "administrative unit level 2 (country/region/state)"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL2#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL2#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#adminUnitL2": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL2",
+        "pimInterpretation": "http://www.w3.org/ns/locn#adminUnitL2",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "administrative unit level 2 (country/region/state)"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#adminUnitL2#domain",
+          "http://www.w3.org/ns/locn#adminUnitL2#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#adminUnitL2#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#adminUnitL2#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#fullAddress#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#fullAddress#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#fullAddress",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "full address"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#fullAddress#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#fullAddress#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#fullAddress": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#fullAddress",
+        "pimInterpretation": "http://www.w3.org/ns/locn#fullAddress",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "full address"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#fullAddress#domain",
+          "http://www.w3.org/ns/locn#fullAddress#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#fullAddress#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#fullAddress#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#locatorDesignator#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorDesignator#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#locatorDesignator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locator designator"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#locatorDesignator#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorDesignator#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#locatorDesignator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorDesignator",
+        "pimInterpretation": "http://www.w3.org/ns/locn#locatorDesignator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locator designator"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#locatorDesignator#domain",
+          "http://www.w3.org/ns/locn#locatorDesignator#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#locatorDesignator#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorDesignator#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#locatorName#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorName#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#locatorName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locator name"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#locatorName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#locatorName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorName",
+        "pimInterpretation": "http://www.w3.org/ns/locn#locatorName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "locator name"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#locatorName#domain",
+          "http://www.w3.org/ns/locn#locatorName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#locatorName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#locatorName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#poBox#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#poBox#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#poBox",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post office box"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#poBox#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#poBox#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#poBox": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#poBox",
+        "pimInterpretation": "http://www.w3.org/ns/locn#poBox",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post office box"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#poBox#domain",
+          "http://www.w3.org/ns/locn#poBox#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#poBox#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#poBox#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#postCode#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postCode#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#postCode",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post code"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#postCode#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postCode#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#postCode": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postCode",
+        "pimInterpretation": "http://www.w3.org/ns/locn#postCode",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post code"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#postCode#domain",
+          "http://www.w3.org/ns/locn#postCode#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#postCode#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postCode#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#postName#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postName#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#postName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post name (city)"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#postName#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postName#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#postName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postName",
+        "pimInterpretation": "http://www.w3.org/ns/locn#postName",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "post name (city)"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#postName#domain",
+          "http://www.w3.org/ns/locn#postName#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#postName#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#postName#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#thoroughfare#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/locn#thoroughfare#attribute",
+        "pimInterpretation": "http://www.w3.org/ns/locn#thoroughfare",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "thoroughfare"
+        },
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#thoroughfare#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#thoroughfare#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#thoroughfare": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/locn#thoroughfare",
+        "pimInterpretation": "http://www.w3.org/ns/locn#thoroughfare",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "thoroughfare"
+        },
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://www.w3.org/ns/locn#thoroughfare#domain",
+          "http://www.w3.org/ns/locn#thoroughfare#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/locn#thoroughfare#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/locn#thoroughfare#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/coordinates": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/coordinates",
+        "pimInterpretation": "http://data.europa.eu/m8g/coordinates",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/crs": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/crs",
+        "pimInterpretation": "http://data.europa.eu/m8g/crs",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/latitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/latitude",
+        "pimInterpretation": "http://data.europa.eu/m8g/latitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/longitude": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://data.europa.eu/m8g/longitude",
+        "pimInterpretation": "http://data.europa.eu/m8g/longitude",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/address#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/address#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/address": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/address",
+        "pimInterpretation": "http://data.europa.eu/m8g/address",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://data.europa.eu/m8g/address#domain",
+          "http://data.europa.eu/m8g/address#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": [
+          "http://w3.org/ns/locn#address"
+        ]
+      },
+      "http://data.europa.eu/m8g/address#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/address#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/locn#Address",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/code#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/code#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/m8g/AdminUnit",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/code": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/code",
+        "pimInterpretation": "http://data.europa.eu/m8g/code",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://data.europa.eu/m8g/code#domain",
+          "http://data.europa.eu/m8g/code#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/code#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/code#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/geometryType#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/geometryType#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/locn#Geometry",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/geometryType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/geometryType",
+        "pimInterpretation": "http://data.europa.eu/m8g/geometryType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://data.europa.eu/m8g/geometryType#domain",
+          "http://data.europa.eu/m8g/geometryType#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/geometryType#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/geometryType#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/level#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/level#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://data.europa.eu/m8g/AdminUnit",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/level": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/level",
+        "pimInterpretation": "http://data.europa.eu/m8g/level",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://data.europa.eu/m8g/level#domain",
+          "http://data.europa.eu/m8g/level#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/level#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/level#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/location#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/location#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://data.europa.eu/m8g/location": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/m8g/location",
+        "pimInterpretation": "http://data.europa.eu/m8g/location",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimEnd": [
+          "http://data.europa.eu/m8g/location#domain",
+          "http://data.europa.eu/m8g/location#range"
+        ],
+        "pimIsOriented": true,
+        "pimExtends": []
+      },
+      "http://data.europa.eu/m8g/location#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/m8g/location#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://purl.org/dc/terms/Location",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/locn#Address": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/locn#Address",
+        "pimInterpretation": "http://www.w3.org/ns/locn#Address",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Address"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/ns/locn#Geometry": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/locn#Geometry",
+        "pimInterpretation": "http://www.w3.org/ns/locn#Geometry",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Geometry"
+        },
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://data.europa.eu/m8g/AdminUnit": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://data.europa.eu/m8g/AdminUnit",
+        "pimInterpretation": "http://data.europa.eu/m8g/AdminUnit",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {},
+        "pimHumanDescription": {},
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.00/voc/core-location-ap.ttl"
+  ]
+}

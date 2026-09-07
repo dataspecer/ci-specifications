@@ -1,0 +1,24 @@
+{
+  "iri": "45f5c6ef-338b-46df-bcae-e5535e444282",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Description type",
+      "cs": "Description type"
+    },
+    "description": {
+      "en": "Data structure for Description type. The type of the description.",
+      "cs": "Datová struktura pro Description type. The type of the description."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:26.989Z",
+    "modificationDate": "2026-09-04T09:17:03.636Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.817Z",
+  "_exportedBy": "http://localhost:3100"
+}

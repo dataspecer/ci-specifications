@@ -1,0 +1,24 @@
+{
+  "iri": "ce8faedb-2532-4b13-a002-8e79803a7d75",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Description",
+      "cs": "Description"
+    },
+    "description": {
+      "en": "Data structure for Description. All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument.",
+      "cs": "Datová struktura pro Description. All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:27.148Z",
+    "modificationDate": "2026-08-07T08:57:27.236Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.818Z",
+  "_exportedBy": "http://localhost:3100"
+}

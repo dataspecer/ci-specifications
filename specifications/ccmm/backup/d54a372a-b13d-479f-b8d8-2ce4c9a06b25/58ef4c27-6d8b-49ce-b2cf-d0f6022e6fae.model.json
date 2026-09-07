@@ -1,0 +1,142 @@
+{
+  "operations": [
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateClass"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785759055372-3dfc-7f45-a215",
+      "parent": null,
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "zumx7b8hfbmsd6kqnk",
+      "dataPsmTechnicalLabel": "ro-crate_json_representation",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmExtends": [],
+      "dataPsmIsClosed": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetRoots"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785759055372-94c1-65cd-9f55",
+      "parent": "https://ofn.gov.cz/operation/1785759055372-3dfc-7f45-a215",
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1785759055371-faf1-1bb6-8592"
+      ]
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanLabel"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785759055372-622b-ac08-8c14",
+      "parent": "https://ofn.gov.cz/operation/1785759055372-94c1-65cd-9f55",
+      "dataPsmResource": "58ef4c27-6d8b-49ce-b2cf-d0f6022e6fae",
+      "dataPsmHumanLabel": {
+        "en": "RO-Crate JSON representation",
+        "cs": "RO-Crate JSON representation"
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetHumanDescription"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785759055373-37e3-f1d5-9aae",
+      "parent": "https://ofn.gov.cz/operation/1785759055372-622b-ac08-8c14",
+      "dataPsmResource": "58ef4c27-6d8b-49ce-b2cf-d0f6022e6fae",
+      "dataPsmHumanDescription": {
+        "en": "Data structure for RO-Crate JSON representation. Representation of provenance activity in JSON-LD format corresponding to the RO-Crate specification.",
+        "cs": "Datová struktura pro RO-Crate JSON representation. Representation of provenance activity in JSON-LD format corresponding to the RO-Crate specification."
+      }
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetJsonEnforceContext"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785759073562-10f4-4140-8acf",
+      "parent": "https://ofn.gov.cz/operation/1785759055373-37e3-f1d5-9aae",
+      "dataPsmEntity": "58ef4c27-6d8b-49ce-b2cf-d0f6022e6fae",
+      "jsonEnforceContext": "no"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesHaveIdentity"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785759073665-b4cf-891f-be15",
+      "parent": "https://ofn.gov.cz/operation/1785759073562-10f4-4140-8acf",
+      "dataPsmClass": "https://ofn.gov.cz/class/1785759055371-faf1-1bb6-8592",
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785759163581-bbcb-50f3-ab1e",
+      "parent": "https://ofn.gov.cz/operation/1785759073665-b4cf-891f-be15",
+      "dataPsmSchema": "58ef4c27-6d8b-49ce-b2cf-d0f6022e6fae",
+      "namespace": "https://schema.ccmm.cz/research-data/1.2",
+      "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/extensions/xml/setNamespace"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1785941566211-ac6f-554c-baee",
+      "parent": "https://ofn.gov.cz/operation/1785759163581-bbcb-50f3-ab1e",
+      "dataPsmSchema": "58ef4c27-6d8b-49ce-b2cf-d0f6022e6fae",
+      "namespace": "https://schema.ccmm.cz/research-data/2.0",
+      "namespacePrefix": "ccmm"
+    }
+  ],
+  "resources": {
+    "58ef4c27-6d8b-49ce-b2cf-d0f6022e6fae": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "58ef4c27-6d8b-49ce-b2cf-d0f6022e6fae",
+      "dataPsmHumanLabel": {
+        "en": "RO-Crate JSON representation",
+        "cs": "RO-Crate JSON representation"
+      },
+      "dataPsmHumanDescription": {
+        "en": "Data structure for RO-Crate JSON representation. Representation of provenance activity in JSON-LD format corresponding to the RO-Crate specification.",
+        "cs": "Datová struktura pro RO-Crate JSON representation. Representation of provenance activity in JSON-LD format corresponding to the RO-Crate specification."
+      },
+      "dataPsmTechnicalLabel": null,
+      "dataPsmRoots": [
+        "https://ofn.gov.cz/class/1785759055371-faf1-1bb6-8592"
+      ],
+      "dataPsmParts": [
+        "https://ofn.gov.cz/class/1785759055371-faf1-1bb6-8592"
+      ],
+      "jsonEnforceContext": "no",
+      "extensions": {
+        "https://ofn.gov.cz/slovník/psm/extensions/xml": {
+          "namespace": "https://schema.ccmm.cz/research-data/2.0",
+          "namespacePrefix": "ccmm"
+        }
+      }
+    },
+    "https://ofn.gov.cz/class/1785759055371-faf1-1bb6-8592": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "https://ofn.gov.cz/class/1785759055371-faf1-1bb6-8592",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "ro-crate_json_representation",
+      "dataPsmInterpretation": "zumx7b8hfbmsd6kqnk",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS"
+    }
+  }
+}

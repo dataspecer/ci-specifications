@@ -1,0 +1,19 @@
+{
+  "iri": "95dsj",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "datacite"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:32.069Z",
+    "modificationDate": "2026-09-04T06:57:26.073Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.872Z",
+  "_exportedBy": "http://localhost:3100"
+}

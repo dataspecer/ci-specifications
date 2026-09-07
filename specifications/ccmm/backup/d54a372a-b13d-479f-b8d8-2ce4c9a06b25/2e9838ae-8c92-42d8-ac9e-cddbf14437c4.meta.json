@@ -1,0 +1,24 @@
+{
+  "iri": "2e9838ae-8c92-42d8-ac9e-cddbf14437c4",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "Organization",
+      "en": "Organization"
+    },
+    "description": {
+      "cs": "Datová struktura pro Organization. Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures. ",
+      "en": "Data structure for Organization. Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures. "
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-08-07T08:57:19.816Z",
+    "modificationDate": "2026-08-07T08:57:19.904Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T09:18:27.724Z",
+  "_exportedBy": "http://localhost:3100"
+}
