@@ -49,9 +49,13 @@ from pathlib import Path
 
 event = json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text())
 inputs = event.get('inputs') or {}
-lines = [f"Export {os.environ['DOCKER_TAG']}: " + (
-    inputs.get('source_commit_title') or
-    event.get('head_commit', {}).get('message', 'Specifications updated').split('\n')[0]), '']
+if os.environ['GITHUB_EVENT_NAME'] == 'workflow_dispatch':
+    title = inputs['source_commit_title'].split('\n')[0]
+    subject = f"{title} ({inputs['source_commit'][:7]})"
+else:
+    title = (event.get('head_commit') or {}).get('message', 'Specifications updated').split('\n')[0]
+    subject = f"[ci-specifications repo] {title} ({os.environ['GITHUB_SHA'][:7]})"
+lines = [subject, '']
 lines += [f"Docker image: {os.environ['DOCKER_IMAGE']}"]
 if inputs.get('source_commit'):
     lines += [f"Application commit: {inputs['source_commit']}"]
