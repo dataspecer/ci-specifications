@@ -72,3 +72,20 @@ PY
 # Suppress the diff summary so Git does not fetch old blobs to compute statistics.
 git commit --quiet --allow-empty --file "$RUNNER_TEMP/export-commit-message.txt"
 git push origin "HEAD:refs/heads/$DOCKER_TAG"
+
+# Generate the PR report while export-repository credentials are available.
+if [[ "$GITHUB_EVENT_NAME" == workflow_dispatch ]] && \
+   python3 -c 'import json, os, sys; sys.exit(not json.load(open(os.environ["GITHUB_EVENT_PATH"])).get("inputs", {}).get("pr_number"))'; then
+  baseline=()
+  if git ls-remote --exit-code --heads origin refs/heads/branch-main > /dev/null; then
+    git fetch --depth=1 --no-tags origin refs/heads/branch-main
+    baseline=(FETCH_HEAD)
+  else
+    status=$?
+    if [[ "$status" != 2 ]]; then
+      echo 'Could not query comparison baseline' >&2
+      exit "$status"
+    fi
+  fi
+  python3 "$GITHUB_WORKSPACE/.github/scripts/comment-export.py" report "${baseline[@]}"
+fi

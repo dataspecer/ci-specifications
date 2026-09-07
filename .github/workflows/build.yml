@@ -132,3 +132,13 @@ jobs:
           DOCKER_TAG: ${{ matrix.tag }}
           DOCKER_IMAGE: ${{ matrix.image }}
         run: bash .github/scripts/publish-export.sh
+      - name: Comment on application pull request
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
+          SOURCE_REPOSITORY: ${{ inputs.source_repository || 'dataspecer/dataspecer' }}
+          PR_NUMBER: ${{ inputs.pr_number }}
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+          EXPORT_REPOSITORY: ${{ vars.EXPORT_REPOSITORY || format('{0}/ci-exports', github.repository_owner) }}
+          DOCKER_TAG: ${{ matrix.tag }}
+        run: python3 .github/scripts/comment-export.py comment
