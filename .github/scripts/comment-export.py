@@ -23,8 +23,8 @@ def report(baseline):
     marker = f'<!-- specification-exports:{repository}:{tag} -->'
     head = run('git', 'rev-parse', 'HEAD').decode().strip()
     compare = f'{server}/{repository}/compare/branch-main..{quote(tag, safe="")}'
-    introduction = ('Hello, I am just a small bot 🥺. I exported all our test specifications with '
-                    'Dataspecer from this pull request (code here merged with the base branch)')
+    introduction = ('Hello, I am just a small bot 🥺. I exported all our test specifications using '
+                    'Dataspecer from this pull request (the code here, merged with the base branch)')
     if baseline:
         introduction += ' and compared them to the main branch. Here is the result:'
     else:
