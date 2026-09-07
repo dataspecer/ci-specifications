@@ -31,11 +31,13 @@ def main():
             raise ValueError("PUSH_DOCKER_TAGS must be a nonempty JSON array of tags")
         tags = list(dict.fromkeys(validate_tag(tag) for tag in tags))
         targets = [{"tag": tag, "image": f"{repository}:{tag}"} for tag in tags]
-    scripts = sorted(str(path) for path in Path("specifications").rglob("build.sh") if path.is_file())
-    if not scripts:
-        raise ValueError("No specifications/**/build.sh scripts found; no exports will be published")
-    builds = [{**target, "script": script, "id": str(index)}
-              for target in targets for index, script in enumerate(scripts)]
+    specifications = [{"directory": str(path), "specification": path.name}
+                      for path in sorted(Path("specifications").glob("*"))
+                      if path.is_dir() and not path.name.startswith(".")]
+    if not specifications:
+        raise ValueError("No specification directories found")
+    builds = [{**target, **specification, "id": str(index)}
+              for target in targets for index, specification in enumerate(specifications)]
     if len(builds) > 256:
         raise ValueError("Build matrix exceeds GitHub's 256-job limit")
     with open(os.environ["GITHUB_OUTPUT"], "a") as output:
