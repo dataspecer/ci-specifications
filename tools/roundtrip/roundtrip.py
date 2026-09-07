@@ -5,12 +5,15 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import io
 import os
 import re
 import subprocess
 import sys
 import tempfile
-from time import perf_counter
+from time import perf_counter, time
+from functools import wraps
+from urllib.request import OpenerDirector, build_opener
 import warnings
 from collections import Counter
 from dataclasses import dataclass
@@ -44,6 +47,58 @@ REPORT_FILES = (
 )
 
 
+def timed(function):
+    """Keep wall-clock timings in the console, outside stable report files."""
+    @wraps(function)
+    def measured(*args, **kwargs):
+        print(f"{function.__name__}: starting", flush=True)
+        started = perf_counter()
+        try:
+            return function(*args, **kwargs)
+        finally:
+            print(f"{function.__name__}: {perf_counter() - started:.3f}s", flush=True)
+    return measured
+
+
+class SchemaOpener(OpenerDirector):
+    """Cache successful HTTP schema reads without changing their base URLs.
+
+    Returning seekable streams also avoids xmlschema downloading a remote
+    resource twice when it checks for unsafe XML before parsing it.
+    """
+    def __init__(self, directory: Path):
+        super().__init__()
+        self.directory = directory
+        self.delegate = build_opener()
+
+    def open(self, fullurl, data=None, timeout=30):
+        url = fullurl if isinstance(fullurl, str) else fullurl.full_url
+        if not url.startswith(("http://", "https://")) or data is not None:
+            return self.delegate.open(fullurl, data=data, timeout=timeout)
+        self.directory.mkdir(parents=True, exist_ok=True)
+        cached = self.directory / (hashlib.sha256(url.encode()).hexdigest() + ".xsd")
+        if cached.is_file() and time() - cached.stat().st_mtime < 86400:
+            return io.BytesIO(cached.read_bytes())
+        started = perf_counter()
+        print(f"Schema download: {url}", flush=True)
+        try:
+            with self.delegate.open(fullurl, timeout=timeout) as response:
+                content = response.read()
+            # Do not retain malformed responses (e.g. HTML error pages).
+            root = etree.fromstring(content, etree.XMLParser(resolve_entities=False, no_network=True))
+            if root.tag == "{http://www.w3.org/2001/XMLSchema}schema":
+                with tempfile.NamedTemporaryFile(dir=self.directory, delete=False) as temporary:
+                    temporary.write(content)
+                    temporary_path = Path(temporary.name)
+                try:
+                    temporary_path.replace(cached)
+                finally:
+                    temporary_path.unlink(missing_ok=True)
+            return io.BytesIO(content)
+        finally:
+            print(f"Schema download: {perf_counter() - started:.3f}s ({url})", flush=True)
+
+
 @dataclass
 class Stage:
     name: str
@@ -71,6 +126,7 @@ def parse_args() -> argparse.Namespace:
         type=nonempty,
         help="comma-separated: pipeline,xsd,shacl,diff,all,none",
     )
+    parser.add_argument("--schema-cache", help="HTTP schema cache directory (default: <repo>/_roundtrip/.schema-cache)")
     args = parser.parse_args()
     policies = {item.strip().lower() for item in args.fail_on.split(",")}
     if not policies <= {"pipeline", "xsd", "shacl", "diff", "all", "none"}:
@@ -146,8 +202,10 @@ def normalize_xsd_signature(path: str, reason: str) -> str:
     return f"{normalized_path} | {normalized_reason}"
 
 
+@timed
 def build_schema(
-    schema_path: Path, locations: dict[str, str], repo: Path, output: Path
+    schema_path: Path, locations: dict[str, str], repo: Path, output: Path,
+    cache: Path | None = None,
 ) -> tuple[object | None, list[object], list[str], str | None]:
     caught: list[warnings.WarningMessage]
     try:
@@ -159,6 +217,8 @@ def build_schema(
                 locations=locations,
                 allow="all",
                 defuse="remote",
+                opener=SchemaOpener(cache or repo / "_roundtrip" / ".schema-cache"),
+                timeout=30,
             )
         warning_lines = sorted(
             {clean_text(item.message, repo, output) for item in caught if str(item.message).strip()}
@@ -168,6 +228,7 @@ def build_schema(
         return None, [], [], clean_text(error, repo, output)
 
 
+@timed
 def validate_xml(
     xml_path: Path,
     schema_path: Path,
@@ -235,6 +296,7 @@ def validate_xml(
     }
 
 
+@timed
 def run_command(
     command: list[str], cwd: Path, output_file: Path, stdout_is_output: bool = False
 ) -> tuple[bool, str]:
@@ -280,6 +342,7 @@ def run_xslt(
     return destination.is_file(), ""
 
 
+@timed
 def canonicalize_rdf(raw_turtle: Path, turtle_path: Path, nquads_path: Path) -> int:
     parsed = Graph().parse(raw_turtle, format="turtle")
     canonical = to_canonical_graph(parsed)
@@ -332,6 +395,7 @@ def rdf_term(term: object | None) -> str:
     return str(term)
 
 
+@timed
 def run_shacl(data_path: Path, shapes_path: Path, report_path: Path) -> dict[str, object]:
     try:
         parsed_data = Graph().parse(data_path, format="nt")
@@ -580,6 +644,7 @@ def format_content_change(item: tuple[str, str, str], count: int) -> str:
     return f"{kind} {path} = {short_value(value)}{occurrence}"
 
 
+@timed
 def compare_xml(original: Path, roundtrip: Path, report_path: Path) -> dict[str, object]:
     try:
         before_root = parse_xml(original)
@@ -625,6 +690,7 @@ def compare_xml(original: Path, roundtrip: Path, report_path: Path) -> dict[str,
         return {"status": "ERROR", "identical": False, "failure": str(error)}
 
 
+@timed
 def main() -> int:
     args = parse_args()
     repo = Path(args.repo).resolve()
@@ -653,7 +719,8 @@ def main() -> int:
     pipeline_failures = 0
     locations = parse_schema_locations(args.schema_locations, repo)
     schema, schema_errors, schema_warnings, schema_failure = build_schema(
-        schema_path, locations, repo, output
+        schema_path, locations, repo, output,
+        resolve(repo, args.schema_cache) if args.schema_cache else None,
     )
 
     initial = validate_xml(
