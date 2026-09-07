@@ -23,8 +23,6 @@ def report(baseline):
     marker = f'<!-- specification-exports:{repository}:{tag} -->'
     head = run('git', 'rev-parse', 'HEAD').decode().strip()
     compare = f'{server}/{repository}/compare/branch-main..{quote(tag, safe="")}'
-    event = json.loads(Path(env['GITHUB_EVENT_PATH']).read_text())
-    commit = event['inputs']['source_commit']
     introduction = ('Hello, I am just a small bot 🥺. I exported all our test specifications with '
                     'Dataspecer from this pull request (code here merged with the base branch)')
     if baseline:
@@ -43,13 +41,12 @@ def report(baseline):
             # File type changes count as modifications in the concise summary.
             modified = len(statuses) - added - removed
             lines += [f'⚠️ There are some changes: **{added} added, {removed} removed, '
-                      f'and {modified} modified files**.', '']
+                      f'and {modified} modified files**. You should check them before merging this PR.', '']
         else:
             lines += ['✅ Everything is intact! The exported files are identical to the main branch.', '']
     else:
         lines += ['⚠️ Comparison unavailable: the main branch exports have not been published yet.', '']
-    lines += [f'[Compare with the main branch]({compare})', '',
-              f'This message was generated from commit <code>{html.escape(commit)}</code>.', '']
+    lines += [f'[Compare with the main branch]({compare})', '']
     Path(env['RUNNER_TEMP'], 'export-pr-comment.md').write_text('\n'.join(lines))
 
 
@@ -60,7 +57,16 @@ def comment():
         raise ValueError('Invalid SOURCE_REPOSITORY')
     if not re.fullmatch(r'[1-9][0-9]*', number):
         raise ValueError('Invalid pull request number')
+    commit = env['SOURCE_COMMIT']
+    if not re.fullmatch(r'[0-9a-fA-F]{40}', commit):
+        raise ValueError('Invalid SOURCE_COMMIT; expected a full commit SHA')
+    source = json.loads(run('gh', 'api', f'repos/{repository}/git/commits/{commit}'))
+    # A PR build merge has the base first and the original PR head second.
+    # Resolve the dispatched revision, since the PR may have advanced meanwhile.
+    if len(source['parents']) == 2:
+        commit = source['parents'][1]['sha']
     body = Path(env['RUNNER_TEMP'], 'export-pr-comment.md').read_text()
+    body += f'\nThis message was generated from commit <code>{html.escape(commit)}</code>.\n'
     marker = body.splitlines()[0]
     author = json.loads(run('gh', 'api', 'user'))['id']
     pages = json.loads(run('gh', 'api', '--paginate', '--slurp',
