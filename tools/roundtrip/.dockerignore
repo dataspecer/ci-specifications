@@ -1,0 +1,10 @@
+# Only harness source and dependency manifests belong in this build context.
+*
+!Dockerfile
+!.dockerignore
+!package.json
+!package-lock.json
+!requirements.txt
+!roundtrip.py
+!run.sh
+!*.mjs

@@ -1,0 +1,28 @@
+#!/bin/sh
+set -eu
+
+: "${ROUNDTRIP_REPO:?Set ROUNDTRIP_REPO}"
+: "${ROUNDTRIP_INPUT:?Set ROUNDTRIP_INPUT}"
+: "${ROUNDTRIP_SCHEMA:?Set ROUNDTRIP_SCHEMA}"
+: "${ROUNDTRIP_LIFTING:?Set ROUNDTRIP_LIFTING}"
+: "${ROUNDTRIP_LOWERING:?Set ROUNDTRIP_LOWERING}"
+: "${ROUNDTRIP_SHACL:?Set ROUNDTRIP_SHACL}"
+: "${ROUNDTRIP_OUTPUT:?Set ROUNDTRIP_OUTPUT}"
+: "${ROUNDTRIP_BASE_IRI:?Set ROUNDTRIP_BASE_IRI}"
+: "${ROUNDTRIP_SCHEMA_LOCATIONS?Set ROUNDTRIP_SCHEMA_LOCATIONS}"
+: "${ROUNDTRIP_FAIL_ON:?Set ROUNDTRIP_FAIL_ON}"
+
+script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+
+exec python3 "$script_dir/roundtrip.py" \
+  --repo "$ROUNDTRIP_REPO" \
+  --input "$ROUNDTRIP_INPUT" \
+  --schema "$ROUNDTRIP_SCHEMA" \
+  --lifting "$ROUNDTRIP_LIFTING" \
+  --lowering "$ROUNDTRIP_LOWERING" \
+  --shacl "$ROUNDTRIP_SHACL" \
+  --output "$ROUNDTRIP_OUTPUT" \
+  --base-iri "$ROUNDTRIP_BASE_IRI" \
+  --schema-locations "$ROUNDTRIP_SCHEMA_LOCATIONS" \
+  --fail-on "$ROUNDTRIP_FAIL_ON" \
+  "$@"

@@ -1,0 +1,10 @@
+{
+  "name": "metadata-roundtrip",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "n3": "2.6.0",
+    "rdflib": "2.3.6"
+  }
+}
