@@ -1,0 +1,213 @@
+{
+  "configuration": {
+    "https://schemas.dataspecer.com/documentation-generator-config/": {
+      "partials": {
+        "abstract": "<section id=\"abstract\">\r\n<p>\r\n  This document describes the DSV default application profile for machine processable representation of Data Specifications and Application Profiles. DSV and DSV-DAP is currently being implemented in the <a href=\"https://dataspecer.com\">Dataspecer</a> tool for management of data specifications, management of application profiles and semi-automatic generation of technical artifacts such as data schemas and transformations based on semantic vocabularies.\r\n</p>\r\n\r\n<p>\r\nThe goals of this specification are two-fold:\r\n\r\n<ol>\r\n  <li>\r\n    Provide means to annotate specifications, relationship to other specifications and descriptions of artifacts the specifications consist of to help machine processability and reusability of the specifications\r\n  </li>\r\n  <li>\r\n    Provide means to properly describe Application profiles (APs), contexts, in which RDF classes and properties are reused. DSV allows specification editors to identify, which classes and properties are reused in an application profile and how, and specify any terminological or domain/range changes for the AP context.\r\n  </li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\n  Preferred prefix: <code>dsv-dap</code>, stands for <code>https://w3id.org/dsv-dap#</code>.\r\n</p>\r\n\r\n<p>\r\n  This specification and the specification of <a href=\"https://w3id.org/dsv/\">DSV</a> are both described using DSV-DAP.\r\n<p>\r\n\r\n<p>\r\n  Part of this application profile are the following controlled vocabularies:\r\n  <ul>\r\n    <li>\r\n      <a href=\"../cardinality/cardinality.ttl\">Cardinalities</a>\r\n    </li>\r\n    <li>\r\n      <a href=\"../requirement-level/requirement-level.ttl\">Requirement levels</a>\r\n    </li>\r\n    <li>\r\n      <a href=\"../class-role/class-role.ttl\">Class Roles</a>\r\n    </li>\r\n  </ul>\r\n</p>\r\n</section>",
+        "examples": "<section>\r\n  <h2>Examples</h2>\r\n  <p>\r\n    In this section, we provide examples of DSV and DSV-DAP usage on three levels - data specification, vocabulary and application profile.\r\n  </p>\r\n  <section>\r\n    <h3>Data Specification</h3>\r\n    <p>\r\n      This is an example of the embedded DSV metadata of an application profile specification published at <code>https://mff-uk.github.io/specifications/dcat-dap/</code>.\r\n      We can see that the Profiles Vocabulary [[dx-prof]] is reused.\r\n      We can see the representation of the Application Profile Specification Document s the root, connecting to the Application Profile itself, which specifies the reused vocabularies including their source files through <code>isProfileOf.[].hasArtifact</code> and to the other Application Profile artifacts through <code>hasResource</code>.\r\n    </p>\r\n  <aside class=\"example\" title=\"DSV Data Specification\">\r\n  <p>\r\n      <a href=\"examples/dsv-spec.jsonld\">JSON-LD file</a>\r\n  </p>\r\n  <pre class=\"json\">\r\n{\r\n  \"@id\": \"https://w3id.org/dsv-dap/\",\r\n  \"@type\": [\r\n    \"dsv:ApplicationProfileSpecificationDocument\",\r\n    \"adms:AssetDistribution\",\r\n    \"prof:ResourceDescriptor\"\r\n  ],\r\n  \"hasArtifact\": \".\",\r\n  \"hasRole\": \"role:specification\",\r\n  \"format\": \"filetype:HTML\",\r\n  \"inSpecificationOf\": [\r\n    {\r\n      \"@id\": \"https://w3id.org/dsv-dap#\",\r\n      \"@type\": [\r\n        \"dsv:ApplicationProfile\",\r\n        \"prof:Profile\"\r\n      ],\r\n      \"title\": {\r\n        \"en\": \"Data Specification Vocabulary - Default Application Profile (DSV-DAP)\"\r\n      },\r\n      \"isProfileOf\": [\r\n        {\r\n          \"title\": {\r\n            \"en\": \"adms\"\r\n          },\r\n          \"hasResource\": {\r\n            \"hasArtifact\": \"https://www.w3.org/ns/legacy_adms\"\r\n          }\r\n        },\r\n        {\r\n          \"@id\": \"https://w3id.org/dsv#\",\r\n          \"title\": {},\r\n          \"hasResource\": {\r\n            \"hasArtifact\": \"https://mff-uk.github.io/data-specification-vocabulary/dsv/\"\r\n          }\r\n        }\r\n      ],\r\n      \"hasResource\": [\r\n        {\r\n          \"@id\": \"https://w3id.org/dsv-dap/#dsv\",\r\n          \"@type\": [\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \"./dsv.ttl\",\r\n          \"hasRole\": \"role:constraints\",\r\n          \"format\": \"filetype:RDF_TURTLE\",\r\n          \"conformsTo\": [\r\n            \"prof:Profile\",\r\n            \"dsv:ApplicationProfile\"\r\n          ]\r\n        },\r\n        {\r\n          \"@id\": \"https://w3id.org/dsv-dap/#shacl\",\r\n          \"@type\": [\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \"./shacl.ttl\",\r\n          \"hasRole\": \"role:constraints\",\r\n          \"format\": \"filetype:RDF_TURTLE\",\r\n          \"conformsTo\": \"https://www.w3.org/TR/shacl/\"\r\n        },\r\n        {\r\n          \"@id\": \"https://w3id.org/dsv-dap/#80bb66a5-4182-4250-90c2-90b7f0b05a7b\",\r\n          \"@type\": [\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \"./80bb66a5-4182-4250-90c2-90b7f0b05a7b.svg\",\r\n          \"hasRole\": \"role:guidance\",\r\n          \"format\": \"filetype:SVG\",\r\n          \"conformsTo\": \"https://www.w3.org/TR/SVG/\"\r\n        },\r\n        {\r\n          \"@id\": \"https://w3id.org/dsv-dap/#626cb\",\r\n          \"@type\": [\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \"./626cb.svg\",\r\n          \"hasRole\": \"role:guidance\",\r\n          \"format\": \"filetype:SVG\",\r\n          \"conformsTo\": \"https://www.w3.org/TR/SVG/\"\r\n        },\r\n        {\r\n          \"@id\": \"https://w3id.org/dsv-dap/#n4roi\",\r\n          \"@type\": [\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \"./n4roi.svg\",\r\n          \"hasRole\": \"role:guidance\",\r\n          \"format\": \"filetype:SVG\",\r\n          \"conformsTo\": \"https://www.w3.org/TR/SVG/\"\r\n        },\r\n        {\r\n          \"@id\": \"https://w3id.org/dsv-dap/#8dlkl\",\r\n          \"@type\": [\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \"./8dlkl.svg\",\r\n          \"hasRole\": \"role:guidance\",\r\n          \"format\": \"filetype:SVG\",\r\n          \"conformsTo\": \"https://www.w3.org/TR/SVG/\"\r\n        },\r\n        {\r\n          \"@id\": \"https://w3id.org/dsv-dap/\",\r\n          \"@type\": [\r\n            \"dsv:ApplicationProfileSpecificationDocument\",\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \".\",\r\n          \"hasRole\": \"role:specification\",\r\n          \"format\": \"filetype:HTML\"\r\n        },\r\n        {\r\n          \"@id\": \"f8f20994-a236-475f-839e-5b994681813b#jsonschema\",\r\n          \"@type\": [\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \"../schema.json\",\r\n          \"hasRole\": \"role:schema\",\r\n          \"format\": \"filetype:JSON\",\r\n          \"conformsTo\": \"https://json-schema.org/draft/2020-12/schema\"\r\n        },\r\n        {\r\n          \"@id\": \"f8f20994-a236-475f-839e-5b994681813b#jsonLd\",\r\n          \"@type\": [\r\n            \"adms:AssetDistribution\",\r\n            \"prof:ResourceDescriptor\"\r\n          ],\r\n          \"hasArtifact\": \"../context.jsonld\",\r\n          \"hasRole\": \"role:schema\",\r\n          \"format\": \"filetype:JSON_LD\",\r\n          \"conformsTo\": \"http://www.w3.org/ns/json-ld\"\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"@context\": {\r\n    \"@version\": 1.1,\r\n    \"prof\": \"http://www.w3.org/ns/dx/prof/\",\r\n    \"role\": \"prof:role/\",\r\n    \"dsv\": \"https://w3id.org/dsv#\",\r\n    \"owl\": \"http://www.w3.org/2002/07/owl#\",\r\n    \"adms\": \"http://www.w3.org/ns/adms#\",\r\n    \"filetype\": \"http://publications.europa.eu/resource/authority/file-type/\",\r\n    \"title\": {\r\n      \"@id\": \"http://purl.org/dc/terms/title\",\r\n      \"@container\": \"@language\"\r\n    },\r\n    \"description\": {\r\n      \"@id\": \"http://purl.org/dc/terms/description\",\r\n      \"@container\": \"@language\"\r\n    },\r\n    \"conformsTo\": {\r\n      \"@id\": \"http://purl.org/dc/terms/conformsTo\",\r\n      \"@type\": \"@id\",\r\n      \"@container\": \"@set\"\r\n    },\r\n    \"format\": {\r\n      \"@id\": \"http://purl.org/dc/terms/format\",\r\n      \"@type\": \"@id\"\r\n    },\r\n    \"hasRole\": {\r\n      \"@id\": \"prof:hasRole\",\r\n      \"@type\": \"@id\"\r\n    },\r\n    \"hasArtifact\": {\r\n      \"@id\": \"prof:hasArtifact\",\r\n      \"@type\": \"@id\"\r\n    },\r\n    \"inSpecificationOf\": {\r\n      \"@reverse\": \"prof:hasResource\",\r\n      \"@type\": \"@id\",\r\n      \"@context\": {\r\n        \"title\": {\r\n          \"@id\": \"http://purl.org/dc/terms/title\",\r\n          \"@container\": \"@language\"\r\n        },\r\n        \"description\": {\r\n          \"@id\": \"http://purl.org/dc/terms/description\",\r\n          \"@container\": \"@language\"\r\n        },\r\n        \"hasToken\": {\r\n          \"@id\": \"prof:hasToken\",\r\n          \"@type\": \"xsd:token\"\r\n        },\r\n        \"isProfileOf\": {\r\n          \"@id\": \"prof:isProfileOf\",\r\n          \"@container\": \"@set\",\r\n          \"@context\": {\r\n            \"title\": {\r\n              \"@id\": \"http://purl.org/dc/terms/title\",\r\n              \"@container\": \"@language\"\r\n            },\r\n            \"hasResource\": {\r\n              \"@id\": \"prof:hasResource\",\r\n              \"@container\": \"@set\",\r\n              \"@context\": {\r\n                \"hasArtifact\": {\r\n                  \"@id\": \"prof:hasArtifact\",\r\n                  \"@type\": \"@id\"\r\n                }\r\n              }\r\n            }\r\n          }\r\n        },\r\n        \"hasResource\": {\r\n          \"@id\": \"prof:hasResource\",\r\n          \"@container\": \"@set\",\r\n          \"@context\": {\r\n            \"conformsTo\": {\r\n              \"@id\": \"http://purl.org/dc/terms/conformsTo\",\r\n              \"@type\": \"@id\",\r\n              \"@container\": \"@set\"\r\n            },\r\n            \"format\": {\r\n              \"@id\": \"http://purl.org/dc/terms/format\",\r\n              \"@type\": \"@id\"\r\n            },\r\n            \"hasRole\": {\r\n              \"@id\": \"prof:hasRole\",\r\n              \"@type\": \"@id\"\r\n            },\r\n            \"hasArtifact\": {\r\n              \"@id\": \"prof:hasArtifact\",\r\n              \"@type\": \"@id\"\r\n            }\r\n          }\r\n        }\r\n      }\r\n    }\r\n  }\r\n}</pre>\r\n</aside>\r\n  </section>\r\n\r\n  <section>\r\n    <h3>Vocabulary</h3>\r\n    <p>\r\n      In this example, we show how DSV-DAP reuses RDFS [[rdf-schema]] and OWL2 [[owl2-primer]].\r\n      The example is from the <a href=\"https://eosc-cz.github.io/CCMM-V/en/\">Czech Core Metadata Vocabulary</a>.\r\n    </p>\r\n  <aside class=\"example\" title=\"DSV Vocabulary\">\r\n  <p>\r\n      <a href=\"examples/dsv-voc.ttl\">RDF Turtle file</a>\r\n  </p>\r\n  <pre class=\"turtle\">\r\n@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt;.\r\n@prefix prof: &lt;http://www.w3.org/ns/dx/prof/&gt;.\r\n@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;.\r\n@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;.\r\n@prefix : &lt;https://techlib.cz/vocabulary/ccmm/&gt;.\r\n\r\n&lt;https://techlib.cz/vocabulary/ccmm/&gt; a owl:Ontology, prof:Profile.\r\n:Distribution-DataService a owl:Class, rdfs:Class;\r\n    rdfs:label \"Distribution - data service\"@en;\r\n    rdfs:comment \"Physical embodiment of the dataset as a particular data service. \"@en;\r\n    rdfs:isDefinedBy &lt;https://techlib.cz/vocabulary/ccmm/&gt;;\r\n    rdfs:subClassOf &lt;http://www.w3.org/ns/dcat#Distribution&gt;.\r\n:ContactDetails a owl:Class, rdfs:Class;\r\n    rdfs:label \"Contact details\"@en;\r\n    rdfs:comment \"Contact details such as telephone, e-mail address etc.\"@en;\r\n    rdfs:isDefinedBy &lt;https://techlib.cz/vocabulary/ccmm/&gt;.\r\n:phone a rdf:Property, owl:DatatypeProperty;\r\n    rdfs:label \"Phone\"@en;\r\n    rdfs:comment \"Phone number\"@en;\r\n    rdfs:isDefinedBy &lt;https://techlib.cz/vocabulary/ccmm/&gt;;\r\n    rdfs:domain :ContactDetails;\r\n    rdfs:range rdfs:Literal.\r\n:hasRelatedResource a rdf:Property, owl:ObjectProperty;\r\n    rdfs:label \"has related resource\"@en;\r\n    rdfs:isDefinedBy &lt;https://techlib.cz/vocabulary/ccmm/&gt;;\r\n    rdfs:domain &lt;http://www.w3.org/ns/dcat#Dataset&gt;;\r\n    rdfs:range rdfs:Resource.</pre>\r\n</aside>\r\n  </section>\r\n\r\n  <section>\r\n    <h3>Application Profile</h3>\r\n    <p>\r\n      This example shows a sample form application profile <a href=\"https://mff-uk.github.io/specifications/dcat-dap/\">DCAT Default Application Profile (DCAT-DAP)</a>.\r\n      It contains the Class Profile of <code>dcat:Catalog</code> and a Property Profile of <code>foaf:homepage</code> used on the catalog.\r\n    </p>\r\n  <aside class=\"example\" title=\"DSV Application Profile\">\r\n  <p>\r\n      <a href=\"examples/dsv-ap.ttl\">RDF Turtle file</a>\r\n  </p>\r\n  <pre class=\"turtle\">\r\n@prefix dct: &lt;http://purl.org/dc/terms/&gt;.\r\n@prefix dsv: &lt;https://w3id.org/dsv#&gt;.\r\n@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;.\r\n@prefix cardinality: &lt;https://w3id.org/dsv/cardinality#&gt;.\r\n@prefix prof: &lt;http://www.w3.org/ns/dx/prof/&gt;.\r\n\r\n@prefix : &lt;https://mff-uk.github.io/specifications/dcat-dap/#&gt;.\r\n\r\n&lt;https://mff-uk.github.io/specifications/dcat-dap/#&gt; a prof:Profile, dsv:ApplicationProfile.\r\n:Catalog dct:isPartOf &lt;https://mff-uk.github.io/specifications/dcat-dap/#&gt;;\r\n    a dsv:TermProfile;\r\n    skos:definition \"A curated collection of metadata about resources.\"@en, \"Una colección curada de metadatos sobre recursos (por ejemplo, conjuntos de datos y servicios de datos en el contexto de un catálogo de datos).\"@es, \"Una raccolta curata di metadati sulle risorse (ad es. sui dataset e relativi servizi nel contesto di cataloghi di dati).\"@it, \"Une collection élaborée de métadonnées sur les jeux de données\"@fr, \"Řízená kolekce metadat o datových sadách a datových službách\"@cs, \"Μια επιμελημένη συλλογή μεταδεδομένων περί συνόλων δεδομένων\"@el, \"مجموعة من توصيفات قوائم البيانات\"@ar, \"データ・カタログは、データセットに関するキュレートされたメタデータの集合です。\"@ja, \"En udvalgt og arrangeret samling af metadata om ressourcer (fx datasæt og datatjenester i kontekst af et datakatalog). \"@da;\r\n    skos:scopeNote \"A Web-based data catalog is typically represented as a single instance of this class.\\nDatasets and data services are examples of resources in the context of a data catalog.\"@en;\r\n    dsv:specializes :Dataset;\r\n    dsv:reusesPropertyValue [\r\n  a dsv:PropertyValueReuse;\r\n  dsv:reusedAsProperty skos:prefLabel;\r\n  dsv:reusedProperty rdfs:label;\r\n  dsv:reusedFromResource &lt;http://www.w3.org/ns/dcat#Catalog&gt;\r\n];\r\n    dsv:externalDocumentation &lt;https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog&gt;;\r\n    a dsv:ClassProfile;\r\n    dsv:class &lt;http://www.w3.org/ns/dcat#Catalog&gt;.\r\n\r\n&lt;https://mff-uk.github.io/specifications/dcat-dap/#Catalog.homepage&gt; dsv:domain :Catalog;\r\n    dct:isPartOf &lt;https://mff-uk.github.io/specifications/dcat-dap/#&gt;;\r\n    a dsv:TermProfile;\r\n    skos:definition \"A homepage of the catalog (a public Web document usually available in HTML).\"@en;\r\n    skos:scopeNote \"foaf:homepage is an inverse functional property (IFP) which means that it MUST be unique and precisely identify the Web-page for the resource. This property indicates the canonical Web-page, which might be helpful in cases where there is more than one Web-page about the resource.\"@en;\r\n    dsv:reusesPropertyValue [\r\n  a dsv:PropertyValueReuse;\r\n  dsv:reusedAsProperty skos:prefLabel;\r\n  dsv:reusedProperty rdfs:label;\r\n  dsv:reusedFromResource &lt;http://xmlns.com/foaf/0.1/homepage&gt;\r\n];\r\n    dsv:externalDocumentation &lt;https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage&gt;;\r\n    dsv:cardinality cardinality:0n;\r\n    dsv:property &lt;http://xmlns.com/foaf/0.1/homepage&gt;;\r\n    a dsv:ObjectPropertyProfile;\r\n    dsv:objectPropertyRange :Document.</pre>\r\n</aside>\r\n  </section>\r\n\r\n  <section>\r\n    <h3>Application Profile of Application Profile</h3>\r\n    <p>\r\n      In this example, we can see an application profile (DCAT-AP) of an application profile (DCAT-DAP, seen above).\r\n      Again we see the Class Profile of <code>dcat:Catalog</code> the way it is profiled in DCAT-DAP.\r\n      Also, we see the Property Profile of <code>foaf:homepage</code> the way it is profiles in DCAT-DAP to be used on Catalog.\r\n    </p>\r\n  <aside class=\"example\" title=\"DSV Application Profile of Application Profile\">\r\n  <p>\r\n      <a href=\"examples/dsv-ap-of-ap.ttl\">RDF Turtle file</a>\r\n  </p>\r\n  <pre class=\"turtle\">\r\n@prefix dct: &lt;http://purl.org/dc/terms/&gt;.\r\n@prefix dsv: &lt;https://w3id.org/dsv#&gt;.\r\n@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;.\r\n@prefix cardinality: &lt;https://w3id.org/dsv/cardinality#&gt;.\r\n@prefix requirement: &lt;https://w3id.org/dsv/requirement-level#&gt;.\r\n@prefix role: &lt;https://w3id.org/dsv/class-role#&gt;.\r\n@prefix prof: &lt;http://www.w3.org/ns/dx/prof/&gt;.\r\n@prefix : &lt;https://mff-uk.github.io/specifications/dcat-ap/#&gt;.\r\n\r\n\r\n&lt;https://mff-uk.github.io/specifications/dcat-ap/#&gt; a prof:Profile, dsv:ApplicationProfile.\r\n:Catalogue dct:isPartOf &lt;https://mff-uk.github.io/specifications/dcat-ap/#&gt;;\r\n    a dsv:TermProfile;\r\n    skos:prefLabel \"Catalogue\"@en, \"Catalogo\"@it, \"Catalogue\"@fr, \"Catálogo\"@es, \"Katalog\"@cs, \"Κατάλογος\"@el, \"فهرس قوائم البيانات\"@ar, \"カタログ\"@ja, \"Katalog\"@da;\r\n    skos:definition \"A catalogue or repository that hosts the Datasets or Data Services being described.\"@en, \"Una colección curada de metadatos sobre recursos (por ejemplo, conjuntos de datos y servicios de datos en el contexto de un catálogo de datos).\"@es, \"Una raccolta curata di metadati sulle risorse (ad es. sui dataset e relativi servizi nel contesto di cataloghi di dati).\"@it, \"Une collection élaborée de métadonnées sur les jeux de données\"@fr, \"Řízená kolekce metadat o datových sadách a datových službách\"@cs, \"Μια επιμελημένη συλλογή μεταδεδομένων περί συνόλων δεδομένων\"@el, \"مجموعة من توصيفات قوائم البيانات\"@ar, \"データ・カタログは、データセットに関するキュレートされたメタデータの集合です。\"@ja, \"En udvalgt og arrangeret samling af metadata om ressourcer (fx datasæt og datatjenester i kontekst af et datakatalog). \"@da;\r\n    dsv:profileOf &lt;https://mff-uk.github.io/specifications/dcat-dap/#Catalog&gt;;\r\n    dsv:reusesPropertyValue [\r\n  a dsv:PropertyValueReuse;\r\n  dsv:reusedAsProperty skos:scopeNote;;\r\n  dsv:reusedProperty skos:scopeNote;\r\n  dsv:reusedFromResource &lt;https://mff-uk.github.io/specifications/dcat-dap/#Catalog&gt;\r\n];\r\n    dsv:externalDocumentation &lt;https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue&gt;;\r\n    a dsv:ClassProfile;\r\n    dsv:classRole role:main.\r\n\r\n&lt;https://mff-uk.github.io/specifications/dcat-ap/#Catalogue.homepage&gt; dsv:domain :Catalogue;\r\n    dct:isPartOf &lt;https://mff-uk.github.io/specifications/dcat-ap/#&gt;;\r\n    a dsv:TermProfile;\r\n    skos:definition \"A web page that acts as the main page for the Catalogue.\"@en;\r\n    skos:scopeNote \"\"@en;\r\n    dsv:profileOf &lt;https://mff-uk.github.io/specifications/dcat-dap/#Catalog.homepage&gt;;\r\n    dsv:reusesPropertyValue [\r\n  a dsv:PropertyValueReuse;\r\n  dsv:reusedAsProperty skos:prefLabel;\r\n  dsv:reusedProperty skos:prefLabel;\r\n  dsv:reusedFromResource &lt;https://mff-uk.github.io/specifications/dcat-dap/#Catalog.homepage&gt;\r\n];\r\n    dsv:externalDocumentation &lt;https://semiceu.github.io/DCAT-AP/releases/3.0.0/#Catalogue.homepage&gt;;\r\n    dsv:cardinality cardinality:01;\r\n    dsv:requirementLevel requirement:recommended;\r\n    a dsv:ObjectPropertyProfile;\r\n    dsv:objectPropertyRange :Document.</pre>\r\n</aside>\r\n  </section>\r\n\r\n</section>",
+        "respecConfig": "var respecConfig = {\n    specStatus: \"base\",\n    shortName: \"dsv-dap\",               \n    showPreviousVersion: true,\n    prevVersion: \"https://w3id.org/dsv-dap/1.0.0\",\n    thisVersion: \"https://w3id.org/dsv-dap\",\n    latestVersion: \"https://w3id.org/dsv-dap\",\n    editors: [{\n      name: \"Jakub Klímek\",\n      orcid: \"0000-0001-7234-3051\",\n      company:    \"Charles University\",\n      companyURL: \"https://www.mff.cuni.cz\"\n    }],\n    inlineCSS: \"true\",\n    github: \"https://github.com/mff-uk/data-specification-vocabulary/\",\n    otherLinks: [{\n        key: \"Links\",\n        data: [{\n            value: \"Dataspecer\",\n            href: \"https://dataspecer.com\"\n        },{\n            value: \"Data Specification Vocabulary (DSV)\",\n            href: \"https://w3id.org/dsv\"\n        },{\n            value: \"Sample specifications\",\n            href: \"https://mff-uk.github.io/specifications/\"\n        }]\n    }]\n  };",
+        "introduction": "",
+        "specification": "{{> definitions}}\n<!DOCTYPE html>\n<html {{#iflng \"cs\"}}lang=\"cs\"{{lng}}lang=\"en\"{{/iflng}}>\n  <head>\n    {{> html-head}}\n  </head>\n  <body>\n    <p class=\"copyright\"></p>\n    {{> abstract}}\n\n    {{> introduction}}\n\n    <section>\n      <h2>{{#iflng \"cs\"}}Přehled{{lng}}Overview{{/iflng}}</h2>\n\n      {{#each externalArtifacts.svg}}\n        <a href=\"{{{relativePath URL}}}\">\n          <figure>\n            <img src=\"{{{relativePath URL}}}\" alt=\"{{translate ./label}}\" />\n            <figcaption>{{translate ./label}}</figcaption>\n          </figure>\n        </a>\n      {{/each}}\n    </section>\n\n    {{#if classProfilesByTags.[https://w3id.org/dsv/class-role#main]}}\n      <section>\n        <h2>{{#iflng \"cs\"}}Hlavní profily tříd{{lng}}Main class profiles{{/iflng}}</h2>\n\n        {{#each classProfilesByTags.[https://w3id.org/dsv/class-role#main]}}\n          {{> class-profile}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#if classProfilesByTags.[https://w3id.org/dsv/class-role#supportive]}}\n      <section>\n        <h2>{{#iflng \"cs\"}}Podpůrné profily třídy{{lng}}Supportive class profiles{{/iflng}}</h2>\n\n        {{#each classProfilesByTags.[https://w3id.org/dsv/class-role#supportive]}}\n          {{> class-profile}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#if (non-empty classProfilesByTags.default)}}\n      <section>\n        {{#if (or classProfilesByTags.[https://w3id.org/dsv/class-role#main] classProfilesByTags.[https://w3id.org/dsv/class-role#supportive])}}\n          <h2>{{#iflng \"cs\"}}Nezařazené profily tříd{{lng}}Other class profiles{{/iflng}}</h2>\n        {{else}}\n          <h2>{{#iflng \"cs\"}}Profily tříd{{lng}}Class profiles{{/iflng}}</h2>\n        {{/if}}\n\n        {{#each classProfilesByTags.default}}\n          {{> class-profile}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#if semanticEntitiesByType.classes}}\n      <section>\n        <h2>{{#iflng \"cs\"}}Třídy{{lng}}Classes{{/iflng}}</h2>\n\n        {{#each locallyDefinedSemanticEntity}}\n          {{#ifEquals type.[0] \"class\"}}\n            {{> semantic-model-class}}\n          {{/ifEquals}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#if semanticEntitiesByType.relationships}}\n      <section>\n        <h2>{{#iflng \"cs\"}}Vlastnosti{{lng}}Properties{{/iflng}}</h2>\n        {{#each locallyDefinedSemanticEntity}}\n          {{#ifEquals type.[0] \"relationship\"}}\n            {{> semantic-model-relationship}}\n          {{/ifEquals}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#structureModels}}\n      <section>\n      <h2>\n        {{#iflng \"cs\"}}Specifikace struktury pro{{lng}}Data structure specification for{{/iflng}}\n        {{translate humanLabel}}\n      </h2>\n      <p>{{translate humanDescription}}</p>\n\n      {{#artifacts}}{{#getDocumentation}}{{> (useTemplate)}}{{/getDocumentation}}{{/artifacts}}\n      </section>\n    {{/structureModels}}\n\n    {{> examples}}\n    \n    {{> used-prefixes}}\n\n    {{> attachments}}\n  </body>\n</html>"
+      }
+    },
+    "http://dataspecer.com/resources/local/layout-configuration": {
+      "main": {
+        "none": {
+          "layout_alg": "none",
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_stress": {
+          "layout_alg": "elk_stress",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_layered": {
+          "layout_alg": "elk_layered",
+          "alg_direction": "UP",
+          "layer_gap": 200,
+          "in_layer_gap": 100,
+          "edge_routing": "ORTHOGONAL",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_force": {
+          "layout_alg": "elk_force",
+          "min_distance_between_nodes": 400,
+          "force_alg_type": "FRUCHTERMAN_REINGOLD",
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "random": {
+          "layout_alg": "random",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_radial": {
+          "layout_alg": "elk_radial",
+          "min_distance_between_nodes": 500,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_overlapRemoval": {
+          "layout_alg": "elk_overlapRemoval",
+          "min_distance_between_nodes": 0,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": true
+        },
+        "elk_stress_advanced_using_clusters": {
+          "layout_alg": "elk_stress_advanced_using_clusters",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_stress_profile": {
+          "layout_alg": "elk_stress_profile",
+          "profileEdgeLength": 400,
+          "preferredProfileDirection": "UP",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": true
+        },
+        "automatic": {
+          "layout_alg": "automatic",
+          "min_distance_between_nodes": 500,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        }
+      },
+      "general": {
+        "none": {
+          "layout_alg": "none",
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_stress": {
+          "layout_alg": "elk_stress",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_layered": {
+          "layout_alg": "elk_layered",
+          "alg_direction": "UP",
+          "layer_gap": 200,
+          "in_layer_gap": 100,
+          "edge_routing": "ORTHOGONAL",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_force": {
+          "layout_alg": "elk_force",
+          "min_distance_between_nodes": 400,
+          "force_alg_type": "FRUCHTERMAN_REINGOLD",
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "random": {
+          "layout_alg": "random",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_radial": {
+          "layout_alg": "elk_radial",
+          "min_distance_between_nodes": 500,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_overlapRemoval": {
+          "layout_alg": "elk_overlapRemoval",
+          "min_distance_between_nodes": 0,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": true
+        },
+        "elk_stress_advanced_using_clusters": {
+          "layout_alg": "elk_stress_advanced_using_clusters",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_stress_profile": {
+          "layout_alg": "elk_stress_profile",
+          "profileEdgeLength": 400,
+          "preferredProfileDirection": "UP",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": true
+        },
+        "automatic": {
+          "layout_alg": "automatic",
+          "min_distance_between_nodes": 500,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        }
+      },
+      "chosenMainAlgorithm": "elk_layered",
+      "chosenGeneralAlgorithm": "none",
+      "additionalSteps": {}
+    }
+  },
+  "modelCompositionConfiguration": {
+    "modelType": "application-profile",
+    "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+    "canAddEntities": false,
+    "canModify": false,
+    "profiles": {
+      "modelType": "merge",
+      "models": null
+    }
+  },
+  "userPreferences": {
+    "client": {
+      "technicalLabelCasingConvention": "camelCase"
+    }
+  }
+}

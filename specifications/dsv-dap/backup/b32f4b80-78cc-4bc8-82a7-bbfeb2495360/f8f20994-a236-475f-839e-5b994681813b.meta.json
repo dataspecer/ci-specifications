@@ -1,0 +1,24 @@
+{
+  "iri": "f8f20994-a236-475f-839e-5b994681813b",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Application Profile Specification Document",
+      "cs": "Application Profile Specification Document"
+    },
+    "description": {
+      "en": "Data structure for Application Profile Specification Document. An Application Profile Specification Document contains human-readable version of an Application Profile.",
+      "cs": "Datová struktura pro Application Profile Specification Document. An Application Profile Specification Document contains human-readable version of an Application Profile."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-01-09T09:36:26.734Z",
+    "modificationDate": "2026-01-09T09:36:26.765Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-04-02T07:24:45.895Z",
+  "_exportedBy": "http://localhost:3100"
+}

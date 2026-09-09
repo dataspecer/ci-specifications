@@ -1,0 +1,22 @@
+{
+  "iri": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "dsv-dap"
+    },
+    "description": {
+      "en": "Semantic model for the profile"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-01-09T09:36:26.135Z",
+    "modificationDate": "2026-04-02T07:14:32.906Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-04-02T07:24:45.852Z",
+  "_exportedBy": "http://localhost:3100"
+}

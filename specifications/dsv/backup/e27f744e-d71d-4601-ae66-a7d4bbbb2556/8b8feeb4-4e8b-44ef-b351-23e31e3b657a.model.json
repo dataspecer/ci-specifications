@@ -1,0 +1,639 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "8b8feeb4-4e8b-44ef-b351-23e31e3b657a",
+  "modelAlias": "Data Specification Vocabulary (DSV)",
+  "baseIri": "https://w3id.org/dsv#",
+  "entities": {
+    "0m9c25z376jnly5ubaz1": {
+      "id": "0m9c25z376jnly5ubaz1",
+      "iri": "ApplicationProfile",
+      "type": [
+        "class"
+      ],
+      "name": {
+        "en": "Application Profile",
+        "cs": "Konceptuální model"
+      },
+      "description": {
+        "en": "An Application Profile identifies classes and properties from vocabularies, and class profiles and property profiles from Application profiles that are re-used in a certain usage context. It also allows specification editors to further adjust the description of re-used classes and properties for that usage context without the need to explicitly create subclasses and subproperties.",
+        "cs": "Konceptuální model obsahující profily tříd a vlastností různých slovníků."
+      },
+      "externalDocumentationUrl": null
+    },
+    "4klnwt1r7ouly5udayc": {
+      "id": "4klnwt1r7ouly5udayc",
+      "iri": "TermProfile",
+      "type": [
+        "class"
+      ],
+      "name": {
+        "en": "Term Profile",
+        "cs": "Profil"
+      },
+      "description": {
+        "en": "Term profile. Allows profile editors to specify context dependent information such as label, definition, usage note, cardinalities, etc. for Class profiles and Property profiles.",
+        "cs": "Profil entity. Umožňuje blíže specifikovat některé její vlastnost v kontextu aplikačního profilu."
+      },
+      "externalDocumentationUrl": null
+    },
+    "6qhgfajnmghly5ueuw3": {
+      "id": "6qhgfajnmghly5ueuw3",
+      "iri": "ClassProfile",
+      "type": [
+        "class"
+      ],
+      "name": {
+        "en": "Class Profile",
+        "cs": "Profil třídy"
+      },
+      "description": {
+        "en": "Profile of a class. Allows specification editors to specify profile specific names, definitions and usage notes."
+      }
+    },
+    "y1td0drpj8ly5uezge": {
+      "id": "y1td0drpj8ly5uezge",
+      "iri": null,
+      "child": "6qhgfajnmghly5ueuw3",
+      "parent": "4klnwt1r7ouly5udayc",
+      "type": [
+        "generalization"
+      ]
+    },
+    "t03u43jp2holy5ugz67": {
+      "id": "t03u43jp2holy5ugz67",
+      "iri": "PropertyProfile",
+      "type": [
+        "class"
+      ],
+      "name": {
+        "en": "Property Profile",
+        "cs": "Profil vlastnosti"
+      },
+      "description": {
+        "en": "Profile of a property allows specification editors to specify profile specific name, definition, usage note, domain, range and cardinality."
+      }
+    },
+    "dcg7lv48ekly5uh3mj": {
+      "id": "dcg7lv48ekly5uh3mj",
+      "iri": null,
+      "child": "t03u43jp2holy5ugz67",
+      "parent": "4klnwt1r7ouly5udayc",
+      "type": [
+        "generalization"
+      ]
+    },
+    "mzm5kthiswfly5ujegg": {
+      "id": "mzm5kthiswfly5ujegg",
+      "iri": "InvalidTermProfile",
+      "type": [
+        "class"
+      ],
+      "name": {
+        "en": "Invalid Term Profile",
+        "cs": "Nevalidní profil"
+      },
+      "description": {
+        "en": "Invalid Term Profile is a profile, which breaks profile compliance rules. This may be for a good reason such as temporary, to be propagated upstream, inconsistency.",
+        "cs": "Neplatný profil je profil, který porušuje pravidla pro správné profilování. To může být z dobrého důvodu, jako je dočasná nekonzistence, která se má teprve projevit na profilované entitě."
+      },
+      "externalDocumentationUrl": null
+    },
+    "jfanc22vuihly5ujlfh": {
+      "id": "jfanc22vuihly5ujlfh",
+      "iri": null,
+      "child": "mzm5kthiswfly5ujegg",
+      "parent": "4klnwt1r7ouly5udayc",
+      "type": [
+        "generalization"
+      ]
+    },
+    "fuwncp8252ely5ukryv": {
+      "id": "fuwncp8252ely5ukryv",
+      "iri": "ObjectPropertyProfile",
+      "type": [
+        "class"
+      ],
+      "name": {
+        "en": "Object Property Profile",
+        "cs": "Profil objektové vlastnosti"
+      },
+      "description": {
+        "en": "Profile of an object property allows specification editors to specify profile-specific name, definition, usage note, domain, range, and cardinality."
+      },
+      "externalDocumentationUrl": null
+    },
+    "l6mx4qcki7oly5ulbau": {
+      "id": "l6mx4qcki7oly5ulbau",
+      "iri": "DatatypePropertyProfile",
+      "type": [
+        "class"
+      ],
+      "name": {
+        "en": "Datatype Property Profile",
+        "cs": "Profile atributu"
+      },
+      "description": {
+        "en": "Profile of a datatype property allows specification editors to specify profile-specific name, definition, usage note, domain, datatype, and cardinality."
+      },
+      "externalDocumentationUrl": null
+    },
+    "vuj81mkfkaly5uli9n": {
+      "id": "vuj81mkfkaly5uli9n",
+      "iri": null,
+      "child": "l6mx4qcki7oly5ulbau",
+      "parent": "t03u43jp2holy5ugz67",
+      "type": [
+        "generalization"
+      ]
+    },
+    "h34mmfthj67ly5ulnoo": {
+      "id": "h34mmfthj67ly5ulnoo",
+      "iri": null,
+      "child": "fuwncp8252ely5ukryv",
+      "parent": "t03u43jp2holy5ugz67",
+      "type": [
+        "generalization"
+      ]
+    },
+    "5k9qr6vfkgjly5upac4": {
+      "id": "5k9qr6vfkgjly5upac4",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "cardinality": null,
+          "concept": "4klnwt1r7ouly5udayc",
+          "iri": null
+        },
+        {
+          "name": {
+            "en": "profile of"
+          },
+          "description": {
+            "en": "Specifies a parent profile of the current profile."
+          },
+          "cardinality": null,
+          "concept": "4klnwt1r7ouly5udayc",
+          "iri": "https://w3id.org/dsv#profileOf"
+        }
+      ]
+    },
+    "x2epkv1lvjoly5uptxv": {
+      "id": "x2epkv1lvjoly5uptxv",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "cardinality": null,
+          "concept": "4klnwt1r7ouly5udayc",
+          "iri": null
+        },
+        {
+          "name": {
+            "en": "specializes"
+          },
+          "description": {
+            "en": "Specifies a profile specialized by this profile."
+          },
+          "cardinality": null,
+          "concept": "4klnwt1r7ouly5udayc",
+          "iri": "https://w3id.org/dsv#specializes"
+        }
+      ]
+    },
+    "zhakhpyes2mly5us7ay": {
+      "id": "zhakhpyes2mly5us7ay",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "cardinality": null,
+          "concept": "6qhgfajnmghly5ueuw3",
+          "iri": null
+        },
+        {
+          "name": {
+            "en": "profiled class"
+          },
+          "description": {
+            "en": "The profiled class."
+          },
+          "cardinality": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Class",
+          "iri": "https://w3id.org/dsv#class"
+        }
+      ]
+    },
+    "zea294wx11ely5uxiqs": {
+      "id": "zea294wx11ely5uxiqs",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "l6mx4qcki7oly5ulbau",
+          "iri": null
+        },
+        {
+          "name": {
+            "en": "datatype"
+          },
+          "description": {
+            "en": "A datatype of the values of the Datatype Property Profile."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+          "iri": "https://w3id.org/dsv#datatype",
+          "externalDocumentationUrl": ""
+        }
+      ]
+    },
+    "h7hy192nuqtly5uycc1": {
+      "id": "h7hy192nuqtly5uycc1",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "fuwncp8252ely5ukryv",
+          "iri": null
+        },
+        {
+          "name": {
+            "en": "range"
+          },
+          "description": {
+            "en": "Class profile, which is the range of the object property profile."
+          },
+          "concept": "6qhgfajnmghly5ueuw3",
+          "iri": "https://w3id.org/dsv#range"
+        }
+      ]
+    },
+    "d7r5pxu88ylly5uyt49": {
+      "id": "d7r5pxu88ylly5uyt49",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "t03u43jp2holy5ugz67",
+          "iri": null
+        },
+        {
+          "name": {
+            "en": "domain"
+          },
+          "description": {
+            "en": "Class profile, which is the domain of the property profile."
+          },
+          "concept": "6qhgfajnmghly5ueuw3",
+          "iri": "https://w3id.org/dsv#domain"
+        }
+      ]
+    },
+    "g4mpeurijsly5v4n8s": {
+      "id": "g4mpeurijsly5v4n8s",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "t03u43jp2holy5ugz67",
+          "iri": null
+        },
+        {
+          "name": {
+            "en": "cardinality",
+            "cs": "kardinalita"
+          },
+          "description": {
+            "en": "Cardinality of the Property Profile."
+          },
+          "concept": "http://www.w3.org/2004/02/skos/core#Concept",
+          "iri": "https://w3id.org/dsv#cardinality",
+          "externalDocumentationUrl": ""
+        }
+      ]
+    },
+    "5l1btg4vww6lyif85tw": {
+      "id": "5l1btg4vww6lyif85tw",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "cardinality": null,
+          "concept": "t03u43jp2holy5ugz67",
+          "iri": null
+        },
+        {
+          "name": {
+            "en": "profiled property"
+          },
+          "description": {
+            "en": "The property profiled by the property profile."
+          },
+          "cardinality": null,
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "iri": "https://w3id.org/dsv#property"
+        }
+      ]
+    },
+    "0u9k6kwmiq6m92q3ugk": {
+      "iri": "PropertyValueReuse",
+      "name": {
+        "en": "Property Value Reuse"
+      },
+      "description": {
+        "en": "Specifies, which values of which properties of which resources are reused for the current Profile.\nE.g. reuse of profile name, reuse of class name, reuse of profile definition, reuse of profile usage note, etc."
+      },
+      "id": "0u9k6kwmiq6m92q3ugk",
+      "type": [
+        "class"
+      ]
+    },
+    "vqx4y9xx1cjm92q4ppb": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "4klnwt1r7ouly5udayc"
+        },
+        {
+          "name": {
+            "en": "reuses property value"
+          },
+          "description": {
+            "en": "Points to definitions of Property value reuse for this Profile."
+          },
+          "concept": "0u9k6kwmiq6m92q3ugk",
+          "iri": "reusesPropertyValue"
+        }
+      ],
+      "id": "vqx4y9xx1cjm92q4ppb",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "3z7gjy81uubm92q5wof": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "0u9k6kwmiq6m92q3ugk"
+        },
+        {
+          "name": {
+            "en": "reused property"
+          },
+          "description": {
+            "en": "The Property from which a value is reused."
+          },
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "iri": "reusedProperty",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "3z7gjy81uubm92q5wof",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "079r8f4km7lnm92q74k9": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "0u9k6kwmiq6m92q3ugk"
+        },
+        {
+          "name": {
+            "en": "reused from resource"
+          },
+          "description": {
+            "en": "The Resource on which there is a property with a value for reuse."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": "reusedFromResource"
+        }
+      ],
+      "id": "079r8f4km7lnm92q74k9",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "gx916856xyom9bcqf92": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "t03u43jp2holy5ugz67"
+        },
+        {
+          "name": {
+            "en": "requirement level"
+          },
+          "description": {
+            "en": "Requirement level of the property, typically mandatory, recommended or optional."
+          },
+          "concept": "http://www.w3.org/2004/02/skos/core#Concept",
+          "iri": "requirementLevel"
+        }
+      ],
+      "id": "gx916856xyom9bcqf92",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "w3sb3ygvlqm9bcr78z": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "6qhgfajnmghly5ueuw3"
+        },
+        {
+          "name": {
+            "en": "class role"
+          },
+          "description": {
+            "en": "Class role, e.g. Mandatory, Supportive, etc."
+          },
+          "concept": "http://www.w3.org/2004/02/skos/core#Concept",
+          "iri": "classRole"
+        }
+      ],
+      "id": "w3sb3ygvlqm9bcr78z",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "c9b209w0gpgm9gzjaep": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "external documentation"
+          },
+          "description": {
+            "en": "Link to an external documentation of this resource. Profiles of this resource should preferably link to this URL for documentation."
+          },
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": "externalDocumentation",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "c9b209w0gpgm9gzjaep",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "wprdnh37j5fma3upocf": {
+      "iri": "ApplicationProfileSpecificationDocument",
+      "name": {
+        "en": "Application Profile Specification Document"
+      },
+      "description": {
+        "en": "An Application Profile Specification Document contains human-readable version of an Application Profile."
+      },
+      "externalDocumentationUrl": null,
+      "id": "wprdnh37j5fma3upocf",
+      "type": [
+        "class"
+      ]
+    },
+    "yjxcwfjhlama3vcuph": {
+      "iri": "VocabularySpecificationDocument",
+      "name": {
+        "en": "Vocabulary Specification Document"
+      },
+      "description": {
+        "en": "A Vocabulary Specification Document is a human-readable representation of a Vocabulary."
+      },
+      "externalDocumentationUrl": null,
+      "id": "yjxcwfjhlama3vcuph",
+      "type": [
+        "class"
+      ]
+    },
+    "gkz7fvl341ma3wlbaj": {
+      "id": "gkz7fvl341ma3wlbaj",
+      "iri": null,
+      "child": "wprdnh37j5fma3upocf",
+      "parent": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+      "type": [
+        "generalization"
+      ]
+    },
+    "rsz6udy2o7mma3wldxd": {
+      "id": "rsz6udy2o7mma3wldxd",
+      "iri": null,
+      "child": "yjxcwfjhlama3vcuph",
+      "parent": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+      "type": [
+        "generalization"
+      ]
+    },
+    "lfrkw3tv8lcmk6nnr5k": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "0u9k6kwmiq6m92q3ugk",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "reused as property"
+          },
+          "description": {
+            "en": "The Property to gain the reused value."
+          },
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "iri": "reusedAsProperty",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "lfrkw3tv8lcmk6nnr5k",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    }
+  }
+}

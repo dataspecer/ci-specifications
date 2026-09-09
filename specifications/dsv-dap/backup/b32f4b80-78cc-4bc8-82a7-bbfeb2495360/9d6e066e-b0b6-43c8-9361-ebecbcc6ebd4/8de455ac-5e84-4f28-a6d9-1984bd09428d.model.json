@@ -1,0 +1,2553 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "b32f4b80-78cc-4bc8-82a7-bbfeb2495360/9d6e066e-b0b6-43c8-9361-ebecbcc6ebd4/8de455ac-5e84-4f28-a6d9-1984bd09428d",
+  "alias": "owl",
+  "pimStore": {
+    "resources": {
+      "http://www.w3.org/2002/07/owl#allValuesFrom#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#allValuesFrom#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#allValuesFrom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#allValuesFrom",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#allValuesFrom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "allValuesFrom"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the class that a universal property restriction refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#allValuesFrom#domain",
+          "http://www.w3.org/2002/07/owl#allValuesFrom#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#allValuesFrom#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#allValuesFrom#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#annotatedProperty#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedProperty#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#annotatedProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#annotatedProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "annotatedProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the predicate of an annotated axiom or annotated annotation."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#annotatedProperty#domain",
+          "http://www.w3.org/2002/07/owl#annotatedProperty#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#annotatedProperty#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedProperty#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#annotatedSource#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedSource#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#annotatedSource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedSource",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#annotatedSource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "annotatedSource"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the subject of an annotated axiom or annotated annotation."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#annotatedSource#domain",
+          "http://www.w3.org/2002/07/owl#annotatedSource#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#annotatedSource#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedSource#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#annotatedTarget#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedTarget#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#annotatedTarget": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedTarget",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#annotatedTarget",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "annotatedTarget"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the object of an annotated axiom or annotated annotation."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#annotatedTarget#domain",
+          "http://www.w3.org/2002/07/owl#annotatedTarget#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#annotatedTarget#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#annotatedTarget#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#assertionProperty#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#assertionProperty#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#NegativePropertyAssertion",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#assertionProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#assertionProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#assertionProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "assertionProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the predicate of a negative property assertion."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#assertionProperty#domain",
+          "http://www.w3.org/2002/07/owl#assertionProperty#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#assertionProperty#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#assertionProperty#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#cardinality": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#cardinality",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#cardinality",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "cardinality"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the cardinality of an exact cardinality restriction."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#complementOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#complementOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#complementOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#complementOf",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#complementOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "complementOf"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that a given class is the complement of another class."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#complementOf#domain",
+          "http://www.w3.org/2002/07/owl#complementOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#complementOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#complementOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#datatypeComplementOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#datatypeComplementOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#datatypeComplementOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#datatypeComplementOf",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#datatypeComplementOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "datatypeComplementOf"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that a given data range is the complement of another data range with respect to the data domain."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#datatypeComplementOf#domain",
+          "http://www.w3.org/2002/07/owl#datatypeComplementOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#datatypeComplementOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#datatypeComplementOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#differentFrom#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#differentFrom#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#differentFrom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#differentFrom",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#differentFrom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "differentFrom"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that two given individuals are different."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#differentFrom#domain",
+          "http://www.w3.org/2002/07/owl#differentFrom#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#differentFrom#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#differentFrom#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#disjointUnionOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#disjointUnionOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#disjointUnionOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#disjointUnionOf",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#disjointUnionOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "disjointUnionOf"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that a given class is equivalent to the disjoint union of a collection of other classes."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#disjointUnionOf#domain",
+          "http://www.w3.org/2002/07/owl#disjointUnionOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#disjointUnionOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#disjointUnionOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#disjointWith#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#disjointWith#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#disjointWith": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#disjointWith",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "disjointWith"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that two given classes are disjoint."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#disjointWith#domain",
+          "http://www.w3.org/2002/07/owl#disjointWith#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#disjointWith#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#disjointWith#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#distinctMembers#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#distinctMembers#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#AllDifferent",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#distinctMembers": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#distinctMembers",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#distinctMembers",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "distinctMembers"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the collection of pairwise different individuals in a owl:AllDifferent axiom."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#distinctMembers#domain",
+          "http://www.w3.org/2002/07/owl#distinctMembers#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#distinctMembers#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#distinctMembers#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#equivalentClass#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#equivalentClass#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#equivalentClass": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#equivalentClass",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#equivalentClass",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "equivalentClass"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that two given classes are equivalent, and that is used to specify datatype definitions."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#equivalentClass#domain",
+          "http://www.w3.org/2002/07/owl#equivalentClass#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#equivalentClass#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#equivalentClass#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#equivalentProperty#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#equivalentProperty#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#equivalentProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#equivalentProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#equivalentProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "equivalentProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that two given properties are equivalent."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#equivalentProperty#domain",
+          "http://www.w3.org/2002/07/owl#equivalentProperty#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#equivalentProperty#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#equivalentProperty#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#hasKey#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasKey#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#hasKey": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasKey",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#hasKey",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hasKey"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the collection of properties that jointly build a key."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#hasKey#domain",
+          "http://www.w3.org/2002/07/owl#hasKey#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#hasKey#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasKey#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#hasSelf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasSelf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#hasSelf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasSelf",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#hasSelf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hasSelf"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the property that a self restriction refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#hasSelf#domain",
+          "http://www.w3.org/2002/07/owl#hasSelf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#hasSelf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasSelf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#hasValue#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasValue#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#hasValue": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasValue",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#hasValue",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hasValue"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the individual that a has-value restriction refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#hasValue#domain",
+          "http://www.w3.org/2002/07/owl#hasValue#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#hasValue#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#hasValue#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#intersectionOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#intersectionOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#intersectionOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#intersectionOf",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#intersectionOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "intersectionOf"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the collection of classes or data ranges that build an intersection."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#intersectionOf#domain",
+          "http://www.w3.org/2002/07/owl#intersectionOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#intersectionOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#intersectionOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#inverseOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#inverseOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#inverseOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#inverseOf",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#inverseOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "inverseOf"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that two given properties are inverse."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#inverseOf#domain",
+          "http://www.w3.org/2002/07/owl#inverseOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#inverseOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#inverseOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#maxCardinality": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#maxCardinality",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#maxCardinality",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "maxCardinality"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the cardinality of a maximum cardinality restriction."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#maxQualifiedCardinality": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#maxQualifiedCardinality",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#maxQualifiedCardinality",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "maxQualifiedCardinality"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the cardinality of a maximum qualified cardinality restriction."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#members#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#members#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#members": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#members",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#members",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "members"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the collection of members in either a owl:AllDifferent, owl:AllDisjointClasses or owl:AllDisjointProperties axiom."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#members#domain",
+          "http://www.w3.org/2002/07/owl#members#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#members#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#members#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#minCardinality": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#minCardinality",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#minCardinality",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "minCardinality"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the cardinality of a minimum cardinality restriction."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#minQualifiedCardinality": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "minQualifiedCardinality"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the cardinality of a minimum qualified cardinality restriction."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#onClass#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onClass#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onClass": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onClass",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#onClass",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "onClass"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the class that a qualified object cardinality restriction refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#onClass#domain",
+          "http://www.w3.org/2002/07/owl#onClass#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#onClass#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onClass#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onDataRange#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onDataRange#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onDataRange": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onDataRange",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#onDataRange",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "onDataRange"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the data range that a qualified data cardinality restriction refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#onDataRange#domain",
+          "http://www.w3.org/2002/07/owl#onDataRange#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#onDataRange#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onDataRange#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onDatatype#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onDatatype#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onDatatype": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onDatatype",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#onDatatype",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "onDatatype"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the datatype that a datatype restriction refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#onDatatype#domain",
+          "http://www.w3.org/2002/07/owl#onDatatype#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#onDatatype#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onDatatype#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#oneOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#oneOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#oneOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#oneOf",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#oneOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "oneOf"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the collection of individuals or data values that build an enumeration."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#oneOf#domain",
+          "http://www.w3.org/2002/07/owl#oneOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#oneOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#oneOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onProperties#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onProperties#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onProperties": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onProperties",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#onProperties",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "onProperties"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the n-tuple of properties that a property restriction on an n-ary data range refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#onProperties#domain",
+          "http://www.w3.org/2002/07/owl#onProperties#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#onProperties#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onProperties#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onProperty#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onProperty#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#onProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#onProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "onProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the property that a property restriction refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#onProperty#domain",
+          "http://www.w3.org/2002/07/owl#onProperty#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#onProperty#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#onProperty#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#propertyChainAxiom#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#propertyChainAxiom#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#propertyChainAxiom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#propertyChainAxiom",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#propertyChainAxiom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "propertyChainAxiom"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the n-tuple of properties that build a sub property chain of a given property."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#propertyChainAxiom#domain",
+          "http://www.w3.org/2002/07/owl#propertyChainAxiom#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#propertyChainAxiom#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#propertyChainAxiom#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#propertyDisjointWith#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#propertyDisjointWith#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#propertyDisjointWith": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#propertyDisjointWith",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#propertyDisjointWith",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "propertyDisjointWith"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that two given properties are disjoint."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#propertyDisjointWith#domain",
+          "http://www.w3.org/2002/07/owl#propertyDisjointWith#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#propertyDisjointWith#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#propertyDisjointWith#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#qualifiedCardinality": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#qualifiedCardinality",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#qualifiedCardinality",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "qualifiedCardinality"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the cardinality of an exact qualified cardinality restriction."
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#sameAs#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#sameAs#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#sameAs": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#sameAs",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#sameAs",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "sameAs"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines that two given individuals are equal."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#sameAs#domain",
+          "http://www.w3.org/2002/07/owl#sameAs#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#sameAs#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#sameAs#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#someValuesFrom#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#someValuesFrom#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#someValuesFrom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#someValuesFrom",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#someValuesFrom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "someValuesFrom"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the class that an existential property restriction refers to."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#someValuesFrom#domain",
+          "http://www.w3.org/2002/07/owl#someValuesFrom#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#someValuesFrom#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#someValuesFrom#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#sourceIndividual#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#sourceIndividual#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#NegativePropertyAssertion",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#sourceIndividual": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#sourceIndividual",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#sourceIndividual",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "sourceIndividual"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the subject of a negative property assertion."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#sourceIndividual#domain",
+          "http://www.w3.org/2002/07/owl#sourceIndividual#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#sourceIndividual#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#sourceIndividual#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#targetIndividual#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#targetIndividual#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#NegativePropertyAssertion",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#targetIndividual": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#targetIndividual",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#targetIndividual",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "targetIndividual"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the object of a negative object property assertion."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#targetIndividual#domain",
+          "http://www.w3.org/2002/07/owl#targetIndividual#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#targetIndividual#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#targetIndividual#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#targetValue": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#targetValue",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#targetValue",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "targetValue"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the value of a negative data property assertion."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#NegativePropertyAssertion",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#unionOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#unionOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#unionOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#unionOf",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#unionOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "unionOf"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the collection of classes or data ranges that build a union."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#unionOf#domain",
+          "http://www.w3.org/2002/07/owl#unionOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#unionOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#unionOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#withRestrictions#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#withRestrictions#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#withRestrictions": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#withRestrictions",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#withRestrictions",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "withRestrictions"
+        },
+        "pimHumanDescription": {
+          "en": "The property that determines the collection of facet-value pairs that define a datatype restriction."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#withRestrictions#domain",
+          "http://www.w3.org/2002/07/owl#withRestrictions#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#withRestrictions#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#withRestrictions#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#bottomDataProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#bottomDataProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#bottomDataProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "bottomDataProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The data property that does not relate any individual to any data value."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#topDataProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#topDataProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#topDataProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "topDataProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The data property that relates every individual to every data value."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#bottomObjectProperty#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#bottomObjectProperty#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#bottomObjectProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#bottomObjectProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#bottomObjectProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "bottomObjectProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The object property that does not relate any two individuals."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#bottomObjectProperty#domain",
+          "http://www.w3.org/2002/07/owl#bottomObjectProperty#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#bottomObjectProperty#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#bottomObjectProperty#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#topObjectProperty#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#topObjectProperty#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#topObjectProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#topObjectProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#topObjectProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "topObjectProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The object property that relates every two individuals."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2002/07/owl#topObjectProperty#domain",
+          "http://www.w3.org/2002/07/owl#topObjectProperty#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/2002/07/owl#topObjectProperty#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#topObjectProperty#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/2002/07/owl#AllDifferent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#AllDifferent",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#AllDifferent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "AllDifferent"
+        },
+        "pimHumanDescription": {
+          "en": "The class of collections of pairwise different individuals."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#AllDisjointClasses",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#AllDisjointClasses",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "AllDisjointClasses"
+        },
+        "pimHumanDescription": {
+          "en": "The class of collections of pairwise disjoint classes."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#AllDisjointProperties": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#AllDisjointProperties",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#AllDisjointProperties",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "AllDisjointProperties"
+        },
+        "pimHumanDescription": {
+          "en": "The class of collections of pairwise disjoint properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Annotation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Annotation",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Annotation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Annotation"
+        },
+        "pimHumanDescription": {
+          "en": "The class of annotated annotations for which the RDF serialization consists of an annotated subject, predicate and object."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#AnnotationProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "AnnotationProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of annotation properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#AsymmetricProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "AsymmetricProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of asymmetric properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#ObjectProperty",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Axiom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Axiom",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Axiom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Axiom"
+        },
+        "pimHumanDescription": {
+          "en": "The class of annotated axioms for which the RDF serialization consists of an annotated subject, predicate and object."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Class": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Class",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Class",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Class"
+        },
+        "pimHumanDescription": {
+          "en": "The class of OWL classes."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Class",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#DataRange": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#DataRange",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#DataRange",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "DataRange"
+        },
+        "pimHumanDescription": {
+          "en": "The class of OWL data ranges, which are special kinds of datatypes. Note: The use of the IRI owl:DataRange has been deprecated as of OWL 2. The IRI rdfs:Datatype SHOULD be used instead."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Datatype",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#DatatypeProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "DatatypeProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of data properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#DeprecatedClass": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#DeprecatedClass",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "DeprecatedClass"
+        },
+        "pimHumanDescription": {
+          "en": "The class of deprecated classes."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Class",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#DeprecatedProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#DeprecatedProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#DeprecatedProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "DeprecatedProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of deprecated properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#FunctionalProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "FunctionalProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of functional properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#InverseFunctionalProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "InverseFunctionalProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of inverse-functional properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#ObjectProperty",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#IrreflexiveProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "IrreflexiveProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of irreflexive properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#ObjectProperty",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#NamedIndividual": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "NamedIndividual"
+        },
+        "pimHumanDescription": {
+          "en": "The class of named individuals."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#NegativePropertyAssertion": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#NegativePropertyAssertion",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#NegativePropertyAssertion",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "NegativePropertyAssertion"
+        },
+        "pimHumanDescription": {
+          "en": "The class of negative property assertions."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#ObjectProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "ObjectProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of object properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Ontology": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Ontology",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Ontology",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Ontology"
+        },
+        "pimHumanDescription": {
+          "en": "The class of ontologies."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#OntologyProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#OntologyProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#OntologyProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "OntologyProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of ontology properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#ReflexiveProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#ReflexiveProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#ReflexiveProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "ReflexiveProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of reflexive properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#ObjectProperty",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Restriction": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Restriction",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Restriction"
+        },
+        "pimHumanDescription": {
+          "en": "The class of property restrictions."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Class",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#SymmetricProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#SymmetricProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#SymmetricProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "SymmetricProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of symmetric properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#ObjectProperty",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#TransitiveProperty": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "TransitiveProperty"
+        },
+        "pimHumanDescription": {
+          "en": "The class of transitive properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#ObjectProperty",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Nothing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Nothing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Nothing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Nothing"
+        },
+        "pimHumanDescription": {
+          "en": "This is the empty class."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://www.w3.org/2002/07/owl"
+  ]
+}

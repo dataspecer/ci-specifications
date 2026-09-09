@@ -1,0 +1,15 @@
+{
+  "iri": "626cb",
+  "types": [
+    "http://dataspecer.com/resources/local/visual-model"
+  ],
+  "userMetadata": {},
+  "metadata": {
+    "creationDate": "2026-01-09T09:36:26.404Z",
+    "modificationDate": "2026-04-02T07:14:34.270Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-04-02T07:24:45.876Z",
+  "_exportedBy": "http://localhost:3100"
+}

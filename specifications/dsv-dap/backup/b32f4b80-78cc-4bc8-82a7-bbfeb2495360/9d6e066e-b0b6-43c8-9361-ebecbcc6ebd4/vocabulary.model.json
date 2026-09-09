@@ -1,0 +1,938 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "b32f4b80-78cc-4bc8-82a7-bbfeb2495360/9d6e066e-b0b6-43c8-9361-ebecbcc6ebd4/vocabulary",
+  "modelAlias": "Data Specification Vocabulary (DSV)",
+  "baseIri": "https://w3id.org/dsv#",
+  "entities": {
+    "https://w3id.org/dsv#reusedFromResource": {
+      "id": "https://w3id.org/dsv#reusedFromResource",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "reused from resource"
+      },
+      "description": {
+        "en": "The Resource on which there is a property with a value for reuse."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#PropertyValueReuse",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "reused from resource"
+          },
+          "description": {
+            "en": "The Resource on which there is a property with a value for reuse."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": "reusedFromResource"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#reusedProperty": {
+      "id": "https://w3id.org/dsv#reusedProperty",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "reused property"
+      },
+      "description": {
+        "en": "The Property from which a value is reused."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#PropertyValueReuse",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "reused property"
+          },
+          "description": {
+            "en": "The Property from which a value is reused."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "iri": "reusedProperty"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#reusedAsProperty": {
+      "id": "https://w3id.org/dsv#reusedAsProperty",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "reused as property"
+      },
+      "description": {
+        "en": "The Property to gain the reused value."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#PropertyValueReuse",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "reused as property"
+          },
+          "description": {
+            "en": "The Property to gain the reused value."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "iri": "reusedAsProperty"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#profileOf": {
+      "id": "https://w3id.org/dsv#profileOf",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "profile of"
+      },
+      "description": {
+        "en": "Specifies a parent profile of the current profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#TermProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "profile of"
+          },
+          "description": {
+            "en": "Specifies a parent profile of the current profile."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "https://w3id.org/dsv#TermProfile",
+          "iri": "profileOf"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#reusesPropertyValue": {
+      "id": "https://w3id.org/dsv#reusesPropertyValue",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "reuses property value"
+      },
+      "description": {
+        "en": "Points to definitions of Property value reuse for this Profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#TermProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "reuses property value"
+          },
+          "description": {
+            "en": "Points to definitions of Property value reuse for this Profile."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "https://w3id.org/dsv#PropertyValueReuse",
+          "iri": "reusesPropertyValue"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#specializes": {
+      "id": "https://w3id.org/dsv#specializes",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "specializes"
+      },
+      "description": {
+        "en": "Specifies a profile specialized by this profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#TermProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "specializes"
+          },
+          "description": {
+            "en": "Specifies a profile specialized by this profile."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "https://w3id.org/dsv#TermProfile",
+          "iri": "specializes"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#classRole": {
+      "id": "https://w3id.org/dsv#classRole",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "class role"
+      },
+      "description": {
+        "en": "Class role, e.g. Mandatory, Supportive, etc."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#ClassProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "class role"
+          },
+          "description": {
+            "en": "Class role, e.g. Mandatory, Supportive, etc."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2004/02/skos/core#Concept",
+          "iri": "classRole"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#class": {
+      "id": "https://w3id.org/dsv#class",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "profiled class"
+      },
+      "description": {
+        "en": "The profiled class."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#ClassProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "profiled class"
+          },
+          "description": {
+            "en": "The profiled class."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Class",
+          "iri": "class"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#range": {
+      "id": "https://w3id.org/dsv#range",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "range"
+      },
+      "description": {
+        "en": "Class profile, which is the range of the object property profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#ObjectPropertyProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "range"
+          },
+          "description": {
+            "en": "Class profile, which is the range of the object property profile."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "https://w3id.org/dsv#ClassProfile",
+          "iri": "range"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#datatype": {
+      "id": "https://w3id.org/dsv#datatype",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "datatype"
+      },
+      "description": {
+        "en": "A datatype of the values of the Datatype Property Profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#DatatypePropertyProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "datatype"
+          },
+          "description": {
+            "en": "A datatype of the values of the Datatype Property Profile."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+          "iri": "datatype"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#property": {
+      "id": "https://w3id.org/dsv#property",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "profiled property"
+      },
+      "description": {
+        "en": "The property profiled by the property profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#PropertyProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "profiled property"
+          },
+          "description": {
+            "en": "The property profiled by the property profile."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+          "iri": "property"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#domain": {
+      "id": "https://w3id.org/dsv#domain",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "domain"
+      },
+      "description": {
+        "en": "Class profile, which is the domain of the property profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#PropertyProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "domain"
+          },
+          "description": {
+            "en": "Class profile, which is the domain of the property profile."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "https://w3id.org/dsv#ClassProfile",
+          "iri": "domain"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#cardinality": {
+      "id": "https://w3id.org/dsv#cardinality",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "cs": "kardinalita",
+        "en": "cardinality"
+      },
+      "description": {
+        "en": "Cardinality of the Property Profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#PropertyProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "cs": "kardinalita",
+            "en": "cardinality"
+          },
+          "description": {
+            "en": "Cardinality of the Property Profile."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2004/02/skos/core#Concept",
+          "iri": "cardinality"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#requirementLevel": {
+      "id": "https://w3id.org/dsv#requirementLevel",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "requirement level"
+      },
+      "description": {
+        "en": "Requirement level of the property, typically mandatory, recommended or optional."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "https://w3id.org/dsv#PropertyProfile",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "requirement level"
+          },
+          "description": {
+            "en": "Requirement level of the property, typically mandatory, recommended or optional."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2004/02/skos/core#Concept",
+          "iri": "requirementLevel"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#externalDocumentation": {
+      "id": "https://w3id.org/dsv#externalDocumentation",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "external documentation"
+      },
+      "description": {
+        "en": "Link to an external documentation of this resource. Profiles of this resource should preferably link to this URL for documentation."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "nameProperty": null,
+          "descriptionProperty": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "external documentation"
+          },
+          "description": {
+            "en": "Link to an external documentation of this resource. Profiles of this resource should preferably link to this URL for documentation."
+          },
+          "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+          "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "iri": "externalDocumentation"
+        }
+      ]
+    },
+    "https://w3id.org/dsv#ApplicationProfile": {
+      "id": "https://w3id.org/dsv#ApplicationProfile",
+      "iri": "ApplicationProfile",
+      "name": {
+        "cs": "Konceptuální model",
+        "en": "Application Profile"
+      },
+      "description": {
+        "cs": "Konceptuální model obsahující profily tříd a vlastností různých slovníků.",
+        "en": "An Application Profile identifies classes and properties from vocabularies, and class profiles and property profiles from Application profiles that are re-used in a certain usage context. It also allows specification editors to further adjust the description of re-used classes and properties for that usage context without the need to explicitly create subclasses and subproperties."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ApplicationProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ApplicationProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#ApplicationProfile",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#PropertyValueReuse": {
+      "id": "https://w3id.org/dsv#PropertyValueReuse",
+      "iri": "PropertyValueReuse",
+      "name": {
+        "en": "Property Value Reuse"
+      },
+      "description": {
+        "en": "Specifies, which values of which properties of which resources are reused for the current Profile.\nE.g. reuse of profile name, reuse of class name, reuse of profile definition, reuse of profile usage note, etc."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyValueReuse&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyValueReuse&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#PropertyValueReuse",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#TermProfile": {
+      "id": "https://w3id.org/dsv#TermProfile",
+      "iri": "TermProfile",
+      "name": {
+        "cs": "Profil",
+        "en": "Term Profile"
+      },
+      "description": {
+        "cs": "Profil entity. Umožňuje blíže specifikovat některé její vlastnost v kontextu aplikačního profilu.",
+        "en": "Term profile. Allows profile editors to specify context dependent information such as label, definition, usage note, cardinalities, etc. for Class profiles and Property profiles."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#TermProfile",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#ClassProfile": {
+      "id": "https://w3id.org/dsv#ClassProfile",
+      "iri": "ClassProfile",
+      "name": {
+        "cs": "Profil třídy",
+        "en": "Class Profile"
+      },
+      "description": {
+        "en": "Profile of a class. Allows specification editors to specify profile specific names, definitions and usage notes."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ClassProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ClassProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#ClassProfile",
+      "parent": "https://w3id.org/dsv#TermProfile"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ClassProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ClassProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#ClassProfile",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#ObjectPropertyProfile": {
+      "id": "https://w3id.org/dsv#ObjectPropertyProfile",
+      "iri": "ObjectPropertyProfile",
+      "name": {
+        "cs": "Profil objektové vlastnosti",
+        "en": "Object Property Profile"
+      },
+      "description": {
+        "en": "Profile of an object property allows specification editors to specify profile-specific name, definition, usage note, domain, range, and cardinality."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ObjectPropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ObjectPropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#ObjectPropertyProfile",
+      "parent": "https://w3id.org/dsv#PropertyProfile"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ObjectPropertyProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ObjectPropertyProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#ObjectPropertyProfile",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#DatatypePropertyProfile": {
+      "id": "https://w3id.org/dsv#DatatypePropertyProfile",
+      "iri": "DatatypePropertyProfile",
+      "name": {
+        "cs": "Profile atributu",
+        "en": "Datatype Property Profile"
+      },
+      "description": {
+        "en": "Profile of a datatype property allows specification editors to specify profile-specific name, definition, usage note, domain, datatype, and cardinality."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23DatatypePropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23DatatypePropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#DatatypePropertyProfile",
+      "parent": "https://w3id.org/dsv#PropertyProfile"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23DatatypePropertyProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23DatatypePropertyProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#DatatypePropertyProfile",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#InvalidTermProfile": {
+      "id": "https://w3id.org/dsv#InvalidTermProfile",
+      "iri": "InvalidTermProfile",
+      "name": {
+        "cs": "Nevalidní profil",
+        "en": "Invalid Term Profile"
+      },
+      "description": {
+        "cs": "Neplatný profil je profil, který porušuje pravidla pro správné profilování. To může být z dobrého důvodu, jako je dočasná nekonzistence, která se má teprve projevit na profilované entitě.",
+        "en": "Invalid Term Profile is a profile, which breaks profile compliance rules. This may be for a good reason such as temporary, to be propagated upstream, inconsistency."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23InvalidTermProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23InvalidTermProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#InvalidTermProfile",
+      "parent": "https://w3id.org/dsv#TermProfile"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23InvalidTermProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23InvalidTermProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#InvalidTermProfile",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#PropertyProfile": {
+      "id": "https://w3id.org/dsv#PropertyProfile",
+      "iri": "PropertyProfile",
+      "name": {
+        "cs": "Profil vlastnosti",
+        "en": "Property Profile"
+      },
+      "description": {
+        "en": "Profile of a property allows specification editors to specify profile specific name, definition, usage note, domain, range and cardinality."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile&toIri=https%3A%2F%2Fw3id.org%2Fdsv%23TermProfile",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#PropertyProfile",
+      "parent": "https://w3id.org/dsv#TermProfile"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23PropertyProfile&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#PropertyProfile",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#ApplicationProfileSpecificationDocument": {
+      "id": "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
+      "iri": "ApplicationProfileSpecificationDocument",
+      "name": {
+        "en": "Application Profile Specification Document"
+      },
+      "description": {
+        "en": "An Application Profile Specification Document contains human-readable version of an Application Profile."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ApplicationProfileSpecificationDocument&toIri=http%3A%2F%2Fwww.w3.org%2Fns%2Fdx%2Fprof%2FResourceDescriptor": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ApplicationProfileSpecificationDocument&toIri=http%3A%2F%2Fwww.w3.org%2Fns%2Fdx%2Fprof%2FResourceDescriptor",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
+      "parent": "http://www.w3.org/ns/dx/prof/ResourceDescriptor"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ApplicationProfileSpecificationDocument&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23ApplicationProfileSpecificationDocument&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "https://w3id.org/dsv#VocabularySpecificationDocument": {
+      "id": "https://w3id.org/dsv#VocabularySpecificationDocument",
+      "iri": "VocabularySpecificationDocument",
+      "name": {
+        "en": "Vocabulary Specification Document"
+      },
+      "description": {
+        "en": "A Vocabulary Specification Document is a human-readable representation of a Vocabulary."
+      },
+      "nameProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+      "descriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type": [
+        "class"
+      ]
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23VocabularySpecificationDocument&toIri=http%3A%2F%2Fwww.w3.org%2Fns%2Fdx%2Fprof%2FResourceDescriptor": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23VocabularySpecificationDocument&toIri=http%3A%2F%2Fwww.w3.org%2Fns%2Fdx%2Fprof%2FResourceDescriptor",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#VocabularySpecificationDocument",
+      "parent": "http://www.w3.org/ns/dx/prof/ResourceDescriptor"
+    },
+    "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23VocabularySpecificationDocument&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing": {
+      "id": "https://dataspecer.com/semantic-models/generalizationfromIri=https%3A%2F%2Fw3id.org%2Fdsv%23VocabularySpecificationDocument&toIri=http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23Thing",
+      "iri": null,
+      "type": [
+        "generalization"
+      ],
+      "child": "https://w3id.org/dsv#VocabularySpecificationDocument",
+      "parent": "http://www.w3.org/2002/07/owl#Thing"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "iri": "8b8feeb4-4e8b-44ef-b351-23e31e3b657a",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Data Specification Vocabulary (DSV)"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-01-09T09:06:58.465Z",
+    "modificationDate": "2026-01-09T09:10:17.568Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-04-02T07:10:12.947Z",
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,2601 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+  "modelAlias": "dsv-dap",
+  "baseIri": "https://w3id.org/dsv-dap#",
+  "entities": {
+    "zggafij32fnm9a0orqh": {
+      "id": "zggafij32fnm9a0orqh",
+      "iri": null,
+      "child": "jko38yoe91dm9a0ggpt",
+      "parent": "lswxg3d561m9a0om2n",
+      "type": [
+        "generalization"
+      ]
+    },
+    "d5m5unfmviim9a0otmw": {
+      "id": "d5m5unfmviim9a0otmw",
+      "iri": null,
+      "child": "qc1s3rxg6zm9a0gvwg",
+      "parent": "lswxg3d561m9a0om2n",
+      "type": [
+        "generalization"
+      ]
+    },
+    "rlr78ikehlm9a12990": {
+      "id": "rlr78ikehlm9a12990",
+      "type": [
+        "class-profile"
+      ],
+      "description": {},
+      "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+      "name": {
+        "en": "Resource Descriptor"
+      },
+      "nameFromProfiled": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+      "iri": "ResourceDescriptor",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/ns/adms#AssetDistribution",
+        "http://www.w3.org/ns/dx/prof/ResourceDescriptor"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "v7l54rgxqvm9b8behh": {
+      "id": "v7l54rgxqvm9b8behh",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "cs": "Profil entity. Umožňuje blíže specifikovat některé její vlastnost v kontextu aplikačního profilu.",
+        "en": "Entity profile. Allows profile editors to specify context dependent information such as label, definition, usage note, cardinalities, etc."
+      },
+      "descriptionFromProfiled": "https://w3id.org/dsv#TermProfile",
+      "name": {
+        "cs": "Profil",
+        "en": "Profile"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#TermProfile",
+      "iri": "TermProfile",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://w3id.org/dsv#TermProfile"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "3nhmuufrnyam9b8bmtk": {
+      "id": "3nhmuufrnyam9b8bmtk",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "Profile of a class. Allows specification editors to specify profile specific names, definitions and usage notes."
+      },
+      "descriptionFromProfiled": "https://w3id.org/dsv#ClassProfile",
+      "name": {
+        "cs": "Profil třídy",
+        "en": "Class Profile"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#ClassProfile",
+      "iri": "ClassProfile",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://w3id.org/dsv#ClassProfile"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "il9wsqvdgdm9b8burt": {
+      "id": "il9wsqvdgdm9b8burt",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "Profile of a property allows specification editors to specify profile specific name, definition, usage note, domain, range and cardinality."
+      },
+      "descriptionFromProfiled": "https://w3id.org/dsv#PropertyProfile",
+      "name": {
+        "cs": "Profil vlastnosti",
+        "en": "Property Profile"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#PropertyProfile",
+      "iri": "PropertyProfile",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://w3id.org/dsv#PropertyProfile"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "8bhnp19vz5cm9b8byba": {
+      "id": "8bhnp19vz5cm9b8byba",
+      "type": [
+        "class-profile"
+      ],
+      "description": {},
+      "descriptionFromProfiled": "https://w3id.org/dsv#ObjectPropertyProfile",
+      "name": {
+        "cs": "Profil objektové vlastnosti",
+        "en": "Object Property Profile"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#ObjectPropertyProfile",
+      "iri": "ObjectPropertyProfile",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://w3id.org/dsv#ObjectPropertyProfile"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "wwj111un1ram9b8c05a": {
+      "id": "wwj111un1ram9b8c05a",
+      "type": [
+        "class-profile"
+      ],
+      "description": {},
+      "descriptionFromProfiled": "https://w3id.org/dsv#DatatypePropertyProfile",
+      "name": {
+        "cs": "Profile atributu",
+        "en": "Datatype Property Profile"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#DatatypePropertyProfile",
+      "iri": "DatatypePropertyProfile",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://w3id.org/dsv#DatatypePropertyProfile"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "qglj98hu1cpm9b8casu": {
+      "id": "qglj98hu1cpm9b8casu",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "Specifies, which values of which properties of which resources are reused for the current Profile.\nE.g. reuse of profile name, reuse of class name, reuse of profile definition, reuse of profile usage note, etc."
+      },
+      "descriptionFromProfiled": "https://w3id.org/dsv#PropertyValueReuse",
+      "name": {
+        "en": "Property Value Reuse"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#PropertyValueReuse",
+      "iri": "PropertyValueReuse",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://w3id.org/dsv#PropertyValueReuse"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "tvz8iufev8om9b8cjnu": {
+      "id": "tvz8iufev8om9b8cjnu",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "The class resource, everything."
+      },
+      "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#Resource",
+      "name": {
+        "en": "Term"
+      },
+      "nameFromProfiled": null,
+      "iri": "Term",
+      "usageNote": {
+        "en": "In the context of DSV, Term is used as a common denominator for Classes, Properties and their profiles."
+      },
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "e5zswl7sro5m9b8d3a2": {
+      "id": "e5zswl7sro5m9b8d3a2",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "The class of RDF properties."
+      },
+      "descriptionFromProfiled": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "name": {
+        "en": "Property"
+      },
+      "nameFromProfiled": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "iri": "Property",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "z8b7pjl5uyem9b8d78b": {
+      "id": "z8b7pjl5uyem9b8d78b",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "The class of classes."
+      },
+      "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#Class",
+      "name": {
+        "en": "Class"
+      },
+      "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#Class",
+      "iri": "Class",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/2000/01/rdf-schema#Class",
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "21ow0uhseq3m9b8dh72": {
+      "id": "21ow0uhseq3m9b8dh72",
+      "iri": null,
+      "child": "z8b7pjl5uyem9b8d78b",
+      "parent": "tvz8iufev8om9b8cjnu",
+      "type": [
+        "generalization"
+      ]
+    },
+    "c159j1thzbsm9b8dl78": {
+      "id": "c159j1thzbsm9b8dl78",
+      "iri": null,
+      "child": "e5zswl7sro5m9b8d3a2",
+      "parent": "tvz8iufev8om9b8cjnu",
+      "type": [
+        "generalization"
+      ]
+    },
+    "knlt7a6jurfm9b8dshe": {
+      "id": "knlt7a6jurfm9b8dshe",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "cs": "Neplatný profil je profil, který porušuje pravidla pro správné profilování. To může být z dobrého důvodu, jako je dočasná nekonzistence, která se má teprve projevit na profilované entitě.",
+        "en": "Invalid profile is a profile, which breaks profile compliance rules. This may be for a good reason such as temporary, to be propagated upstream, inconsistency."
+      },
+      "descriptionFromProfiled": "https://w3id.org/dsv#InvalidTermProfile",
+      "name": {
+        "cs": "Nevalidní profil",
+        "en": "Invalid Term Profile"
+      },
+      "nameFromProfiled": null,
+      "iri": "InvalidTermProfile",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://w3id.org/dsv#InvalidTermProfile"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "gsd1arzjksrm9b8dwwa": {
+      "id": "gsd1arzjksrm9b8dwwa",
+      "iri": null,
+      "child": "knlt7a6jurfm9b8dshe",
+      "parent": "v7l54rgxqvm9b8behh",
+      "type": [
+        "generalization"
+      ]
+    },
+    "44e1ttt3nm2m9b8e3a2": {
+      "id": "44e1ttt3nm2m9b8e3a2",
+      "iri": null,
+      "child": "3nhmuufrnyam9b8bmtk",
+      "parent": "v7l54rgxqvm9b8behh",
+      "type": [
+        "generalization"
+      ]
+    },
+    "7a1kp7i2s7wm9b8e5as": {
+      "id": "7a1kp7i2s7wm9b8e5as",
+      "iri": null,
+      "child": "il9wsqvdgdm9b8burt",
+      "parent": "v7l54rgxqvm9b8behh",
+      "type": [
+        "generalization"
+      ]
+    },
+    "5togoue50q9m9b8gdfk": {
+      "id": "5togoue50q9m9b8gdfk",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "tvz8iufev8om9b8cjnu",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "is defined by"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "The defininition of the subject resource."
+          },
+          "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "iri": "Term.isdefinedby",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+          ],
+          "concept": "m82a0phe3xima3ufaca",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "umqvmhv89mbm9b8h5za": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "il9wsqvdgdm9b8burt"
+        },
+        {
+          "name": {
+            "en": "profiled property"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#property",
+          "description": {
+            "en": "The property profiled by the property profile."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#property",
+          "iri": "PropertyProfile.profiledProperty",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#property"
+          ],
+          "concept": "e5zswl7sro5m9b8d3a2"
+        }
+      ],
+      "id": "umqvmhv89mbm9b8h5za",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "sf4wr0x2n1m9b8honk": {
+      "id": "sf4wr0x2n1m9b8honk",
+      "iri": null,
+      "child": "8bhnp19vz5cm9b8byba",
+      "parent": "il9wsqvdgdm9b8burt",
+      "type": [
+        "generalization"
+      ]
+    },
+    "ouzc27b12omm9b8hqem": {
+      "id": "ouzc27b12omm9b8hqem",
+      "iri": null,
+      "child": "wwj111un1ram9b8c05a",
+      "parent": "il9wsqvdgdm9b8burt",
+      "type": [
+        "generalization"
+      ]
+    },
+    "l5pouepxoedm9b8hzn7": {
+      "id": "l5pouepxoedm9b8hzn7",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "The class of RDF datatypes."
+      },
+      "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "name": {
+        "en": "Datatype"
+      },
+      "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "iri": "Datatype",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/2000/01/rdf-schema#Datatype"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "lzdeaede09im9b8ivqt": {
+      "id": "lzdeaede09im9b8ivqt",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "wwj111un1ram9b8c05a"
+        },
+        {
+          "name": {
+            "en": "datatype"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#datatype",
+          "description": {
+            "en": "Datatype used with this Datatype property profile."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "DatatypePropertyProfile.datatype",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#datatype"
+          ],
+          "concept": "l5pouepxoedm9b8hzn7"
+        }
+      ]
+    },
+    "grpl6njksn8m9b8khx6": {
+      "id": "grpl6njksn8m9b8khx6",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "8bhnp19vz5cm9b8byba"
+        },
+        {
+          "name": {
+            "en": "range"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#range",
+          "description": {
+            "en": "Class profile that is the range of the object property profile."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#range",
+          "iri": "ObjectPropertyProfile.range",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#range"
+          ],
+          "concept": "3nhmuufrnyam9b8bmtk"
+        }
+      ]
+    },
+    "lv4zjq4qisjm9b8l42p": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "il9wsqvdgdm9b8burt"
+        },
+        {
+          "name": {
+            "en": "domain"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#domain",
+          "description": {},
+          "descriptionFromProfiled": "https://w3id.org/dsv#domain",
+          "iri": "PropertyProfile.domain",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#domain"
+          ],
+          "concept": "3nhmuufrnyam9b8bmtk"
+        }
+      ],
+      "id": "lv4zjq4qisjm9b8l42p",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "4867fi1umr6m9b8su8d": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "qglj98hu1cpm9b8casu"
+        },
+        {
+          "name": {
+            "en": "reused from resource"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#reusedFromResource",
+          "description": {
+            "en": "The Resource on which there is a property with a value for reuse."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#reusedFromResource",
+          "iri": "PropertyValueReuse.reusedFromResource",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#reusedFromResource"
+          ],
+          "concept": "tvz8iufev8om9b8cjnu"
+        }
+      ],
+      "id": "4867fi1umr6m9b8su8d",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "wujaicucctom9b8ti9y": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "qglj98hu1cpm9b8casu"
+        },
+        {
+          "name": {
+            "en": "reused property"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#reusedProperty",
+          "description": {},
+          "descriptionFromProfiled": "https://w3id.org/dsv#reusedProperty",
+          "iri": "PropertyValueReuse.reusedProperty",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#reusedProperty"
+          ],
+          "concept": "e5zswl7sro5m9b8d3a2"
+        }
+      ],
+      "id": "wujaicucctom9b8ti9y",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "cadn0jvba7am9b8u4fj": {
+      "id": "cadn0jvba7am9b8u4fj",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "v7l54rgxqvm9b8behh",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "reuses property value"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#reusesPropertyValue",
+          "description": {
+            "en": "Points to definitions of Property value reuse for this Profile."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#reusesPropertyValue",
+          "iri": "TermProfile.reusesPropertyValue",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#reusesPropertyValue"
+          ],
+          "concept": "qglj98hu1cpm9b8casu",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "47ys7v2p17ym9b97rh9": {
+      "id": "47ys7v2p17ym9b97rh9",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "v7l54rgxqvm9b8behh",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "is part of"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A related resource in which the described resource is physically or logically included."
+          },
+          "descriptionFromProfiled": "http://purl.org/dc/terms/isPartOf",
+          "iri": "TermProfile.isPartOf",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/isPartOf"
+          ],
+          "concept": "m8dk4ktrtuma3wupub",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "mjk98um4otmm9b99i37": {
+      "id": "mjk98um4otmm9b99i37",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "v7l54rgxqvm9b8behh",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "specializes"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#specializes",
+          "description": {
+            "en": "Specifies a profile specialized by this profile."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#specializes",
+          "iri": "TermProfile.specializes",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#specializes"
+          ],
+          "concept": "v7l54rgxqvm9b8behh",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "onhyv5ni1im9b9cd1u": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "3nhmuufrnyam9b8bmtk"
+        },
+        {
+          "name": {
+            "en": "profiled class"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#class",
+          "description": {
+            "en": "The profiled class."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#class",
+          "iri": "ClassProfile.profiledClass",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#class"
+          ],
+          "concept": "z8b7pjl5uyem9b8d78b"
+        }
+      ],
+      "id": "onhyv5ni1im9b9cd1u",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "bup3mcoh5jwm9b9divo": {
+      "id": "bup3mcoh5jwm9b9divo",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "v7l54rgxqvm9b8behh",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "profile of"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#profileOf",
+          "description": {
+            "en": "Specifies a parent profile of the current profile."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#profileOf",
+          "iri": "TermProfile.profileOf",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#profileOf"
+          ],
+          "concept": "v7l54rgxqvm9b8behh",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "r72m8dj68opm9baznyj": {
+      "id": "r72m8dj68opm9baznyj",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "il9wsqvdgdm9b8burt",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "cs": "kardinalita",
+            "en": "cardinality"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#cardinality",
+          "description": {},
+          "descriptionFromProfiled": "https://w3id.org/dsv#cardinality",
+          "iri": "PropertyProfile.cardinality",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#cardinality"
+          ],
+          "concept": "9f523xvsmhmab4ux58",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "xwtbvmzhmdm9bcz4ke": {
+      "id": "xwtbvmzhmdm9bcz4ke",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "3nhmuufrnyam9b8bmtk",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "class role"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#classRole",
+          "description": {
+            "en": "Class role, e.g. Mandatory, Supportive, etc."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#classRole",
+          "iri": "ClassProfile.classRole",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#classRole"
+          ],
+          "concept": "odpgylbuhimmab4t9lz",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "hsofzyoa5hom9bczivl": {
+      "id": "hsofzyoa5hom9bczivl",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "il9wsqvdgdm9b8burt",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "requirement level"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#requirementLevel",
+          "description": {
+            "en": "Requirement level of the property, typically mandatory, recommended or optional."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#requirementLevel",
+          "iri": "PropertyProfile.requirementLevel",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#requirementLevel"
+          ],
+          "concept": "3moyz9ywruumab4txlu",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "r53gp22u95qm9gu4o1p": {
+      "id": "r53gp22u95qm9gu4o1p",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "m8dk4ktrtuma3wupub"
+        },
+        {
+          "name": {
+            "en": "has specification"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/hasResource",
+          "iri": "ApplicationProfile.hasSpecification",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dx/prof/hasResource"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "iuivo4xdyrdma3wuv1t"
+        }
+      ]
+    },
+    "ag8sw4gzotbm9gzof6q": {
+      "id": "ag8sw4gzotbm9gzof6q",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "v7l54rgxqvm9b8behh"
+        },
+        {
+          "name": {
+            "en": "external documentation"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#externalDocumentation",
+          "description": {
+            "en": "Link to an external documentation of this resource. Profiles of this resource should preferably link to this URL for documentation."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#externalDocumentation",
+          "iri": "TermProfile.externalDocumentation",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#externalDocumentation"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "tvz8iufev8om9b8cjnu"
+        }
+      ]
+    },
+    "da4we6hwj7ma3jcxq5": {
+      "id": "da4we6hwj7ma3jcxq5",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "v7l54rgxqvm9b8behh"
+        },
+        {
+          "name": {
+            "en": "preferred label"
+          },
+          "nameFromProfiled": "http://www.w3.org/2004/02/skos/core#prefLabel#attribute",
+          "description": {
+            "en": "Preferred label of this profile."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "TermProfile.preferredLabel",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2004/02/skos/core#prefLabel#attribute"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "up3pe80nk4ma3je9y4": {
+      "id": "up3pe80nk4ma3je9y4",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "v7l54rgxqvm9b8behh"
+        },
+        {
+          "name": {
+            "en": "definition"
+          },
+          "nameFromProfiled": "http://www.w3.org/2004/02/skos/core#definition#attribute",
+          "description": {
+            "en": "Definition of this profile."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "TermProfile.definition",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2004/02/skos/core#definition#attribute"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "7aj73gdqhiima3jewxj": {
+      "id": "7aj73gdqhiima3jewxj",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "v7l54rgxqvm9b8behh"
+        },
+        {
+          "name": {
+            "en": "usage note"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Usage note of this profile."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "TermProfile.usageNote",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2004/02/skos/core#scopeNote#attribute"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "m82a0phe3xima3ufaca": {
+      "id": "m82a0phe3xima3ufaca",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "Vocabulary contains definitions of classes, properties and their relations, possibly to classes and properties from other vocabularies."
+      },
+      "descriptionFromProfiled": null,
+      "name": {
+        "en": "Vocabulary"
+      },
+      "nameFromProfiled": null,
+      "iri": "Vocabulary",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/ns/dx/prof/Profile",
+        "http://www.w3.org/2002/07/owl#Ontology"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "m8dk4ktrtuma3wupub": {
+      "id": "m8dk4ktrtuma3wupub",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "cs": "Konceptuální model obsahující profily tříd a vlastností různých slovníků.",
+        "en": "An Application Profile identifies classes and properties from vocabularies, and class profiles and property profiles from Application profiles that are re-used in a certain usage context. It also allows specification editors to further adjust the description of re-used classes and properties for that usage context without the need to explicitly create subclasses and subproperties."
+      },
+      "descriptionFromProfiled": "https://w3id.org/dsv#ApplicationProfile",
+      "name": {
+        "cs": "Konceptuální model",
+        "en": "Application Profile"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#ApplicationProfile",
+      "iri": "ApplicationProfile",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/ns/dx/prof/Profile",
+        "https://w3id.org/dsv#ApplicationProfile"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "iuivo4xdyrdma3wuv1t": {
+      "id": "iuivo4xdyrdma3wuv1t",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "An Application Profile Specification contains resources defining and describing an Application Profile, including the human readable documentation, machine readable definition, etc."
+      },
+      "descriptionFromProfiled": "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
+      "name": {
+        "en": "Application Profile Specification"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
+      "iri": "ApplicationProfileSpecificationDocument",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+        "https://w3id.org/dsv#ApplicationProfileSpecificationDocument",
+        "http://www.w3.org/ns/adms#AssetDistribution"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "mpizj2apo6mma3wwh7i": {
+      "id": "mpizj2apo6mma3wwh7i",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A Vocabulary Specification consists of resources defining and describing a Vocabulary, e.g. definitions of classes and properties, typically with their future re-use in application profiles in mind."
+      },
+      "descriptionFromProfiled": "https://w3id.org/dsv#VocabularySpecificationDocument",
+      "name": {
+        "en": "Vocabulary Specification"
+      },
+      "nameFromProfiled": "https://w3id.org/dsv#VocabularySpecificationDocument",
+      "iri": "VocabularySpecificationDocument",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+        "https://w3id.org/dsv#VocabularySpecificationDocument",
+        "http://www.w3.org/ns/adms#AssetDistribution"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "f7cprni9oeama3wwsrc": {
+      "id": "f7cprni9oeama3wwsrc",
+      "iri": null,
+      "child": "iuivo4xdyrdma3wuv1t",
+      "parent": "rlr78ikehlm9a12990",
+      "type": [
+        "generalization"
+      ]
+    },
+    "8cwjjvwf6ysma3wwuxp": {
+      "id": "8cwjjvwf6ysma3wwuxp",
+      "iri": null,
+      "child": "mpizj2apo6mma3wwh7i",
+      "parent": "rlr78ikehlm9a12990",
+      "type": [
+        "generalization"
+      ]
+    },
+    "y39lpsmlioma3wyql3": {
+      "id": "y39lpsmlioma3wyql3",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "m82a0phe3xima3ufaca"
+        },
+        {
+          "name": {
+            "en": "has specification"
+          },
+          "nameFromProfiled": null,
+          "description": {},
+          "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/hasResource",
+          "iri": "Vocabulary.hasSpecification",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dx/prof/hasResource"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "mpizj2apo6mma3wwh7i"
+        }
+      ]
+    },
+    "uno19lbzu7ma3xep6u": {
+      "id": "uno19lbzu7ma3xep6u",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A human-readable Data Specification Document."
+      },
+      "descriptionFromProfiled": null,
+      "name": {
+        "en": "Data Specification Document"
+      },
+      "nameFromProfiled": null,
+      "iri": "DataSpecificationDocument",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/ns/dx/prof/ResourceDescriptor"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "mzyhb2u54ma3xeuvg": {
+      "id": "mzyhb2u54ma3xeuvg",
+      "iri": null,
+      "child": "iuivo4xdyrdma3wuv1t",
+      "parent": "uno19lbzu7ma3xep6u",
+      "type": [
+        "generalization"
+      ]
+    },
+    "617maxi2s8rma3xey29": {
+      "id": "617maxi2s8rma3xey29",
+      "iri": null,
+      "child": "mpizj2apo6mma3wwh7i",
+      "parent": "uno19lbzu7ma3xep6u",
+      "type": [
+        "generalization"
+      ]
+    },
+    "n4vv10fhfuma3xfduz": {
+      "id": "n4vv10fhfuma3xfduz",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "uno19lbzu7ma3xep6u"
+        },
+        {
+          "name": {
+            "en": "title"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A name given to the Data Specification Document."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "DataSpecificationDocument.title",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/title"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "lt5scrd2hypma3xfx42": {
+      "id": "lt5scrd2hypma3xfx42",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "uno19lbzu7ma3xep6u"
+        },
+        {
+          "name": {
+            "en": "description"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "An account of the Data Specification Document."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "DataSpecificationDocument.description",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/description#attribute"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "6sge1vctyx3ma3xib9a": {
+      "id": "6sge1vctyx3ma3xib9a",
+      "type": [
+        "class-profile"
+      ],
+      "description": {},
+      "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/Profile",
+      "name": {
+        "en": "Semantic Data Specification"
+      },
+      "nameFromProfiled": null,
+      "iri": "SemanticDataSpecification",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/ns/dx/prof/Profile"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "raq3pga3yiima3xifpp": {
+      "id": "raq3pga3yiima3xifpp",
+      "iri": null,
+      "child": "m8dk4ktrtuma3wupub",
+      "parent": "6sge1vctyx3ma3xib9a",
+      "type": [
+        "generalization"
+      ]
+    },
+    "rvt3eglnei9ma3xihpg": {
+      "id": "rvt3eglnei9ma3xihpg",
+      "iri": null,
+      "child": "m82a0phe3xima3ufaca",
+      "parent": "6sge1vctyx3ma3xib9a",
+      "type": [
+        "generalization"
+      ]
+    },
+    "7j0cfd9mvjma3xji4v": {
+      "id": "7j0cfd9mvjma3xji4v",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "6sge1vctyx3ma3xib9a"
+        },
+        {
+          "name": {
+            "en": "has resource"
+          },
+          "nameFromProfiled": "http://www.w3.org/ns/dx/prof/hasResource",
+          "description": {},
+          "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/hasResource",
+          "iri": "SemanticDataSpecification.hasResource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dx/prof/hasResource"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "rlr78ikehlm9a12990"
+        }
+      ]
+    },
+    "d6vywsg33kgma3xm3el": {
+      "id": "d6vywsg33kgma3xm3el",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "6sge1vctyx3ma3xib9a"
+        },
+        {
+          "name": {
+            "en": "title"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A name given to the Semantic Data Specification."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "SemanticDataSpecification.title",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/title"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "sxwff891l9ma3xmesl": {
+      "id": "sxwff891l9ma3xmesl",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "6sge1vctyx3ma3xib9a"
+        },
+        {
+          "name": {
+            "en": "description"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "An account of the Semantic Data Specification."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "SemanticDataSpecification.description",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/description#attribute"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "ldlv5vjgvtma3xo6at": {
+      "id": "ldlv5vjgvtma3xo6at",
+      "iri": null,
+      "child": "y39lpsmlioma3wyql3",
+      "parent": "7j0cfd9mvjma3xji4v",
+      "type": [
+        "generalization"
+      ]
+    },
+    "klc46sixyoma3xodvs": {
+      "id": "klc46sixyoma3xodvs",
+      "iri": null,
+      "child": "r53gp22u95qm9gu4o1p",
+      "parent": "7j0cfd9mvjma3xji4v",
+      "type": [
+        "generalization"
+      ]
+    },
+    "qsf6gp5q7dama3xpjjx": {
+      "id": "qsf6gp5q7dama3xpjjx",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "6sge1vctyx3ma3xib9a"
+        },
+        {
+          "name": {
+            "en": "is profile of"
+          },
+          "nameFromProfiled": "http://www.w3.org/ns/dx/prof/isProfileOf",
+          "description": {},
+          "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/isProfileOf",
+          "iri": "ApplicationProfile.isProfileOf",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dx/prof/isProfileOf"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "6sge1vctyx3ma3xib9a"
+        }
+      ]
+    },
+    "e8k915f8yzmaauhvuh": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "rlr78ikehlm9a12990"
+        },
+        {
+          "name": {
+            "en": "has artifact"
+          },
+          "nameFromProfiled": "http://www.w3.org/ns/dx/prof/hasArtifact",
+          "description": {
+            "en": "The URL of a downloadable file with particulars such as its format and role indicated by the Resource Descriptor"
+          },
+          "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/hasArtifact",
+          "iri": "ResourceDescriptor.hasArtifact",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dx/prof/hasArtifact"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "tvz8iufev8om9b8cjnu"
+        }
+      ],
+      "id": "e8k915f8yzmaauhvuh",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "g055oqcugqlmaaxv7p3": {
+      "id": "g055oqcugqlmaaxv7p3",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "6sge1vctyx3ma3xib9a"
+        },
+        {
+          "name": {
+            "en": "has token"
+          },
+          "nameFromProfiled": "http://www.w3.org/ns/dx/prof/hasToken",
+          "description": {
+            "en": "The preferred identifier for the Profile, for use in circumstances where its URI cannot be used"
+          },
+          "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/hasToken",
+          "iri": "SemanticDataSpecification.hasToken",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {
+            "en": "Used to store the preferred prefix, e.g., registered at prefix.cc."
+          },
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dx/prof/hasToken"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/2001/XMLSchema#token"
+        }
+      ]
+    },
+    "oseifhejz3mab4p399": {
+      "id": "oseifhejz3mab4p399",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A role that an profile resource, described by a Resource Descriptor, plays"
+      },
+      "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/ResourceRole",
+      "name": {
+        "en": "Resource Role"
+      },
+      "nameFromProfiled": "http://www.w3.org/ns/dx/prof/ResourceRole",
+      "iri": "ResourceRole",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/ns/dx/prof/ResourceRole"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "7o9kzojra18mab4qivg": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "rlr78ikehlm9a12990"
+        },
+        {
+          "name": {
+            "en": "has role"
+          },
+          "nameFromProfiled": "http://www.w3.org/ns/dx/prof/hasRole",
+          "description": {
+            "en": "The function of an artifact described by a Resource Descriptor, such as specification, guidance etc."
+          },
+          "descriptionFromProfiled": "http://www.w3.org/ns/dx/prof/hasRole",
+          "iri": "ResourceDescriptor.hasRole",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/ns/dx/prof/hasRole"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "oseifhejz3mab4p399"
+        }
+      ],
+      "id": "7o9kzojra18mab4qivg",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "odpgylbuhimmab4t9lz": {
+      "iri": "ClassRole",
+      "profiling": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "name": {
+        "en": "Class Role"
+      },
+      "nameFromProfiled": null,
+      "description": {
+        "en": "Class Role, e.g. Mandatory or Supportive."
+      },
+      "descriptionFromProfiled": null,
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "odpgylbuhimmab4t9lz",
+      "type": [
+        "class-profile"
+      ]
+    },
+    "3moyz9ywruumab4txlu": {
+      "iri": "RequirementLevel",
+      "profiling": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "name": {
+        "en": "Requirement Level"
+      },
+      "nameFromProfiled": null,
+      "description": {
+        "en": "Requirement Level of a property profile."
+      },
+      "descriptionFromProfiled": null,
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "3moyz9ywruumab4txlu",
+      "type": [
+        "class-profile"
+      ]
+    },
+    "9f523xvsmhmab4ux58": {
+      "iri": "Cardinality",
+      "profiling": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "name": {
+        "en": "Cardinality"
+      },
+      "nameFromProfiled": null,
+      "description": {
+        "en": "Cardinality, e.g. 0..* or 1..1"
+      },
+      "descriptionFromProfiled": null,
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "9f523xvsmhmab4ux58",
+      "type": [
+        "class-profile"
+      ]
+    },
+    "i1nkp37y1znmab4ylf5": {
+      "iri": "Format",
+      "profiling": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "name": {
+        "en": "Format"
+      },
+      "nameFromProfiled": null,
+      "description": {
+        "en": "An idea or notion; a unit of thought."
+      },
+      "descriptionFromProfiled": null,
+      "usageNote": {
+        "en": "The file format, physical medium, or dimensions of the resource."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "i1nkp37y1znmab4ylf5",
+      "type": [
+        "class-profile"
+      ]
+    },
+    "jlk67fcofumab4zjjt": {
+      "id": "jlk67fcofumab4zjjt",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "rlr78ikehlm9a12990"
+        },
+        {
+          "name": {
+            "en": "format"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "The file format, physical medium, or dimensions of the resource."
+          },
+          "descriptionFromProfiled": "http://purl.org/dc/terms/format",
+          "iri": "ResourceDescriptor.format",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/format"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "i1nkp37y1znmab4ylf5"
+        }
+      ]
+    },
+    "vyhgjd7f6tmab51hyp": {
+      "id": "vyhgjd7f6tmab51hyp",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "rlr78ikehlm9a12990"
+        },
+        {
+          "name": {
+            "en": "conforms To"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "An established standard to which the described resource conforms."
+          },
+          "descriptionFromProfiled": "http://purl.org/dc/terms/conformsTo",
+          "iri": "ResourceDescriptor.conformsTo",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://purl.org/dc/terms/conformsTo"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "m8dk4ktrtuma3wupub"
+        }
+      ]
+    },
+    "4l764d70hxbmadope3m": {
+      "id": "4l764d70hxbmadope3m",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "The class of object properties."
+      },
+      "descriptionFromProfiled": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "en": "ObjectProperty"
+      },
+      "nameFromProfiled": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "iri": "ObjectProperty",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/2002/07/owl#ObjectProperty"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "kzdz07ielrjmadopij5": {
+      "id": "kzdz07ielrjmadopij5",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "The class of data properties."
+      },
+      "descriptionFromProfiled": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "en": "DatatypeProperty"
+      },
+      "nameFromProfiled": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "iri": "DatatypeProperty",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/2002/07/owl#DatatypeProperty"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "83ypl5cbwqtmadopna0": {
+      "id": "83ypl5cbwqtmadopna0",
+      "iri": null,
+      "child": "4l764d70hxbmadope3m",
+      "parent": "e5zswl7sro5m9b8d3a2",
+      "type": [
+        "generalization"
+      ]
+    },
+    "9c049kzv4k7madoposz": {
+      "id": "9c049kzv4k7madoposz",
+      "iri": null,
+      "child": "kzdz07ielrjmadopij5",
+      "parent": "e5zswl7sro5m9b8d3a2",
+      "type": [
+        "generalization"
+      ]
+    },
+    "1lzv8a8bgcsmadosnjj": {
+      "id": "1lzv8a8bgcsmadosnjj",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "tvz8iufev8om9b8cjnu"
+        },
+        {
+          "name": {
+            "en": "label"
+          },
+          "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#label",
+          "description": {
+            "en": "A human-readable name for the subject."
+          },
+          "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#label",
+          "iri": "Term.label",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2000/01/rdf-schema#label"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "9gt6jvdsa2vmadosy3l": {
+      "id": "9gt6jvdsa2vmadosy3l",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "tvz8iufev8om9b8cjnu"
+        },
+        {
+          "name": {
+            "en": "definition"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "A definition of the subject resource."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "Term.definition",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2000/01/rdf-schema#comment"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    "3i5yol7wgcemadouy9b": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "z8b7pjl5uyem9b8d78b"
+        },
+        {
+          "name": {
+            "en": "subClassOf"
+          },
+          "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+          "description": {
+            "en": "The subject is a subclass of a class."
+          },
+          "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+          "iri": "Class.subclassof",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "z8b7pjl5uyem9b8d78b"
+        }
+      ],
+      "id": "3i5yol7wgcemadouy9b",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "wdna1ti835madovfqp": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "e5zswl7sro5m9b8d3a2"
+        },
+        {
+          "name": {
+            "en": "subPropertyOf"
+          },
+          "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+          "description": {
+            "en": "The subject is a subproperty of a property."
+          },
+          "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+          "iri": "Property.subpropertyof",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "e5zswl7sro5m9b8d3a2"
+        }
+      ],
+      "id": "wdna1ti835madovfqp",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "4q301ud7uh3madowuqv": {
+      "id": "4q301ud7uh3madowuqv",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "e5zswl7sro5m9b8d3a2"
+        },
+        {
+          "name": {
+            "en": "domain"
+          },
+          "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#domain",
+          "description": {
+            "en": "A domain of the subject property."
+          },
+          "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#domain",
+          "iri": "Property.domain",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2000/01/rdf-schema#domain"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "z8b7pjl5uyem9b8d78b"
+        }
+      ]
+    },
+    "66ng1dia1exmadoxu3n": {
+      "id": "66ng1dia1exmadoxu3n",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "4l764d70hxbmadope3m"
+        },
+        {
+          "name": {
+            "en": "range"
+          },
+          "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#range",
+          "description": {
+            "en": "A range of the subject property."
+          },
+          "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#range",
+          "iri": "Objectproperty.range",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2000/01/rdf-schema#range"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "z8b7pjl5uyem9b8d78b"
+        }
+      ]
+    },
+    "1evot6oi5vximadp0ax7": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "kzdz07ielrjmadopij5"
+        },
+        {
+          "name": {
+            "en": "range"
+          },
+          "nameFromProfiled": "http://www.w3.org/2000/01/rdf-schema#range",
+          "description": {
+            "en": "A range of the subject property."
+          },
+          "descriptionFromProfiled": "http://www.w3.org/2000/01/rdf-schema#range",
+          "iri": "Datatypeproperty.range",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2000/01/rdf-schema#range"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "l5pouepxoedm9b8hzn7"
+        }
+      ],
+      "id": "1evot6oi5vximadp0ax7",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "t8wdxeua6njmakqo7a8": {
+      "id": "t8wdxeua6njmakqo7a8",
+      "iri": null,
+      "child": "v7l54rgxqvm9b8behh",
+      "parent": "tvz8iufev8om9b8cjnu",
+      "type": [
+        "generalization"
+      ]
+    },
+    "l17w0onlirmk6on0kl": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "qglj98hu1cpm9b8casu"
+        },
+        {
+          "name": {
+            "en": "reused as property"
+          },
+          "nameFromProfiled": "https://w3id.org/dsv#reusedAsProperty",
+          "description": {
+            "en": "The Property to gain the reused value."
+          },
+          "descriptionFromProfiled": "https://w3id.org/dsv#reusedAsProperty",
+          "iri": "PropertyValueReuse.reusedAsProperty",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {
+            "en": "This is expected to be one of skos:prefLabel for preferred label, skos:definition for definition, or skos:scopeNote for usage note."
+          },
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://w3id.org/dsv#reusedAsProperty"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "concept": "e5zswl7sro5m9b8d3a2"
+        }
+      ],
+      "id": "l17w0onlirmk6on0kl",
+      "type": [
+        "relationship-profile"
+      ]
+    }
+  }
+}

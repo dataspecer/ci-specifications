@@ -1,0 +1,420 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "b32f4b80-78cc-4bc8-82a7-bbfeb2495360/9d6e066e-b0b6-43c8-9361-ebecbcc6ebd4/1d309715-da01-4ca5-9c01-018a3a088c46",
+  "alias": "prof",
+  "pimStore": {
+    "resources": {
+      "http://www.w3.org/ns/dx/prof/hasToken": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasToken",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/hasToken",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has token"
+        },
+        "pimHumanDescription": {
+          "en": "The preferred identifier for the Profile, for use in circumstances where its URI cannot be used"
+        },
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#token",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/ns/dx/prof/Profile",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/dx/prof/hasArtifact#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasArtifact#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/hasArtifact": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasArtifact",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/hasArtifact",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has artifact"
+        },
+        "pimHumanDescription": {
+          "en": "The URL of a downloadable file with particulars such as its format and role indicated by the Resource Descriptor"
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/dx/prof/hasArtifact#domain",
+          "http://www.w3.org/ns/dx/prof/hasArtifact#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/dx/prof/hasArtifact#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasArtifact#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/isInheritedFrom#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isInheritedFrom#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/isInheritedFrom": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isInheritedFrom",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/isInheritedFrom",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is inherited from"
+        },
+        "pimHumanDescription": {
+          "en": "A base specification, a Resource Descriptor from which is to be considered a Resource Descriptor for this Profile also"
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/dx/prof/isInheritedFrom#domain",
+          "http://www.w3.org/ns/dx/prof/isInheritedFrom#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/dx/prof/isInheritedFrom#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isInheritedFrom#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dx/prof/Profile",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/isProfileOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isProfileOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dx/prof/Profile",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/isProfileOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isProfileOf",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/isProfileOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is profile of"
+        },
+        "pimHumanDescription": {
+          "en": "A specification for which this Profile defines constraints, extensions, or which it uses in combination with other specifications, or provides guidance or explanation about its usage"
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/dx/prof/isProfileOf#domain",
+          "http://www.w3.org/ns/dx/prof/isProfileOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": [
+          "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf"
+        ]
+      },
+      "http://www.w3.org/ns/dx/prof/isProfileOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isProfileOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://purl.org/dc/terms/Standard",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dx/prof/Profile",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is transitive profile of"
+        },
+        "pimHumanDescription": {
+          "en": "The transitive closure of the prof:isProfileOf property. Relates a profile to another specification that it is a profile of, possibly via a chain of intermediate profiles that are in prof:isProfileOf relationships"
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf#domain",
+          "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/isTransitiveProfileOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://purl.org/dc/terms/Standard",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/hasResource#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasResource#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/hasResource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasResource",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/hasResource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has resource"
+        },
+        "pimHumanDescription": {
+          "en": "A resource which describes the nature of an artifact and the role it plays in relation to the Profile"
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/dx/prof/hasResource#domain",
+          "http://www.w3.org/ns/dx/prof/hasResource#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/dx/prof/hasResource#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasResource#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/hasRole#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasRole#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/hasRole": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasRole",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/hasRole",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has role"
+        },
+        "pimHumanDescription": {
+          "en": "The function of an artifact described by a Resource Descriptor, such as specification, guidance etc."
+        },
+        "pimEnd": [
+          "http://www.w3.org/ns/dx/prof/hasRole#domain",
+          "http://www.w3.org/ns/dx/prof/hasRole#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": []
+      },
+      "http://www.w3.org/ns/dx/prof/hasRole#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/hasRole#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/ns/dx/prof/ResourceDescriptor": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/ResourceDescriptor",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Resource Descriptor"
+        },
+        "pimHumanDescription": {
+          "en": "A description of a resource that defines an aspect - a particular part, feature or role - of a Profile"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/ns/dx/prof/ResourceRole": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/ResourceRole",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/ResourceRole",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Resource Role"
+        },
+        "pimHumanDescription": {
+          "en": "A role that an profile resource, described by a Resource Descriptor, plays"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Concept",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/ns/dx/prof/Profile": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/ns/dx/prof/Profile",
+        "pimInterpretation": "http://www.w3.org/ns/dx/prof/Profile",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Profile"
+        },
+        "pimHumanDescription": {
+          "en": "A specification that constrains, extends, combines, or provides guidance or explanation about the usage of other specifications.\n\nThis definition includes what are often called \"application profiles\", \"metadata application profiles\", or \"metadata profiles\"."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/Standard",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://www.w3.org/TR/dx-prof/rdf/prof.ttl"
+  ]
+}

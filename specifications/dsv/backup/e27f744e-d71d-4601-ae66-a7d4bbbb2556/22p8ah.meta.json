@@ -1,0 +1,19 @@
+{
+  "iri": "22p8ah",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "rdfs"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-01-09T09:06:58.563Z",
+    "modificationDate": "2026-04-02T06:59:10.673Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-04-02T07:10:12.953Z",
+  "_exportedBy": "http://localhost:3100"
+}

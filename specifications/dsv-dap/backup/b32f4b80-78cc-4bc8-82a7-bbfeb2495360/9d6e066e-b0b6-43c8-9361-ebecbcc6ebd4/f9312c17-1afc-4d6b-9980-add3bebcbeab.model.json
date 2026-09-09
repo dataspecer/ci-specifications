@@ -1,0 +1,4127 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "b32f4b80-78cc-4bc8-82a7-bbfeb2495360/9d6e066e-b0b6-43c8-9361-ebecbcc6ebd4/f9312c17-1afc-4d6b-9980-add3bebcbeab",
+  "alias": "dublin_core_terms",
+  "pimStore": {
+    "resources": {
+      "http://purl.org/dc/terms/abstract#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/abstract#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/abstract",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Abstract"
+        },
+        "pimHumanDescription": {
+          "en": "A summary of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/description",
+          "http://purl.org/dc/terms/description"
+        ]
+      },
+      "http://purl.org/dc/terms/abstract#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/abstract#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/abstract": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/abstract",
+        "pimInterpretation": "http://purl.org/dc/terms/abstract",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Abstract"
+        },
+        "pimHumanDescription": {
+          "en": "A summary of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/abstract#domain",
+          "http://purl.org/dc/terms/abstract#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/description",
+          "http://purl.org/dc/terms/description"
+        ]
+      },
+      "http://purl.org/dc/terms/abstract#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/abstract#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/accessRights#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/accessRights#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/accessRights",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Access Rights"
+        },
+        "pimHumanDescription": {
+          "en": "Information about who access the resource or an indication of its security status."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/rights",
+          "http://purl.org/dc/terms/rights"
+        ]
+      },
+      "http://purl.org/dc/terms/accessRights#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/accessRights#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/accessRights": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/accessRights",
+        "pimInterpretation": "http://purl.org/dc/terms/accessRights",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Access Rights"
+        },
+        "pimHumanDescription": {
+          "en": "Information about who access the resource or an indication of its security status."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/accessRights#domain",
+          "http://purl.org/dc/terms/accessRights#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/rights",
+          "http://purl.org/dc/terms/rights"
+        ]
+      },
+      "http://purl.org/dc/terms/accessRights#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/accessRights#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/accrualMethod#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualMethod#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/accrualMethod",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Accrual Method"
+        },
+        "pimHumanDescription": {
+          "en": "The method by which items are added to a collection."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://purl.org/dc/dcmitype/Collection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/accrualMethod#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualMethod#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://purl.org/dc/dcmitype/Collection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/accrualMethod": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualMethod",
+        "pimInterpretation": "http://purl.org/dc/terms/accrualMethod",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Accrual Method"
+        },
+        "pimHumanDescription": {
+          "en": "The method by which items are added to a collection."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/accrualMethod#domain",
+          "http://purl.org/dc/terms/accrualMethod#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/accrualMethod#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualMethod#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/accrualPeriodicity#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualPeriodicity#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/accrualPeriodicity",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Accrual Periodicity"
+        },
+        "pimHumanDescription": {
+          "en": "The frequency with which items are added to a collection."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://purl.org/dc/dcmitype/Collection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/accrualPeriodicity#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualPeriodicity#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://purl.org/dc/dcmitype/Collection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/accrualPeriodicity": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualPeriodicity",
+        "pimInterpretation": "http://purl.org/dc/terms/accrualPeriodicity",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Accrual Periodicity"
+        },
+        "pimHumanDescription": {
+          "en": "The frequency with which items are added to a collection."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/accrualPeriodicity#domain",
+          "http://purl.org/dc/terms/accrualPeriodicity#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/accrualPeriodicity#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualPeriodicity#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/accrualPolicy#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualPolicy#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/accrualPolicy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Accrual Policy"
+        },
+        "pimHumanDescription": {
+          "en": "The policy governing the addition of items to a collection."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://purl.org/dc/dcmitype/Collection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/accrualPolicy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualPolicy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://purl.org/dc/dcmitype/Collection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/accrualPolicy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualPolicy",
+        "pimInterpretation": "http://purl.org/dc/terms/accrualPolicy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Accrual Policy"
+        },
+        "pimHumanDescription": {
+          "en": "The policy governing the addition of items to a collection."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/accrualPolicy#domain",
+          "http://purl.org/dc/terms/accrualPolicy#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/accrualPolicy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/accrualPolicy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/alternative": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/alternative",
+        "pimInterpretation": "http://purl.org/dc/terms/alternative",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Alternative Title"
+        },
+        "pimHumanDescription": {
+          "en": "An alternative name for the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/title",
+          "http://purl.org/dc/terms/title"
+        ]
+      },
+      "http://purl.org/dc/terms/audience#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/audience#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/audience",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Audience"
+        },
+        "pimHumanDescription": {
+          "en": "A class of agents for whom the resource is intended or useful."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/audience#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/audience#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/audience": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/audience",
+        "pimInterpretation": "http://purl.org/dc/terms/audience",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Audience"
+        },
+        "pimHumanDescription": {
+          "en": "A class of agents for whom the resource is intended or useful."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/audience#domain",
+          "http://purl.org/dc/terms/audience#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/audience#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/audience#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/available": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/available",
+        "pimInterpretation": "http://purl.org/dc/terms/available",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date Available"
+        },
+        "pimHumanDescription": {
+          "en": "Date that the resource became or will become available."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date",
+          "http://purl.org/dc/terms/date"
+        ]
+      },
+      "http://purl.org/dc/terms/bibliographicCitation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/bibliographicCitation",
+        "pimInterpretation": "http://purl.org/dc/terms/bibliographicCitation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Bibliographic Citation"
+        },
+        "pimHumanDescription": {
+          "en": "A bibliographic reference for the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/identifier",
+          "http://purl.org/dc/terms/identifier"
+        ]
+      },
+      "http://purl.org/dc/terms/conformsTo#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/conformsTo#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/conformsTo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Conforms To"
+        },
+        "pimHumanDescription": {
+          "en": "An established standard to which the described resource conforms."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/conformsTo#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/conformsTo#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/conformsTo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/conformsTo",
+        "pimInterpretation": "http://purl.org/dc/terms/conformsTo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Conforms To"
+        },
+        "pimHumanDescription": {
+          "en": "An established standard to which the described resource conforms."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/conformsTo#domain",
+          "http://purl.org/dc/terms/conformsTo#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/conformsTo#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/conformsTo#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/contributor#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/contributor#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/contributor",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Contributor"
+        },
+        "pimHumanDescription": {
+          "en": "An entity responsible for making contributions to the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/contributor"
+        ]
+      },
+      "http://purl.org/dc/terms/contributor#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/contributor#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/contributor": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/contributor",
+        "pimInterpretation": "http://purl.org/dc/terms/contributor",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Contributor"
+        },
+        "pimHumanDescription": {
+          "en": "An entity responsible for making contributions to the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/contributor#domain",
+          "http://purl.org/dc/terms/contributor#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/contributor"
+        ]
+      },
+      "http://purl.org/dc/terms/contributor#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/contributor#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/coverage#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/coverage#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/coverage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Coverage"
+        },
+        "pimHumanDescription": {
+          "en": "The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/coverage"
+        ]
+      },
+      "http://purl.org/dc/terms/coverage#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/coverage#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/coverage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/coverage",
+        "pimInterpretation": "http://purl.org/dc/terms/coverage",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Coverage"
+        },
+        "pimHumanDescription": {
+          "en": "The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/coverage#domain",
+          "http://purl.org/dc/terms/coverage#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/coverage"
+        ]
+      },
+      "http://purl.org/dc/terms/coverage#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/coverage#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/created": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/created",
+        "pimInterpretation": "http://purl.org/dc/terms/created",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date Created"
+        },
+        "pimHumanDescription": {
+          "en": "Date of creation of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date",
+          "http://purl.org/dc/terms/date"
+        ]
+      },
+      "http://purl.org/dc/terms/creator#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/creator#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/creator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Creator"
+        },
+        "pimHumanDescription": {
+          "en": "An entity responsible for making the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/creator",
+          "http://purl.org/dc/terms/contributor"
+        ]
+      },
+      "http://purl.org/dc/terms/creator#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/creator#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/creator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/creator",
+        "pimInterpretation": "http://purl.org/dc/terms/creator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Creator"
+        },
+        "pimHumanDescription": {
+          "en": "An entity responsible for making the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/creator#domain",
+          "http://purl.org/dc/terms/creator#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/creator",
+          "http://purl.org/dc/terms/contributor"
+        ]
+      },
+      "http://purl.org/dc/terms/creator#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/creator#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/date": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/date",
+        "pimInterpretation": "http://purl.org/dc/terms/date",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date"
+        },
+        "pimHumanDescription": {
+          "en": "A point or period of time associated with an event in the lifecycle of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date"
+        ]
+      },
+      "http://purl.org/dc/terms/dateAccepted": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/dateAccepted",
+        "pimInterpretation": "http://purl.org/dc/terms/dateAccepted",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date Accepted"
+        },
+        "pimHumanDescription": {
+          "en": "Date of acceptance of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date",
+          "http://purl.org/dc/terms/date"
+        ]
+      },
+      "http://purl.org/dc/terms/dateCopyrighted": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/dateCopyrighted",
+        "pimInterpretation": "http://purl.org/dc/terms/dateCopyrighted",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date Copyrighted"
+        },
+        "pimHumanDescription": {
+          "en": "Date of copyright of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date",
+          "http://purl.org/dc/terms/date"
+        ]
+      },
+      "http://purl.org/dc/terms/dateSubmitted": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/dateSubmitted",
+        "pimInterpretation": "http://purl.org/dc/terms/dateSubmitted",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date Submitted"
+        },
+        "pimHumanDescription": {
+          "en": "Date of submission of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date",
+          "http://purl.org/dc/terms/date"
+        ]
+      },
+      "http://purl.org/dc/terms/description#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/description#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/description",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Description"
+        },
+        "pimHumanDescription": {
+          "en": "An account of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/description"
+        ]
+      },
+      "http://purl.org/dc/terms/description#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/description#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/description": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/description",
+        "pimInterpretation": "http://purl.org/dc/terms/description",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Description"
+        },
+        "pimHumanDescription": {
+          "en": "An account of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/description#domain",
+          "http://purl.org/dc/terms/description#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/description"
+        ]
+      },
+      "http://purl.org/dc/terms/description#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/description#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/educationLevel#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/educationLevel#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/educationLevel",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Audience Education Level"
+        },
+        "pimHumanDescription": {
+          "en": "A class of agents, defined in terms of progression through an educational or training context, for which the described resource is intended."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/terms/audience"
+        ]
+      },
+      "http://purl.org/dc/terms/educationLevel#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/educationLevel#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/educationLevel": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/educationLevel",
+        "pimInterpretation": "http://purl.org/dc/terms/educationLevel",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Audience Education Level"
+        },
+        "pimHumanDescription": {
+          "en": "A class of agents, defined in terms of progression through an educational or training context, for which the described resource is intended."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/educationLevel#domain",
+          "http://purl.org/dc/terms/educationLevel#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/terms/audience"
+        ]
+      },
+      "http://purl.org/dc/terms/educationLevel#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/educationLevel#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/extent#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/extent#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/extent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Extent"
+        },
+        "pimHumanDescription": {
+          "en": "The size or duration of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/format",
+          "http://purl.org/dc/terms/format"
+        ]
+      },
+      "http://purl.org/dc/terms/extent#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/extent#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/extent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/extent",
+        "pimInterpretation": "http://purl.org/dc/terms/extent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Extent"
+        },
+        "pimHumanDescription": {
+          "en": "The size or duration of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/extent#domain",
+          "http://purl.org/dc/terms/extent#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/format",
+          "http://purl.org/dc/terms/format"
+        ]
+      },
+      "http://purl.org/dc/terms/extent#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/extent#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/format#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/format#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/format",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Format"
+        },
+        "pimHumanDescription": {
+          "en": "The file format, physical medium, or dimensions of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/format"
+        ]
+      },
+      "http://purl.org/dc/terms/format#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/format#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/format": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/format",
+        "pimInterpretation": "http://purl.org/dc/terms/format",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Format"
+        },
+        "pimHumanDescription": {
+          "en": "The file format, physical medium, or dimensions of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/format#domain",
+          "http://purl.org/dc/terms/format#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/format"
+        ]
+      },
+      "http://purl.org/dc/terms/format#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/format#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/hasFormat#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/hasFormat#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/hasFormat",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Has Format"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is substantially the same as the pre-existing described resource, but in another format."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/hasFormat#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/hasFormat#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/hasFormat": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/hasFormat",
+        "pimInterpretation": "http://purl.org/dc/terms/hasFormat",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Has Format"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is substantially the same as the pre-existing described resource, but in another format."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/hasFormat#domain",
+          "http://purl.org/dc/terms/hasFormat#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/hasFormat#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/hasFormat#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/hasPart#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/hasPart#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/hasPart",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Has Part"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is included either physically or logically in the described resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/hasPart#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/hasPart#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/hasPart": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/hasPart",
+        "pimInterpretation": "http://purl.org/dc/terms/hasPart",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Has Part"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is included either physically or logically in the described resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/hasPart#domain",
+          "http://purl.org/dc/terms/hasPart#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/hasPart#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/hasPart#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/hasVersion#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/hasVersion#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/hasVersion",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Has Version"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is a version, edition, or adaptation of the described resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/hasVersion#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/hasVersion#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/hasVersion": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/hasVersion",
+        "pimInterpretation": "http://purl.org/dc/terms/hasVersion",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Has Version"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is a version, edition, or adaptation of the described resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/hasVersion#domain",
+          "http://purl.org/dc/terms/hasVersion#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/hasVersion#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/hasVersion#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/identifier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/identifier",
+        "pimInterpretation": "http://purl.org/dc/terms/identifier",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Identifier"
+        },
+        "pimHumanDescription": {
+          "en": "An unambiguous reference to the resource within a given context."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/identifier"
+        ]
+      },
+      "http://purl.org/dc/terms/instructionalMethod#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/instructionalMethod#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/instructionalMethod",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Instructional Method"
+        },
+        "pimHumanDescription": {
+          "en": "A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/instructionalMethod#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/instructionalMethod#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/instructionalMethod": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/instructionalMethod",
+        "pimInterpretation": "http://purl.org/dc/terms/instructionalMethod",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Instructional Method"
+        },
+        "pimHumanDescription": {
+          "en": "A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/instructionalMethod#domain",
+          "http://purl.org/dc/terms/instructionalMethod#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/instructionalMethod#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/instructionalMethod#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isFormatOf#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/isFormatOf#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/isFormatOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Format Of"
+        },
+        "pimHumanDescription": {
+          "en": "A pre-existing related resource that is substantially the same as the described resource, but in another format."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isFormatOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isFormatOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isFormatOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/isFormatOf",
+        "pimInterpretation": "http://purl.org/dc/terms/isFormatOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Format Of"
+        },
+        "pimHumanDescription": {
+          "en": "A pre-existing related resource that is substantially the same as the described resource, but in another format."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/isFormatOf#domain",
+          "http://purl.org/dc/terms/isFormatOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isFormatOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isFormatOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isPartOf#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/isPartOf#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/isPartOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Part Of"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource in which the described resource is physically or logically included."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isPartOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isPartOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isPartOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/isPartOf",
+        "pimInterpretation": "http://purl.org/dc/terms/isPartOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Part Of"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource in which the described resource is physically or logically included."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/isPartOf#domain",
+          "http://purl.org/dc/terms/isPartOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isPartOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isPartOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isReferencedBy#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/isReferencedBy#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/isReferencedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Referenced By"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that references, cites, or otherwise points to the described resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isReferencedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isReferencedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isReferencedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/isReferencedBy",
+        "pimInterpretation": "http://purl.org/dc/terms/isReferencedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Referenced By"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that references, cites, or otherwise points to the described resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/isReferencedBy#domain",
+          "http://purl.org/dc/terms/isReferencedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isReferencedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isReferencedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isReplacedBy#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/isReplacedBy#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/isReplacedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Replaced By"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that supplants, displaces, or supersedes the described resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isReplacedBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isReplacedBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isReplacedBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/isReplacedBy",
+        "pimInterpretation": "http://purl.org/dc/terms/isReplacedBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Replaced By"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that supplants, displaces, or supersedes the described resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/isReplacedBy#domain",
+          "http://purl.org/dc/terms/isReplacedBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isReplacedBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isReplacedBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isRequiredBy#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/isRequiredBy#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/isRequiredBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Required By"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that requires the described resource to support its function, delivery, or coherence."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isRequiredBy#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isRequiredBy#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isRequiredBy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/isRequiredBy",
+        "pimInterpretation": "http://purl.org/dc/terms/isRequiredBy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Required By"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that requires the described resource to support its function, delivery, or coherence."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/isRequiredBy#domain",
+          "http://purl.org/dc/terms/isRequiredBy#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isRequiredBy#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isRequiredBy#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isVersionOf#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/isVersionOf#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/isVersionOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Version Of"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource of which the described resource is a version, edition, or adaptation."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isVersionOf#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isVersionOf#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/isVersionOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/isVersionOf",
+        "pimInterpretation": "http://purl.org/dc/terms/isVersionOf",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Is Version Of"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource of which the described resource is a version, edition, or adaptation."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/isVersionOf#domain",
+          "http://purl.org/dc/terms/isVersionOf#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/isVersionOf#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/isVersionOf#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/issued": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/issued",
+        "pimInterpretation": "http://purl.org/dc/terms/issued",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date Issued"
+        },
+        "pimHumanDescription": {
+          "en": "Date of formal issuance of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date",
+          "http://purl.org/dc/terms/date"
+        ]
+      },
+      "http://purl.org/dc/terms/language#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/language#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/language",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Language"
+        },
+        "pimHumanDescription": {
+          "en": "A language of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/language"
+        ]
+      },
+      "http://purl.org/dc/terms/language#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/language#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/language": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/language",
+        "pimInterpretation": "http://purl.org/dc/terms/language",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Language"
+        },
+        "pimHumanDescription": {
+          "en": "A language of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/language#domain",
+          "http://purl.org/dc/terms/language#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/language"
+        ]
+      },
+      "http://purl.org/dc/terms/language#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/language#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/license#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/license#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/license",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "License"
+        },
+        "pimHumanDescription": {
+          "en": "A legal document giving official permission to do something with the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/rights",
+          "http://purl.org/dc/terms/rights"
+        ]
+      },
+      "http://purl.org/dc/terms/license#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/license#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/license": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/license",
+        "pimInterpretation": "http://purl.org/dc/terms/license",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "License"
+        },
+        "pimHumanDescription": {
+          "en": "A legal document giving official permission to do something with the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/license#domain",
+          "http://purl.org/dc/terms/license#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/rights",
+          "http://purl.org/dc/terms/rights"
+        ]
+      },
+      "http://purl.org/dc/terms/license#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/license#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/mediator#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/mediator#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/mediator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Mediator"
+        },
+        "pimHumanDescription": {
+          "en": "An entity that mediates access to the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/terms/audience"
+        ]
+      },
+      "http://purl.org/dc/terms/mediator#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/mediator#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/mediator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/mediator",
+        "pimInterpretation": "http://purl.org/dc/terms/mediator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Mediator"
+        },
+        "pimHumanDescription": {
+          "en": "An entity that mediates access to the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/mediator#domain",
+          "http://purl.org/dc/terms/mediator#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/terms/audience"
+        ]
+      },
+      "http://purl.org/dc/terms/mediator#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/mediator#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/medium#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/medium#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/medium",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Medium"
+        },
+        "pimHumanDescription": {
+          "en": "The material or physical carrier of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/format",
+          "http://purl.org/dc/terms/format"
+        ]
+      },
+      "http://purl.org/dc/terms/medium#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/medium#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/medium": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/medium",
+        "pimInterpretation": "http://purl.org/dc/terms/medium",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Medium"
+        },
+        "pimHumanDescription": {
+          "en": "The material or physical carrier of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/medium#domain",
+          "http://purl.org/dc/terms/medium#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/format",
+          "http://purl.org/dc/terms/format"
+        ]
+      },
+      "http://purl.org/dc/terms/medium#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/medium#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/modified": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/modified",
+        "pimInterpretation": "http://purl.org/dc/terms/modified",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date Modified"
+        },
+        "pimHumanDescription": {
+          "en": "Date on which the resource was changed."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date",
+          "http://purl.org/dc/terms/date"
+        ]
+      },
+      "http://purl.org/dc/terms/provenance#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/provenance#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/provenance",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Provenance"
+        },
+        "pimHumanDescription": {
+          "en": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/provenance#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/provenance#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/provenance": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/provenance",
+        "pimInterpretation": "http://purl.org/dc/terms/provenance",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Provenance"
+        },
+        "pimHumanDescription": {
+          "en": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/provenance#domain",
+          "http://purl.org/dc/terms/provenance#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/provenance#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/provenance#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/publisher#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/publisher#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/publisher",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Publisher"
+        },
+        "pimHumanDescription": {
+          "en": "An entity responsible for making the resource available."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/publisher"
+        ]
+      },
+      "http://purl.org/dc/terms/publisher#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/publisher#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/publisher": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/publisher",
+        "pimInterpretation": "http://purl.org/dc/terms/publisher",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Publisher"
+        },
+        "pimHumanDescription": {
+          "en": "An entity responsible for making the resource available."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/publisher#domain",
+          "http://purl.org/dc/terms/publisher#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/publisher"
+        ]
+      },
+      "http://purl.org/dc/terms/publisher#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/publisher#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/references#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/references#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/references",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "References"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is referenced, cited, or otherwise pointed to by the described resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/references#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/references#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/references": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/references",
+        "pimInterpretation": "http://purl.org/dc/terms/references",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "References"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is referenced, cited, or otherwise pointed to by the described resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/references#domain",
+          "http://purl.org/dc/terms/references#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/references#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/references#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/relation#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/relation#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/relation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Relation"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/relation#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/relation#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/relation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/relation",
+        "pimInterpretation": "http://purl.org/dc/terms/relation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Relation"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/relation#domain",
+          "http://purl.org/dc/terms/relation#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/relation#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/relation#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/replaces#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/replaces#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/replaces",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Replaces"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/replaces#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/replaces#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/replaces": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/replaces",
+        "pimInterpretation": "http://purl.org/dc/terms/replaces",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Replaces"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is supplanted, displaced, or superseded by the described resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/replaces#domain",
+          "http://purl.org/dc/terms/replaces#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/replaces#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/replaces#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/requires#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/requires#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/requires",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Requires"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is required by the described resource to support its function, delivery, or coherence."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/requires#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/requires#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/requires": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/requires",
+        "pimInterpretation": "http://purl.org/dc/terms/requires",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Requires"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource that is required by the described resource to support its function, delivery, or coherence."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/requires#domain",
+          "http://purl.org/dc/terms/requires#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/relation",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/requires#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/requires#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/rights#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/rights#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/rights",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Rights"
+        },
+        "pimHumanDescription": {
+          "en": "Information about rights held in and over the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/rights"
+        ]
+      },
+      "http://purl.org/dc/terms/rights#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/rights#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/rights": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/rights",
+        "pimInterpretation": "http://purl.org/dc/terms/rights",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Rights"
+        },
+        "pimHumanDescription": {
+          "en": "Information about rights held in and over the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/rights#domain",
+          "http://purl.org/dc/terms/rights#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/rights"
+        ]
+      },
+      "http://purl.org/dc/terms/rights#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/rights#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/rightsHolder#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/rightsHolder#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/rightsHolder",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Rights Holder"
+        },
+        "pimHumanDescription": {
+          "en": "A person or organization owning or managing rights over the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/rightsHolder#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/rightsHolder#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/rightsHolder": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/rightsHolder",
+        "pimInterpretation": "http://purl.org/dc/terms/rightsHolder",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Rights Holder"
+        },
+        "pimHumanDescription": {
+          "en": "A person or organization owning or managing rights over the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/rightsHolder#domain",
+          "http://purl.org/dc/terms/rightsHolder#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://purl.org/dc/terms/rightsHolder#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/rightsHolder#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/source#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/source#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/source",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Source"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource from which the described resource is derived."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/source",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/source#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/source#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/source": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/source",
+        "pimInterpretation": "http://purl.org/dc/terms/source",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Source"
+        },
+        "pimHumanDescription": {
+          "en": "A related resource from which the described resource is derived."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/source#domain",
+          "http://purl.org/dc/terms/source#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/source",
+          "http://purl.org/dc/terms/relation"
+        ]
+      },
+      "http://purl.org/dc/terms/source#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/source#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/spatial#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/spatial#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/spatial",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Spatial Coverage"
+        },
+        "pimHumanDescription": {
+          "en": "Spatial characteristics of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/coverage",
+          "http://purl.org/dc/terms/coverage"
+        ]
+      },
+      "http://purl.org/dc/terms/spatial#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/spatial#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/spatial": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/spatial",
+        "pimInterpretation": "http://purl.org/dc/terms/spatial",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Spatial Coverage"
+        },
+        "pimHumanDescription": {
+          "en": "Spatial characteristics of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/spatial#domain",
+          "http://purl.org/dc/terms/spatial#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/coverage",
+          "http://purl.org/dc/terms/coverage"
+        ]
+      },
+      "http://purl.org/dc/terms/spatial#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/spatial#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/subject#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/subject#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/subject",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Subject"
+        },
+        "pimHumanDescription": {
+          "en": "A topic of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/subject"
+        ]
+      },
+      "http://purl.org/dc/terms/subject#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/subject#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/subject": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/subject",
+        "pimInterpretation": "http://purl.org/dc/terms/subject",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Subject"
+        },
+        "pimHumanDescription": {
+          "en": "A topic of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/subject#domain",
+          "http://purl.org/dc/terms/subject#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/subject"
+        ]
+      },
+      "http://purl.org/dc/terms/subject#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/subject#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/tableOfContents#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/tableOfContents#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/tableOfContents",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Table Of Contents"
+        },
+        "pimHumanDescription": {
+          "en": "A list of subunits of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/description",
+          "http://purl.org/dc/terms/description"
+        ]
+      },
+      "http://purl.org/dc/terms/tableOfContents#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/tableOfContents#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/tableOfContents": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/tableOfContents",
+        "pimInterpretation": "http://purl.org/dc/terms/tableOfContents",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Table Of Contents"
+        },
+        "pimHumanDescription": {
+          "en": "A list of subunits of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/tableOfContents#domain",
+          "http://purl.org/dc/terms/tableOfContents#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/description",
+          "http://purl.org/dc/terms/description"
+        ]
+      },
+      "http://purl.org/dc/terms/tableOfContents#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/tableOfContents#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/temporal#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/temporal#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/temporal",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal Coverage"
+        },
+        "pimHumanDescription": {
+          "en": "Temporal characteristics of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/coverage",
+          "http://purl.org/dc/terms/coverage"
+        ]
+      },
+      "http://purl.org/dc/terms/temporal#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/temporal#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/temporal": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/temporal",
+        "pimInterpretation": "http://purl.org/dc/terms/temporal",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Temporal Coverage"
+        },
+        "pimHumanDescription": {
+          "en": "Temporal characteristics of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/temporal#domain",
+          "http://purl.org/dc/terms/temporal#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/coverage",
+          "http://purl.org/dc/terms/coverage"
+        ]
+      },
+      "http://purl.org/dc/terms/temporal#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/temporal#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/title": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/title",
+        "pimInterpretation": "http://purl.org/dc/terms/title",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Title"
+        },
+        "pimHumanDescription": {
+          "en": "A name given to the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/title"
+        ]
+      },
+      "http://purl.org/dc/terms/type#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/type#attribute",
+        "pimInterpretation": "http://purl.org/dc/terms/type",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Type"
+        },
+        "pimHumanDescription": {
+          "en": "The nature or genre of the resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/type"
+        ]
+      },
+      "http://purl.org/dc/terms/type#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/type#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/type": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://purl.org/dc/terms/type",
+        "pimInterpretation": "http://purl.org/dc/terms/type",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Type"
+        },
+        "pimHumanDescription": {
+          "en": "The nature or genre of the resource."
+        },
+        "pimEnd": [
+          "http://purl.org/dc/terms/type#domain",
+          "http://purl.org/dc/terms/type#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/type"
+        ]
+      },
+      "http://purl.org/dc/terms/type#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://purl.org/dc/terms/type#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://purl.org/dc/terms/valid": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://purl.org/dc/terms/valid",
+        "pimInterpretation": "http://purl.org/dc/terms/valid",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Date Valid"
+        },
+        "pimHumanDescription": {
+          "en": "Date (often a range) of validity of a resource."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [
+          "http://purl.org/dc/elements/1.1/date",
+          "http://purl.org/dc/terms/date"
+        ]
+      },
+      "http://purl.org/dc/terms/Agent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/Agent",
+        "pimInterpretation": "http://purl.org/dc/terms/Agent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Agent"
+        },
+        "pimHumanDescription": {
+          "en": "A resource that acts or has the power to act."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/AgentClass": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/AgentClass",
+        "pimInterpretation": "http://purl.org/dc/terms/AgentClass",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Agent Class"
+        },
+        "pimHumanDescription": {
+          "en": "A group of agents."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Class",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/BibliographicResource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/BibliographicResource",
+        "pimInterpretation": "http://purl.org/dc/terms/BibliographicResource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Bibliographic Resource"
+        },
+        "pimHumanDescription": {
+          "en": "A book, article, or other documentary resource."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/FileFormat": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/FileFormat",
+        "pimInterpretation": "http://purl.org/dc/terms/FileFormat",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "File Format"
+        },
+        "pimHumanDescription": {
+          "en": "A digital resource format."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/MediaType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/Frequency": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/Frequency",
+        "pimInterpretation": "http://purl.org/dc/terms/Frequency",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Frequency"
+        },
+        "pimHumanDescription": {
+          "en": "A rate at which something recurs."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/Jurisdiction": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/Jurisdiction",
+        "pimInterpretation": "http://purl.org/dc/terms/Jurisdiction",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Jurisdiction"
+        },
+        "pimHumanDescription": {
+          "en": "The extent or range of judicial, law enforcement, or other authority."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/LocationPeriodOrJurisdiction",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/LicenseDocument": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/LicenseDocument",
+        "pimInterpretation": "http://purl.org/dc/terms/LicenseDocument",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "License Document"
+        },
+        "pimHumanDescription": {
+          "en": "A legal document giving official permission to do something with a resource."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/RightsStatement",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/LinguisticSystem": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/LinguisticSystem",
+        "pimInterpretation": "http://purl.org/dc/terms/LinguisticSystem",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Linguistic System"
+        },
+        "pimHumanDescription": {
+          "en": "A system of signs, symbols, sounds, gestures, or rules used in communication."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/Location": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/Location",
+        "pimInterpretation": "http://purl.org/dc/terms/Location",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Location"
+        },
+        "pimHumanDescription": {
+          "en": "A spatial region or named place."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/LocationPeriodOrJurisdiction",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/LocationPeriodOrJurisdiction": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/LocationPeriodOrJurisdiction",
+        "pimInterpretation": "http://purl.org/dc/terms/LocationPeriodOrJurisdiction",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Location, Period, or Jurisdiction"
+        },
+        "pimHumanDescription": {
+          "en": "A location, period of time, or jurisdiction."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/MediaType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/MediaType",
+        "pimInterpretation": "http://purl.org/dc/terms/MediaType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Media Type"
+        },
+        "pimHumanDescription": {
+          "en": "A file format or physical medium."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/MediaTypeOrExtent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/MediaTypeOrExtent": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/MediaTypeOrExtent",
+        "pimInterpretation": "http://purl.org/dc/terms/MediaTypeOrExtent",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Media Type or Extent"
+        },
+        "pimHumanDescription": {
+          "en": "A media type or extent."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/MethodOfAccrual": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/MethodOfAccrual",
+        "pimInterpretation": "http://purl.org/dc/terms/MethodOfAccrual",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Method of Accrual"
+        },
+        "pimHumanDescription": {
+          "en": "A method by which resources are added to a collection."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/MethodOfInstruction": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/MethodOfInstruction",
+        "pimInterpretation": "http://purl.org/dc/terms/MethodOfInstruction",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Method of Instruction"
+        },
+        "pimHumanDescription": {
+          "en": "A process that is used to engender knowledge, attitudes, and skills."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/PeriodOfTime": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/PeriodOfTime",
+        "pimInterpretation": "http://purl.org/dc/terms/PeriodOfTime",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Period of Time"
+        },
+        "pimHumanDescription": {
+          "en": "An interval of time that is named or defined by its start and end dates."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/LocationPeriodOrJurisdiction",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/PhysicalMedium": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/PhysicalMedium",
+        "pimInterpretation": "http://purl.org/dc/terms/PhysicalMedium",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Physical Medium"
+        },
+        "pimHumanDescription": {
+          "en": "A physical material or carrier."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/MediaType",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/PhysicalResource": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/PhysicalResource",
+        "pimInterpretation": "http://purl.org/dc/terms/PhysicalResource",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Physical Resource"
+        },
+        "pimHumanDescription": {
+          "en": "A material thing."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/Policy": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/Policy",
+        "pimInterpretation": "http://purl.org/dc/terms/Policy",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Policy"
+        },
+        "pimHumanDescription": {
+          "en": "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/ProvenanceStatement": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/ProvenanceStatement",
+        "pimInterpretation": "http://purl.org/dc/terms/ProvenanceStatement",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Provenance Statement"
+        },
+        "pimHumanDescription": {
+          "en": "Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/RightsStatement": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/RightsStatement",
+        "pimInterpretation": "http://purl.org/dc/terms/RightsStatement",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Rights Statement"
+        },
+        "pimHumanDescription": {
+          "en": "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/SizeOrDuration": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/SizeOrDuration",
+        "pimInterpretation": "http://purl.org/dc/terms/SizeOrDuration",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Size or Duration"
+        },
+        "pimHumanDescription": {
+          "en": "A dimension or extent, or a time taken to play or execute."
+        },
+        "pimExtends": [
+          "http://purl.org/dc/terms/MediaTypeOrExtent",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://purl.org/dc/terms/Standard": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://purl.org/dc/terms/Standard",
+        "pimInterpretation": "http://purl.org/dc/terms/Standard",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Standard"
+        },
+        "pimHumanDescription": {
+          "en": "A reference point against which other things can be evaluated or compared."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://datagov-cz.github.io/cache-slovniku/dublin_core_terms.ttl"
+  ]
+}

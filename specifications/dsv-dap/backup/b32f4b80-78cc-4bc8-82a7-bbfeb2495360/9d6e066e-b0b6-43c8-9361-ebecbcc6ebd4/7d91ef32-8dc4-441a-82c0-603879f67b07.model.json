@@ -1,0 +1,687 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "b32f4b80-78cc-4bc8-82a7-bbfeb2495360/9d6e066e-b0b6-43c8-9361-ebecbcc6ebd4/7d91ef32-8dc4-441a-82c0-603879f67b07",
+  "alias": "rdf",
+  "pimStore": {
+    "resources": {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "type"
+        },
+        "pimHumanDescription": {
+          "en": "The subject is an instance of a class."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Class",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "subject"
+        },
+        "pimHumanDescription": {
+          "en": "The subject of the subject RDF statement."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "predicate"
+        },
+        "pimHumanDescription": {
+          "en": "The predicate of the subject RDF statement."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#object#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#object": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "object"
+        },
+        "pimHumanDescription": {
+          "en": "The object of the subject RDF statement."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#object#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#object#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#object#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "value"
+        },
+        "pimHumanDescription": {
+          "en": "Idiomatic property used for structured values."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#value#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#value#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#first#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "first"
+        },
+        "pimHumanDescription": {
+          "en": "The first item in the subject RDF list."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#first#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#first#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#first#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "rest"
+        },
+        "pimHumanDescription": {
+          "en": "The rest of the subject RDF list after the first item."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#attribute",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#language",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "language"
+        },
+        "pimHumanDescription": {
+          "en": "The language component of a CompoundLiteral."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundLiteral",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundLiteral",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#language": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#language",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#language",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "language"
+        },
+        "pimHumanDescription": {
+          "en": "The language component of a CompoundLiteral."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#language#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#attribute",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "direction"
+        },
+        "pimHumanDescription": {
+          "en": "The base direction component of a CompoundLiteral."
+        },
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimLanguageStringRequiredLanguages": [],
+        "pimOwnerClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundLiteral",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#domain": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#domain",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundLiteral",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "direction"
+        },
+        "pimHumanDescription": {
+          "en": "The base direction component of a CompoundLiteral."
+        },
+        "pimEnd": [
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#domain",
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#range"
+        ],
+        "pimIsOriented": true,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": []
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#direction#range",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Property"
+        },
+        "pimHumanDescription": {
+          "en": "The class of RDF properties."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Statement"
+        },
+        "pimHumanDescription": {
+          "en": "The class of RDF statements."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Bag"
+        },
+        "pimHumanDescription": {
+          "en": "The class of unordered containers."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Container",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Seq"
+        },
+        "pimHumanDescription": {
+          "en": "The class of ordered containers."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Container",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Alt"
+        },
+        "pimHumanDescription": {
+          "en": "The class of containers of alternatives."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Container",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#List": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "List"
+        },
+        "pimHumanDescription": {
+          "en": "The class of RDF Lists."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundLiteral": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundLiteral",
+        "pimInterpretation": "http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundLiteral",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "CompoundLiteral"
+        },
+        "pimHumanDescription": {
+          "en": "A class representing a compound literal."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2002/07/owl#Thing": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2002/07/owl#Thing",
+        "pimInterpretation": "http://www.w3.org/2002/07/owl#Thing",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "owl:Thing"
+        },
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null
+      }
+    }
+  },
+  "urls": [
+    "https://datagov-cz.github.io/cache-slovniku/rdf.ttl"
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "identifier": "8dlkl",
+  "version": 1,
+  "type": "http://dataspecer.com/resources/local/visual-model",
+  "entities": [
+    {
+      "type": [
+        "http://dataspecer.com/resources/local/visual-model"
+      ],
+      "representedModel": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "color": "#70d6ff",
+      "identifier": "z5h9n"
+    },
+    {
+      "type": [
+        "http://dataspecer.com/resources/local/visual-model"
+      ],
+      "representedModel": "i254ag",
+      "color": "#ffd670",
+      "identifier": "075p2"
+    },
+    {
+      "identifier": "8dlkl-model-metadata-entity",
+      "type": [
+        "entity-model-type"
+      ],
+      "label": {
+        "en": "Application profile view"
+      }
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "m8dk4ktrtuma3wupub",
+      "position": {
+        "x": 330,
+        "y": 140
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "lp39b"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "iuivo4xdyrdma3wuv1t",
+      "position": {
+        "x": 330,
+        "y": -110
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "odtjvh"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "r53gp22u95qm9gu4o1p",
+      "waypoints": [],
+      "visualSource": "lp39b",
+      "visualTarget": "odtjvh",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "unhm8"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "3nhmuufrnyam9b8bmtk",
+      "position": {
+        "x": 750,
+        "y": 170
+      },
+      "content": [
+        "onhyv5ni1im9b9cd1u",
+        "xwtbvmzhmdm9bcz4ke"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "7zzp2"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "wwj111un1ram9b8c05a",
+      "position": {
+        "x": 950,
+        "y": 480
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "oo2q5"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "l5pouepxoedm9b8hzn7",
+      "position": {
+        "x": 1070,
+        "y": 670
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "96pp8"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "lzdeaede09im9b8ivqt",
+      "waypoints": [],
+      "visualSource": "oo2q5",
+      "visualTarget": "96pp8",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "z0y1c"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "v7l54rgxqvm9b8behh",
+      "position": {
+        "x": 260,
+        "y": 350
+      },
+      "content": [
+        "da4we6hwj7ma3jcxq5",
+        "up3pe80nk4ma3je9y4",
+        "7aj73gdqhiima3jewxj",
+        "ag8sw4gzotbm9gzof6q"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "tnvg3"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "bup3mcoh5jwm9b9divo",
+      "waypoints": [
+        {
+          "x": 370,
+          "y": 270,
+          "anchored": null
+        },
+        {
+          "x": 280,
+          "y": 270,
+          "anchored": null
+        }
+      ],
+      "visualSource": "tnvg3",
+      "visualTarget": "tnvg3",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "p0d11"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "mjk98um4otmm9b99i37",
+      "waypoints": [
+        {
+          "x": 640,
+          "y": 270,
+          "anchored": null
+        },
+        {
+          "x": 540,
+          "y": 270,
+          "anchored": null
+        }
+      ],
+      "visualSource": "tnvg3",
+      "visualTarget": "tnvg3",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "nir69l"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "47ys7v2p17ym9b97rh9",
+      "waypoints": [],
+      "visualSource": "tnvg3",
+      "visualTarget": "lp39b",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "sbip9"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "44e1ttt3nm2m9b8e3a2",
+      "waypoints": [
+        {
+          "x": 810,
+          "y": 380,
+          "anchored": null
+        }
+      ],
+      "visualSource": "7zzp2",
+      "visualTarget": "tnvg3",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "t12ow"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "8bhnp19vz5cm9b8byba",
+      "position": {
+        "x": 950,
+        "y": 380
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "b3im1"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "grpl6njksn8m9b8khx6",
+      "waypoints": [],
+      "visualSource": "b3im1",
+      "visualTarget": "7zzp2",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "zn1elk"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "il9wsqvdgdm9b8burt",
+      "position": {
+        "x": 670,
+        "y": 610
+      },
+      "content": [
+        "umqvmhv89mbm9b8h5za",
+        "r72m8dj68opm9baznyj",
+        "hsofzyoa5hom9bczivl"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "xkqx5"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "lv4zjq4qisjm9b8l42p",
+      "waypoints": [
+        {
+          "x": 840,
+          "y": 550,
+          "anchored": null
+        }
+      ],
+      "visualSource": "xkqx5",
+      "visualTarget": "7zzp2",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "rsmtu"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "ouzc27b12omm9b8hqem",
+      "waypoints": [],
+      "visualSource": "oo2q5",
+      "visualTarget": "xkqx5",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "ys5zfk"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "sf4wr0x2n1m9b8honk",
+      "waypoints": [
+        {
+          "x": 890,
+          "y": 430,
+          "anchored": null
+        }
+      ],
+      "visualSource": "b3im1",
+      "visualTarget": "xkqx5",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "98iog"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "7a1kp7i2s7wm9b8e5as",
+      "waypoints": [],
+      "visualSource": "xkqx5",
+      "visualTarget": "tnvg3",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "cobnp"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedEntity": "qglj98hu1cpm9b8casu",
+      "position": {
+        "x": 200,
+        "y": 610
+      },
+      "content": [
+        "wujaicucctom9b8ti9y",
+        "4867fi1umr6m9b8su8d",
+        "l17w0onlirmk6on0kl"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "sq6k0h"
+    },
+    {
+      "model": "7d081002-a1e3-42a0-aaf8-712d8d19a677",
+      "representedRelationship": "cadn0jvba7am9b8u4fj",
+      "waypoints": [],
+      "visualSource": "tnvg3",
+      "visualTarget": "sq6k0h",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "xpxcb"
+    }
+  ]
+}

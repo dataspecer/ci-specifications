@@ -1,0 +1,15 @@
+{
+  "data-specification": {
+    "useGenerators": {
+      "json": false,
+      "jsonExample": false,
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "configuration": {
+    "https://schemas.dataspecer.com/documentation-generator-config/": {
+      "partials": {
+        "abstract": "<section id=\"abstract\">\n<p>\n  This document defines a vocabulary (classes and properties) used in <a href=\"https://w3id.org/dsv-dap#\">Data Specification Vocabulary Default Application Profile (DSV-DAP)</a> for machine processable representation of Data Specifications and Application Profiles. DSV and DSV-DAP are created using <a href=\"https://dataspecer.com\">Dataspecer</a>, a tool for management of data specifications, management of application profiles and semi-automatic generation of technical artifacts such as data schemas and transformations based on semantic vocabularies.\n</p>\n\n<p>\n  Preferred prefix: <code>dsv</code>, stands for <code>https://w3id.org/dsv#</code>.\n</p>\n\n<p>\n  This specification and the specification of <a href=\"https://w3id.org/dsv-dap#\">DSV-DAP</a> are both described using DSV-DAP.\n<p>\n</section>",
+        "introduction": "",
+        "respecConfig": "var respecConfig = {\n    specStatus: \"base\",\n    shortName: \"dsv\",               \n    showPreviousVersion: false,\n    thisVersion: \"https://mff-uk.github.io/data-specification-vocabulary/dsv/\",\n    latestVersion: \"https://mff-uk.github.io/data-specification-vocabulary/dsv/\",\n    editors: [{\n      name: \"Jakub Klímek\",\n      orcid: \"0000-0001-7234-3051\",\n      company:    \"Charles University\",\n      companyURL: \"https://www.mff.cuni.cz\"\n    }],\n    inlineCSS: \"true\",\n    github: \"https://github.com/mff-uk/data-specification-vocabulary/\",\n    otherLinks: [{\n        key: \"Links\",\n        data: [{\n            value: \"Dataspecer\",\n            href: \"https://dataspecer.com\"\n        },{\n            value: \"Data Specification Vocabulary Default Application Profile (DSV-DAP)\",\n            href: \"https://mff-uk.github.io/data-specification-vocabulary/dsv-dap/\"\n        },{\n            value: \"Sample specifications\",\n            href: \"https://mff-uk.github.io/specifications/\"\n        }]\n    }]\n  };"
+      }
+    },
+    "http://dataspecer.com/resources/local/layout-configuration": {
+      "main": {
+        "none": {
+          "layout_alg": "none",
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_stress": {
+          "layout_alg": "elk_stress",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_layered": {
+          "layout_alg": "elk_layered",
+          "alg_direction": "UP",
+          "layer_gap": 200,
+          "in_layer_gap": 100,
+          "edge_routing": "ORTHOGONAL",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_force": {
+          "layout_alg": "elk_force",
+          "min_distance_between_nodes": 400,
+          "force_alg_type": "FRUCHTERMAN_REINGOLD",
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "random": {
+          "layout_alg": "random",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_radial": {
+          "layout_alg": "elk_radial",
+          "min_distance_between_nodes": 500,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_overlapRemoval": {
+          "layout_alg": "elk_overlapRemoval",
+          "min_distance_between_nodes": 0,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": true
+        },
+        "elk_stress_advanced_using_clusters": {
+          "layout_alg": "elk_stress_advanced_using_clusters",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_stress_profile": {
+          "layout_alg": "elk_stress_profile",
+          "profileEdgeLength": 400,
+          "preferredProfileDirection": "UP",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": true
+        },
+        "automatic": {
+          "layout_alg": "automatic",
+          "min_distance_between_nodes": 500,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        }
+      },
+      "general": {
+        "none": {
+          "layout_alg": "none",
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_stress": {
+          "layout_alg": "elk_stress",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_layered": {
+          "layout_alg": "elk_layered",
+          "alg_direction": "UP",
+          "layer_gap": 200,
+          "in_layer_gap": 100,
+          "edge_routing": "ORTHOGONAL",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_force": {
+          "layout_alg": "elk_force",
+          "min_distance_between_nodes": 400,
+          "force_alg_type": "FRUCHTERMAN_REINGOLD",
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "random": {
+          "layout_alg": "random",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_radial": {
+          "layout_alg": "elk_radial",
+          "min_distance_between_nodes": 500,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_overlapRemoval": {
+          "layout_alg": "elk_overlapRemoval",
+          "min_distance_between_nodes": 0,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": true
+        },
+        "elk_stress_advanced_using_clusters": {
+          "layout_alg": "elk_stress_advanced_using_clusters",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_stress_profile": {
+          "layout_alg": "elk_stress_profile",
+          "profileEdgeLength": 400,
+          "preferredProfileDirection": "UP",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": true
+        },
+        "automatic": {
+          "layout_alg": "automatic",
+          "min_distance_between_nodes": 500,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        }
+      },
+      "chosenMainAlgorithm": "elk_layered",
+      "chosenGeneralAlgorithm": "none",
+      "additionalSteps": {}
+    }
+  },
+  "modelCompositionConfiguration": {
+    "modelType": "application-profile",
+    "model": "8b8feeb4-4e8b-44ef-b351-23e31e3b657a",
+    "canAddEntities": false,
+    "canModify": true,
+    "profiles": {
+      "modelType": "merge",
+      "models": null
+    }
+  }
+}
