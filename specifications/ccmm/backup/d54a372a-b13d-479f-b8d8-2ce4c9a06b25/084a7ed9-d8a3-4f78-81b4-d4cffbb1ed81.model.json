@@ -152,6 +152,21 @@
       "dataPsmSchema": "084a7ed9-d8a3-4f78-81b4-d4cffbb1ed81",
       "namespace": "https://schema.ccmm.cz/research-data/2.0",
       "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/CreateAttribute"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1788858099344-cead-3c42-aeaf",
+      "parent": "https://ofn.gov.cz/operation/1785941237189-2e36-3079-b493",
+      "dataPsmNewIri": null,
+      "dataPsmInterpretation": "z01byr3gndcmtsf2s95",
+      "dataPsmTechnicalLabel": "notation",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmOwner": "https://ofn.gov.cz/class/1747731818380-b829-3f11-a2f1",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string"
     }
   ],
   "resources": {
@@ -174,7 +189,8 @@
       ],
       "dataPsmParts": [
         "https://ofn.gov.cz/class/1747731818380-b829-3f11-a2f1",
-        "https://ofn.gov.cz/attribute/1747731822119-eeb8-b5f3-a985"
+        "https://ofn.gov.cz/attribute/1747731822119-eeb8-b5f3-a985",
+        "https://ofn.gov.cz/attribute/1788858099343-abf4-47f5-89a2"
       ],
       "extensions": {
         "https://ofn.gov.cz/slovník/psm/extensions/xml": {
@@ -195,7 +211,8 @@
       "dataPsmInterpretation": "baqxbku5cmomawa8j3r",
       "dataPsmExtends": [],
       "dataPsmParts": [
-        "https://ofn.gov.cz/attribute/1747731822119-eeb8-b5f3-a985"
+        "https://ofn.gov.cz/attribute/1747731822119-eeb8-b5f3-a985",
+        "https://ofn.gov.cz/attribute/1788858099343-abf4-47f5-89a2"
       ],
       "dataPsmIsClosed": null,
       "instancesHaveIdentity": "ALWAYS"
@@ -210,6 +227,17 @@
       "dataPsmTechnicalLabel": "label",
       "dataPsmInterpretation": "dmx41r9202mawa9zy4",
       "dataPsmDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "https://ofn.gov.cz/attribute/1788858099343-abf4-47f5-89a2": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "https://ofn.gov.cz/attribute/1788858099343-abf4-47f5-89a2",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "notation",
+      "dataPsmInterpretation": "z01byr3gndcmtsf2s95",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string"
     }
   }
 }

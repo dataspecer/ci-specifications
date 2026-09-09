@@ -162,7 +162,10 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Agent"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "6"
     },
     "x2rhgh5297cm7ufqdik": {
       "id": "x2rhgh5297cm7ufqdik",
@@ -186,7 +189,10 @@
         "http://www.w3.org/ns/prov#Person"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "7"
     },
     "k7cmsrcsg3am7ufqxec": {
       "id": "k7cmsrcsg3am7ufqxec",
@@ -210,8 +216,10 @@
         "http://www.w3.org/ns/org#Organization"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
-      "order": null
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "8"
     },
     "3xvvqzcs9r3m7ugf9av": {
       "id": "3xvvqzcs9r3m7ugf9av",
@@ -327,7 +335,9 @@
         "https://w3id.org/tib/datacite/class/FundingReference"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "vcy7awjrlzkm7vzqrpr": {
@@ -396,8 +406,10 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Distribution"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
-      "order": null
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "9"
     },
     "vacxp2hps2fm7vzv8xx": {
       "id": "vacxp2hps2fm7vzv8xx",
@@ -463,7 +475,10 @@
         "https://model.ccmm.cz/vocabulary/ccmm#ValidationResult"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "w3cks4rn13lm7w0xhmg": {
       "id": "w3cks4rn13lm7w0xhmg",
@@ -529,7 +544,9 @@
         "https://w3id.org/tib/datacite/class/Subject"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "kytzkq9kn5lm7w10y9x": {
@@ -602,8 +619,10 @@
         "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
-      "order": null
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "5"
     },
     "iscv6g8ekam7w4xok4": {
       "id": "iscv6g8ekam7w4xok4",
@@ -672,7 +691,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Attribution"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "xgmi51m5esm7w6p75c": {
@@ -743,7 +764,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Role"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "7ezk2krx8crm7w6shit": {
@@ -1009,7 +1032,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Kind"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "v8v8b5bej8om7x8nyih": {
@@ -1196,7 +1221,9 @@
         "http://www.w3.org/ns/locn#Address"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "gfng75ifemm7x8y2wr": {
@@ -1542,7 +1569,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Standard"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "jtkqk6d0tvmm7xgl5m0": {
@@ -1599,7 +1628,7 @@
         "class-profile"
       ],
       "description": {
-        "en": "A curated collection of metadata about resources.",
+        "en": "A catalogue or repository that hosts the Datasets or Data Services being described.",
         "es": "Una colección curada de metadatos sobre recursos (por ejemplo, conjuntos de datos y servicios de datos en el contexto de un catálogo de datos).",
         "it": "Una raccolta curata di metadati sulle risorse (ad es. sui dataset e relativi servizi nel contesto di cataloghi di dati).",
         "fr": "Une collection élaborée de métadonnées sur les jeux de données",
@@ -1629,7 +1658,10 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Catalogue"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "4"
     },
     "hcz1iz9unjpm7xhmo58": {
       "id": "hcz1iz9unjpm7xhmo58",
@@ -1850,7 +1882,10 @@
         "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DownloadableFile"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "11"
     },
     "vdp1ynrj7pnm7yh66bt": {
       "id": "vdp1ynrj7pnm7yh66bt",
@@ -1872,7 +1907,10 @@
         "https://model.ccmm.cz/vocabulary/ccmm#Distribution-DataService"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "10"
     },
     "zpmrilt6hnm7yl9ajh": {
       "id": "zpmrilt6hnm7yl9ajh",
@@ -1896,7 +1934,10 @@
         "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "ugr008vxfbm7ylaqbt": {
       "id": "ugr008vxfbm7ylaqbt",
@@ -1973,7 +2014,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#MediaType"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "jzx5hhz34jnm7ylkmnk": {
@@ -2122,16 +2165,10 @@
       "type": [
         "class-profile"
       ],
-      "description": {
-        "en": "A collection of operations that provides access to one or more datasets or data processing functions.",
-        "cs": "Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.",
-        "es": "Un sitio o end-point que provee operaciones relacionadas a funciones de descubrimiento, acceso, o procesamiento de datos o recursos relacionados.",
-        "it": "Un sito o end-point che fornisce operazioni relative alla scoperta, all'accesso o all'elaborazione di funzioni su dati o risorse correlate.",
-        "da": "Et websted eller endpoint der udstiller operationer relateret til opdagelse af, adgang til eller behandlende funktioner på data eller relaterede ressourcer."
-      },
+      "description": {},
       "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService",
       "name": {
-        "en": "Data service",
+        "en": "Data Service",
         "it": "Servizio di dati",
         "es": "Servicio de datos",
         "da": "Datatjeneste"
@@ -2144,7 +2181,10 @@
         "https://mff-uk.github.io/specifications/dcat-ap#DataService"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "order": "12"
     },
     "i40zftyv4wm7ymaw4t": {
       "id": "i40zftyv4wm7ymaw4t",
@@ -2269,7 +2309,10 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Document"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "9ffamme2dpsm7ymyv3u": {
       "id": "9ffamme2dpsm7ymyv3u",
@@ -2336,7 +2379,10 @@
         "https://model.ccmm.cz/vocabulary/ccmm#SubjectScheme"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "rdig9yi5oom7ypsn9y": {
       "id": "rdig9yi5oom7ypsn9y",
@@ -2553,7 +2599,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Location"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "6ca3lx4wd4om7ys8vo5": {
@@ -2715,7 +2763,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Geometry"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "tr1e9vf80zm7ytnudc": {
@@ -2882,7 +2932,10 @@
         "https://model.ccmm.cz/vocabulary/ccmm#AlternateTitle"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "ymnmol13rem8f1ono6": {
       "id": "ymnmol13rem8f1ono6",
@@ -3677,7 +3730,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#Checksum"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "fb3y5r675m913nqxd": {
@@ -3752,7 +3807,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#ChecksumAlgorithm"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "nwv2524dafbm913q0ay": {
@@ -4353,7 +4410,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#LicenceDocument"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "ge6sp0vfasmaurqym2": {
@@ -4421,7 +4480,10 @@
         "http://www.w3.org/2004/02/skos/core#Concept"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "q8w7218tlmamav6kkc6": {
       "id": "q8w7218tlmamav6kkc6",
@@ -4445,7 +4507,10 @@
         "http://www.w3.org/2004/02/skos/core#Concept"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "2d8k3q6cu3hmav6pi5o": {
       "id": "2d8k3q6cu3hmav6pi5o",
@@ -4469,7 +4534,10 @@
         "http://www.w3.org/2004/02/skos/core#Concept"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "xh1usvbrb5pmav74mhm": {
       "id": "xh1usvbrb5pmav74mhm",
@@ -4493,7 +4561,10 @@
         "http://www.w3.org/2004/02/skos/core#Concept"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "3njusexydbgmav76kca": {
       "id": "3njusexydbgmav76kca",
@@ -4517,7 +4588,10 @@
         "http://www.w3.org/2004/02/skos/core#Concept"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "7gp9ruvhjhnmav7em3v": {
       "id": "7gp9ruvhjhnmav7em3v",
@@ -4541,7 +4615,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#LinguisticSystem"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "ofev79sbe3nmav7it71": {
@@ -4707,7 +4783,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#MediaTypeOrExtent"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "i2kjlqc0hymav82c5t": {
@@ -4778,7 +4856,9 @@
         "https://mff-uk.github.io/specifications/dcat-ap#RightsStatement"
       ],
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null
     },
     "adctbh3lm7mav8f9lp": {
@@ -4999,7 +5079,10 @@
         "http://www.w3.org/2006/time#TemporalEntity"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "ww51pblxeu8mavfp3h9": {
       "id": "ww51pblxeu8mavfp3h9",
@@ -5025,7 +5108,10 @@
         "http://www.w3.org/2006/time#Instant"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "rlgtgyd92tcmavfpbys": {
       "id": "rlgtgyd92tcmavfpbys",
@@ -5060,7 +5146,10 @@
         "http://www.w3.org/2006/time#Interval"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "sogb46nij9mavfrada": {
       "id": "sogb46nij9mavfrada",
@@ -5629,7 +5718,10 @@
         "https://model.ccmm.cz/vocabulary/ccmm#IdentifierScheme"
       ],
       "externalDocumentationUrl": null,
-      "tags": []
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "order": null
     },
     "dmx41r9202mawa9zy4": {
       "id": "dmx41r9202mawa9zy4",
@@ -5657,13 +5749,13 @@
           },
           "nameFromProfiled": null,
           "description": {
-            "en": "Identifier scheme label"
+            "en": "Identifier scheme label."
           },
           "descriptionFromProfiled": null,
           "iri": "IdentifierScheme.label",
           "cardinality": null,
           "usageNote": {
-            "en": "For example, DOI, ORCID etc."
+            "en": "For example, Digital Object Identifier, Open Research and Contributor ID etc. Shorts like DOI or ORCID melongs to the notation."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5877,7 +5969,9 @@
       },
       "usageNoteFromProfiled": null,
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "id": "zqjbldpuqumciv7pzo",
       "type": [
         "class-profile"
@@ -6002,7 +6096,9 @@
       },
       "usageNoteFromProfiled": null,
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "id": "q3ohhj045mcivy17e",
       "type": [
         "class-profile"
@@ -6162,11 +6258,14 @@
       "usageNote": {},
       "usageNoteFromProfiled": null,
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "id": "2rn85cvii4mmhhhn85v",
       "type": [
         "class-profile"
-      ]
+      ],
+      "order": null
     },
     "uarioi83o8hmhhjxnio": {
       "ends": [
@@ -6549,7 +6648,9 @@
       },
       "usageNoteFromProfiled": null,
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "id": "1uytx76fz0ymor668p9",
       "type": [
         "class-profile"
@@ -7368,7 +7469,9 @@
       "usageNote": {},
       "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Activity",
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null,
       "id": "qrw2a8s0hhimralv8tu",
       "type": [
@@ -7488,7 +7591,9 @@
       "usageNote": {},
       "usageNoteFromProfiled": null,
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null,
       "id": "kg7pnaqc97msd6kff7",
       "type": [
@@ -7511,7 +7616,9 @@
       "usageNote": {},
       "usageNoteFromProfiled": null,
       "externalDocumentationUrl": null,
-      "tags": [],
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
       "order": null,
       "id": "zumx7b8hfbmsd6kqnk",
       "type": [
@@ -7608,6 +7715,229 @@
         }
       ],
       "id": "0vi5czeabkimsh60156",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "z01byr3gndcmtsf2s95": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "baqxbku5cmomawa8j3r"
+        },
+        {
+          "name": {
+            "en": "notation"
+          },
+          "nameFromProfiled": null,
+          "description": {
+            "en": "Notation of the identifier scheme."
+          },
+          "descriptionFromProfiled": null,
+          "iri": "IdentifierScheme.notation",
+          "cardinality": null,
+          "usageNote": {
+            "en": "Fill in the short notations of the identifier scheme, e.g. ROR, ORCID, DOI etc."
+          },
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "http://www.w3.org/2004/02/skos/core#notation"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "id": "z01byr3gndcmtsf2s95",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "kmtwrfdphdpmtsfh1co": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "8ng0ekeiz4rm7xhjyox"
+        },
+        {
+          "name": {
+            "es": "conjunto de datos",
+            "en": "dataset",
+            "it": "dataset",
+            "cs": "datová sada",
+            "fr": "jeu de données",
+            "el": "σύνολο δεδομένων",
+            "ar": "قائمة بيانات",
+            "ja": "データセット",
+            "da": "datasæt"
+          },
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "description": {
+            "en": "A Dataset that is part of the Catalogue.",
+            "cs": "Kolekce dat, která je katalogizována v katalogu.",
+            "fr": "Relie un catalogue à un jeu de données faisant partie de ce catalogue.",
+            "es": "Un conjunto de datos que se lista en el catálogo.",
+            "it": "Una raccolta di dati che è elencata nel catalogo.",
+            "el": "Συνδέει έναν κατάλογο με ένα σύνολο δεδομένων το οποίο ανήκει στον εν λόγω κατάλογο.",
+            "ar": "تربط الفهرس بقائمة بيانات ضمنه",
+            "ja": "カタログの一部であるデータセット。",
+            "da": "En samling af data som er opført i kataloget."
+          },
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "iri": "Repository.dataset",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {
+            "en": "As empty Catalogues are usually indications of problems, this property should be combined with the property service to implement an empty Catalogue check."
+          },
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "om5comjjt99m7udffm4"
+        }
+      ],
+      "id": "kmtwrfdphdpmtsfh1co",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "xwtg49el6fmtsfk10w": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "8ng0ekeiz4rm7xhjyox"
+        },
+        {
+          "name": {
+            "en": "record",
+            "it": "record",
+            "fr": "registre",
+            "es": "registro",
+            "cs": "záznam",
+            "el": "καταγραφή",
+            "ar": "سجل",
+            "ja": "カタログ・レコード",
+            "da": "post"
+          },
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record",
+          "description": {
+            "en": "A Catalogue Record that is part of the Catalogue.",
+            "es": "Describe la registración de un conjunto de datos o un servicio de datos en el catálogo.",
+            "cs": "Záznam popisující registraci jedné datové sady či datové služby jakožto součásti katalogu.",
+            "fr": "Relie un catalogue à ses registres.",
+            "it": "Un record che descrive la registrazione di un singolo set di dati o di un servizio dati che fa parte del catalogo.",
+            "el": "Συνδέει έναν κατάλογο με τις καταγραφές του.",
+            "ar": "تربط الفهرس بسجل ضمنه",
+            "ja": "カタログの一部であるカタログ・レコード。",
+            "da": "En post der beskriver registreringen af et enkelt datasæt eller en datatjeneste som er opført i kataloget."
+          },
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record",
+          "iri": "Repository.record",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "5xxz1qh9j1ym7xf9eh6"
+        }
+      ],
+      "id": "xwtg49el6fmtsfk10w",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "8cxvqlsi1cxmtsfsf6b": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "8ng0ekeiz4rm7xhjyox"
+        },
+        {
+          "name": {
+            "en": "description"
+          },
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.description",
+          "description": {
+            "en": "A free-text account of the Catalogue."
+          },
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.description",
+          "iri": "Repository.description",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {
+            "en": "This property can be repeated for parallel language versions of the description."
+          },
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.description",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.description"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ],
+      "id": "8cxvqlsi1cxmtsfsf6b",
       "type": [
         "relationship-profile"
       ]
