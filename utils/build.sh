@@ -31,6 +31,8 @@ docker pull "$image"
 container_id="$(docker run --detach --rm --publish 127.0.0.1:80:80 "$image")"
 
 base_url='http://127.0.0.1:80'
+echo 'Waiting for the app to start...' >&2
+startup_started=$SECONDS
 deadline=$((SECONDS + 30))
 while true; do
   remaining=$((deadline - SECONDS))
@@ -47,14 +49,19 @@ while true; do
     sleep 1
   fi
 done
+echo "App started in ~$((SECONDS - startup_started)) seconds." >&2
 
-curl --fail --show-error --silent --location --output /dev/null \
+echo 'Uploading backup ZIP...' >&2
+curl --fail --show-error --location --silent --output /dev/null \
+  --write-out 'Backup ZIP upload request took %{time_total} seconds.\n' \
   --form "file=@$work_dir/backup.zip;type=application/zip" \
-  "$base_url/api/resources/import-zip"
-curl --fail --show-error --silent --location \
+  "$base_url/api/resources/import-zip" >&2
+echo 'Downloading export ZIP...' >&2
+curl --fail --show-error --location --silent \
+  --write-out 'Export ZIP download request took %{time_total} seconds.\n' \
   --get --data-urlencode "iri=$iri" \
   --output "$work_dir/output.zip" \
-  "$base_url/api/experimental/output.zip"
+  "$base_url/api/experimental/output.zip" >&2
 mkdir -p "$EXPORT_DIR"
 unzip -qo "$work_dir/output.zip" -d "$EXPORT_DIR"
 (cd "$EXPORT_DIR" && cleanup-export.sh)
