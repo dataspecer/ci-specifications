@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: cron-${{ github.ref }}
@@ -19,7 +19,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.CRON_REPOSITORY_TOKEN }}
 
       - name: Run specification cron scripts
         shell: bash

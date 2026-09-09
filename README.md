@@ -19,10 +19,17 @@ Create a new directory in `specifications/` and upload `backup.zip` or `backup/`
 | Kind | Name | Value |
 | --- | --- | --- |
 | Secret | `EXPORT_REPOSITORY_TOKEN` | Fine-grained PAT with **Contents: Read and write** on the destination repository |
+| Secret | `CRON_REPOSITORY_TOKEN` | Fine-grained PAT with **Contents: Read and write** on this repository; used to push cron updates |
 | Secret | `PR_COMMENT_TOKEN` | Fine-grained PAT with **Pull requests: Read and write** on the application repository; required for PR dispatches |
 | Variable | `EXPORT_REPOSITORY` | `owner/ci-exports`; defaults to this repository's owner plus `/ci-exports` |
 | Variable | `DOCKER_IMAGE_REPOSITORY` | Image repository without a tag, e.g. `ghcr.io/owner/application`; required for pushes |
 | Variable | `PUSH_DOCKER_TAGS` | JSON array, defaults to `["branch-main","latest"]` |
+
+For cron updates, create a fine-grained personal access token scoped to this
+repository and save it as the `CRON_REPOSITORY_TOKEN` Actions secret above. Branch
+rules must allow the token owner to push. The cron workflow uses this PAT so its
+commits trigger the push build workflow; pushes using `GITHUB_TOKEN` do not
+([GitHub documentation](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)).
 
 After the first export, set the destination repository's default branch to
 `branch-main` in its settings. The workflow can publish to an initially empty
