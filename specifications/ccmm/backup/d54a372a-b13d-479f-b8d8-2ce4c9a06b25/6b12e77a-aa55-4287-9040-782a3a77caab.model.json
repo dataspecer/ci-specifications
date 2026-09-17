@@ -584,7 +584,7 @@
             null
           ],
           "usageNote": {
-            "en": "At least one subject must be a value from FRASCATI FORD vocabulary. For that subject use reference codelist https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/ as the Subject scheme and select at least one value from this codelist as a subject."
+            "en": "At least one subject must be a value from FRASCATI FORD vocabulary. For that subject use reference code list https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/ as the Subject scheme and select at least one value from this code list as a subject."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -612,7 +612,7 @@
       "nameFromProfiled": null,
       "iri": "RelatedResource",
       "usageNote": {
-        "en": "Class is used for description of the resource together with the type of relation, for which is used value from codelist https://vocabs.ccmm.cz/registry/codelist/RelationType/. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Use qualified resource property to link to the dataset class. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper etc."
+        "en": "Class is used for description of the resource together with the type of relation, for which is used value from code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper etc."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -659,7 +659,7 @@
             null
           ],
           "usageNote": {
-            "en": "Must contain at least one time reference with date type value \"Created\"  from  https://vocabs.ccmm.cz/registry/codelist/TimeReference/."
+            "en": "Must contain at least one time reference with date type value \"Created\"  represented by https://w3id.org/tib/datacite/vocab/dateType/Created."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -667,7 +667,8 @@
           ],
           "concept": "2rn85cvii4mmhhhn85v",
           "externalDocumentationUrl": null,
-          "tags": []
+          "tags": [],
+          "order": null
         }
       ]
     },
@@ -3167,7 +3168,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use the label of the corresponding value from the used code list (usually IANA: https://www.iana.org/assignments/media-types/media-types.xhtml). This property may be repeated for parallel language versions of the label."
+            "en": "Use a label of the corresponding value from the used code list (usually IANA: https://www.iana.org/assignments/media-types/media-types.xhtml). This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -3509,7 +3510,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use the label of the corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/. This property may be repeated for parallel language versions of the label."
+            "en": "Use a label of the corresponding value from the code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/. This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -4473,7 +4474,7 @@
       "nameFromProfiled": null,
       "iri": "LocationRelationType",
       "usageNote": {
-        "en": "Use value from codelist https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."
+        "en": "Use value from the code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -4500,7 +4501,7 @@
       "nameFromProfiled": null,
       "iri": "AlternateTitleType",
       "usageNote": {
-        "en": "Use value from codelist https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/."
+        "en": "Use value from the code list https://w3id.org/tib/datacite/vocab/titleType."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -4527,7 +4528,7 @@
       "nameFromProfiled": null,
       "iri": "DateType",
       "usageNote": {
-        "en": "Use value from codelist https://vocabs.ccmm.cz/registry/codelist/TimeReference/."
+        "en": "Use value from the code list https://w3id.org/tib/datacite/vocab/dateType."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -4554,7 +4555,7 @@
       "nameFromProfiled": null,
       "iri": "ResourceType",
       "usageNote": {
-        "en": "Use IRI identifier of the resource type from the codelist https://vocabularies.coar-repositories.org/resource_types/."
+        "en": "Use IRI identifier of the resource type from the register https://vocabularies.coar-repositories.org/resource_types/."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -4581,7 +4582,7 @@
       "nameFromProfiled": null,
       "iri": "ResourceRelationType",
       "usageNote": {
-        "en": "Use value from the codelist https://vocabs.ccmm.cz/registry/codelist/RelationType/."
+        "en": "Use value from the code list https://w3id.org/tib/datacite/vocab/relationType."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -4654,14 +4655,17 @@
             0,
             null
           ],
-          "usageNote": {},
+          "usageNote": {
+            "en": "This property can be repeated if the metadata is provided in multiple languages."
+          },
           "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.language",
           "profiling": [
             "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.language"
           ],
           "externalDocumentationUrl": null,
           "tags": [],
-          "concept": "7gp9ruvhjhnmav7em3v"
+          "concept": "7gp9ruvhjhnmav7em3v",
+          "order": null
         }
       ]
     },
@@ -4896,7 +4900,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use a label of a corresponding code list value from http://publications.europa.eu/resource/dataset/file-type. This property may be repeated for parallel language versions of the label."
+            "en": "Use a label of the corresponding value from the code list http://publications.europa.eu/resource/dataset/file-type. This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -4945,7 +4949,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use language label code from http://publications.europa.eu/resource/authority/language/. "
+            "en": "Use a language label code from the code list http://publications.europa.eu/resource/authority/language/. "
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5043,7 +5047,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use label of a corresponding value from code list https://vocabularies.coar-repositories.org/resource_types/. This property may be repeated for parallel language versions of the label."
+            "en": "Use a label of the corresponding value from the register https://vocabularies.coar-repositories.org/resource_types/. This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5345,7 +5349,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/TimeReference/. This property may be repeated for parallel language versions of the label."
+            "en": "Use label of a corresponding value from the code list https://w3id.org/tib/datacite/vocab/dateType. This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5394,7 +5398,7 @@
             1
           ],
           "usageNote": {
-            "en": "References to the value from https://vocabs.ccmm.cz/registry/codelist/TimeReference/."
+            "en": "References to the value from the code list https://w3id.org/tib/datacite/vocab/dateType."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5442,7 +5446,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use value from https://vocabs.ccmm.cz/registry/codelist/RelationType/."
+            "en": "Use value from the code list https://w3id.org/tib/datacite/vocab/relationType."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5450,7 +5454,8 @@
           ],
           "externalDocumentationUrl": null,
           "tags": [],
-          "concept": "3njusexydbgmav76kca"
+          "concept": "3njusexydbgmav76kca",
+          "order": null
         }
       ]
     },
@@ -5489,7 +5494,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use label of corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/RelationType/. This property may be repeated for parallel language versions of the label."
+            "en": "Use a label of the corresponding value from the code list https://w3id.org/tib/datacite/vocab/relationType. This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5538,7 +5543,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use values from code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."
+            "en": "Use values from the code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5586,7 +5591,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/. This property may be repeated for parallel language versions of the label."
+            "en": "Use label of a corresponding value from the code list https://vocabs.ccmm.cz/registry/codelist/LocationRelation/. This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5635,7 +5640,7 @@
             1
           ],
           "usageNote": {
-            "en": "References to the value from https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/."
+            "en": "References to the value from the code list https://w3id.org/tib/datacite/vocab/titleType."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5643,7 +5648,8 @@
           ],
           "externalDocumentationUrl": null,
           "tags": [],
-          "concept": "q8w7218tlmamav6kkc6"
+          "concept": "q8w7218tlmamav6kkc6",
+          "order": null
         }
       ]
     },
@@ -5682,7 +5688,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use label of a corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/. This property may be repeated for parallel language versions of the label."
+            "en": "Use a label of the corresponding value from the code list https://w3id.org/tib/datacite/vocab/titleType. This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -6065,7 +6071,7 @@
             null
           ],
           "usageNote": {
-            "en": "Description may have various type from the codelist https://vocabs.ccmm.cz/registry/codelist/DescriptionType/. "
+            "en": "Description may have various type from the code list https://w3id.org/tib/datacite/vocab/descriptionType."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -6092,7 +6098,7 @@
       },
       "descriptionFromProfiled": null,
       "usageNote": {
-        "en": "Use value from codelist https://vocabs.ccmm.cz/registry/codelist/DescriptionType/."
+        "en": "Use value from the code list https://w3id.org/tib/datacite/vocab/descriptionType."
       },
       "usageNoteFromProfiled": null,
       "externalDocumentationUrl": null,
@@ -6136,7 +6142,7 @@
             1
           ],
           "usageNote": {
-            "en": "Type of the description from the code list https://vocabs.ccmm.cz/registry/codelist/DescriptionType/."
+            "en": "Type of the description from the code list https://w3id.org/tib/datacite/vocab/descriptionType."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -6188,7 +6194,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use the label of the corresponding value from code list https://vocabs.ccmm.cz/registry/codelist/DescriptionType/. This property may be repeated for parallel language versions of the label."
+            "en": "Use the label of the corresponding value from the code list https://w3id.org/tib/datacite/vocab/descriptionType. This property may be repeated for parallel language versions of the label."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -6468,8 +6474,10 @@
             "en": "has alternate title"
           },
           "nameFromProfiled": "https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle",
-          "description": {},
-          "descriptionFromProfiled": "https://model.ccmm.cz/vocabulary/ccmm#hasAlternateTitle",
+          "description": {
+            "en": "References to the alternate title of the resource."
+          },
+          "descriptionFromProfiled": null,
           "iri": "Resource.hasAlternateTitle",
           "cardinality": [
             0,
@@ -6482,7 +6490,8 @@
           ],
           "externalDocumentationUrl": null,
           "tags": [],
-          "concept": "0yqleht4693om8f0pgrs"
+          "concept": "0yqleht4693om8f0pgrs",
+          "order": null
         }
       ],
       "id": "jlx7ior6upmj8ce7aj",
@@ -6622,7 +6631,8 @@
           ],
           "externalDocumentationUrl": null,
           "tags": [],
-          "concept": "xh1usvbrb5pmav74mhm"
+          "concept": "xh1usvbrb5pmav74mhm",
+          "order": null
         }
       ],
       "id": "gi3soi04mbwmj8wm3wa",
