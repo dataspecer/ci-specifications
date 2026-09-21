@@ -8,6 +8,10 @@ container_id=''
 
 cleanup() {
   if [[ -n "$container_id" ]]; then
+    # Capture both output streams before stopping the auto-removed container.
+    if ! { mkdir -p "$EXPORT_DIR" && docker logs "$container_id" >"$EXPORT_DIR/docker.log" 2>&1; }; then
+      echo 'Could not save Dataspecer container logs to the export directory' >&2
+    fi
     docker stop "$container_id" >/dev/null || true
   fi
   rm -rf -- "$work_dir"
