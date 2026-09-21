@@ -1,0 +1,4390 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "192e1c39-405f-468a-93b9-40ff51b28489/ce15384d-2046-4629-98d6-299791446449/f4bf43ed-7266-4c8d-b7be-fcbf00814284/c9d9f383-d887-47b2-8e7d-494ca5fc95e2/8a03866d-5f43-40ba-ad6f-75e4c164028b",
+  "pimStore": {
+    "resources": {
+      "http://spdx.org/rdf/terms#Annotation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#Annotation",
+        "pimInterpretation": "http://spdx.org/rdf/terms#Annotation",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An Annotation is a comment on an SpdxItem by an agent."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#AnnotationType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#AnnotationType",
+        "pimInterpretation": "http://spdx.org/rdf/terms#AnnotationType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This type describes the type of annotation. Annotations are usually created when someone reviews the file, and if this is the case the annotation type should be REVIEW."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#AnyLicenseInfo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#AnyLicenseInfo",
+        "pimInterpretation": "http://spdx.org/rdf/terms#AnyLicenseInfo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The AnyLicenseInfo class includes all resources that represent licensing information."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#Checksum": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#Checksum",
+        "pimInterpretation": "http://spdx.org/rdf/terms#Checksum",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ChecksumAlgorithm": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ChecksumAlgorithm",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ChecksumAlgorithm",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Algorighm for Checksums."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ConjunctiveLicenseSet": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ConjunctiveLicenseSet",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ConjunctiveLicenseSet",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A ConjunctiveLicenseSet represents a set of licensing information all of which apply."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#AnyLicenseInfo",
+          "http://www.w3.org/2000/01/rdf-schema#Container",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#CreationInfo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#CreationInfo",
+        "pimInterpretation": "http://spdx.org/rdf/terms#CreationInfo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "One instance is required for each SPDX file produced. It provides the necessary information for forward and backward compatibility for processing tools."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#CrossRef": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#CrossRef",
+        "pimInterpretation": "http://spdx.org/rdf/terms#CrossRef",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Cross reference details for the a URL reference"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#DisjunctiveLicenseSet": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#DisjunctiveLicenseSet",
+        "pimInterpretation": "http://spdx.org/rdf/terms#DisjunctiveLicenseSet",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A DisjunctiveLicenseSet represents a set of licensing information where only one license applies at a time. This class implies that the recipient gets to choose one of these licenses they would prefer to use."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#AnyLicenseInfo",
+          "http://www.w3.org/2000/01/rdf-schema#Container",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ExternalDocumentRef": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ExternalDocumentRef",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ExternalDocumentRef",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Information about an external SPDX document reference including the checksum. This allows for verification of the external references."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ExternalRef": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ExternalRef",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ExternalRef",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An External Reference allows a Package to reference an external source of additional information, metadata, enumerations, asset identifiers, or downloadable content believed to be relevant to the Package."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ExtractedLicensingInfo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ExtractedLicensingInfo",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ExtractedLicensingInfo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An ExtractedLicensingInfo represents a license or licensing notice that was found in a package, file or snippet. Any license text that is recognized as a license may be represented as a License rather than an ExtractedLicensingInfo."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#SimpleLicensingInfo",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#File": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#File",
+        "pimInterpretation": "http://spdx.org/rdf/terms#File",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A File represents a named sequence of information that is contained in a software package."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#SpdxItem",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#FileType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#FileType",
+        "pimInterpretation": "http://spdx.org/rdf/terms#FileType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Type of file."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#License": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#License",
+        "pimInterpretation": "http://spdx.org/rdf/terms#License",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A License represents a copyright license. The SPDX license list website is annotated with these properties (using RDFa) to allow license data published there to be easily processed. The license list is populated in accordance with the License List fields guidelines. These guidelines are not normative and may change over time. SPDX tooling should not rely on values in the license list conforming to the current guidelines."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#SimpleLicensingInfo",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#LicenseException": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#LicenseException",
+        "pimInterpretation": "http://spdx.org/rdf/terms#LicenseException",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An exception to a license."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ListedLicense": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ListedLicense",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ListedLicense",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A license which is included in the SPDX License List (http://spdx.org/licenses)."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#License",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ListedLicenseException": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ListedLicenseException",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ListedLicenseException",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "License exception specific to ListedLicenses"
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#LicenseException",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#OrLaterOperator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#OrLaterOperator",
+        "pimInterpretation": "http://spdx.org/rdf/terms#OrLaterOperator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A license with an or later operator indicating this license version or any later version of the license"
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#AnyLicenseInfo",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#Package": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#Package",
+        "pimInterpretation": "http://spdx.org/rdf/terms#Package",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A Package represents a collection of software files that are delivered as a single functional component."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#SpdxItem",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#PackageVerificationCode": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#PackageVerificationCode",
+        "pimInterpretation": "http://spdx.org/rdf/terms#PackageVerificationCode",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A manifest based verification code (the algorithm is defined in section 4.7 of the full specification) of the SPDX Item. This allows consumers of this data and/or database to determine if an SPDX item they have in hand is identical to the SPDX item from which the data was produced. This algorithm works even if the SPDX document is included in the SPDX item."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#Purpose": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#Purpose",
+        "pimInterpretation": "http://spdx.org/rdf/terms#Purpose",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Package Purpose is intrinsic to how the package is being used rather than the content of the package."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ReferenceCategory": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ReferenceCategory",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ReferenceCategory",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Category used for ExternalRef"
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#ReferenceType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#ReferenceType",
+        "pimInterpretation": "http://spdx.org/rdf/terms#ReferenceType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Types used to external reference identifiers."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#Relationship": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#Relationship",
+        "pimInterpretation": "http://spdx.org/rdf/terms#Relationship",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A Relationship represents a relationship between two SpdxElements."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#RelationshipType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#RelationshipType",
+        "pimInterpretation": "http://spdx.org/rdf/terms#RelationshipType",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Type of relationship."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#Review": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#Review",
+        "pimInterpretation": "http://spdx.org/rdf/terms#Review",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This class has been deprecated in favor of an Annotation with an Annotation type of review."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#SimpleLicensingInfo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#SimpleLicensingInfo",
+        "pimInterpretation": "http://spdx.org/rdf/terms#SimpleLicensingInfo",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The SimpleLicenseInfo class includes all resources that represent simple, atomic, licensing information."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#AnyLicenseInfo",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#Snippet": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#Snippet",
+        "pimInterpretation": "http://spdx.org/rdf/terms#Snippet",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The set of bytes in a file. The name of the snippet is the name of the file appended with the byte range in parenthesis (ie: \"./file/name(2145:5532)\")"
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#SpdxItem",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#SpdxDocument": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimInterpretation": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An SpdxDocument is a summary of the contents, provenance, ownership and licensing analysis of a specific software package. This is, effectively, the top level of SPDX information."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#SpdxElement",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#SpdxElement": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#SpdxElement",
+        "pimInterpretation": "http://spdx.org/rdf/terms#SpdxElement",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An SpdxElement is any thing described in SPDX, either a document or an SpdxItem. SpdxElements can be related to other SpdxElements."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#SpdxItem": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#SpdxItem",
+        "pimInterpretation": "http://spdx.org/rdf/terms#SpdxItem",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An SpdxItem is a potentially copyrightable work."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#SpdxElement",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#WithExceptionOperator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://spdx.org/rdf/terms#WithExceptionOperator",
+        "pimInterpretation": "http://spdx.org/rdf/terms#WithExceptionOperator",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Sometimes a set of license terms apply except under special circumstances. In this case, use the binary \"WITH\" operator to construct a new license expression to represent the special exception situation. A valid <license-expression> is where the left operand is a <simple-expression> value and the right operand is a <license-exception-id> that represents the special exception terms."
+        },
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#AnyLicenseInfo",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://usefulinc.com/ns/doap#Project": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://usefulinc.com/ns/doap#Project",
+        "pimInterpretation": "http://usefulinc.com/ns/doap#Project",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2000/01/rdf-schema#Container": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2000/01/rdf-schema#Container",
+        "pimInterpretation": "http://www.w3.org/2000/01/rdf-schema#Container",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#ByteOffsetPointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#ByteOffsetPointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#ByteOffsetPointer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2009/pointers#OffsetPointer",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#CompoundPointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#CompoundPointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#CompoundPointer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2009/pointers#Pointer",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#LineCharPointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#LineCharPointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#LineCharPointer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2009/pointers#OffsetPointer",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#OffsetPointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#OffsetPointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#OffsetPointer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2009/pointers#SinglePointer",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#Pointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#Pointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#Pointer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#SinglePointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#SinglePointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#SinglePointer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2009/pointers#Pointer",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#StartEndPointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#StartEndPointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#StartEndPointer",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimExtends": [
+          "http://www.w3.org/2009/pointers#CompoundPointer",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#annotationDate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#annotationDate",
+        "pimInterpretation": "http://spdx.org/rdf/terms#annotationDate",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#date"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identify when the comment was made. This is to be specified according to the combined date and time in the UTC format, as specified in the ISO 8601 standard."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Annotation",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#annotator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#annotator",
+        "pimInterpretation": "http://spdx.org/rdf/terms#annotator",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field identifies the person, organization, or tool that has commented on a file, package, snippet, or the entire document."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Annotation",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#attributionText": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#attributionText",
+        "pimInterpretation": "http://spdx.org/rdf/terms#attributionText",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field provides a place for the SPDX data creator to record acknowledgements that may be required to be communicated in some contexts. This is not meant to include the actual complete license text (see licenseConculded and licenseDeclared), and may or may not include copyright notices (see also copyrightText). The SPDX data creator may use this field to record other acknowledgements, such as particular clauses from license texts, which may be necessary or desirable to reproduce."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#SpdxItem",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#builtDate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#builtDate",
+        "pimInterpretation": "http://spdx.org/rdf/terms#builtDate",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#date"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field provides a place for recording the actual date the package was built."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#checksumValue": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#checksumValue",
+        "pimInterpretation": "http://spdx.org/rdf/terms#checksumValue",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Checksum",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#hexBinary",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#contextualExample": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#contextualExample",
+        "pimInterpretation": "http://spdx.org/rdf/terms#contextualExample",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Example for use of the external repository identifier"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ReferenceType",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#copyrightText": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#copyrightText",
+        "pimInterpretation": "http://spdx.org/rdf/terms#copyrightText",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The text of copyright declarations recited in the package, file or snippet.\n\nIf the copyrightText field is not present, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#SpdxItem",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#created": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#created",
+        "pimInterpretation": "http://spdx.org/rdf/terms#created",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#date"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identify when the SPDX document was originally created. The date is to be specified according to combined date and time in UTC format as specified in ISO 8601 standard."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CreationInfo",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#creator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#creator",
+        "pimInterpretation": "http://spdx.org/rdf/terms#creator",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identify who (or what, in the case of a tool) created the SPDX document. If the SPDX document was created by an individual, indicate the person's name. If the SPDX document was created on behalf of a company or organization, indicate the entity name. If the SPDX document was created using a software tool, indicate the name and version for that tool. If multiple participants or tools were involved, use multiple instances of this field. Person name or organization name may be designated as “anonymous” if appropriate."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CreationInfo",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#date": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#date",
+        "pimInterpretation": "http://spdx.org/rdf/terms#date",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A date-time stamp."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#deprecatedVersion": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#deprecatedVersion",
+        "pimInterpretation": "http://spdx.org/rdf/terms#deprecatedVersion",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "License list version where this license was decprecated"
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#description": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#description",
+        "pimInterpretation": "http://spdx.org/rdf/terms#description",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Provides a detailed description of the package."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#documentation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#documentation",
+        "pimInterpretation": "http://spdx.org/rdf/terms#documentation",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Website containing the documentation related to the repository identifier"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ReferenceType",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#downloadLocation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#downloadLocation",
+        "pimInterpretation": "http://spdx.org/rdf/terms#downloadLocation",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The URI at which this package is available for download. Private (i.e., not publicly reachable) URIs are acceptable as values of this property. The values http://spdx.org/rdf/terms#none and http://spdx.org/rdf/terms#noassertion may be used to specify that the package is not downloadable or that no attempt was made to determine its download location, respectively."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#example": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#example",
+        "pimInterpretation": "http://spdx.org/rdf/terms#example",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Text for examples in describing an SPDX element."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#LicenseException",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#exceptionTextHtml": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#exceptionTextHtml",
+        "pimInterpretation": "http://spdx.org/rdf/terms#exceptionTextHtml",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "HTML representation of the License Exception Text"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ListedLicenseException",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#externalDocumentId": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#externalDocumentId",
+        "pimInterpretation": "http://spdx.org/rdf/terms#externalDocumentId",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "externalDocumentId is a string containing letters, numbers, ., - and/or + which uniquely identifies an external document within this document."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ExternalDocumentRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#externalReferenceSite": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#externalReferenceSite",
+        "pimInterpretation": "http://spdx.org/rdf/terms#externalReferenceSite",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Website for the maintainers of the external reference site"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ReferenceType",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#extractedText": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#extractedText",
+        "pimInterpretation": "http://spdx.org/rdf/terms#extractedText",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Provide a copy of the actual text of the license reference extracted from the package, file or snippet that is associated with the License Identifier to aid in future analysis."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ExtractedLicensingInfo",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#fileContributor": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#fileContributor",
+        "pimInterpretation": "http://spdx.org/rdf/terms#fileContributor",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field provides a place for the SPDX file creator to record file contributors. Contributors could include names of copyright holders and/or authors who may not be copyright holders yet contributed to the file content."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#File",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#fileName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#fileName",
+        "pimInterpretation": "http://spdx.org/rdf/terms#fileName",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#name"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The name of the file relative to the root of the package."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#File",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#filesAnalyzed": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#filesAnalyzed",
+        "pimInterpretation": "http://spdx.org/rdf/terms#filesAnalyzed",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicates whether the file content of this package has been available for or subjected to analysis when creating the SPDX document. If false indicates packages that represent metadata or URI references to a project, product, artifact, distribution or a component. If set to false, the package must not contain any files."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#boolean",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#isDeprecatedLicenseId": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+        "pimInterpretation": "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ListedLicense",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#boolean",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#isFsfLibre": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#isFsfLibre",
+        "pimInterpretation": "http://spdx.org/rdf/terms#isFsfLibre",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimOwnerClass": "http://spdx.org/rdf/terms#License",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#boolean",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#isLive": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#isLive",
+        "pimInterpretation": "http://spdx.org/rdf/terms#isLive",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicate a URL is still a live accessible location on the public internet"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CrossRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#boolean",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#isOsiApproved": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#isOsiApproved",
+        "pimInterpretation": "http://spdx.org/rdf/terms#isOsiApproved",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicates if the OSI has approved the license."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#License",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#boolean",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#isValid": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#isValid",
+        "pimInterpretation": "http://spdx.org/rdf/terms#isValid",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "True if the URL is a valid well formed URL"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CrossRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#boolean",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#isWayBackLink": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#isWayBackLink",
+        "pimInterpretation": "http://spdx.org/rdf/terms#isWayBackLink",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "True if the License SeeAlso URL points to a Wayback archive"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CrossRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#boolean",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseComments": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseComments",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseComments",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The licenseComments property allows the preparer of the SPDX document to describe why the licensing in spdx:licenseConcluded was chosen."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#SpdxItem",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseExceptionId": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseExceptionId",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseExceptionId",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Short form license exception identifier in Appendix I.2 of the SPDX specification."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#LicenseException",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseExceptionTemplate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseExceptionTemplate",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseExceptionTemplate",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Template for matching license exception text"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#LicenseException",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseExceptionText": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseExceptionText",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseExceptionText",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Full text of the license exception."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#LicenseException",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseId": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseId",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseId",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A human readable short form license identifier for a license. The license ID is either on the standard license list or the form \"LicenseRef-[idString]\" where [idString] is a unique string containing letters, numbers, \".\" or \"-\".  When used within a license expression, the license ID can optionally include a reference to an external document in the form \"DocumentRef-[docrefIdString]:LicenseRef-[idString]\" where docRefIdString is an ID for an external document reference."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#SimpleLicensingInfo",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseListVersion": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseListVersion",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseListVersion",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An optional field for creators of the SPDX file to provide the version of the SPDX License List used when the SPDX file was created."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CreationInfo",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseText": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseText",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseText",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Full text of the license."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#License",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseTextHtml": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseTextHtml",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseTextHtml",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "License text in HTML format"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ListedLicense",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#match": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#match",
+        "pimInterpretation": "http://spdx.org/rdf/terms#match",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Status of a License List SeeAlso URL reference if it refers to a website that matches the license text."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CrossRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#name": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#name",
+        "pimInterpretation": "http://spdx.org/rdf/terms#name",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identify name of this SpdxElement."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#SpdxElement",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#noticeText": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#noticeText",
+        "pimInterpretation": "http://spdx.org/rdf/terms#noticeText",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field provides a place for the SPDX file creator to record potential legal notices found in the file. This may or may not include copyright statements."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#File",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#order": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#order",
+        "pimInterpretation": "http://spdx.org/rdf/terms#order",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The ordinal order of this element within a list"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CrossRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#originator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#originator",
+        "pimInterpretation": "http://spdx.org/rdf/terms#originator",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The name and, optionally, contact information of the person or organization that originally created the package. Values of this property must conform to the agent and tool syntax."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#packageFileName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#packageFileName",
+        "pimInterpretation": "http://spdx.org/rdf/terms#packageFileName",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The base name of the package file name. For example, zlib-1.2.5.tar.gz."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#packageName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#packageName",
+        "pimInterpretation": "http://spdx.org/rdf/terms#packageName",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#name"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identify the full name of the package as given by Package Originator."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#packageVerificationCodeExcludedFile": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#packageVerificationCodeExcludedFile",
+        "pimInterpretation": "http://spdx.org/rdf/terms#packageVerificationCodeExcludedFile",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A file that was excluded when calculating the package verification code. This is usually a file containing SPDX data regarding the package. If a package contains more than one SPDX file all SPDX files must be excluded from the package verification code. If this is not done it would be impossible to correctly calculate the verification codes in both files."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#PackageVerificationCode",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#packageVerificationCodeValue": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#packageVerificationCodeValue",
+        "pimInterpretation": "http://spdx.org/rdf/terms#packageVerificationCodeValue",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The actual package verification code as a hex encoded value."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#PackageVerificationCode",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#hexBinary",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#referenceLocator": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referenceLocator",
+        "pimInterpretation": "http://spdx.org/rdf/terms#referenceLocator",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The unique string with no spaces necessary to access the package-specific information, metadata, or content within the target location. The format of the locator is subject to constraints defined by the <type>."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ExternalRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#releaseDate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#releaseDate",
+        "pimInterpretation": "http://spdx.org/rdf/terms#releaseDate",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#date"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field provides a place for recording the date the package was released."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#reviewDate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#reviewDate",
+        "pimInterpretation": "http://spdx.org/rdf/terms#reviewDate",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The date and time at which the SpdxDocument was reviewed. This value must be in UTC and have 'Z' as its timezone indicator."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Review",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#reviewer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#reviewer",
+        "pimInterpretation": "http://spdx.org/rdf/terms#reviewer",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The name and, optionally, contact information of the person who performed the review. Values of this property must conform to the agent and tool syntax.  The reviewer property is deprecated in favor of Annotation with an annotationType review."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Review",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#snippetName": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#snippetName",
+        "pimInterpretation": "http://spdx.org/rdf/terms#snippetName",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#name"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identify a specific snippet in a human convenient manner."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Snippet",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#sourceInfo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#sourceInfo",
+        "pimInterpretation": "http://spdx.org/rdf/terms#sourceInfo",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Allows the producer(s) of the SPDX document to describe how the package was acquired and/or changed from the original source."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#specVersion": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#specVersion",
+        "pimInterpretation": "http://spdx.org/rdf/terms#specVersion",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Provide a reference number that can be used to understand how to parse and interpret the rest of the file. It will enable both future changes to the specification and to support backward compatibility. The version number consists of a major and minor version indicator. The major field will be incremented when incompatible changes between versions are made (one or more sections are created, modified or deleted). The minor field will be incremented when backwards compatible changes are made."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#standardLicenseHeader": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#standardLicenseHeader",
+        "pimInterpretation": "http://spdx.org/rdf/terms#standardLicenseHeader",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "License author's preferred text to indicated that a file is covered by the license."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#License",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#standardLicenseHeaderHtml": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#standardLicenseHeaderHtml",
+        "pimInterpretation": "http://spdx.org/rdf/terms#standardLicenseHeaderHtml",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "HTML representation of the standard license header"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#ListedLicense",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate",
+        "pimInterpretation": "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "License template which describes sections of the license header which can be varied. See License Template section of the specification for format information."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#License",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#standardLicenseTemplate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#standardLicenseTemplate",
+        "pimInterpretation": "http://spdx.org/rdf/terms#standardLicenseTemplate",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "License template which describes sections of the license which can be varied. See License Template section of the specification for format information."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#License",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#summary": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#summary",
+        "pimInterpretation": "http://spdx.org/rdf/terms#summary",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Provides a short description of the package."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#supplier": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#supplier",
+        "pimInterpretation": "http://spdx.org/rdf/terms#supplier",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The name and, optionally, contact information of the person or organization who was the immediate supplier of this package to the recipient. The supplier may be different than originator when the software has been repackaged. Values of this property must conform to the agent and tool syntax."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#timestamp": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#timestamp",
+        "pimInterpretation": "http://spdx.org/rdf/terms#timestamp",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Timestamp"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CrossRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#url": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#url",
+        "pimInterpretation": "http://spdx.org/rdf/terms#url",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "URL Reference"
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#CrossRef",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#validUntilDate": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#validUntilDate",
+        "pimInterpretation": "http://spdx.org/rdf/terms#validUntilDate",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#date"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field provides a place for recording the end of the support period for a package from the supplier."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#versionInfo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://spdx.org/rdf/terms#versionInfo",
+        "pimInterpretation": "http://spdx.org/rdf/terms#versionInfo",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Provides an indication of the version of the package that is described by this SpdxDocument."
+        },
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://usefulinc.com/ns/doap#homepage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://usefulinc.com/ns/doap#homepage",
+        "pimInterpretation": "http://usefulinc.com/ns/doap#homepage",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimOwnerClass": "http://spdx.org/rdf/terms#Package",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2000/01/rdf-schema#comment": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimInterpretation": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2001/XMLSchema#string",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2000/01/rdf-schema#seeAlso": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+        "pimInterpretation": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#lineNumber/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#lineNumber/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2009/pointers#LineCharPointer",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#lineNumber/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#lineNumber/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2001/XMLSchema#positiveInteger",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#lineNumber": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#lineNumber",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#lineNumber",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimEnd": [
+          "http://www.w3.org/2009/pointers#lineNumber/end-0",
+          "http://www.w3.org/2009/pointers#lineNumber/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#offset/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#offset/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2009/pointers#OffsetPointer",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#offset/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#offset/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2001/XMLSchema#positiveInteger",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#offset": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#offset",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#offset",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimEnd": [
+          "http://www.w3.org/2009/pointers#offset/end-0",
+          "http://www.w3.org/2009/pointers#offset/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#algorithm/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#algorithm/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Checksum",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#algorithm/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#algorithm/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#algorithm": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#algorithm",
+        "pimInterpretation": "http://spdx.org/rdf/terms#algorithm",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#algorithm/end-0",
+          "http://spdx.org/rdf/terms#algorithm/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#annotation/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#annotation/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxElement",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#annotation/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#annotation/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Provide additional information about an SpdxElement."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#Annotation",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#annotation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#annotation",
+        "pimInterpretation": "http://spdx.org/rdf/terms#annotation",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Provide additional information about an SpdxElement."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#annotation/end-0",
+          "http://spdx.org/rdf/terms#annotation/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#annotationType/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#annotationType/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Annotation",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#annotationType/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#annotationType/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Type of the annotation."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#annotationType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#annotationType",
+        "pimInterpretation": "http://spdx.org/rdf/terms#annotationType",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Type of the annotation."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#annotationType/end-0",
+          "http://spdx.org/rdf/terms#annotationType/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#artifactOf/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#artifactOf/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxElement",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#artifactOf/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#artifactOf/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicates the project in which the SpdxElement originated. Tools must preserve doap:homepage and doap:name properties and the URI (if one is known) of doap:Project resources that are values of this property. All other properties of doap:Projects are not directly supported by SPDX and may be dropped when translating to or from some SPDX formats."
+        },
+        "pimPart": "http://usefulinc.com/ns/doap#Project",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#artifactOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#artifactOf",
+        "pimInterpretation": "http://spdx.org/rdf/terms#artifactOf",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicates the project in which the SpdxElement originated. Tools must preserve doap:homepage and doap:name properties and the URI (if one is known) of doap:Project resources that are values of this property. All other properties of doap:Projects are not directly supported by SPDX and may be dropped when translating to or from some SPDX formats."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#artifactOf/end-0",
+          "http://spdx.org/rdf/terms#artifactOf/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#checksum/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#checksum/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#checksum/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#checksum/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#Checksum",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#checksum": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#checksum",
+        "pimInterpretation": "http://spdx.org/rdf/terms#checksum",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#checksum/end-0",
+          "http://spdx.org/rdf/terms#checksum/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#creationInfo/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#creationInfo/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#creationInfo/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#creationInfo/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The creationInfo property relates an SpdxDocument to a set of information about the creation of the SpdxDocument."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#CreationInfo",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#creationInfo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#creationInfo",
+        "pimInterpretation": "http://spdx.org/rdf/terms#creationInfo",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The creationInfo property relates an SpdxDocument to a set of information about the creation of the SpdxDocument."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#creationInfo/end-0",
+          "http://spdx.org/rdf/terms#creationInfo/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#crossRef/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#crossRef/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#crossRef/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#crossRef/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Cross Reference Detail for a license SeeAlso URL"
+        },
+        "pimPart": "http://spdx.org/rdf/terms#SimpleLicensingInfo",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#crossRef": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#crossRef",
+        "pimInterpretation": "http://spdx.org/rdf/terms#crossRef",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Cross Reference Detail for a license SeeAlso URL"
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#crossRef/end-0",
+          "http://spdx.org/rdf/terms#crossRef/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#dataLicense/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#dataLicense/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#dataLicense/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#dataLicense/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Compliance with the SPDX specification includes populating the SPDX fields therein with data related to such fields (\"SPDX-Metadata\"). The SPDX specification contains numerous fields where an SPDX document creator may provide relevant explanatory text in SPDX-Metadata. Without opining on the lawfulness of \"database rights\" (in jurisdictions where applicable), such explanatory text is copyrightable subject matter in most Berne Convention countries. By using the SPDX specification, or any portion hereof, you hereby agree that any copyright rights (as determined by your jurisdiction) in any SPDX-Metadata, including without limitation explanatory text, shall be subject to the terms of the Creative Commons CC0 1.0 Universal license. For SPDX-Metadata not containing any copyright rights, you hereby agree and acknowledge that the SPDX-Metadata is provided to you \"as-is\" and without any representations or warranties of any kind concerning the SPDX-Metadata, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non-infringement, or the absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#dataLicense": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#dataLicense",
+        "pimInterpretation": "http://spdx.org/rdf/terms#dataLicense",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Compliance with the SPDX specification includes populating the SPDX fields therein with data related to such fields (\"SPDX-Metadata\"). The SPDX specification contains numerous fields where an SPDX document creator may provide relevant explanatory text in SPDX-Metadata. Without opining on the lawfulness of \"database rights\" (in jurisdictions where applicable), such explanatory text is copyrightable subject matter in most Berne Convention countries. By using the SPDX specification, or any portion hereof, you hereby agree that any copyright rights (as determined by your jurisdiction) in any SPDX-Metadata, including without limitation explanatory text, shall be subject to the terms of the Creative Commons CC0 1.0 Universal license. For SPDX-Metadata not containing any copyright rights, you hereby agree and acknowledge that the SPDX-Metadata is provided to you \"as-is\" and without any representations or warranties of any kind concerning the SPDX-Metadata, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non-infringement, or the absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#dataLicense/end-0",
+          "http://spdx.org/rdf/terms#dataLicense/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#describesPackage/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#describesPackage/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#describesPackage/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#describesPackage/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The describesPackage property relates an SpdxDocument to the package which it describes."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#Package",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#describesPackage": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#describesPackage",
+        "pimInterpretation": "http://spdx.org/rdf/terms#describesPackage",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The describesPackage property relates an SpdxDocument to the package which it describes."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#describesPackage/end-0",
+          "http://spdx.org/rdf/terms#describesPackage/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#externalDocumentRef/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#externalDocumentRef/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#externalDocumentRef/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#externalDocumentRef/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identify any external SPDX documents referenced within this SPDX document."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#ExternalDocumentRef",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#externalDocumentRef": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#externalDocumentRef",
+        "pimInterpretation": "http://spdx.org/rdf/terms#externalDocumentRef",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Identify any external SPDX documents referenced within this SPDX document."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#externalDocumentRef/end-0",
+          "http://spdx.org/rdf/terms#externalDocumentRef/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#externalRef/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#externalRef/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Package",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#externalRef/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#externalRef/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An External Reference allows a Package to reference an external source of additional information, metadata, enumerations, asset identifiers, or downloadable content believed to be relevant to the Package."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#ExternalRef",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#externalRef": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#externalRef",
+        "pimInterpretation": "http://spdx.org/rdf/terms#externalRef",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An External Reference allows a Package to reference an external source of additional information, metadata, enumerations, asset identifiers, or downloadable content believed to be relevant to the Package."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#externalRef/end-0",
+          "http://spdx.org/rdf/terms#externalRef/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#fileDependency/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#fileDependency/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#File",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#fileDependency/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#fileDependency/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field is deprecated since SPDX 2.0 in favor of using Section 7 which provides more granularity about relationships."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#File",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#fileDependency": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#fileDependency",
+        "pimInterpretation": "http://spdx.org/rdf/terms#fileDependency",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field is deprecated since SPDX 2.0 in favor of using Section 7 which provides more granularity about relationships."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#fileDependency/end-0",
+          "http://spdx.org/rdf/terms#fileDependency/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#fileType/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#fileType/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#File",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#fileType/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#fileType/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The type of the file."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#fileType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#fileType",
+        "pimInterpretation": "http://spdx.org/rdf/terms#fileType",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The type of the file."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#fileType/end-0",
+          "http://spdx.org/rdf/terms#fileType/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#hasExtractedLicensingInfo/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#hasExtractedLicensingInfo/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#hasExtractedLicensingInfo/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#hasExtractedLicensingInfo/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicates that a particular ExtractedLicensingInfo was defined in the subject SpdxDocument."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#ExtractedLicensingInfo",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#hasExtractedLicensingInfo": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#hasExtractedLicensingInfo",
+        "pimInterpretation": "http://spdx.org/rdf/terms#hasExtractedLicensingInfo",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicates that a particular ExtractedLicensingInfo was defined in the subject SpdxDocument."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#hasExtractedLicensingInfo/end-0",
+          "http://spdx.org/rdf/terms#hasExtractedLicensingInfo/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#hasFile/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#hasFile/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Package",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#hasFile/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#hasFile/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicates that a particular file belongs to a package."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#File",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#hasFile": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#hasFile",
+        "pimInterpretation": "http://spdx.org/rdf/terms#hasFile",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Indicates that a particular file belongs to a package."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#hasFile/end-0",
+          "http://spdx.org/rdf/terms#hasFile/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseConcluded/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseConcluded/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#licenseConcluded/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseConcluded/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The licensing that the preparer of this SPDX document has concluded, based on the evidence, actually applies to the SPDX Item.\n\nIf the licenseConcluded field is not present for an SPDX Item, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseConcluded": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseConcluded",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseConcluded",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The licensing that the preparer of this SPDX document has concluded, based on the evidence, actually applies to the SPDX Item.\n\nIf the licenseConcluded field is not present for an SPDX Item, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#licenseConcluded/end-0",
+          "http://spdx.org/rdf/terms#licenseConcluded/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseDeclared/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseDeclared/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxItem",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#licenseDeclared/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseDeclared/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The licensing that the creators of the software in the package, or the packager, have declared. Declarations by the original software creator should be preferred, if they exist."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#AnyLicenseInfo",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseDeclared": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseDeclared",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseDeclared",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The licensing that the creators of the software in the package, or the packager, have declared. Declarations by the original software creator should be preferred, if they exist."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#licenseDeclared/end-0",
+          "http://spdx.org/rdf/terms#licenseDeclared/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseException/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseException/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#WithExceptionOperator",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#licenseException/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseException/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An exception to a license."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#LicenseException",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseException": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseException",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseException",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "An exception to a license."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#licenseException/end-0",
+          "http://spdx.org/rdf/terms#licenseException/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseInfoFromFiles/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoFromFiles/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Package",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#licenseInfoFromFiles/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoFromFiles/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The licensing information that was discovered directly within the package. There will be an instance of this property for each distinct value of alllicenseInfoInFile properties of all files contained in the package.\n\nIf the licenseInfoFromFiles field is not present for a package and filesAnalyzed property for that same package is true or omitted, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseInfoFromFiles": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoFromFiles",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseInfoFromFiles",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "The licensing information that was discovered directly within the package. There will be an instance of this property for each distinct value of alllicenseInfoInFile properties of all files contained in the package.\n\nIf the licenseInfoFromFiles field is not present for a package and filesAnalyzed property for that same package is true or omitted, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#licenseInfoFromFiles/end-0",
+          "http://spdx.org/rdf/terms#licenseInfoFromFiles/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseInfoInFile/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoInFile/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#File",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#licenseInfoInFile/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoInFile/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Licensing information that was discovered directly in the subject file. This is also considered a declared license for the file.\n\nIf the licenseInfoInFile field is not present for a file, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseInfoInFile": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoInFile",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseInfoInFile",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#licenseInfoFromFiles"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Licensing information that was discovered directly in the subject file. This is also considered a declared license for the file.\n\nIf the licenseInfoInFile field is not present for a file, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#licenseInfoInFile/end-0",
+          "http://spdx.org/rdf/terms#licenseInfoInFile/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseInfoInSnippet/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoInSnippet/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Snippet",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#licenseInfoInSnippet/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoInSnippet/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Licensing information that was discovered directly in the subject snippet. This is also considered a declared license for the snippet.\n\nIf the licenseInfoInSnippet field is not present for a snippet, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#licenseInfoInSnippet": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#licenseInfoInSnippet",
+        "pimInterpretation": "http://spdx.org/rdf/terms#licenseInfoInSnippet",
+        "pimExtends": [
+          "http://spdx.org/rdf/terms#licenseInfoFromFiles"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Licensing information that was discovered directly in the subject snippet. This is also considered a declared license for the snippet.\n\nIf the licenseInfoInSnippet field is not present for a snippet, it implies an equivalent meaning to NOASSERTION."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#licenseInfoInSnippet/end-0",
+          "http://spdx.org/rdf/terms#licenseInfoInSnippet/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#member/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#member/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#member/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#member/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A license, or other licensing information, that is a member of the subject license set."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#AnyLicenseInfo",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#member": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#member",
+        "pimInterpretation": "http://spdx.org/rdf/terms#member",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A license, or other licensing information, that is a member of the subject license set."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#member/end-0",
+          "http://spdx.org/rdf/terms#member/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#packageVerificationCode/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#packageVerificationCode/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Package",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#packageVerificationCode/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#packageVerificationCode/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A manifest based verification code (the algorithm is defined in section 3.9.4 of the full specification) of the package. This allows consumers of this data and/or database to determine if a package they have in hand is identical to the package from which the data was produced. This algorithm works even if the SPDX document is included in the package."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#PackageVerificationCode",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#packageVerificationCode": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#packageVerificationCode",
+        "pimInterpretation": "http://spdx.org/rdf/terms#packageVerificationCode",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A manifest based verification code (the algorithm is defined in section 3.9.4 of the full specification) of the package. This allows consumers of this data and/or database to determine if a package they have in hand is identical to the package from which the data was produced. This algorithm works even if the SPDX document is included in the package."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#packageVerificationCode/end-0",
+          "http://spdx.org/rdf/terms#packageVerificationCode/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#primaryPackagePurpose/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#primaryPackagePurpose/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Package",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#primaryPackagePurpose/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#primaryPackagePurpose/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field provides information about the primary purpose of the identified package. Package Purpose is intrinsic to how the package is being used rather than the content of the package."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#Purpose",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#primaryPackagePurpose": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#primaryPackagePurpose",
+        "pimInterpretation": "http://spdx.org/rdf/terms#primaryPackagePurpose",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field provides information about the primary purpose of the identified package. Package Purpose is intrinsic to how the package is being used rather than the content of the package."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#primaryPackagePurpose/end-0",
+          "http://spdx.org/rdf/terms#primaryPackagePurpose/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#range/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#range/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Snippet",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#range/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#range/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field defines the byte range in the original host file (in X.2) that the snippet information applies to"
+        },
+        "pimPart": "http://www.w3.org/2009/pointers#StartEndPointer",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#range": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#range",
+        "pimInterpretation": "http://spdx.org/rdf/terms#range",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This field defines the byte range in the original host file (in X.2) that the snippet information applies to"
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#range/end-0",
+          "http://spdx.org/rdf/terms#range/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#referenceCategory/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referenceCategory/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#ExternalRef",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#referenceCategory/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referenceCategory/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Category for the external reference"
+        },
+        "pimPart": "http://spdx.org/rdf/terms#ReferenceCategory",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#referenceCategory": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referenceCategory",
+        "pimInterpretation": "http://spdx.org/rdf/terms#referenceCategory",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Category for the external reference"
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#referenceCategory/end-0",
+          "http://spdx.org/rdf/terms#referenceCategory/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#referenceType/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referenceType/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#ExternalRef",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#referenceType/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referenceType/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Type of the external reference. These are defined in an appendix in the SPDX specification."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#ReferenceType",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#referenceType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referenceType",
+        "pimInterpretation": "http://spdx.org/rdf/terms#referenceType",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Type of the external reference. These are defined in an appendix in the SPDX specification."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#referenceType/end-0",
+          "http://spdx.org/rdf/terms#referenceType/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#referencesFile/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referencesFile/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#referencesFile/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referencesFile/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This property has been replaced by a relationship between the SPDX document and file with a \"contains\" relationship type."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#File",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#referencesFile": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#referencesFile",
+        "pimInterpretation": "http://spdx.org/rdf/terms#referencesFile",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "This property has been replaced by a relationship between the SPDX document and file with a \"contains\" relationship type."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#referencesFile/end-0",
+          "http://spdx.org/rdf/terms#referencesFile/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#relatedSpdxElement/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relatedSpdxElement/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Relationship",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#relatedSpdxElement/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relatedSpdxElement/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A related SpdxElement."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#SpdxElement",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#relatedSpdxElement": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relatedSpdxElement",
+        "pimInterpretation": "http://spdx.org/rdf/terms#relatedSpdxElement",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A related SpdxElement."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#relatedSpdxElement/end-0",
+          "http://spdx.org/rdf/terms#relatedSpdxElement/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#relationship/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relationship/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxElement",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#relationship/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relationship/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Defines a relationship between two SPDX elements. The SPDX element may be a Package, File, or SpdxDocument."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#Relationship",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#relationship": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relationship",
+        "pimInterpretation": "http://spdx.org/rdf/terms#relationship",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Defines a relationship between two SPDX elements. The SPDX element may be a Package, File, or SpdxDocument."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#relationship/end-0",
+          "http://spdx.org/rdf/terms#relationship/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#relationshipType/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relationshipType/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Relationship",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#relationshipType/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relationshipType/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Describes the type of relationship between two SPDX elements."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#relationshipType": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#relationshipType",
+        "pimInterpretation": "http://spdx.org/rdf/terms#relationshipType",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Describes the type of relationship between two SPDX elements."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#relationshipType/end-0",
+          "http://spdx.org/rdf/terms#relationshipType/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#reviewed/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#reviewed/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#reviewed/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#reviewed/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Reviewed"
+        },
+        "pimPart": "http://spdx.org/rdf/terms#Review",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#reviewed": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#reviewed",
+        "pimInterpretation": "http://spdx.org/rdf/terms#reviewed",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "Reviewed"
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#reviewed/end-0",
+          "http://spdx.org/rdf/terms#reviewed/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#snippetFromFile/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#snippetFromFile/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#Snippet",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#snippetFromFile/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#snippetFromFile/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "File containing the SPDX element (e.g. the file contaning a snippet)."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#File",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#snippetFromFile": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#snippetFromFile",
+        "pimInterpretation": "http://spdx.org/rdf/terms#snippetFromFile",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "File containing the SPDX element (e.g. the file contaning a snippet)."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#snippetFromFile/end-0",
+          "http://spdx.org/rdf/terms#snippetFromFile/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#spdxDocument/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#spdxDocument/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://spdx.org/rdf/terms#ExternalDocumentRef",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://spdx.org/rdf/terms#spdxDocument/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://spdx.org/rdf/terms#spdxDocument/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A property containing an SPDX document."
+        },
+        "pimPart": "http://spdx.org/rdf/terms#SpdxDocument",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://spdx.org/rdf/terms#spdxDocument": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://spdx.org/rdf/terms#spdxDocument",
+        "pimInterpretation": "http://spdx.org/rdf/terms#spdxDocument",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": {
+          "en": "A property containing an SPDX document."
+        },
+        "pimEnd": [
+          "http://spdx.org/rdf/terms#spdxDocument/end-0",
+          "http://spdx.org/rdf/terms#spdxDocument/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2009/pointers#endPointer/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#endPointer/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2009/pointers#CompoundPointer",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#endPointer/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#endPointer/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2009/pointers#SinglePointer",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#endPointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#endPointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#endPointer",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimEnd": [
+          "http://www.w3.org/2009/pointers#endPointer/end-0",
+          "http://www.w3.org/2009/pointers#endPointer/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#reference/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#reference/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2009/pointers#SinglePointer",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#reference/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#reference/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#reference": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#reference",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#reference",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimEnd": [
+          "http://www.w3.org/2009/pointers#reference/end-0",
+          "http://www.w3.org/2009/pointers#reference/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#startPointer/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#startPointer/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2009/pointers#CompoundPointer",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#startPointer/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#startPointer/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2009/pointers#SinglePointer",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2009/pointers#startPointer": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2009/pointers#startPointer",
+        "pimInterpretation": "http://www.w3.org/2009/pointers#startPointer",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimEnd": [
+          "http://www.w3.org/2009/pointers#startPointer/end-0",
+          "http://www.w3.org/2009/pointers#startPointer/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      }
+    }
+  },
+  "urls": [
+    "https://datagov-cz.github.io/cache-slovniku/spdx-ontology.2.3.1.ttl"
+  ],
+  "label": {
+    "en": "spdx-ontology"
+  }
+}

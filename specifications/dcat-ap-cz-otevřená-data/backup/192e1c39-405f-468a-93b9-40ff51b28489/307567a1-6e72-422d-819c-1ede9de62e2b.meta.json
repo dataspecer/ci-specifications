@@ -1,0 +1,22 @@
+{
+  "iri": "307567a1-6e72-422d-819c-1ede9de62e2b",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "DCAT-AP-CZ: Datové sady otevřených dat"
+    },
+    "description": {
+      "en": "Semantic model for the profile"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-09-04T14:28:14.191Z",
+    "modificationDate": "2026-09-08T13:12:24.496Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:13:22.948Z",
+  "_exportedBy": "http://localhost:3100"
+}

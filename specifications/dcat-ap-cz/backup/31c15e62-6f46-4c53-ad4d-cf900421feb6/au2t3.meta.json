@@ -1,0 +1,15 @@
+{
+  "iri": "au2t3",
+  "types": [
+    "http://dataspecer.com/resources/local/visual-model"
+  ],
+  "userMetadata": {},
+  "metadata": {
+    "creationDate": "2026-09-04T14:04:56.316Z",
+    "modificationDate": "2026-09-04T14:14:24.354Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-04T14:14:38.415Z",
+  "_exportedBy": "http://localhost:3100"
+}

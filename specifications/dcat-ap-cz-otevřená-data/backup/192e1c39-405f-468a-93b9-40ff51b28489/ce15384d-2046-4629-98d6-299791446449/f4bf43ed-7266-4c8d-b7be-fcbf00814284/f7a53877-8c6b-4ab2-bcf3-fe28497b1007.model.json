@@ -1,0 +1,182 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "192e1c39-405f-468a-93b9-40ff51b28489/ce15384d-2046-4629-98d6-299791446449/f4bf43ed-7266-4c8d-b7be-fcbf00814284/f7a53877-8c6b-4ab2-bcf3-fe28497b1007",
+  "pimStore": {
+    "resources": {
+      "http://data.europa.eu/r5r/applicableLegislation/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/applicableLegislation/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://data.europa.eu/r5r/applicableLegislation/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/applicableLegislation/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "applicable legislation"
+        },
+        "pimHumanDescription": {
+          "en": "the legislation that is applicable to this resource."
+        },
+        "pimPart": "http://data.europa.eu/eli/ontology#LegalResource",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://data.europa.eu/r5r/applicableLegislation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/r5r/applicableLegislation",
+        "pimInterpretation": "http://data.europa.eu/r5r/applicableLegislation",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "applicable legislation"
+        },
+        "pimHumanDescription": {
+          "en": "the legislation that is applicable to this resource."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/r5r/applicableLegislation/end-0",
+          "http://data.europa.eu/r5r/applicableLegislation/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://data.europa.eu/r5r/availability/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/availability/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/ns/dcat#Distribution",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://data.europa.eu/r5r/availability/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/availability/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "availability"
+        },
+        "pimHumanDescription": {
+          "en": "An indication how long it is planned to keep the Distribution of the Dataset available."
+        },
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://data.europa.eu/r5r/availability": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/r5r/availability",
+        "pimInterpretation": "http://data.europa.eu/r5r/availability",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "availability"
+        },
+        "pimHumanDescription": {
+          "en": "An indication how long it is planned to keep the Distribution of the Dataset available."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/r5r/availability/end-0",
+          "http://data.europa.eu/r5r/availability/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://data.europa.eu/r5r/hvdCategory/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/hvdCategory/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://data.europa.eu/r5r/hvdCategory/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://data.europa.eu/r5r/hvdCategory/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "HVD category"
+        },
+        "pimHumanDescription": {
+          "en": "A data category defined in the High Value Dataset Implementing Regulation."
+        },
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://data.europa.eu/r5r/hvdCategory": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://data.europa.eu/r5r/hvdCategory",
+        "pimInterpretation": "http://data.europa.eu/r5r/hvdCategory",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "HVD category"
+        },
+        "pimHumanDescription": {
+          "en": "A data category defined in the High Value Dataset Implementing Regulation."
+        },
+        "pimEnd": [
+          "http://data.europa.eu/r5r/hvdCategory/end-0",
+          "http://data.europa.eu/r5r/hvdCategory/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    }
+  },
+  "urls": [
+    "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0/voc/r5r.jsonld"
+  ],
+  "label": {
+    "en": "r5r"
+  }
+}

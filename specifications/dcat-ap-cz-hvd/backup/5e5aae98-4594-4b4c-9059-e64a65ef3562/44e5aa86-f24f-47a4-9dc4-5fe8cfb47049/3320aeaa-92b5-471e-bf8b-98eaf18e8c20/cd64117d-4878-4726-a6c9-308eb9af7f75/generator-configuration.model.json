@@ -1,0 +1,18 @@
+{
+  "data-specification": {
+    "useGenerators": {
+      "json": false,
+      "jsonExample": false,
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false
+    },
+    "publicBaseUrl": "https://mff-uk.github.io/specifications/dcat-ap/"
+  },
+  "id": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/generator-configuration",
+  "type": []
+}

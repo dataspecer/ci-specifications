@@ -1,0 +1,18 @@
+{
+  "data-specification": {
+    "useGenerators": {
+      "json": false,
+      "jsonExample": false,
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false
+    },
+    "publicBaseUrl": "https://mff-uk.github.io/specifications/dcat-dap/"
+  },
+  "id": "69160fc4-9370-4130-8795-a4ff50a70a28/8e9e8b3e-b953-409e-b222-7a6ea593b006/bdec526d-44de-434f-81b4-d167a589d064/2011babe-e10a-4743-9761-c36d0bbfc67c/generator-configuration",
+  "type": []
+}

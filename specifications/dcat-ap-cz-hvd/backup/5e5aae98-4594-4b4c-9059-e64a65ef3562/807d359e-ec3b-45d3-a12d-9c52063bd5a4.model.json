@@ -1,0 +1,26 @@
+{
+  "id": "807d359e-ec3b-45d3-a12d-9c52063bd5a4",
+  "type": [],
+  "json": {
+    "jsonIdKeyAlias": "iri",
+    "jsonTypeKeyAlias": "typ"
+  },
+  "data-specification": {
+    "publicBaseUrl": "https://ofn.gov.cz/dcat-ap-cz-hvd/2026-09-23/",
+    "skipStructureNameIfOnlyOne": false,
+    "useGenerators": {
+      "jsonExample": false,
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false
+    },
+    "renameArtifacts": {
+      "http://example.com/generator/json-schema": "schéma.json",
+      "http://dataspecer.com/generator/json-ld": "kontext.jsonld"
+    }
+  }
+}

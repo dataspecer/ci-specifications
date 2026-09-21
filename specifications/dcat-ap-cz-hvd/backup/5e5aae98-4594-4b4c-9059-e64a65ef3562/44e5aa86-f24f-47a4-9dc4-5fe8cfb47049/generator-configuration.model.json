@@ -1,0 +1,26 @@
+{
+  "data-specification": {
+    "publicBaseUrl": "https://ofn.gov.cz/dcat-ap-cz-otev%C5%99en%C3%A1-data/2026-09-23/",
+    "renameArtifacts": {
+      "http://dataspecer.com/generator/json-ld": "kontext.jsonld",
+      "http://example.com/generator/json-schema": "schéma.json"
+    },
+    "skipStructureNameIfOnlyOne": false,
+    "useGenerators": {
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false,
+      "jsonExample": false
+    }
+  },
+  "json": {
+    "jsonIdKeyAlias": "iri",
+    "jsonTypeKeyAlias": "typ"
+  },
+  "id": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/generator-configuration",
+  "type": []
+}

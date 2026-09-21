@@ -1,0 +1,1779 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "id": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/profile",
+  "modelId": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/profile",
+  "modelAlias": "DCAT-AP HVD 3.0.0",
+  "baseIri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#",
+  "entities": {
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset": {
+      "iri": "Dataset",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Dataset"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Dataset",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset&toIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset&toIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+      "parent": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue": {
+      "iri": "Catalogue",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Catalogue"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Catalogue",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#CatalogueRecord": {
+      "iri": "CatalogueRecord",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CatalogueRecord",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#CatalogueRecord",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource": {
+      "iri": "CataloguedResource",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#CataloguedResource",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CataloguedResource",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService": {
+      "iri": "DataService",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#DataService"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService&toIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService&toIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+      "parent": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries": {
+      "iri": "DatasetSeries",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DatasetSeries",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries&toIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries&toIri=https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries",
+      "parent": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution": {
+      "iri": "Distribution",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Distribution"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Distribution",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind": {
+      "iri": "Kind",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Kind"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Kind",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Kind",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Kind",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Kind",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#LicenseDocument": {
+      "iri": "LicenseDocument",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#LicenseDocument",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#LicenceDocument",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Concept": {
+      "iri": "Concept",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Concept",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Concept"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Concept",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Concept",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Concept",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Concept",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Document": {
+      "iri": "Document",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Document",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Document"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Document",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Document",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Document",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Document",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#LegalResource": {
+      "iri": "LegalResource",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#LegalResource",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#LegalResource"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#LegalResource",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#LegalResource",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#LegalResource",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#LegalResource",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#rdfs-Resource": {
+      "iri": "rdfs-Resource",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#rdfs-Resource",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Resource",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#RightsStatement": {
+      "iri": "RightsStatement",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#RightsStatement",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#RightsStatement"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#RightsStatement",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Rightsstatement",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#RightsStatement",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#RightsStatement",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Standard": {
+      "iri": "Standard",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Standard",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Standard"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Standard",
+      "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Standard",
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Standard",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Standard",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.dataset": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.dataset",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#recommended"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Catalogue.dataset"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.dataset",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.service": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.service",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#recommended"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.service",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.service",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.service"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.service",
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Catalogue.service"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.service",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.record": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.record",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CatalogueRecord",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#optional"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.record",
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Catalogue.record"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Catalogue.record",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#CatalogueRecord.primaryTopic": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CatalogueRecord",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CatalogueRecord.primaryTopic",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CataloguedResource",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.primaryTopic",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.primaryTopic",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.primaryTopic"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#CatalogueRecord.primaryTopic",
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#CatalogueRecord.primarytopic"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#CatalogueRecord.primaryTopic",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.applicableLegislation": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.applicableLegislation",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#LegalResource",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.applicableLegislation",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.applicableLegislation",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.applicableLegislation"
+          ],
+          "usageNote": {
+            "en": "For HVD the value MUST include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.\nAs multiple legislations may apply to the resource the maximum cardinality is not limited."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService.applicablelegislation"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.applicableLegislation",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.contactPoint": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.contactPoint",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.contactPoint",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.contactPoint",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.contactPoint"
+          ],
+          "usageNote": {
+            "en": "Article 3.4 requires the designation of a point of contact for an API."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService.contactpoint"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.contactPoint",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.documentation": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.documentation",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Document",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.documentation",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "A page that provides additional information about the Data Service."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.documentation"
+          ],
+          "usageNote": {
+            "en": "Quality of service covers a broad spectrum of aspects. The HVD regulation does not list any mandatory topic. Therefore quality of service information is considered part of the generic documentation of a Data Service."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService.documentation"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.documentation",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.endpointDescription": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.endpointDescription",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#rdfs-Resource",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#recommended"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointDescription",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointDescription",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointDescription"
+          ],
+          "usageNote": {
+            "en": "The property gives specific details of the actual endpoint instances, while dct:conformsTo is used to indicate the general standard or specification that the endpoints implement.\nArticle 3.3 requires to provide API documentation in a Union or internationally recognised open, human-readable and machine-readable format."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService.endpointdescription"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.endpointDescription",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.endpointUrl": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.endpointUrl",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#rdfs-Resource",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl"
+          ],
+          "usageNote": {
+            "en": "The endpoint URL SHOULD be persistent. This means that publishers should do everything in their power to maintain the value stable and existing."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService.endpointURL"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.endpointUrl",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.hvdCategory": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.hvdCategory",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Concept",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "http://data.europa.eu/r5r/hvdCategory",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "The HVD category to which this Data Service belongs."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "http://data.europa.eu/r5r/hvdCategory"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService.HVDcategory"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.hvdCategory",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.licence": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.licence",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#LicenseDocument",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#recommended"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.licence",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.licence",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.licence"
+          ],
+          "usageNote": {
+            "en": "Article 3.3 specifies that the terms of use should be provided. According to the guidelines for legal Information in DCAT-AP HVD this is fulfilled by providing by preference a licence. As alternative rights can be used."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService.licence"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.licence",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.rights": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.rights",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#RightsStatement",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#optional"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights",
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DataService.rights"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.rights",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.servesDataset": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.servesDataset",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#recommended"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.servesDataset",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.servesDataset",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.servesDataset"
+          ],
+          "usageNote": {
+            "en": "An API in the context of HVD is not a standalone resource. It is used to open up HVD datasets. Therefore each Data Service is at least tightly connected with a Dataset.\nA Dataset MUST have an associated Data Service, besides the exceptions listed in the HVD IR. This can be either specified directly, using this property, or indirectly. More information on this obligation see 10.8 Connecting Data Services with Datasets."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService.servesDataset",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.applicableLegislation": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.applicableLegislation",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#LegalResource",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.applicableLegislation",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.applicableLegislation",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.applicableLegislation"
+          ],
+          "usageNote": {
+            "en": "For HVD the value must include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.\nAs multiple legislations may apply to the resource the maximum cardinality is not limited."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Dataset.applicablelegislation"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.applicableLegislation",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.conformsTo": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.conformsTo",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Standard",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#optional"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.conformsTo",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.conformsTo",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.conformsTo"
+          ],
+          "usageNote": {
+            "en": "The provided information should enable to the verification whether the detailed information requirements by the HVD is satisfied. For more usage suggestions see section on specific data requirements."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Dataset.conformsto"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.conformsTo",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.contactPoint": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.contactPoint",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#recommended"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.contactPoint",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.contactPoint",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.contactPoint"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.contactPoint",
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Dataset.contactpoint"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.contactPoint",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.datasetDistribution": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.datasetDistribution",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.datasetDistribution",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.datasetDistribution",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.datasetDistribution"
+          ],
+          "usageNote": {
+            "en": "The HVD IR is a quality improvement of existing datasets. The intention is that HVD datasets are publicly and open accessible. Therefore a Distribution is expected to be present. (Article 3.1) This section provides more information how this strong recommendation is implemented."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Dataset.datasetdistribution"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.datasetDistribution",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.hvdCategory": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.hvdCategory",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Concept",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "http://data.europa.eu/r5r/hvdCategory",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "The HVD category to which this Dataset belongs."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "http://data.europa.eu/r5r/hvdCategory"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Dataset.HVDCategory"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.hvdCategory",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.inSeries": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.inSeries",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#optional"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.inSeries",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.inSeries",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.inSeries"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.inSeries",
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Dataset.inseries"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset.inSeries",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries.applicableLegislation": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries.applicableLegislation",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#LegalResource",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.applicableLegislation",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.applicableLegislation",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.applicableLegislation"
+          ],
+          "usageNote": {
+            "en": "For HVD the value must include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.\nAs multiple legislations may apply to the resource the maximum cardinality is not limited."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DatasetSeries.applicablelegislation"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries.applicableLegislation",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries.hvdCategory": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries.hvdCategory",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Concept",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "http://data.europa.eu/r5r/hvdCategory",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "The HVD category to which this Dataset Series belongs."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "http://data.europa.eu/r5r/hvdCategory"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#DatasetSeries.HVDCategory"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DatasetSeries.hvdCategory",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.accessService": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.accessService",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#DataService",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#recommended"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessService",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessService",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessService"
+          ],
+          "usageNote": {
+            "en": "An API in the context of HVD is not a standalone resource. It is used to open up HVD datasets. Therefore each Data Service is at least tightly connected with a Dataset.\nA Dataset MUST have an associated Data Service, besides the exceptions listed in the HVD IR. This can be either specified directly or indirectly using this property. More information on this obligation see 10.8 Connecting Data Services with Datasets."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Distribution.accessservice"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.accessService",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.accessUrl": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.accessUrl",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#rdfs-Resource",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessUrl",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessUrl",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessUrl"
+          ],
+          "usageNote": {
+            "en": "The resource at the access URL contains information about how to get the Dataset. In accordance to the DCAT guidelines it is preferred to also set the downloadURL property if the URL is a reference to a downloadable resource."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Distribution.accessURL"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.accessUrl",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.applicableLegislation": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.applicableLegislation",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#LegalResource",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.applicableLegislation",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.applicableLegislation",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.applicableLegislation"
+          ],
+          "usageNote": {
+            "en": "For HVD the value must include the ELI http://data.europa.eu/eli/reg_impl/2023/138/oj.\nAs multiple legislations may apply to the resource the maximum cardinality is not limited."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Distribution.applicablelegislation"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.applicableLegislation",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.licence": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.licence",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#LicenseDocument",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#recommended"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.licence",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.licence",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.licence"
+          ],
+          "usageNote": {
+            "en": "Article 4.3 specifies that High-value datasets should be made available for reuse. According to the guidelines for legal Information in DCAT-AP HVD this is fulfilled by providing by preference a licence. As alternative rights can be used."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Distribution.licence"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.licence",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.linkedSchemas": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.linkedSchemas",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Standard",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#optional"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.linkedSchemas",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.linkedSchemas",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.linkedSchemas"
+          ],
+          "usageNote": {
+            "en": "The provided information should enable to the verification whether the detailed information requirements by the HVD is satisfied. For more usage suggestions see section on specific data requirements."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.1/#Distribution.linkedschemas"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.linkedSchemas",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.rights": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.rights",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#RightsStatement",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#optional"
+          ],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.rights"
+          ],
+          "usageNote": {
+            "en": "Article 4.3 specifies that High-value datasets should be made available for reuse. According to the guidelines for legal Information in DCAT-AP HVD this is fulfilled by providing by preference a licence. As alternative rights can be used."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Distribution.rights"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Distribution.rights",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind.contactPage": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind.contactPage",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#rdfs-Resource",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#optional"
+          ],
+          "name": {
+            "en": "contact page"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A webpage that either allows to make contact (i.e. a webform) or the information contains how to get into contact. "
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "http://www.w3.org/2006/vcard/ns#hasURL"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Kind.contactpage"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind.contactPage",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind.email": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind.email",
+          "concept": "https://mff-uk.github.io/specifications/dcat-ap-hvd#rdfs-Resource",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#optional"
+          ],
+          "name": {
+            "en": "email"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A email address via which contact can be made."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "http://www.w3.org/2006/vcard/ns#hasEmail"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/#Kind.email"
+        }
+      ],
+      "id": "https://mff-uk.github.io/specifications/dcat-ap-hvd#Kind.email",
+      "type": [
+        "relationship-profile"
+      ]
+    }
+  }
+}

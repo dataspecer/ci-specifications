@@ -1,0 +1,15 @@
+{
+  "iri": "38a1d144-15c2-4761-b8ee-56a382fde39e",
+  "types": [
+    "http://dataspecer.com/resources/v1/generator-configuration"
+  ],
+  "userMetadata": {},
+  "metadata": {
+    "creationDate": "2026-09-02T10:39:54.081Z",
+    "modificationDate": "2026-09-04T13:52:00.176Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:15:35.428Z",
+  "_exportedBy": "http://localhost:3100"
+}

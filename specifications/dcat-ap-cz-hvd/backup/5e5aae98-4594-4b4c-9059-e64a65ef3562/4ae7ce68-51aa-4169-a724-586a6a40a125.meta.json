@@ -1,0 +1,24 @@
+{
+  "iri": "4ae7ce68-51aa-4169-a724-586a6a40a125",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Dataset Series",
+      "cs": "Série datových sad"
+    },
+    "description": {
+      "en": "Data structure for Dataset Series. A collection of datasets that are published separately, but share some characteristics that group them.",
+      "cs": "Datová struktura pro Série datových sad. Série datových sad zastřešuje související datové sady a jiné série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému)."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-09-04T14:33:23.097Z",
+    "modificationDate": "2026-09-04T14:33:27.364Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:07:22.782Z",
+  "_exportedBy": "http://localhost:3100"
+}

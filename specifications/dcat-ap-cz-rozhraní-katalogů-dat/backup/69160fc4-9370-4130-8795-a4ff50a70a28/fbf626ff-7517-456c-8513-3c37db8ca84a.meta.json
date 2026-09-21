@@ -1,0 +1,24 @@
+{
+  "iri": "fbf626ff-7517-456c-8513-3c37db8ca84a",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Catalogue",
+      "cs": "Katalog"
+    },
+    "description": {
+      "en": "Data structure for Catalogue. A catalogue or repository that hosts the Datasets or Data Services being described.",
+      "cs": "Datová struktura pro Katalog. Řízená kolekce metadat o datových sadách a datových službách"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-09-02T10:39:54.093Z",
+    "modificationDate": "2026-09-02T10:39:56.062Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:15:35.430Z",
+  "_exportedBy": "http://localhost:3100"
+}

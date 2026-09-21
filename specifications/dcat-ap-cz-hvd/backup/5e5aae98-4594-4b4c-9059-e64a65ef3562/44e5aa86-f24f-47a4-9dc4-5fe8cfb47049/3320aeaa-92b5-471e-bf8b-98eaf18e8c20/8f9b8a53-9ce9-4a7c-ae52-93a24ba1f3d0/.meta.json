@@ -1,0 +1,23 @@
+{
+  "iri": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/8f9b8a53-9ce9-4a7c-ae52-93a24ba1f3d0",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "DCAT-AP-CZ - podmínky užití",
+      "en": "DCAT-AP-CZ - terms of use"
+    },
+    "description": {},
+    "importedFromUrl": "https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/",
+    "documentBaseUrl": "https://ofn.gov.cz/dcat-ap-cz-podmínky-užití/2025-08-12/"
+  },
+  "metadata": {
+    "creationDate": "2026-09-04T14:33:21.810Z",
+    "modificationDate": "2026-09-08T13:07:01.847Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:07:22.486Z",
+  "_exportedBy": "http://localhost:3100"
+}

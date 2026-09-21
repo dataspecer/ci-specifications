@@ -1,0 +1,1950 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
+  "id": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/1378397d-925e-4d95-840b-9fac923d1385",
+  "pimStore": {
+    "resources": {
+      "http://www.w3.org/2004/02/skos/core#Concept": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Concept"
+        },
+        "pimHumanDescription": {
+          "en": "An idea or notion; a unit of thought."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Concept Scheme"
+        },
+        "pimHumanDescription": {
+          "en": "A set of concepts, optionally including statements about semantic relationships between those concepts."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#Collection": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#Collection",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#Collection",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Collection"
+        },
+        "pimHumanDescription": {
+          "en": "A meaningful collection of concepts."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#OrderedCollection": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Class"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#OrderedCollection",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#OrderedCollection",
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "Ordered Collection"
+        },
+        "pimHumanDescription": {
+          "en": "An ordered collection of concepts, where both the grouping and the ordering are meaningful."
+        },
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#Collection",
+          "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "pimIsCodelist": false,
+        "pimCodelistUrl": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimObjectExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#inScheme/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#inScheme/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#inScheme/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#inScheme/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is in scheme"
+        },
+        "pimHumanDescription": {
+          "en": "Relates a resource (for example a concept) to a concept scheme in which it is included."
+        },
+        "pimPart": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#inScheme": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#inScheme",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#inScheme",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is in scheme"
+        },
+        "pimHumanDescription": {
+          "en": "Relates a resource (for example a concept) to a concept scheme in which it is included."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#inScheme/end-0",
+          "http://www.w3.org/2004/02/skos/core#inScheme/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#hasTopConcept/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#hasTopConcept/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#hasTopConcept/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#hasTopConcept/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has top concept"
+        },
+        "pimHumanDescription": {
+          "en": "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies."
+        },
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#hasTopConcept": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has top concept"
+        },
+        "pimHumanDescription": {
+          "en": "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#hasTopConcept/end-0",
+          "http://www.w3.org/2004/02/skos/core#hasTopConcept/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#topConceptOf/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#topConceptOf/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#topConceptOf/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#topConceptOf/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is top concept in scheme"
+        },
+        "pimHumanDescription": {
+          "en": "Relates a concept to the concept scheme that it is a top level concept of."
+        },
+        "pimPart": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#topConceptOf": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#inScheme"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is top concept in scheme"
+        },
+        "pimHumanDescription": {
+          "en": "Relates a concept to the concept scheme that it is a top level concept of."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#topConceptOf/end-0",
+          "http://www.w3.org/2004/02/skos/core#topConceptOf/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#prefLabel#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#prefLabel#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#label"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "preferred label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise\n      disjoint properties."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#prefLabel/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#prefLabel/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#prefLabel/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#prefLabel/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "preferred label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise\n      disjoint properties."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#prefLabel": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#label"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "preferred label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise\n      disjoint properties."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#prefLabel/end-0",
+          "http://www.w3.org/2004/02/skos/core#prefLabel/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#altLabel#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#altLabel#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#label"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "alternative label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#altLabel/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#altLabel/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#altLabel/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#altLabel/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "alternative label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#altLabel": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#label"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "alternative label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#altLabel/end-0",
+          "http://www.w3.org/2004/02/skos/core#altLabel/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#hiddenLabel#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#hiddenLabel#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#label"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hidden label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#hiddenLabel/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#hiddenLabel/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#hiddenLabel/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#hiddenLabel/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hidden label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#hiddenLabel": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+        "pimExtends": [
+          "http://www.w3.org/2000/01/rdf-schema#label"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "hidden label"
+        },
+        "pimHumanDescription": {
+          "en": "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#hiddenLabel/end-0",
+          "http://www.w3.org/2004/02/skos/core#hiddenLabel/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#notation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#notation",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#notation",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "notation"
+        },
+        "pimHumanDescription": {
+          "en": "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#note#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#note#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#note",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "note"
+        },
+        "pimHumanDescription": {
+          "en": "A general note, for any purpose."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#note/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#note/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#note/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#note/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "note"
+        },
+        "pimHumanDescription": {
+          "en": "A general note, for any purpose."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#note": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#note",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#note",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "note"
+        },
+        "pimHumanDescription": {
+          "en": "A general note, for any purpose."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#note/end-0",
+          "http://www.w3.org/2004/02/skos/core#note/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#changeNote#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#changeNote#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#changeNote",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "change note"
+        },
+        "pimHumanDescription": {
+          "en": "A note about a modification to a concept."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#changeNote/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#changeNote/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#changeNote/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#changeNote/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "change note"
+        },
+        "pimHumanDescription": {
+          "en": "A note about a modification to a concept."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#changeNote": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#changeNote",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#changeNote",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "change note"
+        },
+        "pimHumanDescription": {
+          "en": "A note about a modification to a concept."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#changeNote/end-0",
+          "http://www.w3.org/2004/02/skos/core#changeNote/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#definition#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#definition#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "definition"
+        },
+        "pimHumanDescription": {
+          "en": "A statement or formal explanation of the meaning of a concept."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#definition/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#definition/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#definition/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#definition/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "definition"
+        },
+        "pimHumanDescription": {
+          "en": "A statement or formal explanation of the meaning of a concept."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#definition": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#definition",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "definition"
+        },
+        "pimHumanDescription": {
+          "en": "A statement or formal explanation of the meaning of a concept."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#definition/end-0",
+          "http://www.w3.org/2004/02/skos/core#definition/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#editorialNote#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#editorialNote#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#editorialNote",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "editorial note"
+        },
+        "pimHumanDescription": {
+          "en": "A note for an editor, translator or maintainer of the vocabulary."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#editorialNote/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#editorialNote/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#editorialNote/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#editorialNote/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "editorial note"
+        },
+        "pimHumanDescription": {
+          "en": "A note for an editor, translator or maintainer of the vocabulary."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#editorialNote": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#editorialNote",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#editorialNote",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "editorial note"
+        },
+        "pimHumanDescription": {
+          "en": "A note for an editor, translator or maintainer of the vocabulary."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#editorialNote/end-0",
+          "http://www.w3.org/2004/02/skos/core#editorialNote/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#example#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#example#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#example",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "example"
+        },
+        "pimHumanDescription": {
+          "en": "An example of the use of a concept."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#example/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#example/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#example/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#example/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "example"
+        },
+        "pimHumanDescription": {
+          "en": "An example of the use of a concept."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#example": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#example",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#example",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "example"
+        },
+        "pimHumanDescription": {
+          "en": "An example of the use of a concept."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#example/end-0",
+          "http://www.w3.org/2004/02/skos/core#example/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#historyNote#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#historyNote#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#historyNote",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "history note"
+        },
+        "pimHumanDescription": {
+          "en": "A note about the past state/use/meaning of a concept."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#historyNote/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#historyNote/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#historyNote/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#historyNote/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "history note"
+        },
+        "pimHumanDescription": {
+          "en": "A note about the past state/use/meaning of a concept."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#historyNote": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#historyNote",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#historyNote",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "history note"
+        },
+        "pimHumanDescription": {
+          "en": "A note about the past state/use/meaning of a concept."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#historyNote/end-0",
+          "http://www.w3.org/2004/02/skos/core#historyNote/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#scopeNote#attribute": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Attribute"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#scopeNote#attribute",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#scopeNote",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "scope note"
+        },
+        "pimHumanDescription": {
+          "en": "A note that helps to clarify the meaning and/or the use of a concept."
+        },
+        "pimOwnerClass": "http://www.w3.org/2002/07/owl#Thing",
+        "pimDatatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimLanguageStringRequiredLanguages": [],
+        "pimRegex": null,
+        "pimExample": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#scopeNote/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#scopeNote/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#scopeNote/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#scopeNote/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "scope note"
+        },
+        "pimHumanDescription": {
+          "en": "A note that helps to clarify the meaning and/or the use of a concept."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#scopeNote": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#scopeNote",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#scopeNote",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#note"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "scope note"
+        },
+        "pimHumanDescription": {
+          "en": "A note that helps to clarify the meaning and/or the use of a concept."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#scopeNote/end-0",
+          "http://www.w3.org/2004/02/skos/core#scopeNote/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#semanticRelation/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#semanticRelation/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#semanticRelation/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#semanticRelation/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is in semantic relation with"
+        },
+        "pimHumanDescription": {
+          "en": "Links a concept to a concept related by meaning."
+        },
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Concept",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#semanticRelation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is in semantic relation with"
+        },
+        "pimHumanDescription": {
+          "en": "Links a concept to a concept related by meaning."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#semanticRelation/end-0",
+          "http://www.w3.org/2004/02/skos/core#semanticRelation/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#broader/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broader/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#broader/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broader/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has broader"
+        },
+        "pimHumanDescription": {
+          "en": "Broader concepts are typically rendered as parents in a concept hierarchy (tree)."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#broader": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broader",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#broader",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has broader"
+        },
+        "pimHumanDescription": {
+          "en": "Broader concepts are typically rendered as parents in a concept hierarchy (tree)."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#broader/end-0",
+          "http://www.w3.org/2004/02/skos/core#broader/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#narrower/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrower/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#narrower/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrower/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has narrower"
+        },
+        "pimHumanDescription": {
+          "en": "Narrower concepts are typically rendered as children in a concept hierarchy (tree)."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#narrower": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrower",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#narrower",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has narrower"
+        },
+        "pimHumanDescription": {
+          "en": "Narrower concepts are typically rendered as children in a concept hierarchy (tree)."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#narrower/end-0",
+          "http://www.w3.org/2004/02/skos/core#narrower/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#related/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#related/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#related/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#related/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has related"
+        },
+        "pimHumanDescription": {
+          "en": "skos:related is disjoint with skos:broaderTransitive"
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#related": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#related",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#related",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#semanticRelation"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has related"
+        },
+        "pimHumanDescription": {
+          "en": "skos:related is disjoint with skos:broaderTransitive"
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#related/end-0",
+          "http://www.w3.org/2004/02/skos/core#related/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#broaderTransitive/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broaderTransitive/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#broaderTransitive/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broaderTransitive/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has broader transitive"
+        },
+        "pimHumanDescription": {
+          "en": "skos:broaderTransitive is a transitive superproperty of skos:broader."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#broaderTransitive": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#semanticRelation"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has broader transitive"
+        },
+        "pimHumanDescription": {
+          "en": "skos:broaderTransitive is a transitive superproperty of skos:broader."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#broaderTransitive/end-0",
+          "http://www.w3.org/2004/02/skos/core#broaderTransitive/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#narrowerTransitive/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrowerTransitive/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#narrowerTransitive/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrowerTransitive/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has narrower transitive"
+        },
+        "pimHumanDescription": {
+          "en": "skos:narrowerTransitive is a transitive superproperty of skos:narrower."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#narrowerTransitive": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#semanticRelation"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has narrower transitive"
+        },
+        "pimHumanDescription": {
+          "en": "skos:narrowerTransitive is a transitive superproperty of skos:narrower."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#narrowerTransitive/end-0",
+          "http://www.w3.org/2004/02/skos/core#narrowerTransitive/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#member/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#member/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#Collection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#member/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#member/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has member"
+        },
+        "pimHumanDescription": {
+          "en": "Relates a collection to one of its members."
+        },
+        "pimPart": "df_15_1",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#member": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#member",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#member",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has member"
+        },
+        "pimHumanDescription": {
+          "en": "Relates a collection to one of its members."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#member/end-0",
+          "http://www.w3.org/2004/02/skos/core#member/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#memberList/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#memberList/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2004/02/skos/core#OrderedCollection",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#memberList/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#memberList/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has member list"
+        },
+        "pimHumanDescription": {
+          "en": "For any resource, every item in the list given as the value of the\n      skos:memberList property is also a value of the skos:member property."
+        },
+        "pimPart": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#memberList": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#memberList",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#memberList",
+        "pimExtends": [],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has member list"
+        },
+        "pimHumanDescription": {
+          "en": "For any resource, every item in the list given as the value of the\n      skos:memberList property is also a value of the skos:member property."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#memberList/end-0",
+          "http://www.w3.org/2004/02/skos/core#memberList/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#mappingRelation/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#mappingRelation/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#mappingRelation/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#mappingRelation/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is in mapping relation with"
+        },
+        "pimHumanDescription": {
+          "en": "These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#mappingRelation": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#semanticRelation"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "is in mapping relation with"
+        },
+        "pimHumanDescription": {
+          "en": "These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#mappingRelation/end-0",
+          "http://www.w3.org/2004/02/skos/core#mappingRelation/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#broadMatch/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broadMatch/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#broadMatch/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broadMatch/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has broader match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#broadMatch": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#broadMatch",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#broadMatch",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#mappingRelation",
+          "http://www.w3.org/2004/02/skos/core#broader"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has broader match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#broadMatch/end-0",
+          "http://www.w3.org/2004/02/skos/core#broadMatch/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#narrowMatch/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrowMatch/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#narrowMatch/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrowMatch/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has narrower match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:narrowMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#narrowMatch": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#mappingRelation",
+          "http://www.w3.org/2004/02/skos/core#narrower"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has narrower match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:narrowMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#narrowMatch/end-0",
+          "http://www.w3.org/2004/02/skos/core#narrowMatch/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#relatedMatch/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#relatedMatch/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#relatedMatch/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#relatedMatch/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has related match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#relatedMatch": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#mappingRelation",
+          "http://www.w3.org/2004/02/skos/core#related"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has related match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#relatedMatch/end-0",
+          "http://www.w3.org/2004/02/skos/core#relatedMatch/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#exactMatch/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#exactMatch/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#exactMatch/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#exactMatch/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has exact match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#exactMatch": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#exactMatch",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#exactMatch",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#closeMatch"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has exact match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#exactMatch/end-0",
+          "http://www.w3.org/2004/02/skos/core#exactMatch/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "http://www.w3.org/2004/02/skos/core#closeMatch/end-0": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#closeMatch/end-0",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": null,
+        "pimHumanDescription": null,
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": null,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": null,
+        "pimHumanDescriptionProperty": null
+      },
+      "http://www.w3.org/2004/02/skos/core#closeMatch/end-1": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/AssociationEnd"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#closeMatch/end-1",
+        "pimInterpretation": null,
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has close match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of \"compound errors\" when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property."
+        },
+        "pimPart": "http://www.w3.org/2002/07/owl#Thing",
+        "pimCardinalityMin": 0,
+        "pimCardinalityMax": null,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      "http://www.w3.org/2004/02/skos/core#closeMatch": {
+        "types": [
+          "https://ofn.gov.cz/slovník/pim/Association"
+        ],
+        "iri": "http://www.w3.org/2004/02/skos/core#closeMatch",
+        "pimInterpretation": "http://www.w3.org/2004/02/skos/core#closeMatch",
+        "pimExtends": [
+          "http://www.w3.org/2004/02/skos/core#mappingRelation"
+        ],
+        "pimTechnicalLabel": null,
+        "pimHumanLabel": {
+          "en": "has close match"
+        },
+        "pimHumanDescription": {
+          "en": "skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of \"compound errors\" when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property."
+        },
+        "pimEnd": [
+          "http://www.w3.org/2004/02/skos/core#closeMatch/end-0",
+          "http://www.w3.org/2004/02/skos/core#closeMatch/end-1"
+        ],
+        "pimIsOriented": false,
+        "pimHumanLabelProperty": "http://www.w3.org/2000/01/rdf-schema#label",
+        "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
+      }
+    }
+  },
+  "urls": [
+    "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
+  ],
+  "label": {
+    "en": "skos"
+  }
+}

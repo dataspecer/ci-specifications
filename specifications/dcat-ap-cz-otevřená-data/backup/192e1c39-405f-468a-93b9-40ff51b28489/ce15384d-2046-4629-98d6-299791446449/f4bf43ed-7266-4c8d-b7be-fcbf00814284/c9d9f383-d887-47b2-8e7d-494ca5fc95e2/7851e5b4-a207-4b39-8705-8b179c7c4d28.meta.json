@@ -1,0 +1,20 @@
+{
+  "iri": "192e1c39-405f-468a-93b9-40ff51b28489/ce15384d-2046-4629-98d6-299791446449/f4bf43ed-7266-4c8d-b7be-fcbf00814284/c9d9f383-d887-47b2-8e7d-494ca5fc95e2/7851e5b4-a207-4b39-8705-8b179c7c4d28",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "legacy_adms"
+    },
+    "documentBaseUrl": "https://www.w3.org/ns/legacy_adms"
+  },
+  "metadata": {
+    "creationDate": "2026-09-04T14:28:14.585Z",
+    "modificationDate": "2026-09-08T13:12:25.683Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:13:23.062Z",
+  "_exportedBy": "http://localhost:3100"
+}

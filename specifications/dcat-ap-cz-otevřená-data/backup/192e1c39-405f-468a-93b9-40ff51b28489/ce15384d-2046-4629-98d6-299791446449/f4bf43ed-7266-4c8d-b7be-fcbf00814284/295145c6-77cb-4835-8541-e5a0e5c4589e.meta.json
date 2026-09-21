@@ -1,0 +1,20 @@
+{
+  "iri": "192e1c39-405f-468a-93b9-40ff51b28489/ce15384d-2046-4629-98d6-299791446449/f4bf43ed-7266-4c8d-b7be-fcbf00814284/295145c6-77cb-4835-8541-e5a0e5c4589e",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "eli"
+    },
+    "documentBaseUrl": "https://datagov-cz.github.io/cache-slovniku/eli.owl"
+  },
+  "metadata": {
+    "creationDate": "2026-09-04T14:28:14.410Z",
+    "modificationDate": "2026-09-08T13:12:24.995Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:13:23.015Z",
+  "_exportedBy": "http://localhost:3100"
+}

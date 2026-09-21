@@ -1,0 +1,23 @@
+{
+  "iri": "5e5aae98-4594-4b4c-9059-e64a65ef3562",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "DCAT-AP-CZ: Datové sady s vysokou hodnotou (HVD)",
+      "en": "DCAT-AP-CZ: High-Value Datasets"
+    },
+    "description": {
+      "cs": "Tato specifikace je určena pro popisování datových sad s vysokou hodnotou, tzv. High-Value Datasets"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-09-04T14:33:21.760Z",
+    "modificationDate": "2026-09-08T13:07:06.320Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:07:22.783Z",
+  "_exportedBy": "http://localhost:3100"
+}

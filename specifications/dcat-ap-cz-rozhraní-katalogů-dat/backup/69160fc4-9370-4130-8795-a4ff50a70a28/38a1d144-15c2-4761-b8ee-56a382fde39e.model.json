@@ -1,0 +1,33 @@
+{
+  "id": "38a1d144-15c2-4761-b8ee-56a382fde39e",
+  "type": [],
+  "data-specification": {
+    "useGenerators": {
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false,
+      "jsonExample": false
+    },
+    "publicBaseUrl": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-dat/2026-09-23/",
+    "skipStructureNameIfOnlyOne": false,
+    "renameArtifacts": {
+      "http://example.com/generator/json-schema": "schéma.json",
+      "http://dataspecer.com/generator/json-ld": "kontext.jsonld"
+    }
+  },
+  "json": {
+    "jsonIdKeyAlias": "iri",
+    "jsonTypeKeyAlias": "typ"
+  },
+  "shacl-v2": {
+    "files": {
+      "": {
+        "noClassConstraints": true
+      }
+    }
+  }
+}

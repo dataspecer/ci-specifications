@@ -1,0 +1,20 @@
+{
+  "iri": "192e1c39-405f-468a-93b9-40ff51b28489",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "DCAT-AP-CZ: Datové sady otevřených dat"
+    },
+    "description": {}
+  },
+  "metadata": {
+    "creationDate": "2026-09-04T14:28:14.180Z",
+    "modificationDate": "2026-09-08T13:12:26.853Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:13:23.113Z",
+  "_exportedBy": "http://localhost:3100"
+}

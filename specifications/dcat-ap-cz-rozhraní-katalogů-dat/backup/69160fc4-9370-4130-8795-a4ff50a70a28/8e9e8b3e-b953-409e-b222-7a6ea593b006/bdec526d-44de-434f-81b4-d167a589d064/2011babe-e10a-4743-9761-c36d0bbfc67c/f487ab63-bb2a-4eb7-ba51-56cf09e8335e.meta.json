@@ -1,0 +1,20 @@
+{
+  "iri": "69160fc4-9370-4130-8795-a4ff50a70a28/8e9e8b3e-b953-409e-b222-7a6ea593b006/bdec526d-44de-434f-81b4-d167a589d064/2011babe-e10a-4743-9761-c36d0bbfc67c/f487ab63-bb2a-4eb7-ba51-56cf09e8335e",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "spdx-ontology"
+    },
+    "documentBaseUrl": "https://datagov-cz.github.io/cache-slovniku/spdx-ontology.2.3.1.ttl"
+  },
+  "metadata": {
+    "creationDate": "2026-09-02T10:39:54.538Z",
+    "modificationDate": "2026-09-08T13:15:24.846Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:15:35.557Z",
+  "_exportedBy": "http://localhost:3100"
+}

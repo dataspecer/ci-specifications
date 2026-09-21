@@ -1,0 +1,22 @@
+{
+  "iri": "c6740a11-e59f-4034-8d84-e6898ebadb8a",
+  "types": [
+    "http://dataspecer.com/resources/local/visual-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "View for DCAT-AP-CZ: Datové sady otevřených dat"
+    },
+    "description": {
+      "en": "View model for the profile"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-09-04T14:28:14.205Z",
+    "modificationDate": "2026-09-08T13:12:26.850Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-09-08T13:13:22.952Z",
+  "_exportedBy": "http://localhost:3100"
+}

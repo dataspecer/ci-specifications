@@ -1,0 +1,4373 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "id": "192e1c39-405f-468a-93b9-40ff51b28489/ce15384d-2046-4629-98d6-299791446449/profile",
+  "modelId": "192e1c39-405f-468a-93b9-40ff51b28489/ce15384d-2046-4629-98d6-299791446449/profile",
+  "modelAlias": "DCAT-AP-CZ: Basic data model for data catalogs",
+  "baseIri": "https://ofn.gov.cz/dcat-ap-cz#",
+  "entities": {
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada": {
+      "iri": "DatováSada",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Dataset"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset",
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Katalog": {
+      "iri": "Katalog",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Catalogue"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue",
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba": {
+      "iri": "DatováSlužba",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#DataService"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Data Service",
+        "it": "Servizio di dati",
+        "es": "Servicio de datos",
+        "da": "Datatjeneste",
+        "cs": "Datová služba"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad": {
+      "iri": "SérieDatovýchSad",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Dataset Series",
+        "es": "Serie de conjuntos de datos",
+        "it": "Serie di dataset",
+        "cs": "Série datových sad"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A collection of datasets that are published separately, but share some characteristics that group them.",
+        "it": "Una collezione di dataset che sono pubblicati separatamente, ma che condividono caratteristiche che li rendono parte di uno stesso gruppo.",
+        "es": "Una colección de conjuntos de datos publicados por separado, pero que comparten características que los agrupan.",
+        "cs": "Série datových sad zastřešuje související datové sady a jiné série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému)."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce": {
+      "iri": "Distribuce",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Distribution"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution",
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod": {
+      "iri": "KontaktníBod",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Kind"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Kind",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Kind",
+        "cs": "Kontaktní bod"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point.",
+        "cs": "Obsahuje kontaktní informace, které mohou být využity pro zasílání připomínek."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval": {
+      "iri": "ČasovýInterval",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Period of Time",
+        "cs": "Časový interval"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "An interval of time that is named or defined by its start and end.",
+        "cs": "Časový interval definovaný svým začátkem a koncem."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba": {
+      "iri": "DistribuceDatováSlužba",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Distribution"
+      ],
+      "usageNote": {
+        "en": ""
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "cs": "Distribuce - Datová služba",
+        "es": "Distribución",
+        "en": "Distribution",
+        "fr": "Distribution",
+        "it": "Distribuzione",
+        "el": "Διανομή",
+        "ar": "التوزيع",
+        "ja": "配信",
+        "da": "Distribution"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).",
+        "cs": "Konkrétní reprezentace datové sady datovou službou.",
+        "it": "Rappresenta una forma disponibile e specifica del dataset. Ciascun dataset può essere disponibile in forme differenti, che possono rappresentare formati diversi o diversi punti di accesso per un dataset. Esempi di distribuzioni sono un file CSV scaricabile, una API o un RSS feed.",
+        "fr": "Représente une forme spécifique d'un jeu de données. Caque jeu de données peut être disponible sous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution sont des fichirs CSV, des API ou des flux RSS.",
+        "es": "Una representación específica de los datos. Cada conjunto de datos puede estar disponible en formas diferentes, las cuáles pueden variar en distintas formas, incluyendo el idioma, 'media-type' o formato, organización esquemática, resolución temporal y espacial, nivel de detalle o perfiles (que pueden especificar cualquiera o todas las diferencias anteriores).",
+        "el": "Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε διαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης. Παραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed.",
+        "ar": "شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك.",
+        "ja": "データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。",
+        "da": "En specifik repræsentation af et datasæt. Et datasæt kan være tilgængelig i mange serialiseringer der kan variere på forskellige vis, herunder sprog, medietype eller format, systemorganisering, tidslig- og geografisk opløsning, detaljeringsniveau eller profiler (der kan specificere en eller flere af ovenstående)."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba&toIri=https://ofn.gov.cz/dcat-ap-cz#Distribuce": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba&toIri=https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba",
+      "parent": "https://ofn.gov.cz/dcat-ap-cz#Distribuce"
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor": {
+      "iri": "DistribuceSoubor",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Distribution"
+      ],
+      "usageNote": {
+        "en": ""
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "cs": "Distribuce - Soubor ke stažení",
+        "es": "Distribución",
+        "en": "Distribution",
+        "fr": "Distribution",
+        "it": "Distribuzione",
+        "el": "Διανομή",
+        "ar": "التوزيع",
+        "ja": "配信",
+        "da": "Distribution"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).",
+        "cs": "Konkrétní reprezentace datové sady jako souboru ke stažení.",
+        "it": "Rappresenta una forma disponibile e specifica del dataset. Ciascun dataset può essere disponibile in forme differenti, che possono rappresentare formati diversi o diversi punti di accesso per un dataset. Esempi di distribuzioni sono un file CSV scaricabile, una API o un RSS feed.",
+        "fr": "Représente une forme spécifique d'un jeu de données. Caque jeu de données peut être disponible sous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution sont des fichirs CSV, des API ou des flux RSS.",
+        "es": "Una representación específica de los datos. Cada conjunto de datos puede estar disponible en formas diferentes, las cuáles pueden variar en distintas formas, incluyendo el idioma, 'media-type' o formato, organización esquemática, resolución temporal y espacial, nivel de detalle o perfiles (que pueden especificar cualquiera o todas las diferencias anteriores).",
+        "el": "Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε διαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης. Παραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed.",
+        "ar": "شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك.",
+        "ja": "データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。",
+        "da": "En specifik repræsentation af et datasæt. Et datasæt kan være tilgængelig i mange serialiseringer der kan variere på forskellige vis, herunder sprog, medietype eller format, systemorganisering, tidslig- og geografisk opløsning, detaljeringsniveau eller profiler (der kan specificere en eller flere af ovenstående)."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor&toIri=https://ofn.gov.cz/dcat-ap-cz#Distribuce": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor&toIri=https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+      "parent": "https://ofn.gov.cz/dcat-ap-cz#Distribuce"
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#FormátSouboru": {
+      "iri": "FormátSouboru",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#FormátSouboru",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#MediaTypeOrExtent"
+      ],
+      "usageNote": {
+        "cs": "Formát souboru z evropského číselníku typů souborů [[EUV-FT]]."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Media Type or Extent",
+        "cs": "Formát souboru"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A media type or extent.",
+        "cs": "Datový formát souboru."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#TypMédia": {
+      "iri": "TypMédia",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#TypMédia",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#MediaType"
+      ],
+      "usageNote": {
+        "cs": "Typ média z číselníku IANA [[IANA-MEDIA-TYPES]]."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Media Type",
+        "cs": "Typ média"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A file format or physical medium.",
+        "cs": "Datový formát souboru."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí": {
+      "iri": "GeografickéÚzemí",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Location"
+      ],
+      "usageNote": {
+        "en": "It can be represented using a controlled vocabulary or with geographic coordinates. In the latter case, the use of the Core Location Vocabulary is recommended, following the approach described in the GeoDCAT-AP specification.",
+        "cs": "Hodnoty musí být z evropských číselníků kontinentů [[EUV-CONT]], zemí [[EUV-COUNTRIES]] a míst [[EUV-PLACES]], pokud tam jsou. Pokud ne, musí se jednat o URI z Geonames [[GEONAMES]]."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Location",
+        "cs": "Geografické území"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A spatial region or named place.",
+        "cs": "Území nebo pojmenované místo."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Frekvence": {
+      "iri": "Frekvence",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Frekvence",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Frequency"
+      ],
+      "usageNote": {
+        "cs": "Hodnoty jsou z evropského číselníku frekvencí [[EUV-FREQ]]."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Frequency",
+        "cs": "Frekvence"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A rate at which something recurs, e.g. the publication of a Dataset.",
+        "cs": "Frekvence nějakého jevu, například aktualizace datové sady."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Koncept": {
+      "iri": "Koncept",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Koncept",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Concept"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Concept",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Concept",
+        "cs": "Koncept"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "An idea or notion; a unit of thought.",
+        "cs": "Pojem; myšlenková jednotka"
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatovéTéma": {
+      "iri": "DatovéTéma",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatovéTéma",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Koncept"
+      ],
+      "usageNote": {
+        "en": "In DCAT-AP, a Concept is used to denote codes within a codelist. In section 10. Controlled Vocabularies the expectations are elaborated in more detail.",
+        "cs": "Datové téma z evropského číselníku datových témat [[EUV-THEMES]]."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Concept",
+        "cs": "Datové téma"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "An idea or notion; a unit of thought.",
+        "cs": "Datové téma."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc": {
+      "iri": "TémaEuroVoc",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Koncept"
+      ],
+      "usageNote": {
+        "en": "In DCAT-AP, a Concept is used to denote codes within a codelist. In section 10. Controlled Vocabularies the expectations are elaborated in more detail.",
+        "cs": "Téma z evropského tezauru EuroVoc [[EUV-EUROVOC]]."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Concept",
+        "cs": "Téma EuroVoc"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "An idea or notion; a unit of thought.",
+        "cs": "Datové téma z evropského tezauru EuroVoc."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis": {
+      "iri": "PrávníPředpis",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#LegalResource"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#LegalResource",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Legal Resource",
+        "cs": "Právní předpis"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "This class represents the legislation,policy or policies that lie behind the Rules that govern the service.",
+        "cs": "Tato třída představuje legislativu nebo politiku, které stojí za pravidly upravujícími službu."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel": {
+      "iri": "Poskytovatel",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Agent"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Agent",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Agent",
+        "cs": "Poskytovatel"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "Any entity carrying out actions with respect to the entities Catalogue and the Catalogued Resources.",
+        "cs": "Poskytovatel dat"
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Zdroj": {
+      "iri": "Zdroj",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#rdfs-Resource",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Resource",
+        "cs": "Zdroj"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "Anything described by RDF.",
+        "cs": "Cokoliv, co má URL."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN": {
+      "iri": "PrvekRÚIAN",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Location"
+      ],
+      "usageNote": {
+        "en": "It can be represented using a controlled vocabulary or with geographic coordinates. In the latter case, the use of the Core Location Vocabulary is recommended, following the approach described in the GeoDCAT-AP specification.",
+        "cs": "Hodnota musí být IRI prvku z RÚIAN [[RUIAN]]."
+      },
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Location",
+        "cs": "Prvek z RÚIAN"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A spatial region or named place.",
+        "cs": "Územní prvek z RÚIAN."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Standard": {
+      "iri": "Standard",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Standard",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Standard"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Standard",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Standard",
+        "cs": "Standard"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A standard or other specification to which a resource conforms.",
+        "cs": "Standard, specifikace."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití": {
+      "iri": "SpecifikacePodmínekUžití",
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://data.gov.cz/slovník/podmínky-užití/Specifikace"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {},
+      "nameFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
+      "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "description": {},
+      "descriptionFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
+      "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Licence": {
+      "iri": "Licence",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Licence",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://purl.org/dc/terms/LicenseDocument"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "License Document",
+        "cs": "Licence"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A legal document giving official permission to do something with a resource.",
+        "cs": "Právní dokument oficiálně dovolující pracovat se zdrojem."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Dokument": {
+      "iri": "Dokument",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://mff-uk.github.io/specifications/dcat-ap#Document"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Document",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Document",
+        "cs": "Dokument"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "A textual resource intended for human consumption that contains information, e.g. a web page about a Dataset.",
+        "cs": "Textový dokument určený pro čtení lidmi. Například webová stránka."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Jednotlivec": {
+      "iri": "Jednotlivec",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Jednotlivec",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/2006/vcard/ns#Individual"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Individual",
+        "cs": "Jednotlivec"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "An object representing a single person or entity",
+        "cs": "Jednotlivá fyzická osoba."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://ofn.gov.cz/dcat-ap-cz#Jednotlivec&toIri=https://ofn.gov.cz/dcat-ap-cz#KontaktníBod": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://ofn.gov.cz/dcat-ap-cz#Jednotlivec&toIri=https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://ofn.gov.cz/dcat-ap-cz#Jednotlivec",
+      "parent": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod"
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Organizace": {
+      "iri": "Organizace",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Organizace",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "http://www.w3.org/2006/vcard/ns#Organization"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "Organization",
+        "cs": "Organizace"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.\n",
+        "cs": "Organizace, právnická osoba nebo její část."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://dataspecer.com/semantic-models/generalization?fromIri=https://ofn.gov.cz/dcat-ap-cz#Organizace&toIri=https://ofn.gov.cz/dcat-ap-cz#KontaktníBod": {
+      "id": "https://dataspecer.com/semantic-models/generalization?fromIri=https://ofn.gov.cz/dcat-ap-cz#Organizace&toIri=https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+      "type": [
+        "generalization"
+      ],
+      "iri": null,
+      "child": "https://ofn.gov.cz/dcat-ap-cz#Organizace",
+      "parent": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod"
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#E-mailAddress": {
+      "iri": "E-mailAddress",
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#E-mailAddress",
+      "type": [
+        "class-profile"
+      ],
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Zdroj"
+      ],
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+      "externalDocumentationUrl": null,
+      "name": {
+        "en": "E-mail address",
+        "cs": "E-mailová adresa"
+      },
+      "nameFromProfiled": null,
+      "nameProperty": null,
+      "description": {
+        "en": "E-mail address identified using mailto: IRI.",
+        "cs": "E-mailová adresa identifikovaná pomocí mailto: IRI."
+      },
+      "descriptionFromProfiled": null,
+      "descriptionProperty": null,
+      "order": null,
+      "controlledVocabularies": []
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Katalog.popis": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Katalog.popis",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "description",
+            "cs": "popis"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A free-text account of the Catalogue.",
+            "cs": "Tato vlastnost obsahuje volný text s popisem datového katalogu."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.description"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.description",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Katalog.popis",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Katalog.název": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Katalog.název",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A name given to the Catalogue.",
+            "cs": "Tato vlastnost obsahuje název datového katalogu."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.title"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.title",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Katalog.název",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.název": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.název",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "Název datové sady"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.title"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.title",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.název",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "description",
+            "cs": "popis"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A free-text account of the Dataset.",
+            "cs": "Volný text s popisem datové sady"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.description"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.description",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo",
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.prostorovéRozlišeníVMetrech": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.prostorovéRozlišeníVMetrech",
+          "concept": "http://www.w3.org/2001/XMLSchema#decimal",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "cs": "prostorové rozlišení v metrech",
+            "es": "resolución espacial (metros)",
+            "it": "risoluzione spaziale (metri)",
+            "en-us": "spatial resolution (meters)",
+            "en-gb": "spatial resolution (metres)",
+            "da": "geografisk opløsning (meter)",
+            "en": "spatial resolution"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en-us": "minimum spatial separation resolvable in a dataset, measured in meters.",
+            "en-gb": "minimum spatial separation resolvable in a dataset, measured in metres.",
+            "cs": "Prostorové rozlišení dat v datové sadě v metrech. Jedná se o nejmenší prostorový rozdíl v datové sadě.",
+            "es": "mínima separacíon espacial disponible en un conjunto de datos, medida en metros.",
+            "it": "separazione spaziale minima risolvibile in un set di dati, misurata in metri.",
+            "da": "mindste geografiske afstand som kan erkendes i et datasæt, målt i meter.",
+            "en": "Minimum spatial separation resolvable in a dataset, measured in meters."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.spatialResolution"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.spatialResolution",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.prostorovéRozlišeníVMetrech",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéRozlišení": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéRozlišení",
+          "concept": "http://www.w3.org/2001/XMLSchema#duration",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.temporalResolution",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "Minimum time period resolvable in the dataset.",
+            "cs": "Časové rozlišení dat v datové sadě. Jedná se o nejmenší časový rozdíl v datové sadě.",
+            "it": "periodo di tempo minimo risolvibile in un set di dati.",
+            "es": "período de tiempo mínimo en el conjunto de datos.",
+            "da": "mindste tidsperiode der kan resolveres i datasættet."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.temporalResolution"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.temporalResolution",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéRozlišení",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce.název": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.název",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A name given to the distribution.",
+            "cs": "Název distribuce datové sady"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.title"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.title",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.název",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A name given to the Data Service.",
+            "cs": "Název datové služby."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.title"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.title",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze",
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "cs": "jména autorů originální databáze",
+            "en": "Names of authors of database"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/autor-databáze",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://data.gov.cz/slovník/podmínky-užití/autor-databáze"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla",
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "cs": "jména autorů díla",
+            "en": "Names of authors"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/autor",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://data.gov.cz/slovník/podmínky-užití/autor"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku",
+          "concept": "http://www.w3.org/2001/XMLSchema#date",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime.startDate",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "The start of the period.",
+            "cs": "Začátek doby trvání."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime.startDate"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime.startDate",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce",
+          "concept": "http://www.w3.org/2001/XMLSchema#date",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime.endDate",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime.endDate",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime.endDate"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#PeriodOfTime.endDate",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "formatted name",
+            "cs": "jméno"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The formatted text corresponding to the name of the object",
+            "cs": "Jméno objektu jako formátovaný text."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "http://www.w3.org/2006/vcard/ns#fn"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.název": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.název",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A name given to the Dataset Series.",
+            "cs": "Název série datových sad"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.title"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.title",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.název",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.popis": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.popis",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "description",
+            "cs": "popis"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A free-text account of the Dataset Series.",
+            "cs": "Volný text s popisem série datových sad"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.description"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.description",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.popis",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klíčovéSlovo": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klíčovéSlovo",
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.keyword",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klíčovéSlovo",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "in series",
+            "es": "en serie",
+            "it": "in serie",
+            "cs": "je součástí"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A dataset series of which the dataset is part.",
+            "es": "Una serie de conjuntos de datos del cuál un conjunto de datos es parte.",
+            "it": "Una serie di dataset di cui questo dataset fa parte.",
+            "cs": "Série datových sad, jíž je datová sada součástí."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.inSeries"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.inSeries",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel",
+          "cardinality": [
+            1,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "publisher",
+            "cs": "poskytovatel"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "An entity (organisation) responsible for making the Catalogue available.",
+            "cs": "Poskytovatel datového katalogu."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.publisher"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.publisher",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "http://www.w3.org/ns/dcat#contactPoint",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "es": "Información relevante de contacto para el recurso catalogado. Se recomienda el uso de vCard.",
+            "it": "Informazioni di contatto rilevanti per la risorsa catalogata. Si raccomanda l'uso di vCard.",
+            "en": "Relevant contact information for the catalogued resource. Use of vCard is recommended.",
+            "cs": "Tato vlastnost obsahuje kontaktní informace, které mohou být využity pro zasílání připomínek ke katalogu.",
+            "fr": "Relie un jeu de données à une information de contact utile en utilisant VCard.",
+            "el": "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard.",
+            "ar": "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard",
+            "ja": "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。",
+            "da": "Relevante kontaktoplysninger for den katalogiserede ressource. Anvendelse af vCard anbefales."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "http://www.w3.org/ns/dcat#contactPoint"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+          "cardinality": null,
+          "tags": [],
+          "name": {
+            "en": "homepage",
+            "cs": "domovská stránka"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A web page that acts as the main page for the Catalogue.",
+            "cs": "Tato vlastnost odkazuje na domovskou stránku lokálního katalogu, kam mohou chodit uživatelé."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.homepage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.homepage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Catalogue.dataset",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "publisher",
+            "cs": "poskytovatel"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "An entity (organisation) responsible for making the Dataset available.",
+            "cs": "Poskytovatel datové sady"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.publisher"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.publisher",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatovéTéma",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "A category of the Dataset.",
+            "cs": "Téma datové sady. Datová sada může být popsána více tématy.",
+            "it": "La categoria principale della risorsa. Una risorsa può avere più temi.",
+            "es": "La categoría principal del recurso. Un recurso puede tener varios temas.",
+            "fr": "La catégorie principale de la ressource. Une ressource peut avoir plusieurs thèmes.",
+            "el": "Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα.",
+            "ar": "التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد.",
+            "ja": "データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。",
+            "da": "Et centralt emne for ressourcen. En ressource kan have flere centrale emner."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Frekvence",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "frequency",
+            "cs": "periodicita aktualizace"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The frequency at which the Dataset is updated.",
+            "cs": "Frekvence, se kterou je datová sada aktualizována."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.frequency"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.frequency",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "geographical coverage",
+            "cs": "související geografické území - prvek z RÚIAN"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The geographical area covered by the dataset.",
+            "cs": "Území pokryté datovou sadou, vyjádřené pomocí prvku RÚIAN"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.geographicalCoverage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.geographicalCoverage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí-PrvekZRúian",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "geographical coverage",
+            "cs": "související geografické území"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The geographical area covered by the dataset.",
+            "cs": "Území pokryté datovou sadou."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.geographicalCoverage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.geographicalCoverage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.souvisejícíGeografickéÚzemí",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "temporal coverage",
+            "cs": "časové pokrytí"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The temporal period that the dataset covers.",
+            "cs": "Časový úsek pokrytý datovou sadou"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.temporalCoverage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.temporalCoverage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.contactPoint",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "es": "Información relevante de contacto para el recurso catalogado. Se recomienda el uso de vCard.",
+            "it": "Informazioni di contatto rilevanti per la risorsa catalogata. Si raccomanda l'uso di vCard.",
+            "en": "Contact information that can be used for sending comments about the Dataset.",
+            "cs": "Kontaktní informace, které mohou být využity pro zasílání připomínek k datové sadě.",
+            "fr": "Relie un jeu de données à une information de contact utile en utilisant VCard.",
+            "el": "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard.",
+            "ar": "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard",
+            "ja": "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。",
+            "da": "Relevante kontaktoplysninger for den katalogiserede ressource. Anvendelse af vCard anbefales."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.contactPoint"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.contactPoint",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+          "cardinality": null,
+          "tags": [],
+          "name": {
+            "en": "documentation",
+            "cs": "dokumentace"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A page or document about this Dataset.",
+            "cs": "Stránka či dokument o datové sadě"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.documentation"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.documentation",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Standard",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "conforms to",
+            "cs": "specifikace"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "An implementing rule or other specification.",
+            "cs": "Specifikace, jíž se datová sada řídí."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.conformsTo"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.conformsTo",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "es": "tema",
+            "it": "tema",
+            "en": "theme",
+            "fr": "thème",
+            "cs": "klasifikace dle EuroVoc",
+            "el": "Θέμα",
+            "ar": "التصنيف",
+            "ja": "テーマ/カテゴリー",
+            "da": "emne"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A category of the Dataset.",
+            "cs": "Kategorie či téma datové sady dle EuroVoc.",
+            "it": "La categoria principale della risorsa. Una risorsa può avere più temi.",
+            "es": "La categoría principal del recurso. Un recurso puede tener varios temas.",
+            "fr": "La catégorie principale de la ressource. Une ressource peut avoir plusieurs thèmes.",
+            "el": "Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα.",
+            "ar": "التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد.",
+            "ja": "データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。",
+            "da": "Et centralt emne for ressourcen. En ressource kan have flere centrale emner."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "applicable legislation",
+            "cs": "příslušný právní předpis"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The legislation that mandates the creation or management of the Dataset.",
+            "cs": "Indikace příslušného právního předpisu předepisujícího vznik datové sady."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.applicableLegislation"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.applicableLegislation",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.datasetDistribution",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.datasetDistribution",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.datasetDistribution"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.datasetDistribution",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "fr": "URL d'accès",
+            "es": "URL de acceso",
+            "el": "URL πρόσβασης",
+            "en": "access URL",
+            "it": "indirizzo di accesso",
+            "cs": "přístupové URL",
+            "ar": "رابط وصول",
+            "ja": "アクセスURL",
+            "da": "adgangsadresse"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessUrl",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessUrl"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessUrl",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "applicable legislation",
+            "cs": "příslušný právní předpis"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The legislation that mandates the creation or management of the Distribution.",
+            "cs": "Indikace příslušného právního předpisu předepisujícího vznik distribuce."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.applicableLegislation"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.applicableLegislation",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "applicable legislation",
+            "cs": "příslušný právní předpis"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The legislation that mandates the creation or management of the Data Service.",
+            "cs": "Indikace příslušného právního předpisu předepisujícího vznik datové služby."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.applicableLegislation"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.applicableLegislation",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "es": "URL de descarga",
+            "fr": "URL de téléchargement",
+            "it": "URL di scarico",
+            "cs": "odkaz na stažení souboru",
+            "el": "URL μεταφόρτωσης",
+            "en": "download URL",
+            "ar": "رابط تحميل",
+            "ja": "ダウンロードURL",
+            "da": "downloadURL"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "fr": "Ceci est un lien direct à un fichier téléchargeable en un format donnée. Exple fichier CSV ou RDF. Le format est décrit par les propriétés de distribution dcterms:format et/ou dcat:mediaType.",
+            "es": "La URL de un archivo descargable en el formato dato. Por ejemplo, archivo CSV o archivo RDF. El formato se describe con las propiedades de la distribución dcterms:format y/o dcat:mediaType.",
+            "it": "Questo è un link diretto al file scaricabile in un dato formato. E.g. un file CSV o un file RDF. Il formato è descritto dal dcterms:format e/o dal dcat:mediaType della distribuzione.",
+            "en": "A URL that is a direct link to a downloadable file in a given format.",
+            "cs": "URL, které je přímým odkazem na stažitelný soubor v daném formátu.",
+            "ja": "dcat:downloadURLはdcat:accessURLの特定の形式です。しかし、DCATプロファイルが非ダウンロード・ロケーションに対してのみaccessURLを用いる場合には、より強い分離を課すことを望む可能性があるため、この含意を強化しないように、DCATは、dcat:downloadURLをdcat:accessURLのサブプロパティーであると定義しません。",
+            "el": "Είναι ένας σύνδεσμος άμεσης μεταφόρτωσης ενός αρχείου σε μια δεδομένη μορφή. Π.χ. ένα αρχείο CSV ή RDF. Η μορφη αρχείου περιγράφεται από τις ιδιότητες dcterms:format ή/και dcat:mediaType της διανομής.",
+            "ar": "رابط مباشر لملف يمكن تحميله. نوع الملف يتم توصيفه باستخدام الخاصية dcterms:format dcat:mediaType ",
+            "da": "URL til fil der kan downloades i et bestemt format. Fx en CSV-fil eller en RDF-fil. Formatet for distributionen angives ved hjælp af egenskaberne dcterms:format og/eller dcat:mediaType."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.downloadUrl"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.downloadUrl",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#FormátSouboru",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "format",
+            "cs": "formát souboru ke stažení"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The file format of the distribution.",
+            "cs": "Tato vlastnost odkazuje na typ souboru s distribucí."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.format"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.format",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#TypMédia",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.mediaType",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.mediaType",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.mediaType"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.mediaType",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#TypMédia",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.packagingFormat",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.packagingFormat",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.packagingFormat"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.packagingFormat",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#TypMédia",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.compressionFormat",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.compressionFormat",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.compressionFormat"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.compressionFormat",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "linked schemas",
+            "cs": "strojově čitelné schéma souboru ke stažení"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "An established standard to which the distribution conforms.",
+            "cs": "Ustanovené schéma, jímž se popisovaná distribuce řídí."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.linkedSchemas"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.linkedSchemas",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "access service",
+            "es": "servicio de acceso de datos",
+            "it": "servizio di accesso ai dati",
+            "cs": "přístupová služba",
+            "da": "dataadgangstjeneste"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessService",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessService"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Distribution.accessService",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+          "cardinality": [
+            1,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointDescription",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointDescription",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointDescription"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointDescription",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Standard",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "conforms to",
+            "cs": "specifikace"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "An established (technical) standard to which the Data Service conforms.",
+            "cs": "Specifikaci, jíž se datová služba řídí."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.conformsTo"
+          ],
+          "usageNote": {
+            "cs": "Takovou specifikací je například SPARQL. Seznam možných hodnot lze nalézt například v seznamu udržovaném Open Source Geospatial Foundation."
+          },
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+          "cardinality": null,
+          "tags": [],
+          "name": {
+            "en": "documentation",
+            "cs": "dokumentace"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A page or document about this Data Service",
+            "cs": "Dokumentace dále popisující datovou službu."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.documentation"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.documentation",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/specifikace",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/specifikace",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://data.gov.cz/slovník/podmínky-užití/specifikace"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Licence",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "cs": "originální databáze",
+            "en": "Copyrighted database"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Licence",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "cs": "autorské dílo",
+            "en": "Copyrighted work"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/autorské-dílo",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://data.gov.cz/slovník/podmínky-užití/autorské-dílo"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Licence",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "cs": "zvláštní právo pořizovatele databáze",
+            "en": "Sui generis database rights"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/databáze-chráněná-zvláštními-právy",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://data.gov.cz/slovník/podmínky-užití/databáze-chráněná-zvláštními-právy"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Licence",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "cs": "osobní údaje",
+            "en": "Personal data"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": "https://data.gov.cz/slovník/podmínky-užití/osobní-údaje",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://data.gov.cz/slovník/podmínky-užití/osobní-údaje"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#E-mailAddress",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "has email",
+            "cs": "email"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "To specify the electronic mail address for communication with the object",
+            "cs": "E-mailová adresa pro komunikaci."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "http://www.w3.org/2006/vcard/ns#hasEmail"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.poskytujeDatovouSadu": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.poskytujeDatovouSadu",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.servesDataset",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.servesDataset",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.servesDataset"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.servesDataset",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.poskytujeDatovouSadu",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.kontaktníBod": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.kontaktníBod",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.contactPoint",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.contactPoint",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DataService.contactPoint"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DataService.contactPoint",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.kontaktníBod",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.příslušnýPrávníPředpis": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.příslušnýPrávníPředpis",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "applicable legislation",
+            "cs": "příslušný právní předpis"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The legislation that mandates the creation or management of the Dataset Series.",
+            "cs": "Indikace příslušného právního předpisu předepisujícího vznik série datových sad."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.applicableLegislation"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.applicableLegislation",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.příslušnýPrávníPředpis",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.periodicitaAktualizace": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.periodicitaAktualizace",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Frekvence",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "frequency",
+            "cs": "periodicita aktualizace"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The frequency at which the Dataset Series is updated.",
+            "cs": "Frekvence, se kterou je série datových sad aktualizována."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.frequency"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.frequency",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.periodicitaAktualizace",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#GeografickéÚzemí",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "geographical coverage",
+            "cs": "související geografické území"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A geographic region that is covered by the Dataset Series.",
+            "cs": "Geografické území pokryté sérií datových sad."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.geographicalCoverage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.geographicalCoverage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.kontaktníBod": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.kontaktníBod",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.contactPoint",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "es": "Información relevante de contacto para el recurso catalogado. Se recomienda el uso de vCard.",
+            "it": "Informazioni di contatto rilevanti per la risorsa catalogata. Si raccomanda l'uso di vCard.",
+            "en": "Contact information that can be used for sending comments about the Dataset Series.",
+            "cs": "Kontaktní informace, které mohou být využity pro zasílání připomínek k sérii datových sad.",
+            "fr": "Relie un jeu de données à une information de contact utile en utilisant VCard.",
+            "el": "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard.",
+            "ar": "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard",
+            "ja": "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。",
+            "da": "Relevante kontaktoplysninger for den katalogiserede ressource. Anvendelse af vCard anbefales."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.contactPoint"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.contactPoint",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.kontaktníBod",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.poskytovatel": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.poskytovatel",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel",
+          "cardinality": [
+            0,
+            1
+          ],
+          "tags": [],
+          "name": {
+            "en": "publisher",
+            "cs": "poskytovatel"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "An entity (organisation) responsible for ensuring the coherency of the Dataset Series.",
+            "cs": "Poskytovatel série datových sad zajišťující její soudržnost."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.publisher"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.publisher",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.poskytovatel",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.časovéPokrytí": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.časovéPokrytí",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "temporal coverage",
+            "cs": "časové pokrytí"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A temporal period that the Dataset Series covers.",
+            "cs": "Časový úsek pokrytý sérií datových sad"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.temporalCoverage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#DatasetSeries.temporalCoverage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.časovéPokrytí",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.dokumentace": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.dokumentace",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "documentation",
+            "cs": "dokumentace"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A page or document about this Dataset.",
+            "cs": "Stránka či dokument o sérii datových sad"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.documentation"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.documentation",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.dokumentace",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.jeSoučástí": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.jeSoučástí",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "in series",
+            "es": "en serie",
+            "it": "in serie",
+            "cs": "je součástí"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A dataset series of which the dataset is part.",
+            "es": "Una serie de conjuntos de datos del cuál un conjunto de datos es parte.",
+            "it": "Una serie di dataset di cui questo dataset fa parte.",
+            "cs": "Série datových sad, jíž je tato série datových sad součástí."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.inSeries"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.inSeries",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.jeSoučástí",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klasifikaceDleEurovoc": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klasifikaceDleEurovoc",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "es": "tema",
+            "it": "tema",
+            "en": "theme",
+            "fr": "thème",
+            "cs": "klasifikace dle EuroVoc",
+            "el": "Θέμα",
+            "ar": "التصنيف",
+            "ja": "テーマ/カテゴリー",
+            "da": "emne"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "A category of the Dataset.",
+            "cs": "Kategorie či téma série datových sad dle EuroVoc.",
+            "it": "La categoria principale della risorsa. Una risorsa può avere più temi.",
+            "es": "La categoría principal del recurso. Un recurso puede tener varios temas.",
+            "fr": "La catégorie principale de la ressource. Une ressource peut avoir plusieurs thèmes.",
+            "el": "Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα.",
+            "ar": "التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد.",
+            "ja": "データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。",
+            "da": "Et centralt emne for ressourcen. En ressource kan have flere centrale emner."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.klasifikaceDleEurovoc",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#PrvekRÚIAN",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {
+            "en": "geographical coverage",
+            "cs": "související geografické území - prvek z RÚIAN"
+          },
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {
+            "en": "The geographical area covered by the dataset.",
+            "cs": "Území pokryté datovou sadou, vyjádřené pomocí prvku RÚIAN"
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.geographicalCoverage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.geographicalCoverage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.souvisejícíGeografickéÚzemí-PrvekZRúian",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.téma": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.téma",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatovéTéma",
+          "cardinality": [
+            0,
+            null
+          ],
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {},
+          "descriptionFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme",
+          "descriptionProperty": "http://www.w3.org/2004/02/skos/core#definition",
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.theme",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.téma",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#DatováSada.vstupníStránka": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.vstupníStránka",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.landingPage",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "A web page that provides access to the Dataset, its Distributions and/or additional information.",
+            "it": "Una pagina web che può essere navigata per ottenere l'accesso al catalogo, ad un dataset, alle distribuzioni del dataset e/o ad informazioni addizionali.",
+            "es": "Una página web que puede ser visitada en un explorador Web para tener acceso el catálogo, un conjunto de datos, sus distribuciones y/o información adicional.",
+            "fr": "Une page Web accessible par un navigateur Web donnant accès au catalogue, un jeu de données, ses distributions et/ou des informations additionnelles.",
+            "cs": "Webová stránka, na kterou lze pro získání přístupu k datové sadě, jejím distribucím a/nebo dalším informacím přistoupit webovým prohlížečem.",
+            "el": "Μία ιστοσελίδα πλοηγίσιμη μέσω ενός φυλλομετρητή (Web browser) που δίνει πρόσβαση στο σύνολο δεδομένων, τις διανομές αυτού ή/και επιπρόσθετες πληροφορίες.",
+            "ar": "صفحة وب يمكن من خلالها الوصول الى قائمة البيانات أو إلى معلومات إضافية متعلقة بها ",
+            "ja": "データセット、その配信および（または）追加情報にアクセスするためにウエブ・ブラウザでナビゲートできるウェブページ。",
+            "da": "En webside som der kan navigeres til i en webbrowser for at få adgang til kataloget, et datasæt, dets distributioner og/eller yderligere information."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-ap#Dataset.landingPage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.landingPage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.vstupníStránka",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.vstupníStránka": {
+      "ends": [
+        {
+          "iri": null,
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": null,
+          "nameProperty": null,
+          "description": {},
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "externalDocumentationUrl": null
+        },
+        {
+          "iri": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.vstupníStránka",
+          "concept": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+          "cardinality": null,
+          "tags": [],
+          "name": {},
+          "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.landingPage",
+          "nameProperty": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "description": {
+            "en": "A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.",
+            "it": "Una pagina web che può essere navigata per ottenere l'accesso al catalogo, ad un dataset, alle distribuzioni del dataset e/o ad informazioni addizionali.",
+            "es": "Una página web que puede ser visitada en un explorador Web para tener acceso el catálogo, un conjunto de datos, sus distribuciones y/o información adicional.",
+            "fr": "Une page Web accessible par un navigateur Web donnant accès au catalogue, un jeu de données, ses distributions et/ou des informations additionnelles.",
+            "cs": "Webová stránka, na kterou lze pro získání přístupu ke sérii datových sad přistoupit webovým prohlížečem.",
+            "el": "Μία ιστοσελίδα πλοηγίσιμη μέσω ενός φυλλομετρητή (Web browser) που δίνει πρόσβαση στο σύνολο δεδομένων, τις διανομές αυτού ή/και επιπρόσθετες πληροφορίες.",
+            "ar": "صفحة وب يمكن من خلالها الوصول الى قائمة البيانات أو إلى معلومات إضافية متعلقة بها ",
+            "ja": "データセット、その配信および（または）追加情報にアクセスするためにウエブ・ブラウザでナビゲートできるウェブページ。",
+            "da": "En webside som der kan navigeres til i en webbrowser for at få adgang til kataloget, et datasæt, dets distributioner og/eller yderligere information."
+          },
+          "descriptionFromProfiled": null,
+          "descriptionProperty": null,
+          "profiling": [
+            "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.landingPage"
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.landingPage",
+          "externalDocumentationUrl": null
+        }
+      ],
+      "id": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad.vstupníStránka",
+      "type": [
+        "relationship-profile"
+      ]
+    }
+  }
+}
