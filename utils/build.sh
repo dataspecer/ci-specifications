@@ -5,12 +5,15 @@ set -euo pipefail
 image="${DOCKER_IMAGE:-ghcr.io/dataspecer/ws:${DOCKER_TAG:-branch-main}}"
 work_dir="$(mktemp -d)"
 container_id=''
+startup_log_lines=''
 
 cleanup() {
   if [[ -n "$container_id" ]]; then
-    # Capture both output streams before stopping the auto-removed container.
-    if ! { mkdir -p "$EXPORT_DIR" && docker logs "$container_id" >"$EXPORT_DIR/docker.log" 2>&1; }; then
-      echo 'Could not save Dataspecer container logs to the export directory' >&2
+    # Capture import and generation output, excluding container startup.
+    if [[ -n "$startup_log_lines" ]]; then
+      if ! { mkdir -p "$EXPORT_DIR" && docker logs "$container_id" 2>&1 | tail -n "+$((startup_log_lines + 1))" >"$EXPORT_DIR/docker.log"; }; then
+        echo 'Could not save Dataspecer container logs to the export directory' >&2
+      fi
     fi
     docker stop "$container_id" >/dev/null || true
   fi
@@ -55,6 +58,8 @@ while true; do
 done
 echo "App started in ~$((SECONDS - startup_started)) seconds." >&2
 
+# Snapshot the startup line count before import can produce any log output.
+startup_log_lines="$(docker logs "$container_id" 2>&1 | wc -l)"
 echo 'Uploading backup ZIP...' >&2
 curl --fail --show-error --location --silent --output /dev/null \
   --write-out 'Backup ZIP upload request took %{time_total} seconds.\n' \
