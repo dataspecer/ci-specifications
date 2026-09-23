@@ -9,6 +9,11 @@ export PATH="$repo_dir/utils:$PATH"
 cd "$script_dir"
 "$repo_dir/utils/build.sh"
 
+# The shared builder leaves only docker.log when Dataspecer cannot export.
+if [[ -z "$(find "$EXPORT_DIR" -mindepth 1 ! -path "$EXPORT_DIR/docker.log" -print -quit)" ]]; then
+  exit 0
+fi
+
 mkdir -p "$EXPORT_DIR/_xml"
 cp -a "$script_dir/xml/." "$EXPORT_DIR/_xml/"
 find "$EXPORT_DIR/_xml" -type f -name '*.xml' -exec sed -i \

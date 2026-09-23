@@ -23,6 +23,13 @@ trap cleanup EXIT
 trap 'exit 130' INT
 trap 'exit 143' TERM
 
+export_logs_only() {
+  echo 'Dataspecer did not produce an export ZIP; keeping only docker.log in the export directory.' >&2
+  mkdir -p "$EXPORT_DIR"
+  find "$EXPORT_DIR" -mindepth 1 -delete
+  exit 0
+}
+
 if [[ -f backup.zip ]]; then
   cp backup.zip "$work_dir/backup.zip"
 else
@@ -61,16 +68,23 @@ echo "App started in ~$((SECONDS - startup_started)) seconds." >&2
 # Snapshot the startup line count before import can produce any log output.
 startup_log_lines="$(docker logs "$container_id" 2>&1 | wc -l)"
 echo 'Uploading backup ZIP...' >&2
-curl --fail --show-error --location --silent --output /dev/null \
+if ! curl --fail --show-error --location --silent --output /dev/null \
   --write-out 'Backup ZIP upload request took %{time_total} seconds.\n' \
   --form "file=@$work_dir/backup.zip;type=application/zip" \
-  "$base_url/api/resources/import-zip" >&2
+  "$base_url/api/resources/import-zip" >&2; then
+  export_logs_only
+fi
 echo 'Downloading export ZIP...' >&2
-curl --fail --show-error --location --silent \
+if ! curl --fail --show-error --location --silent \
   --write-out 'Export ZIP download request took %{time_total} seconds.\n' \
   --get --data-urlencode "iri=$iri" \
   --output "$work_dir/output.zip" \
-  "$base_url/api/experimental/output.zip" >&2
+  "$base_url/api/experimental/output.zip" >&2; then
+  export_logs_only
+fi
+if ! unzip -tq "$work_dir/output.zip" >&2; then
+  export_logs_only
+fi
 mkdir -p "$EXPORT_DIR"
 unzip -qo "$work_dir/output.zip" -d "$EXPORT_DIR"
 (cd "$EXPORT_DIR" && cleanup-export.sh)
