@@ -3094,6 +3094,19 @@
       "dataPsmSchema": "718788b3-9510-4776-a6a7-023759fff97d",
       "namespace": "https://schema.ccmm.cz/research-data/2.0",
       "namespacePrefix": "ccmm"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetCardinality"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1790239830818-eaf1-3fcd-8036",
+      "parent": "https://ofn.gov.cz/operation/1785940923836-4e1f-c005-a017",
+      "entityId": "https://ofn.gov.cz/association/1765909236769-d9e6-7561-87bd",
+      "dataPsmCardinality": [
+        1,
+        null
+      ]
     }
   ],
   "resources": {
@@ -3755,7 +3768,7 @@
       "dataPsmIsReverse": false,
       "dataPsmIsDematerialize": null,
       "dataPsmCardinality": [
-        2,
+        1,
         null
       ]
     },

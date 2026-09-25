@@ -2505,26 +2505,29 @@
         },
         {
           "name": {
-            "en": "title"
+            "en": "label"
           },
           "nameFromProfiled": null,
           "description": {
-            "en": "Title of the subject."
+            "en": "Subject label."
           },
           "descriptionFromProfiled": null,
-          "iri": "Subject.title",
+          "iri": "Subject.label",
           "cardinality": [
             1,
-            null
+            1
           ],
-          "usageNote": {},
+          "usageNote": {
+            "en": "Use a label of the corresponding value from the used code list. At least one subject must be a value from FRASCATI FORD vocabulary. This property may be repeated for parallel language versions of the label."
+          },
           "usageNoteFromProfiled": null,
           "profiling": [
-            "http://purl.org/dc/terms/title"
+            "http://www.w3.org/2004/02/skos/core#prefLabel#attribute"
           ],
-          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
           "externalDocumentationUrl": null,
-          "tags": []
+          "tags": [],
+          "order": null
         }
       ]
     },
@@ -3848,13 +3851,14 @@
             1
           ],
           "usageNote": {},
-          "usageNoteFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Checksum.algorithm",
+          "usageNoteFromProfiled": null,
           "profiling": [
             "https://mff-uk.github.io/specifications/dcat-ap#Checksum.algorithm"
           ],
           "concept": "7a3u9dy5afm913ohbm",
           "externalDocumentationUrl": null,
-          "tags": []
+          "tags": [],
+          "order": null
         }
       ]
     },
@@ -6530,7 +6534,7 @@
             null
           ],
           "usageNote": {
-            "en": "Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. If the resource is Dataset, it has to have at least two qualified attribution relations, the one with the role Creator, the second one with the role Publisher."
+            "en": "Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. \nIf the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
