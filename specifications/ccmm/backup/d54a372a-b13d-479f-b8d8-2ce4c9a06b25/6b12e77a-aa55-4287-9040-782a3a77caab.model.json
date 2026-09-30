@@ -614,7 +614,7 @@
       "nameFromProfiled": null,
       "iri": "RelatedResource",
       "usageNote": {
-        "en": "Class is used for description of the resource together with the type of relation, for which is used value from code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper etc."
+        "en": "The class is used for description of the resource together with the type of relation, for which is used value from the code list https://w3id.org/tib/datacite/vocab/relationType. Distributions of the datasets SHALL NOT be modeled as related resource, but as a distribution. Examples of resources: other related dataset, used methodology, instrument used for measurement, conference or conference paper, etc."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -1493,7 +1493,7 @@
           },
           "nameFromProfiled": null,
           "description": {
-            "en": "Alternate organizational name associated with the object."
+            "en": "An alternate organizational name associated with the object."
           },
           "descriptionFromProfiled": null,
           "iri": "Organization.alternateName",
@@ -1543,7 +1543,7 @@
       "nameFromProfiled": null,
       "iri": "MetadataRecord",
       "usageNote": {
-        "en": "In case metadata is harvested from external catalogue, metadata record IRI shall be the same as IRI of the metadata record in original repository."
+        "en": "In case metadata is harvested from an external catalogue, the metadata record IRI shall be the same as IRI of the metadata record in the original repository."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -1615,7 +1615,7 @@
             null
           ],
           "usageNote": {
-            "en": "This property should be used to indicate the metadata model, schema, ontology or profile that the metadata record conforms to."
+            "en": "This property should be used to indicate the metadata model, schema, ontology, or profile that the metadata record conforms to."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -1704,7 +1704,7 @@
             1
           ],
           "usageNote": {
-            "en": "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf metadata record is harvested from other repository, make sure to include the first repository from which it was harvested."
+            "en": "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf metadata record is harvested from another repository, make sure to include the first repository from which it was harvested."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -1985,7 +1985,7 @@
           "iri": "Distribution-DownloadableFile.downloadUrl",
           "cardinality": null,
           "usageNote": {
-            "en": "Download URL SHOULD be used for the URL at which this distribution is available directly, typically through a HTTP Get request."
+            "en": "A download URL SHOULD BE used for the URL at which this distribution is available directly, typically through an HTTP Get request."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -2976,7 +2976,7 @@
           },
           "nameFromProfiled": null,
           "description": {
-            "en": "Human readable name of the repository."
+            "en": "A human-readable name of the repository."
           },
           "descriptionFromProfiled": null,
           "iri": "Repository.label",
@@ -2991,7 +2991,8 @@
           ],
           "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "externalDocumentationUrl": null,
-          "tags": []
+          "tags": [],
+          "order": null
         }
       ]
     },
@@ -3399,7 +3400,9 @@
           "usageNote": null,
           "usageNoteFromProfiled": null,
           "profiling": [],
-          "concept": "s4oecatrytcm7yma45p"
+          "concept": "s4oecatrytcm7yma45p",
+          "externalDocumentationUrl": null,
+          "tags": []
         },
         {
           "name": {
@@ -3428,7 +3431,10 @@
           "profiling": [
             "https://mff-uk.github.io/specifications/dcat-ap#DataService.endpointUrl"
           ],
-          "concept": "pxybpkdil5lm7w19him"
+          "concept": "pxybpkdil5lm7w19him",
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null
         }
       ]
     },
@@ -3653,7 +3659,7 @@
             1
           ],
           "usageNote": {
-            "en": "Resource URL represents human readable resolvable representation of the resource, i.e. web page. Same url must be aslo in c:iri."
+            "en": "The resource URL is a resolvable representation human-readable representation of the resource, i.e. web page. The same url must be also recorded in c:iri."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -3695,7 +3701,7 @@
           "description": {
             "es": "Enlace a una descripción de la relación con otro recurso.",
             "it": "Link a una descrizione di una relazione con un'altra risorsa.",
-            "en": "Link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.",
+            "en": "A link to a description of a relationship between metadata record and agent with the specification of the role of agent in this relationship.",
             "cs": "Odkaz na popis vztahu s jiným zdrojem.",
             "da": "Reference til en beskrivelse af en relation til en anden ressource."
           },
@@ -3706,7 +3712,7 @@
             null
           ],
           "usageNote": {
-            "en": "Relationship shall contain at least one agent with role \"Data Manager\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."
+            "en": "The relationship shall contain at least one agent with role \"Data Manager\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -3949,7 +3955,7 @@
             1
           ],
           "usageNote": {
-            "en": "It is used for the official name of the agent. For Persons it is combination of first and family names. Recommended format is \"family names, first names\"."
+            "en": "The official name of an agent. For Person, it is a combination of first and family names. Recommended format is \"family names, first names\", e.g., \"Smith, John\"."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -3957,7 +3963,8 @@
           ],
           "externalDocumentationUrl": null,
           "tags": [],
-          "concept": "http://www.w3.org/2001/XMLSchema#string"
+          "concept": "http://www.w3.org/2001/XMLSchema#string",
+          "order": null
         }
       ]
     },
@@ -6532,7 +6539,7 @@
           },
           "nameFromProfiled": null,
           "description": {
-            "en": "An Agent having some form of responsibility for the resource. "
+            "en": "A link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship."
           },
           "descriptionFromProfiled": null,
           "iri": "Resource.qualifiedAttribution",
@@ -6541,7 +6548,7 @@
             null
           ],
           "usageNote": {
-            "en": "Link to a description of a relationship between resource and an agent with the specification of the role of agent in this relationship. \nIf the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher."
+            "en": "If the resource is Dataset, it has to have at least one qualified attribution relation with the role Creator, also, it is recommended to have other qualified relation to the organization with the role Publisher."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -7219,7 +7226,7 @@
             1
           ],
           "usageNote": {
-            "en": "This property SHOULD be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA (using value from https://www.iana.org/assignments/media-types/media-types.xhtml), if available."
+            "en": "This property SHOULD be used when the files in the distribution are packaged, e.g., in a TAR file, a ZIP file, a Frictionless Data Package or a Bagit file. If available, record the media type as a value from the IANA registry (using value from https://www.iana.org/assignments/media-types/media-types.xhtml)."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -7408,7 +7415,7 @@
             null
           ],
           "usageNote": {
-            "en": "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies:\nembargoed access, metadata only access (:NON_PUBLIC),\nopen access (:PUBLIC),\nrestricted access (:RESTRICTED)."
+            "en": "Use an IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is: \n- embargoed access, metadata only access mapped to :NON_PUBLIC,\n- open access mapped to :PUBLIC,\n- restricted access mapped to :RESTRICTED."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -7448,7 +7455,7 @@
           },
           "nameFromProfiled": "https://mff-uk.github.io/specifications/dcat-ap#Dataset.qualifiedAttribution",
           "description": {
-            "en": "Link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship."
+            "en": "A link to a description of a relationship between repository and agent with the specification of the role of agent in this relationship."
           },
           "descriptionFromProfiled": null,
           "iri": "Repository.qualifiedAttribution",
@@ -7457,7 +7464,7 @@
             null
           ],
           "usageNote": {
-            "en": "Relationship shall contain at least one agent with role \"Publisher\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."
+            "en": "The relationship shall contain at least one agent with the role \"Publisher\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -7531,7 +7538,7 @@
             null
           ],
           "usageNote": {
-            "en": "The activity associated with generation of a dataset will typically be an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project."
+            "en": "The activity associated with generation of a dataset will be typically an initiative, project, mission, survey, or ongoing activity. Multiple prov:wasGeneratedBy properties can be used to indicate the dataset production context at various levels of granularity. Use prov:qualifiedGeneration to attach additional details about the relationship between the dataset and the activity, e.g., the exact time that the dataset was produced during the lifetime of a project."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
