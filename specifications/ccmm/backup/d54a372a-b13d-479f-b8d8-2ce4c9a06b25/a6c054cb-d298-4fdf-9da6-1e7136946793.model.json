@@ -131,6 +131,54 @@
       "parent": "https://ofn.gov.cz/operation/1788426293892-38e5-caed-9860",
       "entityId": "https://ofn.gov.cz/attribute/1780471213977-0cd4-3651-bd46",
       "dataPsmCardinality": null
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesHaveIdentity"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1790800340614-3fc8-a1f2-a835",
+      "parent": "https://ofn.gov.cz/operation/1788426295665-08dd-b2e4-b8e3",
+      "dataPsmClass": "https://ofn.gov.cz/class/1780471210066-be4d-9a0f-864f",
+      "instancesHaveIdentity": "ALWAYS"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesHaveIdentity"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1790800385677-db40-bfc2-bd91",
+      "parent": "https://ofn.gov.cz/operation/1790800340614-3fc8-a1f2-a835",
+      "dataPsmClass": "https://ofn.gov.cz/class/1780471210066-be4d-9a0f-864f"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesSpecifyTypes"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1790800385723-4686-ec60-af7b",
+      "parent": "https://ofn.gov.cz/operation/1790800385677-db40-bfc2-bd91",
+      "dataPsmClass": "https://ofn.gov.cz/class/1780471210066-be4d-9a0f-864f",
+      "instancesSpecifyTypes": "ALWAYS"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesSpecifyTypes"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1790800433732-9a21-cf62-b44f",
+      "parent": "https://ofn.gov.cz/operation/1790800385723-4686-ec60-af7b",
+      "dataPsmClass": "https://ofn.gov.cz/class/1780471210066-be4d-9a0f-864f"
+    },
+    {
+      "types": [
+        "core-operation",
+        "https://ofn.gov.cz/slovník/psm/SetInstancesHaveIdentity"
+      ],
+      "iri": "https://ofn.gov.cz/operation/1790800433806-f3f5-31bc-82b2",
+      "parent": "https://ofn.gov.cz/operation/1790800433732-9a21-cf62-b44f",
+      "dataPsmClass": "https://ofn.gov.cz/class/1780471210066-be4d-9a0f-864f",
+      "instancesHaveIdentity": "ALWAYS"
     }
   ],
   "resources": {
@@ -176,7 +224,8 @@
       "dataPsmParts": [
         "https://ofn.gov.cz/attribute/1780471213977-0cd4-3651-bd46"
       ],
-      "dataPsmIsClosed": null
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS"
     },
     "https://ofn.gov.cz/attribute/1780471213977-0cd4-3651-bd46": {
       "types": [

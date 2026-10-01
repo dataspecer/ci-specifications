@@ -181,9 +181,7 @@
       },
       "nameFromProfiled": "http://www.w3.org/ns/prov#Person",
       "iri": "Person",
-      "usageNote": {
-        "en": ""
-      },
+      "usageNote": {},
       "usageNoteFromProfiled": null,
       "profiling": [
         "http://www.w3.org/ns/prov#Person"
@@ -1313,16 +1311,15 @@
             0,
             null
           ],
-          "usageNote": {
-            "en": ""
-          },
+          "usageNote": {},
           "usageNoteFromProfiled": null,
           "profiling": [
             "https://model.ccmm.cz/vocabulary/ccmm#dataBox"
           ],
           "concept": "http://www.w3.org/2001/XMLSchema#string",
           "externalDocumentationUrl": null,
-          "tags": []
+          "tags": [],
+          "order": null
         }
       ]
     },
@@ -1543,7 +1540,7 @@
       "nameFromProfiled": null,
       "iri": "MetadataRecord",
       "usageNote": {
-        "en": "In case metadata is harvested from an external catalogue, the metadata record IRI shall be the same as IRI of the metadata record in the original repository."
+        "en": "In case metadata is harvested from an external catalogue, the metadata record IRI shall be the same as the IRI of the metadata record in the original repository."
       },
       "usageNoteFromProfiled": null,
       "profiling": [
@@ -1704,7 +1701,7 @@
             1
           ],
           "usageNote": {
-            "en": "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf metadata record is harvested from another repository, make sure to include the first repository from which it was harvested."
+            "en": "Original repository is a repository where the original metadata was harvested from or where it was created and/or published. There is always exactly one original repository. \nIf a metadata record is harvested from another repository, make sure to include the first repository from which it was harvested."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -3601,7 +3598,7 @@
           },
           "nameFromProfiled": null,
           "description": {
-            "en": "has identifier"
+            "en": "Identifier of an Agent."
           },
           "descriptionFromProfiled": null,
           "iri": "Agent.hasIdentifier",
@@ -3609,7 +3606,9 @@
             0,
             null
           ],
-          "usageNote": {},
+          "usageNote": {
+            "en": "Recommended identifier scheme for Organization is ROR; recommended identifier scheme for Person is ORCID."
+          },
           "usageNoteFromProfiled": null,
           "profiling": [
             "https://mff-uk.github.io/specifications/dcat-ap#Dataset.otherIdentifier"
@@ -3659,7 +3658,7 @@
             1
           ],
           "usageNote": {
-            "en": "The resource URL is a resolvable representation human-readable representation of the resource, i.e. web page. The same url must be also recorded in c:iri."
+            "en": "The resource URL is a resolvable and human-readable representation of the resource, i.e. web page. The same URL must be also recorded as c:iri."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -3712,7 +3711,7 @@
             null
           ],
           "usageNote": {
-            "en": "The relationship shall contain at least one agent with role \"Data Manager\" from code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."
+            "en": "The relationship shall contain at least one agent with the role \"Data Manager\" from the code list https://vocabs.ccmm.cz/registry/codelist/AgentRole/."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -3955,7 +3954,7 @@
             1
           ],
           "usageNote": {
-            "en": "The official name of an agent. For Person, it is a combination of first and family names. Recommended format is \"family names, first names\", e.g., \"Smith, John\"."
+            "en": "The official name of an agent. For Person, it is a combination of the first and family names. The recommended format is \"family names, first names\", e.g., \"Smith, John\"."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5779,7 +5778,7 @@
           "iri": "IdentifierScheme.label",
           "cardinality": null,
           "usageNote": {
-            "en": "For example, Digital Object Identifier, Open Research and Contributor ID etc. Shorts like DOI or ORCID melongs to the notation."
+            "en": "For example, Digital Object Identifier, Open Research and Contributor ID etc. Shorts like DOI or ORCID belongs to the notation."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -5985,11 +5984,11 @@
       },
       "nameFromProfiled": null,
       "description": {
-        "en": "All additional information that does not fit in any of the other categories. May be used for technical information or detailed information associated with a scientific instrument."
+        "en": "All additional information to the resource. "
       },
       "descriptionFromProfiled": null,
       "usageNote": {
-        "en": "Description of the resource may have also a description type."
+        "en": "May be used for technical information or detailed information associated with a scientific instrument. Description of the resource may have also a description type. At least one description with a free-text account of the Dataset is mandatory."
       },
       "usageNoteFromProfiled": null,
       "externalDocumentationUrl": null,
@@ -6040,7 +6039,7 @@
             1
           ],
           "usageNote": {
-            "en": "description [DCAT-AP 3.0.1 based on DCAT 3 DAP] (https://mff-uk.github.io/specifications/dcat-ap#DataService.description)"
+            "en": " This property can be repeated for parallel language versions of the description."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -6312,7 +6311,9 @@
             "en": "has temporal representation"
           },
           "nameFromProfiled": null,
-          "description": {},
+          "description": {
+            "en": "Represents the representation of a temporal entity (instant or interval)."
+          },
           "descriptionFromProfiled": null,
           "iri": "TimeReference.hasTemporalRepresentation",
           "cardinality": [
@@ -6326,7 +6327,8 @@
           ],
           "externalDocumentationUrl": null,
           "tags": [],
-          "concept": "roeq7bsf6ifmavfecd8"
+          "concept": "roeq7bsf6ifmavfecd8",
+          "order": null
         }
       ],
       "id": "uarioi83o8hmhhjxnio",
@@ -6805,7 +6807,7 @@
           "iri": "Resource.hasIdentifier",
           "cardinality": null,
           "usageNote": {
-            "en": ""
+            "en": "List all available identifiers referring to the same resource (e.g., DOI, Handle, etc.)."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -7412,7 +7414,7 @@
           "iri": "Distribution.rights",
           "cardinality": [
             0,
-            null
+            1
           ],
           "usageNote": {
             "en": "Use an IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is: \n- embargoed access, metadata only access mapped to :NON_PUBLIC,\n- open access mapped to :PUBLIC,\n- restricted access mapped to :RESTRICTED."
