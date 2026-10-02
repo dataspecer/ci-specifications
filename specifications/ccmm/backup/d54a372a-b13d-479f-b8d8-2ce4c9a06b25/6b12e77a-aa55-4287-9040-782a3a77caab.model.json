@@ -3607,7 +3607,7 @@
             null
           ],
           "usageNote": {
-            "en": "Recommended identifier scheme for Organization is ROR; recommended identifier scheme for Person is ORCID."
+            "en": "The recommended identifier scheme for an organization is https://ror.org; the recommended identifier scheme for a person is https://orcid.org. Provide other identifiers if available."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -3954,7 +3954,7 @@
             1
           ],
           "usageNote": {
-            "en": "The official name of an agent. For Person, it is a combination of the first and family names. The recommended format is \"family names, first names\", e.g., \"Smith, John\"."
+            "en": "The official name of an agent. For Person, it is a combination of the first and family names. The recommended format is \"family name(s), first name(s)\", e.g., \"Smith, John\"."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -7368,7 +7368,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is:\nembargoed access, metadata only access - :NON_PUBLIC,\nopen access - :PUBLIC,\nrestricted access - :RESTRICTED."
+            "en": "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is:\n- embargoed access, metadata only access mapped to :NON_PUBLIC,\n- open access mapped to :PUBLIC,\n- restricted access mapped to :RESTRICTED."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
@@ -7417,7 +7417,7 @@
             1
           ],
           "usageNote": {
-            "en": "Use an IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is: \n- embargoed access, metadata only access mapped to :NON_PUBLIC,\n- open access mapped to :PUBLIC,\n- restricted access mapped to :RESTRICTED."
+            "en": "Use IRI identifier from the register http://purl.org/coar/access_right/. Recommended mapping of values from COAR to https://semiceu.github.io/DCAT-AP/drafts/latest/#properties-with-a-recommended-use-of-controlled-vocabularies is:\n- embargoed access, metadata only access mapped to :NON_PUBLIC,\n- open access mapped to :PUBLIC,\n- restricted access mapped to :RESTRICTED."
           },
           "usageNoteFromProfiled": null,
           "profiling": [
