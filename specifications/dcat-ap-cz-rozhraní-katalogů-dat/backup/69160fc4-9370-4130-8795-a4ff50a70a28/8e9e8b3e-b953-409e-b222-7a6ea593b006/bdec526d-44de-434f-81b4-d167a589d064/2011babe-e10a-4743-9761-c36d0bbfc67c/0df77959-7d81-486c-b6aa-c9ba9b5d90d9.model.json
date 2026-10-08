@@ -1,10 +1,4 @@
 {
-  "urls": [
-    "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.ttl"
-  ],
-  "label": {
-    "en": "dublin_core_terms"
-  },
   "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
   "id": "69160fc4-9370-4130-8795-a4ff50a70a28/8e9e8b3e-b953-409e-b222-7a6ea593b006/bdec526d-44de-434f-81b4-d167a589d064/2011babe-e10a-4743-9761-c36d0bbfc67c/0df77959-7d81-486c-b6aa-c9ba9b5d90d9",
   "pimStore": {
@@ -4441,5 +4435,11 @@
         "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
       }
     }
+  },
+  "urls": [
+    "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.ttl"
+  ],
+  "label": {
+    "en": "dublin_core_terms"
   }
 }

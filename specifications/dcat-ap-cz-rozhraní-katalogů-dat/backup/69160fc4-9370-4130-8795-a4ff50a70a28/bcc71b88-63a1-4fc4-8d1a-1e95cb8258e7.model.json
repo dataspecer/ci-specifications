@@ -666,6 +666,87 @@
       "type": [
         "generalization"
       ]
+    },
+    "581eefee-3388-4c48-99b3-d4d3e95b8edd": {
+      "iri": "Zdroj",
+      "name": {
+        "en": "Resource",
+        "cs": "Zdroj"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+      "description": {
+        "en": "Anything described by RDF.",
+        "cs": "Cokoliv, co má URL."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Zdroj"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "controlledVocabularies": [],
+      "order": null,
+      "id": "581eefee-3388-4c48-99b3-d4d3e95b8edd",
+      "type": [
+        "class-profile"
+      ]
+    },
+    "46c145c9-7011-4697-9482-a3f48de3d794": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "sdnb9p3z3zmgqmlthm"
+        },
+        {
+          "name": {
+            "es": "end-point del servicio",
+            "it": "end-point del servizio",
+            "cs": "přístupový bod služby",
+            "en": "endpoint URL",
+            "da": "tjenesteendpoint"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby",
+          "description": {},
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby",
+          "iri": "Katalog.přístupovýBodSlužby",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {
+            "cs": "Pro DCAT-AP Dokumenty je to URL souboru katalogu a zároveň IRI katalogu uvnitř souboru.\nPro SPARQL endpoint je to URL SPARQL endpointu."
+          },
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [
+            "https://w3id.org/dsv/requirement-level#mandatory"
+          ],
+          "order": null,
+          "concept": "581eefee-3388-4c48-99b3-d4d3e95b8edd"
+        }
+      ],
+      "id": "46c145c9-7011-4697-9482-a3f48de3d794",
+      "type": [
+        "relationship-profile"
+      ]
     }
   }
 }

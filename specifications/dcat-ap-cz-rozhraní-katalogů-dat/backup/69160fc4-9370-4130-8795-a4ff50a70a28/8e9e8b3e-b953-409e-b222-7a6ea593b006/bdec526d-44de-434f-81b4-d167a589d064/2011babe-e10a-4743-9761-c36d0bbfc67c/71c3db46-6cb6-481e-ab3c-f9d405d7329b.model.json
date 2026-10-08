@@ -1,10 +1,4 @@
 {
-  "urls": [
-    "https://www.w3.org/ns/dcat3.ttl"
-  ],
-  "label": {
-    "en": "dcat3"
-  },
   "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
   "id": "69160fc4-9370-4130-8795-a4ff50a70a28/8e9e8b3e-b953-409e-b222-7a6ea593b006/bdec526d-44de-434f-81b4-d167a589d064/2011babe-e10a-4743-9761-c36d0bbfc67c/71c3db46-6cb6-481e-ab3c-f9d405d7329b",
   "pimStore": {
@@ -2876,5 +2870,11 @@
         "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
       }
     }
+  },
+  "urls": [
+    "https://www.w3.org/ns/dcat3.ttl"
+  ],
+  "label": {
+    "en": "dcat3"
   }
 }

@@ -10,11 +10,11 @@
     "documentBaseUrl": "https://datagov-cz.github.io/cache-slovniku/spdx-ontology.2.3.1.ttl"
   },
   "metadata": {
-    "creationDate": "2026-10-06T11:08:24.099Z",
-    "modificationDate": "2026-10-06T11:08:26.012Z"
+    "creationDate": "2026-10-08T08:42:48.473Z",
+    "modificationDate": "2026-10-08T08:44:38.136Z"
   },
   "_version": 1,
   "_exportVersion": 1,
-  "_exportedAt": "2026-10-06T11:44:32.259Z",
+  "_exportedAt": "2026-10-08T08:45:17.370Z",
   "_exportedBy": "http://localhost:3100"
 }

@@ -36,7 +36,9 @@
         "https://ofn.gov.cz/association/1761911036807-48d3-7f28-97e0",
         "https://ofn.gov.cz/attribute/1761911044901-ef77-cf95-9656",
         "https://ofn.gov.cz/class/1761911044922-f696-c391-a52c",
-        "https://ofn.gov.cz/association/1761911044939-e95b-e147-9e1d"
+        "https://ofn.gov.cz/association/1761911044939-e95b-e147-9e1d",
+        "17f52b06-160e-4fab-8c60-ec5fe878ebba",
+        "de644cee-e57d-4c1a-adad-bf48b1ce5f12"
       ],
       "jsonEnforceContext": "with-extensions",
       "jsonLdDefinedPrefixes": {
@@ -66,6 +68,7 @@
         "https://ofn.gov.cz/association/1761911036807-48d3-7f28-97e0",
         "https://ofn.gov.cz/association/1761910411651-4869-0117-9638",
         "https://ofn.gov.cz/association/1761910411739-6986-ab47-b2e9",
+        "de644cee-e57d-4c1a-adad-bf48b1ce5f12",
         "https://ofn.gov.cz/association/1761910411680-2b02-b094-a8cb"
       ],
       "dataPsmIsClosed": null,
@@ -360,6 +363,40 @@
       "dataPsmIsReverse": false,
       "dataPsmIsDematerialize": null,
       "id": "https://ofn.gov.cz/association/1761911044939-e95b-e147-9e1d",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ]
+    },
+    "17f52b06-160e-4fab-8c60-ec5fe878ebba": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "17f52b06-160e-4fab-8c60-ec5fe878ebba",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "zdroj",
+      "dataPsmInterpretation": "581eefee-3388-4c48-99b3-d4d3e95b8edd",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "id": "17f52b06-160e-4fab-8c60-ec5fe878ebba",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ]
+    },
+    "de644cee-e57d-4c1a-adad-bf48b1ce5f12": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "de644cee-e57d-4c1a-adad-bf48b1ce5f12",
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "přístupový_bod",
+      "dataPsmInterpretation": "46c145c9-7011-4697-9482-a3f48de3d794",
+      "dataPsmPart": "17f52b06-160e-4fab-8c60-ec5fe878ebba",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null,
+      "id": "de644cee-e57d-4c1a-adad-bf48b1ce5f12",
       "type": [
         "https://ofn.gov.cz/slovník/psm/AssociationEnd"
       ]

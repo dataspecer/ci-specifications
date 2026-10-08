@@ -1,10 +1,4 @@
 {
-  "urls": [
-    "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
-  ],
-  "label": {
-    "en": "skos"
-  },
   "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
   "id": "69160fc4-9370-4130-8795-a4ff50a70a28/8e9e8b3e-b953-409e-b222-7a6ea593b006/bdec526d-44de-434f-81b4-d167a589d064/2011babe-e10a-4743-9761-c36d0bbfc67c/532692d9-a726-404e-9483-70fbcbb517bc",
   "pimStore": {
@@ -1946,5 +1940,11 @@
         "pimHumanDescriptionProperty": "http://www.w3.org/2004/02/skos/core#definition"
       }
     }
+  },
+  "urls": [
+    "https://datagov-cz.github.io/cache-slovniku/skos.rdf"
+  ],
+  "label": {
+    "en": "skos"
   }
 }
