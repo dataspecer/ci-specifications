@@ -10,11 +10,11 @@
     "documentBaseUrl": "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0/voc/r5r.jsonld"
   },
   "metadata": {
-    "creationDate": "2026-10-08T08:42:48.168Z",
-    "modificationDate": "2026-10-08T08:44:37.188Z"
+    "creationDate": "2026-10-12T07:10:27.157Z",
+    "modificationDate": "2026-10-12T07:10:29.170Z"
   },
   "_version": 1,
   "_exportVersion": 1,
-  "_exportedAt": "2026-10-08T08:45:17.297Z",
+  "_exportedAt": "2026-10-12T07:12:34.175Z",
   "_exportedBy": "http://localhost:3100"
 }

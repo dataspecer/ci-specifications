@@ -10,11 +10,11 @@
     "documentBaseUrl": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.ttl"
   },
   "metadata": {
-    "creationDate": "2026-10-08T08:42:48.078Z",
-    "modificationDate": "2026-10-08T08:44:37.024Z"
+    "creationDate": "2026-10-12T07:10:27.061Z",
+    "modificationDate": "2026-10-12T07:10:29.073Z"
   },
   "_version": 1,
   "_exportVersion": 1,
-  "_exportedAt": "2026-10-08T08:45:17.276Z",
+  "_exportedAt": "2026-10-12T07:12:34.153Z",
   "_exportedBy": "http://localhost:3100"
 }

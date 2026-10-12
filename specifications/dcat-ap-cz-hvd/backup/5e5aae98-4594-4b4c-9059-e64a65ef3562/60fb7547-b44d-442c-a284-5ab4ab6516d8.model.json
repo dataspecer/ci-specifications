@@ -35,7 +35,8 @@
       "type": [
         "class-profile"
       ],
-      "order": "1"
+      "order": "1",
+      "regex": "^https://.*$"
     },
     "4ql0akde4lymke21fm0": {
       "iri": "DatováSlužba",
@@ -90,7 +91,8 @@
       "type": [
         "class-profile"
       ],
-      "order": "7"
+      "order": "7",
+      "regex": "^https://.*$"
     },
     "ah3xwvwfsvtmke21fm0": {
       "iri": "Distribuce",

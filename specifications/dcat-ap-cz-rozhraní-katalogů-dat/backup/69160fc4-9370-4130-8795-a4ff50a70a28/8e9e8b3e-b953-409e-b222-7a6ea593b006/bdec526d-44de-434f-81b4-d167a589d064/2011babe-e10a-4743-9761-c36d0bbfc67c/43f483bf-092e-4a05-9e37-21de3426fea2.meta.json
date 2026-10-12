@@ -10,11 +10,11 @@
     "documentBaseUrl": "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.00/voc/core-location-ap.ttl"
   },
   "metadata": {
-    "creationDate": "2026-10-08T08:42:48.371Z",
-    "modificationDate": "2026-10-08T08:44:37.794Z"
+    "creationDate": "2026-10-12T07:10:27.381Z",
+    "modificationDate": "2026-10-12T07:10:29.410Z"
   },
   "_version": 1,
   "_exportVersion": 1,
-  "_exportedAt": "2026-10-08T08:45:17.350Z",
+  "_exportedAt": "2026-10-12T07:12:34.230Z",
   "_exportedBy": "http://localhost:3100"
 }

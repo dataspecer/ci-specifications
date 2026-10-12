@@ -45,7 +45,8 @@
       "id": "sdnb9p3z3zmgqmlthm",
       "type": [
         "class-profile"
-      ]
+      ],
+      "regex": "^https://"
     },
     "cmqmsuobnghmgqmmtsq": {
       "iri": "DatováSada",
@@ -87,7 +88,8 @@
       "id": "cmqmsuobnghmgqmmtsq",
       "type": [
         "class-profile"
-      ]
+      ],
+      "regex": "^https://"
     },
     "0iqdy2a3u20umgqmnfm2": {
       "ends": [
@@ -219,7 +221,8 @@
       "id": "nnsgleliyktmgqmo11i",
       "type": [
         "class-profile"
-      ]
+      ],
+      "regex": "^https://"
     },
     "l8wkjjzb66cmgqmoc4c": {
       "ends": [
@@ -473,7 +476,8 @@
       "id": "8ihu1p7ymk7mgqmv0vc",
       "type": [
         "class-profile"
-      ]
+      ],
+      "regex": "^https://"
     },
     "lah7c91r4cfmgqmvhoq": {
       "ends": [
@@ -693,6 +697,10 @@
       "id": "581eefee-3388-4c48-99b3-d4d3e95b8edd",
       "type": [
         "class-profile"
+      ],
+      "regex": "^https://",
+      "example": [
+        "https://data.gov.cz/sparql"
       ]
     },
     "46c145c9-7011-4697-9482-a3f48de3d794": {

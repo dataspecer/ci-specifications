@@ -1,4 +1,10 @@
 {
+  "urls": [
+    "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0/voc/r5r.jsonld"
+  ],
+  "label": {
+    "en": "r5r"
+  },
   "type": "https://dataspecer.com/core/model-descriptor/pim-store-wrapper",
   "id": "69160fc4-9370-4130-8795-a4ff50a70a28/8e9e8b3e-b953-409e-b222-7a6ea593b006/bdec526d-44de-434f-81b4-d167a589d064/e6c0ff42-154b-4092-8dc1-00a44cbaa8b6",
   "pimStore": {
@@ -172,11 +178,5 @@
         "pimHumanDescriptionProperty": "http://www.w3.org/2000/01/rdf-schema#comment"
       }
     }
-  },
-  "urls": [
-    "https://semiceu.github.io/DCAT-AP/r5r/releases/3.0.0/voc/r5r.jsonld"
-  ],
-  "label": {
-    "en": "r5r"
   }
 }

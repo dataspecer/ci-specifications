@@ -75,7 +75,8 @@
       "id": "https://ofn.gov.cz/class/1761910391249-2ec9-27bf-86e8",
       "type": [
         "https://ofn.gov.cz/slovník/psm/Class"
-      ]
+      ],
+      "instancesHaveIdentity": "ALWAYS"
     },
     "https://ofn.gov.cz/attribute/1761910411613-07aa-3206-9685": {
       "types": [
@@ -122,7 +123,8 @@
       "id": "https://ofn.gov.cz/class/1761910411641-cb68-08ec-bf27",
       "type": [
         "https://ofn.gov.cz/slovník/psm/Class"
-      ]
+      ],
+      "instancesHaveIdentity": "ALWAYS"
     },
     "https://ofn.gov.cz/association/1761910411651-4869-0117-9638": {
       "types": [
@@ -157,7 +159,8 @@
       "id": "https://ofn.gov.cz/class/1761910411667-6d15-3c07-a690",
       "type": [
         "https://ofn.gov.cz/slovník/psm/Class"
-      ]
+      ],
+      "instancesHaveIdentity": "ALWAYS"
     },
     "https://ofn.gov.cz/association/1761910411680-2b02-b094-a8cb": {
       "types": [
@@ -191,7 +194,8 @@
       "id": "https://ofn.gov.cz/class/1761910411725-cdbd-3fe1-a6a7",
       "type": [
         "https://ofn.gov.cz/slovník/psm/Class"
-      ]
+      ],
+      "instancesHaveIdentity": "ALWAYS"
     },
     "https://ofn.gov.cz/association/1761910411739-6986-ab47-b2e9": {
       "types": [
@@ -382,7 +386,8 @@
       "id": "17f52b06-160e-4fab-8c60-ec5fe878ebba",
       "type": [
         "https://ofn.gov.cz/slovník/psm/Class"
-      ]
+      ],
+      "instancesHaveIdentity": "ALWAYS"
     },
     "de644cee-e57d-4c1a-adad-bf48b1ce5f12": {
       "types": [
