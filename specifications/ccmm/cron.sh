@@ -10,7 +10,7 @@ trap 'rm -f -- "$archive"; rm -rf -- "$checkout"' EXIT
 
 curl -fL \
 	-o "$archive" \
-	"https://github.com/techlib/CCMM/raw/refs/heads/2.0.0/Czech%20Core%20Metadata%20Model-backup.zip"
+	"https://github.com/techlib/CCMM/raw/refs/heads/main/Czech%20Core%20Metadata%20Model-backup.zip"
 
 unzip -q "$archive" \
 	-d backup
@@ -18,7 +18,7 @@ unzip -q "$archive" \
 git clone \
 	--depth 1 \
 	--single-branch \
-	--branch sample-data-2.0 \
+	--branch main \
 	-- "https://github.com/techlib/CCMM.git" \
 	"$checkout/repository"
 
