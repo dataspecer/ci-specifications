@@ -33,7 +33,8 @@ export_logs_only() {
 if [[ -f backup.zip ]]; then
   cp backup.zip "$work_dir/backup.zip"
 else
-  (cd backup && zip -qr "$work_dir/backup.zip" .)
+  # Feed zip a sorted list instead of relying on filesystem traversal order.
+  (cd backup && find . -mindepth 1 -print | LC_ALL=C sort | zip -q "$work_dir/backup.zip" -@)
 fi
 # Read the resource directory from the actual archive being imported.
 iri="$(unzip -Z1 "$work_dir/backup.zip" | sed 's@^\./@@' | awk -F/ 'NF > 1 && $1 != "" {print $1}' | sort -u)"
