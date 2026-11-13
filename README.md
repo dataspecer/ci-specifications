@@ -119,22 +119,25 @@ JSON
 ```
 
 `docker_tag`, `docker_image`, `source_commit`, and `source_commit_title` are required.
-PR fields and `source_repository` are optional. For PRs, send the latest PR branch
-commit SHA and its subject, not the synthetic merge commit. The application Docker
-workflow checks out the PR head and reads these with `git rev-parse HEAD` and
-`git log -1 --format=%s`. A full commit list is unnecessary. The export commit records that revision, image
+PR fields and `source_repository` are optional. For PRs, send the built merge
+commit SHA and its subject. The application Docker workflow checks out the merge
+revision and reads these with `git rev-parse HEAD` and `git log -1 --format=%s`.
+A full commit list is unnecessary. The export commit records that revision, image
 reference, optional PR details, specifications SHA, and workflow run URL.
 
 When `pr_number` is supplied, a successful publication creates or updates a report comment on that PR
 in `source_repository` (default: `dataspecer/dataspecer`). The comment links to
 `https://github.com/dataspecer/ci-exports/compare/branch-main..pr-123` for tag
-`pr-123`, using the configured export repository. `branch-main` is the base and
-the PR tag is the comparison target. Two dots compare the snapshots directly,
-without needing a shared ancestor. Publish `branch-main` at least once before
+`pr-123` on a PR targeting `main`, using the configured export repository.
+The bot resolves the PR's current base branch through the
+application repository API and uses its `branch-<base>` export tag (with invalid
+Docker tag character sequences replaced by `-`, matching the image pipeline).
+The PR tag is the comparison target. Two dots compare the snapshots directly,
+without needing a shared ancestor. Publish the target base branch exports at least once before
 using these comparisons. The report starts with a short bot introduction and says whether
 exports are identical or gives counts of added, removed, and modified files
 (including file type changes as modifications). It includes the branch comparison
-link and the application commit used to generate the message, and explicitly
+link and the original PR commit’s seven-character SHA and first message line, and explicitly
 reports a missing baseline. The comparison link follows current branch tips.
 
 The workflow's `GITHUB_TOKEN` cannot comment in the separate application repository,

@@ -124,8 +124,17 @@ jobs:
           for archive in "$ARTIFACT_DIR"/**/export.tar; do
             tar -xf "$archive" -C "$EXPORT_DIR"
           done
+      - name: Resolve pull request base export branch
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number != '' }}
+        id: base
+        env:
+          GH_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
+          SOURCE_REPOSITORY: ${{ inputs.source_repository || 'dataspecer/dataspecer' }}
+          PR_NUMBER: ${{ inputs.pr_number }}
+        run: python3 .github/scripts/comment-export.py base
       - name: Commit and push export snapshot
         env:
+          BASE_EXPORT_TAG: ${{ steps.base.outputs.tag }}
           EXPORT_TOKEN: ${{ secrets.EXPORT_REPOSITORY_TOKEN }}
           EXPORT_REPOSITORY: ${{ vars.EXPORT_REPOSITORY || format('{0}/ci-exports', github.repository_owner) }}
           EXPORT_DIR: ${{ runner.temp }}/combined-export

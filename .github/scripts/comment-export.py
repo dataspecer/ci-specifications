@@ -22,13 +22,14 @@ def report(baseline):
     tag = env['DOCKER_TAG']
     marker = f'<!-- specification-exports:{repository}:{tag} -->'
     head = run('git', 'rev-parse', 'HEAD').decode().strip()
-    compare = f'{server}/{repository}/compare/branch-main..{quote(tag, safe="")}'
+    base_tag = env['BASE_EXPORT_TAG']
+    compare = f'{server}/{repository}/compare/{quote(base_tag, safe="")}..{quote(tag, safe="")}'
     introduction = ('Hello, I am just a small bot 🥺. I exported all our test specifications using '
                     'Dataspecer from this pull request (the code here, merged with the base branch)')
     if baseline:
-        introduction += ' and compared them to the main branch. Here is the result:'
+        introduction += ' and compared them to the base branch. Here is the result:'
     else:
-        introduction += '. I could not compare them to the main branch yet. Here is the result:'
+        introduction += '. I could not compare them to the base branch yet. Here is the result:'
     lines = [marker, introduction, '']
     if baseline:
         base = run('git', 'rev-parse', baseline).decode().strip()
@@ -43,20 +44,35 @@ def report(baseline):
             lines += [f'⚠️ There are some changes: **{added} added, {removed} removed, '
                       f'and {modified} modified files**. You should check them before merging this PR.', '']
         else:
-            lines += ['✅ Everything is intact! The exported files are identical to the main branch.', '']
+            lines += ['✅ Everything is intact! The exported files are identical to the base branch.', '']
     else:
-        lines += ['⚠️ Comparison unavailable: the main branch exports have not been published yet.', '']
-    lines += [f'[Compare with the main branch]({compare})', '']
+        lines += ['⚠️ Comparison unavailable: the base branch exports have not been published yet.', '']
+    lines += [f'[Compare with the base branch]({compare})', '']
     Path(env['RUNNER_TEMP'], 'export-pr-comment.md').write_text('\n'.join(lines))
 
 
-def comment():
+def pull_request():
     env = os.environ
     repository, number = env['SOURCE_REPOSITORY'], env['PR_NUMBER']
     if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repository):
         raise ValueError('Invalid SOURCE_REPOSITORY')
     if not re.fullmatch(r'[1-9][0-9]*', number):
         raise ValueError('Invalid pull request number')
+    return repository, number
+
+
+def resolve_base():
+    repository, number = pull_request()
+    pr = json.loads(run('gh', 'api', f'repos/{repository}/pulls/{number}'))
+    # Match docker/metadata-action branch tag sanitization in the source workflow.
+    tag = re.sub(r'[^a-zA-Z0-9_.-]+', '-', f"branch-{pr['base']['ref']}")
+    with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+        output.write(f'tag={tag}\n')
+
+
+def comment():
+    env = os.environ
+    repository, number = pull_request()
     commit = env['SOURCE_COMMIT']
     if not re.fullmatch(r'[0-9a-fA-F]{40}', commit):
         raise ValueError('Invalid SOURCE_COMMIT; expected a full commit SHA')
@@ -65,8 +81,11 @@ def comment():
     # Resolve the dispatched revision, since the PR may have advanced meanwhile.
     if len(source['parents']) == 2:
         commit = source['parents'][1]['sha']
+        source = json.loads(run('gh', 'api', f'repos/{repository}/git/commits/{commit}'))
     body = Path(env['RUNNER_TEMP'], 'export-pr-comment.md').read_text()
-    body += f'\nThis message was generated from commit <code>{html.escape(commit)}</code>.\n'
+    title = source['message'].split('\n', 1)[0]
+    body += (f'\nThis message was generated from commit <code>{commit[:7]}</code>: '
+             f'<strong>{html.escape(title)}</strong>.\n')
     marker = body.splitlines()[0]
     author = json.loads(run('gh', 'api', 'user'))['id']
     pages = json.loads(run('gh', 'api', '--paginate', '--slurp',
@@ -83,5 +102,7 @@ def comment():
 if __name__ == '__main__':
     if sys.argv[1] == 'report':
         report(sys.argv[2] if len(sys.argv) > 2 else None)
+    elif sys.argv[1] == 'base':
+        resolve_base()
     else:
         comment()

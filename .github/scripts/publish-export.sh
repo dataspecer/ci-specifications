@@ -76,9 +76,11 @@ git push origin "HEAD:refs/heads/$DOCKER_TAG"
 # Generate the PR report while export-repository credentials are available.
 if [[ "$GITHUB_EVENT_NAME" == workflow_dispatch ]] && \
    python3 -c 'import json, os, sys; sys.exit(not json.load(open(os.environ["GITHUB_EVENT_PATH"])).get("inputs", {}).get("pr_number"))'; then
+  : "${BASE_EXPORT_TAG:?}"
+  git check-ref-format --branch "$BASE_EXPORT_TAG" >/dev/null
   baseline=()
-  if git ls-remote --exit-code --heads origin refs/heads/branch-main > /dev/null; then
-    git fetch --depth=1 --no-tags origin refs/heads/branch-main
+  if git ls-remote --exit-code --heads origin "refs/heads/$BASE_EXPORT_TAG" > /dev/null; then
+    git fetch --depth=1 --no-tags origin "refs/heads/$BASE_EXPORT_TAG"
     baseline=(FETCH_HEAD)
   else
     status=$?
