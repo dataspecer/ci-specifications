@@ -1,0 +1,14 @@
+{
+  "title": {
+    "en": "CV without a pattern"
+  },
+  "references": "http://example.com/schemes/none",
+  "conformsToSkos": true,
+  "pattern": null,
+  "documentation": null,
+  "distribution": {
+    "downloadUrl": null,
+    "accessUrl": "http://example.com/vocabularies/none"
+  },
+  "iri": null
+}

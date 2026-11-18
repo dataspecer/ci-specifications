@@ -1,0 +1,1345 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "id": "cv-json-schema-test-v2/semantic-model",
+  "modelId": "cv-json-schema-test-v2/semantic-model",
+  "baseIri": "http://example.com/profile#",
+  "entities": {
+    "cvt-class-root": {
+      "id": "cvt-class-root",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Test",
+      "name": {
+        "en": "Test"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-root"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [],
+      "order": null
+    },
+    "cvt-assignment-must_a-0": {
+      "id": "cvt-assignment-must_a-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-must_a",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "must",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-must_a": {
+      "id": "cvt-class-must_a",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_must_a",
+      "name": {
+        "en": "Value must_a"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-must_a"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-must_a-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-must_a": {
+      "id": "cvt-rel-must_a",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "must_a"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "must_a",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-must_a"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-must_a"
+        }
+      ]
+    },
+    "cvt-assignment-must_a_class_regex-0": {
+      "id": "cvt-assignment-must_a_class_regex-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-must_a_class_regex",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "must",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-must_a_class_regex": {
+      "regex": "^http://example\\.com/cv-a/r.*$",
+      "id": "cvt-class-must_a_class_regex",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_must_a_class_regex",
+      "name": {
+        "en": "Value must_a_class_regex"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-must_a_class_regex"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-must_a_class_regex-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-must_a_class_regex": {
+      "id": "cvt-rel-must_a_class_regex",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "must_a_class_regex"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "must_a_class_regex",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-must_a_class_regex"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-must_a_class_regex"
+        }
+      ]
+    },
+    "cvt-assignment-must_a_single-0": {
+      "id": "cvt-assignment-must_a_single-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-must_a_single",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "must",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-must_a_single": {
+      "id": "cvt-class-must_a_single",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_must_a_single",
+      "name": {
+        "en": "Value must_a_single"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-must_a_single"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-must_a_single-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-must_a_single": {
+      "id": "cvt-rel-must_a_single",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "must_a_single"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "must_a_single",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-must_a_single"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-must_a_single"
+        }
+      ]
+    },
+    "cvt-assignment-must_a_object-0": {
+      "id": "cvt-assignment-must_a_object-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-must_a_object",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "must",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-must_a_object": {
+      "id": "cvt-class-must_a_object",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_must_a_object",
+      "name": {
+        "en": "Value must_a_object"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-must_a_object"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-must_a_object-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-must_a_object": {
+      "id": "cvt-rel-must_a_object",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "must_a_object"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "must_a_object",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-must_a_object"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-must_a_object"
+        }
+      ]
+    },
+    "cvt-rel-must_a_object-label": {
+      "id": "cvt-rel-must_a_object-label",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-must_a_object"
+        },
+        {
+          "name": {
+            "en": "label"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "label",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-must_a_object-label"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
+    },
+    "cvt-assignment-at_least_one_a-0": {
+      "id": "cvt-assignment-at_least_one_a-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-at_least_one_a",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "at-least-one",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-at_least_one_a": {
+      "id": "cvt-class-at_least_one_a",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_at_least_one_a",
+      "name": {
+        "en": "Value at_least_one_a"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-at_least_one_a"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-at_least_one_a-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-at_least_one_a": {
+      "id": "cvt-rel-at_least_one_a",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "at_least_one_a"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "at_least_one_a",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-at_least_one_a"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-at_least_one_a"
+        }
+      ]
+    },
+    "cvt-assignment-at_least_one_a_single-0": {
+      "id": "cvt-assignment-at_least_one_a_single-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-at_least_one_a_single",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "at-least-one",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-at_least_one_a_single": {
+      "id": "cvt-class-at_least_one_a_single",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_at_least_one_a_single",
+      "name": {
+        "en": "Value at_least_one_a_single"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-at_least_one_a_single"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-at_least_one_a_single-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-at_least_one_a_single": {
+      "id": "cvt-rel-at_least_one_a_single",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "at_least_one_a_single"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "at_least_one_a_single",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-at_least_one_a_single"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-at_least_one_a_single"
+        }
+      ]
+    },
+    "cvt-assignment-at_least_one_a_object-0": {
+      "id": "cvt-assignment-at_least_one_a_object-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-at_least_one_a_object",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "at-least-one",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-at_least_one_a_object": {
+      "id": "cvt-class-at_least_one_a_object",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_at_least_one_a_object",
+      "name": {
+        "en": "Value at_least_one_a_object"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-at_least_one_a_object"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-at_least_one_a_object-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-at_least_one_a_object": {
+      "id": "cvt-rel-at_least_one_a_object",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "at_least_one_a_object"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "at_least_one_a_object",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-at_least_one_a_object"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-at_least_one_a_object"
+        }
+      ]
+    },
+    "cvt-rel-at_least_one_a_object-label": {
+      "id": "cvt-rel-at_least_one_a_object-label",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-at_least_one_a_object"
+        },
+        {
+          "name": {
+            "en": "label"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "label",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-at_least_one_a_object-label"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
+    },
+    "cvt-assignment-at_least_one_a_and_b-0": {
+      "id": "cvt-assignment-at_least_one_a_and_b-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-at_least_one_a_and_b",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "at-least-one",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-assignment-at_least_one_a_and_b-1": {
+      "id": "cvt-assignment-at_least_one_a_and_b-1",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-at_least_one_a_and_b",
+      "vocabulary": "cv-json-schema-test-v2-cv-b",
+      "qualifier": "at-least-one",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-at_least_one_a_and_b": {
+      "id": "cvt-class-at_least_one_a_and_b",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_at_least_one_a_and_b",
+      "name": {
+        "en": "Value at_least_one_a_and_b"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-at_least_one_a_and_b"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-at_least_one_a_and_b-0",
+        "cvt-assignment-at_least_one_a_and_b-1"
+      ],
+      "order": null
+    },
+    "cvt-rel-at_least_one_a_and_b": {
+      "id": "cvt-rel-at_least_one_a_and_b",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "at_least_one_a_and_b"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "at_least_one_a_and_b",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-at_least_one_a_and_b"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-at_least_one_a_and_b"
+        }
+      ]
+    },
+    "cvt-assignment-recommended_a_default-0": {
+      "id": "cvt-assignment-recommended_a_default-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-recommended_a_default",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "recommended",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-recommended_a_default": {
+      "id": "cvt-class-recommended_a_default",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_recommended_a_default",
+      "name": {
+        "en": "Value recommended_a_default"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-recommended_a_default"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-recommended_a_default-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-recommended_a_default": {
+      "id": "cvt-rel-recommended_a_default",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "recommended_a_default"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "recommended_a_default",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-recommended_a_default"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-recommended_a_default"
+        }
+      ]
+    },
+    "cvt-assignment-recommended_a_require-0": {
+      "id": "cvt-assignment-recommended_a_require-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-recommended_a_require",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "recommended",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-recommended_a_require": {
+      "id": "cvt-class-recommended_a_require",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_recommended_a_require",
+      "name": {
+        "en": "Value recommended_a_require"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-recommended_a_require"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-recommended_a_require-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-recommended_a_require": {
+      "id": "cvt-rel-recommended_a_require",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "recommended_a_require"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "recommended_a_require",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-recommended_a_require"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-recommended_a_require"
+        }
+      ]
+    },
+    "cvt-assignment-recommended_a_restrict-0": {
+      "id": "cvt-assignment-recommended_a_restrict-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-recommended_a_restrict",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "recommended",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-recommended_a_restrict": {
+      "id": "cvt-class-recommended_a_restrict",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_recommended_a_restrict",
+      "name": {
+        "en": "Value recommended_a_restrict"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-recommended_a_restrict"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-recommended_a_restrict-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-recommended_a_restrict": {
+      "id": "cvt-rel-recommended_a_restrict",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "recommended_a_restrict"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "recommended_a_restrict",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-recommended_a_restrict"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-recommended_a_restrict"
+        }
+      ]
+    },
+    "cvt-assignment-recommended_a_both-0": {
+      "id": "cvt-assignment-recommended_a_both-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-recommended_a_both",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "recommended",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-recommended_a_both": {
+      "id": "cvt-class-recommended_a_both",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_recommended_a_both",
+      "name": {
+        "en": "Value recommended_a_both"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-recommended_a_both"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-recommended_a_both-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-recommended_a_both": {
+      "id": "cvt-rel-recommended_a_both",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "recommended_a_both"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "recommended_a_both",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-recommended_a_both"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-recommended_a_both"
+        }
+      ]
+    },
+    "cvt-assignment-may_a-0": {
+      "id": "cvt-assignment-may_a-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-may_a",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "may",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-may_a": {
+      "id": "cvt-class-may_a",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_may_a",
+      "name": {
+        "en": "Value may_a"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-may_a"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-may_a-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-may_a": {
+      "id": "cvt-rel-may_a",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "may_a"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "may_a",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-may_a"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-may_a"
+        }
+      ]
+    },
+    "cvt-assignment-must_without_pattern-0": {
+      "id": "cvt-assignment-must_without_pattern-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-must_without_pattern",
+      "vocabulary": "cv-json-schema-test-v2-cv-none",
+      "qualifier": "must",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-must_without_pattern": {
+      "id": "cvt-class-must_without_pattern",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_must_without_pattern",
+      "name": {
+        "en": "Value must_without_pattern"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-must_without_pattern"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-must_without_pattern-0"
+      ],
+      "order": null
+    },
+    "cvt-rel-must_without_pattern": {
+      "id": "cvt-rel-must_without_pattern",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "must_without_pattern"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "must_without_pattern",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-must_without_pattern"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-must_without_pattern"
+        }
+      ]
+    },
+    "cvt-assignment-at_least_one_a_recommended_b_require-0": {
+      "id": "cvt-assignment-at_least_one_a_recommended_b_require-0",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-at_least_one_a_recommended_b_require",
+      "vocabulary": "cv-json-schema-test-v2-cv-a",
+      "qualifier": "at-least-one",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-assignment-at_least_one_a_recommended_b_require-1": {
+      "id": "cvt-assignment-at_least_one_a_recommended_b_require-1",
+      "type": [
+        "controlled-vocabulary-assignment"
+      ],
+      "classProfile": "cvt-class-at_least_one_a_recommended_b_require",
+      "vocabulary": "cv-json-schema-test-v2-cv-b",
+      "qualifier": "recommended",
+      "replaces": null,
+      "iri": null
+    },
+    "cvt-class-at_least_one_a_recommended_b_require": {
+      "id": "cvt-class-at_least_one_a_recommended_b_require",
+      "type": [
+        "class-profile"
+      ],
+      "iri": "Value_at_least_one_a_recommended_b_require",
+      "name": {
+        "en": "Value at_least_one_a_recommended_b_require"
+      },
+      "nameFromProfiled": null,
+      "description": {},
+      "descriptionFromProfiled": null,
+      "usageNote": null,
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "vc-at_least_one_a_recommended_b_require"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [],
+      "controlledVocabularies": [
+        "cvt-assignment-at_least_one_a_recommended_b_require-0",
+        "cvt-assignment-at_least_one_a_recommended_b_require-1"
+      ],
+      "order": null
+    },
+    "cvt-rel-at_least_one_a_recommended_b_require": {
+      "id": "cvt-rel-at_least_one_a_recommended_b_require",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-root"
+        },
+        {
+          "name": {
+            "en": "at_least_one_a_recommended_b_require"
+          },
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": "at_least_one_a_recommended_b_require",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "vr-at_least_one_a_recommended_b_require"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": [],
+          "order": null,
+          "concept": "cvt-class-at_least_one_a_recommended_b_require"
+        }
+      ]
+    }
+  }
+}

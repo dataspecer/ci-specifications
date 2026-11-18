@@ -1,0 +1,19 @@
+{
+  "iri": "cv-json-schema-test-v2/visual-model",
+  "types": [
+    "http://dataspecer.com/resources/local/visual-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "View for CV JSON Schema test"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-11-11T11:44:59.704Z",
+    "modificationDate": "2026-11-11T11:44:59.718Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-11-17T19:13:18.141Z",
+  "_exportedBy": "http://localhost:3100"
+}

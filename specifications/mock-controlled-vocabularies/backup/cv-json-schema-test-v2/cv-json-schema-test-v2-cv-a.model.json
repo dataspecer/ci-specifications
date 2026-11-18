@@ -1,0 +1,14 @@
+{
+  "title": {
+    "en": "CV A (letters)"
+  },
+  "references": "http://example.com/schemes/a",
+  "conformsToSkos": true,
+  "pattern": "^http://example\\.com/cv-a/[a-z]+$",
+  "documentation": null,
+  "distribution": {
+    "downloadUrl": null,
+    "accessUrl": "http://example.com/vocabularies/a"
+  },
+  "iri": null
+}

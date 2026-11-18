@@ -1,0 +1,14 @@
+{
+  "title": {
+    "en": "CV B (digits)"
+  },
+  "references": "http://example.com/schemes/b",
+  "conformsToSkos": true,
+  "pattern": "^http://example\\.com/cv-b/[0-9]+$",
+  "documentation": null,
+  "distribution": {
+    "downloadUrl": null,
+    "accessUrl": "http://example.com/vocabularies/b"
+  },
+  "iri": null
+}

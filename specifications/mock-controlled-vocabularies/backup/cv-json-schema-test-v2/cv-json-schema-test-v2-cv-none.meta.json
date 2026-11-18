@@ -1,0 +1,19 @@
+{
+  "iri": "cv-json-schema-test-v2-cv-none",
+  "types": [
+    "http://dataspecer.com/resources/local/controlled-vocabulary"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "CV without a pattern"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-11-11T11:44:59.783Z",
+    "modificationDate": "2026-11-11T11:44:59.801Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-11-17T19:13:18.145Z",
+  "_exportedBy": "http://localhost:3100"
+}

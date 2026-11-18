@@ -1,0 +1,19 @@
+{
+  "iri": "cv-json-schema-test-v2-cv-b",
+  "types": [
+    "http://dataspecer.com/resources/local/controlled-vocabulary"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "CV B (digits)"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-11-11T11:44:59.756Z",
+    "modificationDate": "2026-11-11T11:44:59.773Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-11-17T19:13:18.144Z",
+  "_exportedBy": "http://localhost:3100"
+}

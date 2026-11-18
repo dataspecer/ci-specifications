@@ -1,0 +1,15 @@
+{
+  "id": "cv-json-schema-test-v2",
+  "type": [],
+  "configuration": {},
+  "modelCompositionConfiguration": {
+    "modelType": "application-profile",
+    "model": "cv-json-schema-test-v2/semantic-model",
+    "profiles": {
+      "modelType": "merge",
+      "models": null
+    },
+    "canAddEntities": true,
+    "canModify": true
+  }
+}

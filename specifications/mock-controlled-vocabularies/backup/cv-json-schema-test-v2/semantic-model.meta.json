@@ -1,0 +1,17 @@
+{
+  "iri": "cv-json-schema-test-v2/semantic-model",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {}
+  },
+  "metadata": {
+    "creationDate": "2026-11-11T11:44:59.666Z",
+    "modificationDate": "2026-11-11T11:44:59.693Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-11-17T19:13:18.139Z",
+  "_exportedBy": "http://localhost:3100"
+}

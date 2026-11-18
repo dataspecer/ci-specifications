@@ -1,0 +1,676 @@
+{
+  "operations": [],
+  "resources": {
+    "psm-class-must_a": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-must_a",
+      "id": "psm-class-must_a",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_a",
+      "dataPsmInterpretation": "cvt-class-must_a",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-must_a": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-must_a",
+      "id": "psm-end-must_a",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_a",
+      "dataPsmInterpretation": "cvt-rel-must_a",
+      "dataPsmPart": "psm-class-must_a",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-must_a_class_regex": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-must_a_class_regex",
+      "id": "psm-class-must_a_class_regex",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_a_class_regex",
+      "dataPsmInterpretation": "cvt-class-must_a_class_regex",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-must_a_class_regex": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-must_a_class_regex",
+      "id": "psm-end-must_a_class_regex",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_a_class_regex",
+      "dataPsmInterpretation": "cvt-rel-must_a_class_regex",
+      "dataPsmPart": "psm-class-must_a_class_regex",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-must_a_single": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-must_a_single",
+      "id": "psm-class-must_a_single",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_a_single",
+      "dataPsmInterpretation": "cvt-class-must_a_single",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-must_a_single": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-must_a_single",
+      "id": "psm-end-must_a_single",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_a_single",
+      "dataPsmInterpretation": "cvt-rel-must_a_single",
+      "dataPsmPart": "psm-class-must_a_single",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-attribute-must_a_object": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "psm-attribute-must_a_object",
+      "id": "psm-attribute-must_a_object",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmInterpretation": "cvt-rel-must_a_object-label",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "psm-class-must_a_object": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-must_a_object",
+      "id": "psm-class-must_a_object",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_a_object",
+      "dataPsmInterpretation": "cvt-class-must_a_object",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "psm-attribute-must_a_object"
+      ],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-must_a_object": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-must_a_object",
+      "id": "psm-end-must_a_object",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_a_object",
+      "dataPsmInterpretation": "cvt-rel-must_a_object",
+      "dataPsmPart": "psm-class-must_a_object",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-at_least_one_a": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-at_least_one_a",
+      "id": "psm-class-at_least_one_a",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a",
+      "dataPsmInterpretation": "cvt-class-at_least_one_a",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-at_least_one_a": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-at_least_one_a",
+      "id": "psm-end-at_least_one_a",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a",
+      "dataPsmInterpretation": "cvt-rel-at_least_one_a",
+      "dataPsmPart": "psm-class-at_least_one_a",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-at_least_one_a_single": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-at_least_one_a_single",
+      "id": "psm-class-at_least_one_a_single",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a_single",
+      "dataPsmInterpretation": "cvt-class-at_least_one_a_single",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-at_least_one_a_single": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-at_least_one_a_single",
+      "id": "psm-end-at_least_one_a_single",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a_single",
+      "dataPsmInterpretation": "cvt-rel-at_least_one_a_single",
+      "dataPsmPart": "psm-class-at_least_one_a_single",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-attribute-at_least_one_a_object": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "iri": "psm-attribute-at_least_one_a_object",
+      "id": "psm-attribute-at_least_one_a_object",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Attribute"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "label",
+      "dataPsmInterpretation": "cvt-rel-at_least_one_a_object-label",
+      "dataPsmDatatype": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "psm-class-at_least_one_a_object": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-at_least_one_a_object",
+      "id": "psm-class-at_least_one_a_object",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a_object",
+      "dataPsmInterpretation": "cvt-class-at_least_one_a_object",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "psm-attribute-at_least_one_a_object"
+      ],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "ALWAYS",
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-at_least_one_a_object": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-at_least_one_a_object",
+      "id": "psm-end-at_least_one_a_object",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a_object",
+      "dataPsmInterpretation": "cvt-rel-at_least_one_a_object",
+      "dataPsmPart": "psm-class-at_least_one_a_object",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-at_least_one_a_and_b": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-at_least_one_a_and_b",
+      "id": "psm-class-at_least_one_a_and_b",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a_and_b",
+      "dataPsmInterpretation": "cvt-class-at_least_one_a_and_b",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-at_least_one_a_and_b": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-at_least_one_a_and_b",
+      "id": "psm-end-at_least_one_a_and_b",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a_and_b",
+      "dataPsmInterpretation": "cvt-rel-at_least_one_a_and_b",
+      "dataPsmPart": "psm-class-at_least_one_a_and_b",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-recommended_a_default": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-recommended_a_default",
+      "id": "psm-class-recommended_a_default",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "recommended_a_default",
+      "dataPsmInterpretation": "cvt-class-recommended_a_default",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-recommended_a_default": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-recommended_a_default",
+      "id": "psm-end-recommended_a_default",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "recommended_a_default",
+      "dataPsmInterpretation": "cvt-rel-recommended_a_default",
+      "dataPsmPart": "psm-class-recommended_a_default",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-recommended_a_require": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-recommended_a_require",
+      "id": "psm-class-recommended_a_require",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "recommended_a_require",
+      "dataPsmInterpretation": "cvt-class-recommended_a_require",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER",
+      "requireRecommendedControlledVocabularyValue": true
+    },
+    "psm-end-recommended_a_require": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-recommended_a_require",
+      "id": "psm-end-recommended_a_require",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "recommended_a_require",
+      "dataPsmInterpretation": "cvt-rel-recommended_a_require",
+      "dataPsmPart": "psm-class-recommended_a_require",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-recommended_a_restrict": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-recommended_a_restrict",
+      "id": "psm-class-recommended_a_restrict",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "recommended_a_restrict",
+      "dataPsmInterpretation": "cvt-class-recommended_a_restrict",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER",
+      "restrictToRecommendedControlledVocabulary": true
+    },
+    "psm-end-recommended_a_restrict": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-recommended_a_restrict",
+      "id": "psm-end-recommended_a_restrict",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "recommended_a_restrict",
+      "dataPsmInterpretation": "cvt-rel-recommended_a_restrict",
+      "dataPsmPart": "psm-class-recommended_a_restrict",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-recommended_a_both": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-recommended_a_both",
+      "id": "psm-class-recommended_a_both",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "recommended_a_both",
+      "dataPsmInterpretation": "cvt-class-recommended_a_both",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER",
+      "requireRecommendedControlledVocabularyValue": true,
+      "restrictToRecommendedControlledVocabulary": true
+    },
+    "psm-end-recommended_a_both": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-recommended_a_both",
+      "id": "psm-end-recommended_a_both",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "recommended_a_both",
+      "dataPsmInterpretation": "cvt-rel-recommended_a_both",
+      "dataPsmPart": "psm-class-recommended_a_both",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-may_a": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-may_a",
+      "id": "psm-class-may_a",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "may_a",
+      "dataPsmInterpretation": "cvt-class-may_a",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER",
+      "requireRecommendedControlledVocabularyValue": true,
+      "restrictToRecommendedControlledVocabulary": true
+    },
+    "psm-end-may_a": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-may_a",
+      "id": "psm-end-may_a",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "may_a",
+      "dataPsmInterpretation": "cvt-rel-may_a",
+      "dataPsmPart": "psm-class-may_a",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-must_without_pattern": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-must_without_pattern",
+      "id": "psm-class-must_without_pattern",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_without_pattern",
+      "dataPsmInterpretation": "cvt-class-must_without_pattern",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "psm-end-must_without_pattern": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-must_without_pattern",
+      "id": "psm-end-must_without_pattern",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "must_without_pattern",
+      "dataPsmInterpretation": "cvt-rel-must_without_pattern",
+      "dataPsmPart": "psm-class-must_without_pattern",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-at_least_one_a_recommended_b_require": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-at_least_one_a_recommended_b_require",
+      "id": "psm-class-at_least_one_a_recommended_b_require",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a_recommended_b_require",
+      "dataPsmInterpretation": "cvt-class-at_least_one_a_recommended_b_require",
+      "dataPsmExtends": [],
+      "dataPsmParts": [],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": null,
+      "instancesSpecifyTypes": "NEVER",
+      "requireRecommendedControlledVocabularyValue": true
+    },
+    "psm-end-at_least_one_a_recommended_b_require": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "iri": "psm-end-at_least_one_a_recommended_b_require",
+      "id": "psm-end-at_least_one_a_recommended_b_require",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/AssociationEnd"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "at_least_one_a_recommended_b_require",
+      "dataPsmInterpretation": "cvt-rel-at_least_one_a_recommended_b_require",
+      "dataPsmPart": "psm-class-at_least_one_a_recommended_b_require",
+      "dataPsmIsReverse": false,
+      "dataPsmIsDematerialize": null
+    },
+    "psm-class-root": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "iri": "psm-class-root",
+      "id": "psm-class-root",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Class"
+      ],
+      "dataPsmHumanLabel": null,
+      "dataPsmHumanDescription": null,
+      "dataPsmTechnicalLabel": "test",
+      "dataPsmInterpretation": "cvt-class-root",
+      "dataPsmExtends": [],
+      "dataPsmParts": [
+        "psm-end-must_a",
+        "psm-end-must_a_class_regex",
+        "psm-end-must_a_single",
+        "psm-end-must_a_object",
+        "psm-end-at_least_one_a",
+        "psm-end-at_least_one_a_single",
+        "psm-end-at_least_one_a_object",
+        "psm-end-at_least_one_a_and_b",
+        "psm-end-recommended_a_default",
+        "psm-end-recommended_a_require",
+        "psm-end-recommended_a_restrict",
+        "psm-end-recommended_a_both",
+        "psm-end-may_a",
+        "psm-end-must_without_pattern",
+        "psm-end-at_least_one_a_recommended_b_require"
+      ],
+      "dataPsmIsClosed": null,
+      "instancesHaveIdentity": "NEVER",
+      "instancesSpecifyTypes": "NEVER"
+    },
+    "cv-json-schema-test-v2-structure": {
+      "types": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "iri": "cv-json-schema-test-v2-structure",
+      "id": "cv-json-schema-test-v2-structure",
+      "type": [
+        "https://ofn.gov.cz/slovník/psm/Schema"
+      ],
+      "dataPsmHumanLabel": {
+        "en": "CV JSON Schema test"
+      },
+      "dataPsmHumanDescription": {
+        "en": "Combinations of controlled vocabulary assignments."
+      },
+      "dataPsmParts": [
+        "psm-class-root",
+        "psm-class-must_a",
+        "psm-end-must_a",
+        "psm-class-must_a_class_regex",
+        "psm-end-must_a_class_regex",
+        "psm-class-must_a_single",
+        "psm-end-must_a_single",
+        "psm-attribute-must_a_object",
+        "psm-class-must_a_object",
+        "psm-end-must_a_object",
+        "psm-class-at_least_one_a",
+        "psm-end-at_least_one_a",
+        "psm-class-at_least_one_a_single",
+        "psm-end-at_least_one_a_single",
+        "psm-attribute-at_least_one_a_object",
+        "psm-class-at_least_one_a_object",
+        "psm-end-at_least_one_a_object",
+        "psm-class-at_least_one_a_and_b",
+        "psm-end-at_least_one_a_and_b",
+        "psm-class-recommended_a_default",
+        "psm-end-recommended_a_default",
+        "psm-class-recommended_a_require",
+        "psm-end-recommended_a_require",
+        "psm-class-recommended_a_restrict",
+        "psm-end-recommended_a_restrict",
+        "psm-class-recommended_a_both",
+        "psm-end-recommended_a_both",
+        "psm-class-may_a",
+        "psm-end-may_a",
+        "psm-class-must_without_pattern",
+        "psm-end-must_without_pattern",
+        "psm-class-at_least_one_a_recommended_b_require",
+        "psm-end-at_least_one_a_recommended_b_require"
+      ],
+      "dataPsmRoots": [
+        "psm-class-root"
+      ],
+      "dataPsmTechnicalLabel": null
+    }
+  }
+}

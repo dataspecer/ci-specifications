@@ -1,0 +1,22 @@
+{
+  "iri": "cv-json-schema-test-v2-structure",
+  "types": [
+    "http://dataspecer.com/resources/v1/psm"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "CV JSON Schema test"
+    },
+    "description": {
+      "en": "Combinations of controlled vocabulary assignments."
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-11-11T11:44:59.811Z",
+    "modificationDate": "2026-11-11T11:44:59.834Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-11-17T19:13:18.147Z",
+  "_exportedBy": "http://localhost:3100"
+}

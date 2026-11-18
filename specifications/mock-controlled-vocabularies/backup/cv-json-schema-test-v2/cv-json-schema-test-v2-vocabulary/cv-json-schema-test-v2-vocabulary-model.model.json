@@ -1,0 +1,712 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "id": "cv-json-schema-test-v2-vocabulary-model",
+  "modelId": "cv-json-schema-test-v2-vocabulary-model",
+  "baseIri": "http://example.com/vocabulary#",
+  "entities": {
+    "vc-root": {
+      "id": "vc-root",
+      "iri": "http://example.com/vocabulary#Test",
+      "name": {
+        "en": "Test"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vc-must_a": {
+      "id": "vc-must_a",
+      "iri": "http://example.com/vocabulary#Value_must_a",
+      "name": {
+        "en": "Value_must_a"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-must_a": {
+      "id": "vr-must_a",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "must_a"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "must_a"
+          },
+          "description": {},
+          "concept": "vc-must_a",
+          "iri": "http://example.com/vocabulary#must_a"
+        }
+      ]
+    },
+    "vc-must_a_class_regex": {
+      "id": "vc-must_a_class_regex",
+      "iri": "http://example.com/vocabulary#Value_must_a_class_regex",
+      "name": {
+        "en": "Value_must_a_class_regex"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ],
+      "regex": "^http://example\\.com/cv-a/r.*$"
+    },
+    "vr-must_a_class_regex": {
+      "id": "vr-must_a_class_regex",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "must_a_class_regex"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "must_a_class_regex"
+          },
+          "description": {},
+          "concept": "vc-must_a_class_regex",
+          "iri": "http://example.com/vocabulary#must_a_class_regex"
+        }
+      ]
+    },
+    "vc-must_a_single": {
+      "id": "vc-must_a_single",
+      "iri": "http://example.com/vocabulary#Value_must_a_single",
+      "name": {
+        "en": "Value_must_a_single"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-must_a_single": {
+      "id": "vr-must_a_single",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "must_a_single"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            1
+          ],
+          "name": {
+            "en": "must_a_single"
+          },
+          "description": {},
+          "concept": "vc-must_a_single",
+          "iri": "http://example.com/vocabulary#must_a_single"
+        }
+      ]
+    },
+    "vc-must_a_object": {
+      "id": "vc-must_a_object",
+      "iri": "http://example.com/vocabulary#Value_must_a_object",
+      "name": {
+        "en": "Value_must_a_object"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-must_a_object": {
+      "id": "vr-must_a_object",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "must_a_object"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "must_a_object"
+          },
+          "description": {},
+          "concept": "vc-must_a_object",
+          "iri": "http://example.com/vocabulary#must_a_object"
+        }
+      ]
+    },
+    "vr-must_a_object-label": {
+      "id": "vr-must_a_object-label",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "label_must_a_object"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-must_a_object",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            1
+          ],
+          "name": {
+            "en": "label_must_a_object"
+          },
+          "description": {},
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "http://example.com/vocabulary#label_must_a_object"
+        }
+      ]
+    },
+    "vc-at_least_one_a": {
+      "id": "vc-at_least_one_a",
+      "iri": "http://example.com/vocabulary#Value_at_least_one_a",
+      "name": {
+        "en": "Value_at_least_one_a"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-at_least_one_a": {
+      "id": "vr-at_least_one_a",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "at_least_one_a"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "at_least_one_a"
+          },
+          "description": {},
+          "concept": "vc-at_least_one_a",
+          "iri": "http://example.com/vocabulary#at_least_one_a"
+        }
+      ]
+    },
+    "vc-at_least_one_a_single": {
+      "id": "vc-at_least_one_a_single",
+      "iri": "http://example.com/vocabulary#Value_at_least_one_a_single",
+      "name": {
+        "en": "Value_at_least_one_a_single"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-at_least_one_a_single": {
+      "id": "vr-at_least_one_a_single",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "at_least_one_a_single"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            1
+          ],
+          "name": {
+            "en": "at_least_one_a_single"
+          },
+          "description": {},
+          "concept": "vc-at_least_one_a_single",
+          "iri": "http://example.com/vocabulary#at_least_one_a_single"
+        }
+      ]
+    },
+    "vc-at_least_one_a_object": {
+      "id": "vc-at_least_one_a_object",
+      "iri": "http://example.com/vocabulary#Value_at_least_one_a_object",
+      "name": {
+        "en": "Value_at_least_one_a_object"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-at_least_one_a_object": {
+      "id": "vr-at_least_one_a_object",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "at_least_one_a_object"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "at_least_one_a_object"
+          },
+          "description": {},
+          "concept": "vc-at_least_one_a_object",
+          "iri": "http://example.com/vocabulary#at_least_one_a_object"
+        }
+      ]
+    },
+    "vr-at_least_one_a_object-label": {
+      "id": "vr-at_least_one_a_object-label",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "label_at_least_one_a_object"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-at_least_one_a_object",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            1
+          ],
+          "name": {
+            "en": "label_at_least_one_a_object"
+          },
+          "description": {},
+          "concept": "http://www.w3.org/2000/01/rdf-schema#Literal",
+          "iri": "http://example.com/vocabulary#label_at_least_one_a_object"
+        }
+      ]
+    },
+    "vc-at_least_one_a_and_b": {
+      "id": "vc-at_least_one_a_and_b",
+      "iri": "http://example.com/vocabulary#Value_at_least_one_a_and_b",
+      "name": {
+        "en": "Value_at_least_one_a_and_b"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-at_least_one_a_and_b": {
+      "id": "vr-at_least_one_a_and_b",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "at_least_one_a_and_b"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "at_least_one_a_and_b"
+          },
+          "description": {},
+          "concept": "vc-at_least_one_a_and_b",
+          "iri": "http://example.com/vocabulary#at_least_one_a_and_b"
+        }
+      ]
+    },
+    "vc-recommended_a_default": {
+      "id": "vc-recommended_a_default",
+      "iri": "http://example.com/vocabulary#Value_recommended_a_default",
+      "name": {
+        "en": "Value_recommended_a_default"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-recommended_a_default": {
+      "id": "vr-recommended_a_default",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "recommended_a_default"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "recommended_a_default"
+          },
+          "description": {},
+          "concept": "vc-recommended_a_default",
+          "iri": "http://example.com/vocabulary#recommended_a_default"
+        }
+      ]
+    },
+    "vc-recommended_a_require": {
+      "id": "vc-recommended_a_require",
+      "iri": "http://example.com/vocabulary#Value_recommended_a_require",
+      "name": {
+        "en": "Value_recommended_a_require"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-recommended_a_require": {
+      "id": "vr-recommended_a_require",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "recommended_a_require"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "recommended_a_require"
+          },
+          "description": {},
+          "concept": "vc-recommended_a_require",
+          "iri": "http://example.com/vocabulary#recommended_a_require"
+        }
+      ]
+    },
+    "vc-recommended_a_restrict": {
+      "id": "vc-recommended_a_restrict",
+      "iri": "http://example.com/vocabulary#Value_recommended_a_restrict",
+      "name": {
+        "en": "Value_recommended_a_restrict"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-recommended_a_restrict": {
+      "id": "vr-recommended_a_restrict",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "recommended_a_restrict"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "recommended_a_restrict"
+          },
+          "description": {},
+          "concept": "vc-recommended_a_restrict",
+          "iri": "http://example.com/vocabulary#recommended_a_restrict"
+        }
+      ]
+    },
+    "vc-recommended_a_both": {
+      "id": "vc-recommended_a_both",
+      "iri": "http://example.com/vocabulary#Value_recommended_a_both",
+      "name": {
+        "en": "Value_recommended_a_both"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-recommended_a_both": {
+      "id": "vr-recommended_a_both",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "recommended_a_both"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "recommended_a_both"
+          },
+          "description": {},
+          "concept": "vc-recommended_a_both",
+          "iri": "http://example.com/vocabulary#recommended_a_both"
+        }
+      ]
+    },
+    "vc-may_a": {
+      "id": "vc-may_a",
+      "iri": "http://example.com/vocabulary#Value_may_a",
+      "name": {
+        "en": "Value_may_a"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-may_a": {
+      "id": "vr-may_a",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "may_a"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "may_a"
+          },
+          "description": {},
+          "concept": "vc-may_a",
+          "iri": "http://example.com/vocabulary#may_a"
+        }
+      ]
+    },
+    "vc-must_without_pattern": {
+      "id": "vc-must_without_pattern",
+      "iri": "http://example.com/vocabulary#Value_must_without_pattern",
+      "name": {
+        "en": "Value_must_without_pattern"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-must_without_pattern": {
+      "id": "vr-must_without_pattern",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "must_without_pattern"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "must_without_pattern"
+          },
+          "description": {},
+          "concept": "vc-must_without_pattern",
+          "iri": "http://example.com/vocabulary#must_without_pattern"
+        }
+      ]
+    },
+    "vc-at_least_one_a_recommended_b_require": {
+      "id": "vc-at_least_one_a_recommended_b_require",
+      "iri": "http://example.com/vocabulary#Value_at_least_one_a_recommended_b_require",
+      "name": {
+        "en": "Value_at_least_one_a_recommended_b_require"
+      },
+      "description": {},
+      "type": [
+        "class"
+      ]
+    },
+    "vr-at_least_one_a_recommended_b_require": {
+      "id": "vr-at_least_one_a_recommended_b_require",
+      "iri": null,
+      "type": [
+        "relationship"
+      ],
+      "name": {
+        "en": "at_least_one_a_recommended_b_require"
+      },
+      "description": {},
+      "ends": [
+        {
+          "name": {},
+          "description": {},
+          "concept": "vc-root",
+          "iri": null
+        },
+        {
+          "cardinality": [
+            0,
+            null
+          ],
+          "name": {
+            "en": "at_least_one_a_recommended_b_require"
+          },
+          "description": {},
+          "concept": "vc-at_least_one_a_recommended_b_require",
+          "iri": "http://example.com/vocabulary#at_least_one_a_recommended_b_require"
+        }
+      ]
+    }
+  }
+}

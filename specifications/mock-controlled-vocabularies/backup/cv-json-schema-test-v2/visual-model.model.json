@@ -1,0 +1,6 @@
+{
+  "identifier": "cv-json-schema-test-v2/visual-model",
+  "version": 2,
+  "type": "http://dataspecer.com/resources/local/visual-model",
+  "entities": []
+}

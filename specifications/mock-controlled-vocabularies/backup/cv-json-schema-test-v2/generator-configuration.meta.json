@@ -1,0 +1,19 @@
+{
+  "iri": "cv-json-schema-test-v2/generator-configuration",
+  "types": [
+    "http://dataspecer.com/resources/v1/generator-configuration"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "Generator configuration"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-11-11T11:44:59.845Z",
+    "modificationDate": "2026-11-11T11:44:59.862Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2026-11-17T19:13:18.148Z",
+  "_exportedBy": "http://localhost:3100"
+}

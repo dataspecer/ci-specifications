@@ -1,0 +1,17 @@
+{
+  "id": "cv-json-schema-test-v2/generator-configuration",
+  "type": [],
+  "data-specification": {
+    "useGenerators": {
+      "json": true,
+      "jsonExample": false,
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false
+    }
+  }
+}
