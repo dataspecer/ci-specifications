@@ -47,6 +47,7 @@ jobs:
       - name: Discover scripts and image tags
         id: matrix
         env:
+          GH_TOKEN: ${{ github.token }}
           DOCKER_IMAGE_REPOSITORY: ${{ vars.DOCKER_IMAGE_REPOSITORY }}
           PUSH_DOCKER_TAGS: ${{ vars.PUSH_DOCKER_TAGS || '["branch-main","latest"]' }}
         run: python3 .github/scripts/prepare-build.py

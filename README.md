@@ -23,7 +23,7 @@ Create a new directory in `specifications/` and upload `backup.zip` or `backup/`
 | Secret | `PR_COMMENT_TOKEN` | Fine-grained PAT with **Pull requests: Read and write** on the application repository; required for PR dispatches |
 | Variable | `EXPORT_REPOSITORY` | `owner/ci-exports`; defaults to this repository's owner plus `/ci-exports` |
 | Variable | `DOCKER_IMAGE_REPOSITORY` | Image repository without a tag, e.g. `ghcr.io/owner/application`; required for pushes |
-| Variable | `PUSH_DOCKER_TAGS` | JSON array, defaults to `["branch-main","latest"]` |
+| Variable | `PUSH_DOCKER_TAGS` | Base tags for pushes as a JSON array, defaults to `["branch-main","latest"]`; published open-PR tags are added automatically |
 
 For cron updates, create a fine-grained personal access token scoped to this
 repository and save it as the `CRON_REPOSITORY_TOKEN` Actions secret above. Branch
@@ -148,8 +148,14 @@ Non-PR runs do not post comments.
 
 Prefer an immutable digest reference for dispatches so all jobs build the same
 image even if its tag moves. Push runs pull `DOCKER_IMAGE_REPOSITORY:<tag>` for each
-configured tag; avoid moving these tags during a run if consistent image identity
-across specifications is required.
+configured tag and each published `pr-<number>` tag for an open pull request in
+`dataspecer/dataspecer`, including draft PRs and PRs ready for review. The prepare
+job lists all open PRs and checks their image manifests before creating the build
+and publish matrices. Missing PR images are skipped without spawning per-specification
+jobs; API or other registry errors fail preparation. Discovery uses the workflow's
+`GITHUB_TOKEN` to read the public application repository and needs no additional secret.
+Avoid moving these tags during a run if consistent image identity across specifications
+is required.
 
 Every successful publication creates a commit, even for unchanged output. New
 commit subjects identify what triggered the build:

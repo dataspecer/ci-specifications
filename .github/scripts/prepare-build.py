@@ -13,6 +13,28 @@ def validate_tag(tag):
     return tag
 
 
+def open_pr_tags():
+    # state=open includes both draft PRs and PRs ready for review.
+    pages = json.loads(subprocess.check_output([
+        "gh", "api", "--paginate", "--slurp",
+        "repos/dataspecer/dataspecer/pulls?state=open&per_page=100",
+    ]))
+    return [validate_tag(f"pr-{pr['number']}") for page in pages for pr in page]
+
+
+def image_exists(image):
+    result = subprocess.run(["docker", "manifest", "inspect", image],
+                            stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
+    if result.returncode == 0:
+        return True
+    error = result.stderr.strip()
+    if any(message in error.lower() for message in
+           ("no such manifest", "manifest unknown", "manifest_unknown")):
+        print(f"Skipping unpublished PR image: {image}")
+        return False
+    raise RuntimeError(f"Could not inspect {image}: {error}")
+
+
 def main():
     event = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())
     if os.environ["GITHUB_EVENT_NAME"] == "workflow_dispatch":
@@ -30,6 +52,9 @@ def main():
         if not isinstance(tags, list) or not tags:
             raise ValueError("PUSH_DOCKER_TAGS must be a nonempty JSON array of tags")
         tags = list(dict.fromkeys(validate_tag(tag) for tag in tags))
+        for tag in dict.fromkeys(open_pr_tags()):
+            if tag not in tags and image_exists(f"{repository}:{tag}"):
+                tags.append(tag)
         targets = [{"tag": tag, "image": f"{repository}:{tag}"} for tag in tags]
     specifications = [{"directory": str(path), "specification": path.name}
                       for path in sorted(Path("specifications").glob("*"))
