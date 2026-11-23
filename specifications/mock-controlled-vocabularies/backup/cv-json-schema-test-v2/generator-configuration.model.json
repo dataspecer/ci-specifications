@@ -5,7 +5,7 @@
     "useGenerators": {
       "json": true,
       "jsonExample": false,
-      "xml": false,
+      "xml": true,
       "csv": false,
       "sparql": false,
       "shacl": false,
