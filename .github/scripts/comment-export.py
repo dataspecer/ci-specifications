@@ -73,19 +73,26 @@ def resolve_base():
 def comment():
     env = os.environ
     repository, number = pull_request()
-    commit = env['SOURCE_COMMIT']
-    if not re.fullmatch(r'[0-9a-fA-F]{40}', commit):
-        raise ValueError('Invalid SOURCE_COMMIT; expected a full commit SHA')
-    source = json.loads(run('gh', 'api', f'repos/{repository}/git/commits/{commit}'))
-    # A PR build merge has the base first and the original PR head second.
-    # Resolve the dispatched revision, since the PR may have advanced meanwhile.
-    if len(source['parents']) == 2:
-        commit = source['parents'][1]['sha']
-        source = json.loads(run('gh', 'api', f'repos/{repository}/git/commits/{commit}'))
     body = Path(env['RUNNER_TEMP'], 'export-pr-comment.md').read_text()
-    title = source['message'].split('\n', 1)[0]
-    body += (f'\nThis message was generated from commit <code>{commit[:7]}</code>: '
-             f'<strong>{html.escape(title)}</strong>.\n')
+    if env['GITHUB_EVENT_NAME'] == 'push':
+        # The published PR image can predate the current PR head. Do not attribute
+        # its exports to an application revision we did not actually build.
+        body += (f'\nThis message was generated after specifications commit '
+                 f'<code>{html.escape(env["GITHUB_SHA"][:7])}</code> using published image '
+                 f'<code>{html.escape(env["DOCKER_IMAGE"])}</code>.\n')
+    else:
+        commit = env['SOURCE_COMMIT']
+        if not re.fullmatch(r'[0-9a-fA-F]{40}', commit):
+            raise ValueError('Invalid SOURCE_COMMIT; expected a full commit SHA')
+        source = json.loads(run('gh', 'api', f'repos/{repository}/git/commits/{commit}'))
+        # A PR build merge has the base first and the original PR head second.
+        # Resolve the dispatched revision, since the PR may have advanced meanwhile.
+        if len(source['parents']) == 2:
+            commit = source['parents'][1]['sha']
+            source = json.loads(run('gh', 'api', f'repos/{repository}/git/commits/{commit}'))
+        title = source['message'].split('\n', 1)[0]
+        body += (f'\nThis message was generated from commit <code>{commit[:7]}</code>: '
+                 f'<strong>{html.escape(title)}</strong>.\n')
     marker = body.splitlines()[0]
     author = json.loads(run('gh', 'api', 'user'))['id']
     pages = json.loads(run('gh', 'api', '--paginate', '--slurp',

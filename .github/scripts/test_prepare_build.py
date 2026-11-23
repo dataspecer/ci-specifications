@@ -63,6 +63,10 @@ class PrepareBuildTests(unittest.TestCase):
         output = self.output()
         tags = [target["tag"] for target in output["tags"]["include"]]
         self.assertEqual(tags, ["branch-main", "latest", "pr-1", "pr-2"])
+        self.assertEqual([target["pr_number"] for target in output["tags"]["include"]],
+                         ["", "", "1", "2"])
+        self.assertEqual(output["comments"]["include"], output["tags"]["include"][2:])
+        self.assertTrue(output["has_comments"])
         builds = output["builds"]["include"]
         self.assertEqual(len(builds), 8)
         self.assertEqual({(b["tag"], b["specification"]) for b in builds},
@@ -73,6 +77,8 @@ class PrepareBuildTests(unittest.TestCase):
     def test_no_open_prs_keeps_base_tags(self):
         prepare.main()
         self.assertEqual(len(self.output()["builds"]["include"]), 4)
+        self.assertEqual(self.output()["comments"], {"include": []})
+        self.assertFalse(self.output()["has_comments"])
         self.assertEqual(self.inspected, [])
 
     def test_all_pr_images_missing_keeps_base_tags(self):
@@ -81,6 +87,7 @@ class PrepareBuildTests(unittest.TestCase):
         prepare.main()
         self.assertEqual([t["tag"] for t in self.output()["tags"]["include"]],
                          ["branch-main", "latest"])
+        self.assertFalse(self.output()["has_comments"])
 
     def test_registry_errors_fail_before_matrix_output(self):
         self.api.return_value = b'[[{"number": 1}]]'
@@ -100,15 +107,29 @@ class PrepareBuildTests(unittest.TestCase):
 
     def test_dispatch_uses_only_supplied_image(self):
         os.environ["GITHUB_EVENT_NAME"] = "workflow_dispatch"
-        target = {"tag": "pr-42", "image": "ghcr.io/dataspecer/ws@sha256:" + "a" * 64}
+        target = {"tag": "pr-42", "image": "ghcr.io/dataspecer/ws@sha256:" + "a" * 64,
+                  "pr_number": ""}
         Path("event.json").write_text(json.dumps({"inputs": {
             "docker_tag": target["tag"], "docker_image": target["image"],
         }}))
         prepare.main()
         self.assertEqual(self.output()["tags"]["include"], [target])
+        self.assertFalse(self.output()["has_comments"])
         self.assertEqual(len(self.output()["builds"]["include"]), 2)
         self.api.assert_not_called()
         self.assertEqual(self.inspected, [])
+
+    def test_pr_dispatch_passes_comment_metadata(self):
+        os.environ["GITHUB_EVENT_NAME"] = "workflow_dispatch"
+        Path("event.json").write_text(json.dumps({"inputs": {
+            "docker_tag": "pr-42", "docker_image": "ghcr.io/dataspecer/ws:pr-42",
+            "pr_number": "42",
+        }}))
+        prepare.main()
+        self.assertEqual(self.output()["tags"]["include"][0]["pr_number"], "42")
+        self.assertEqual(self.output()["comments"], self.output()["tags"])
+        self.assertTrue(self.output()["has_comments"])
+        self.api.assert_not_called()
 
 
 if __name__ == "__main__":

@@ -20,7 +20,7 @@ Create a new directory in `specifications/` and upload `backup.zip` or `backup/`
 | --- | --- | --- |
 | Secret | `EXPORT_REPOSITORY_TOKEN` | Fine-grained PAT with **Contents: Read and write** on the destination repository |
 | Secret | `CRON_REPOSITORY_TOKEN` | Fine-grained PAT with **Contents: Read and write** on this repository; used to push cron updates |
-| Secret | `PR_COMMENT_TOKEN` | Fine-grained PAT with **Pull requests: Read and write** on the application repository; required for PR dispatches |
+| Secret | `PR_COMMENT_TOKEN` | Fine-grained PAT with **Pull requests: Read and write** on the application repository; required for PR comments on both dispatches and push rebuilds |
 | Variable | `EXPORT_REPOSITORY` | `owner/ci-exports`; defaults to this repository's owner plus `/ci-exports` |
 | Variable | `DOCKER_IMAGE_REPOSITORY` | Image repository without a tag, e.g. `ghcr.io/owner/application`; required for pushes |
 | Variable | `PUSH_DOCKER_TAGS` | Base tags for pushes as a JSON array, defaults to `["branch-main","latest"]`; published open-PR tags are added automatically |
@@ -141,10 +141,15 @@ link and the original PR commit’s seven-character SHA and first message line, 
 reports a missing baseline. The comparison link follows current branch tips.
 
 The workflow's `GITHUB_TOKEN` cannot comment in the separate application repository,
-so configure `PR_COMMENT_TOKEN` in this repository. Each successful PR dispatch
-updates the same marked comment for its export repository and tag, authored by
+so configure `PR_COMMENT_TOKEN` in this repository. A separate comment job waits
+for every export publication in the run to succeed, then fetches the published PR
+and base branch snapshots to generate the comparison. This ensures a faster PR
+publication cannot compare against the base branch from before this run's publication.
+For both dispatches and push rebuilds, it updates the same marked comment for its
+export repository and tag, authored by
 the token owner, or creates one if absent. Keep the token owner stable to reuse comments.
-Non-PR runs do not post comments.
+Push rebuild comments identify the specifications commit and the published image
+used, since that image may predate the PR's current head. Non-PR tags do not post comments.
 
 Prefer an immutable digest reference for dispatches so all jobs build the same
 image even if its tag moves. Push runs pull `DOCKER_IMAGE_REPOSITORY:<tag>` for each

@@ -43,7 +43,7 @@ def main():
         image = inputs["docker_image"].strip()
         if not image or image.startswith("-") or any(c.isspace() for c in image):
             raise ValueError("docker_image must be a full pullable image reference")
-        targets = [{"tag": tag, "image": image}]
+        targets = [{"tag": tag, "image": image, "pr_number": inputs.get("pr_number", "")}]
     else:
         repository = os.environ.get("DOCKER_IMAGE_REPOSITORY", "").strip()
         if not repository or repository.startswith("-") or any(c.isspace() for c in repository):
@@ -52,10 +52,13 @@ def main():
         if not isinstance(tags, list) or not tags:
             raise ValueError("PUSH_DOCKER_TAGS must be a nonempty JSON array of tags")
         tags = list(dict.fromkeys(validate_tag(tag) for tag in tags))
-        for tag in dict.fromkeys(open_pr_tags()):
+        pr_tags = dict.fromkeys(open_pr_tags())
+        for tag in pr_tags:
             if tag not in tags and image_exists(f"{repository}:{tag}"):
                 tags.append(tag)
-        targets = [{"tag": tag, "image": f"{repository}:{tag}"} for tag in tags]
+        targets = [{"tag": tag, "image": f"{repository}:{tag}",
+                    "pr_number": tag.removeprefix("pr-") if tag in pr_tags else ""}
+                   for tag in tags]
     specifications = [{"directory": str(path), "specification": path.name}
                       for path in sorted(Path("specifications").glob("*"))
                       if path.is_dir() and not path.name.startswith(".")]
@@ -65,9 +68,12 @@ def main():
               for target in targets for index, specification in enumerate(specifications)]
     if len(builds) > 256:
         raise ValueError("Build matrix exceeds GitHub's 256-job limit")
+    comments = [target for target in targets if target["pr_number"]]
     with open(os.environ["GITHUB_OUTPUT"], "a") as output:
         output.write("builds=" + json.dumps({"include": builds}) + "\n")
         output.write("tags=" + json.dumps({"include": targets}) + "\n")
+        output.write("comments=" + json.dumps({"include": comments}) + "\n")
+        output.write("has_comments=" + json.dumps(bool(comments)) + "\n")
 
 
 if __name__ == "__main__":

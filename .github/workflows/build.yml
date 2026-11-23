@@ -40,6 +40,8 @@ jobs:
     outputs:
       builds: ${{ steps.matrix.outputs.builds }}
       tags: ${{ steps.matrix.outputs.tags }}
+      comments: ${{ steps.matrix.outputs.comments }}
+      has_comments: ${{ steps.matrix.outputs.has_comments }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -125,30 +127,46 @@ jobs:
           for archive in "$ARTIFACT_DIR"/**/export.tar; do
             tar -xf "$archive" -C "$EXPORT_DIR"
           done
-      - name: Resolve pull request base export branch
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number != '' }}
-        id: base
-        env:
-          GH_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
-          SOURCE_REPOSITORY: ${{ inputs.source_repository || 'dataspecer/dataspecer' }}
-          PR_NUMBER: ${{ inputs.pr_number }}
-        run: python3 .github/scripts/comment-export.py base
       - name: Commit and push export snapshot
         env:
-          BASE_EXPORT_TAG: ${{ steps.base.outputs.tag }}
           EXPORT_TOKEN: ${{ secrets.EXPORT_REPOSITORY_TOKEN }}
           EXPORT_REPOSITORY: ${{ vars.EXPORT_REPOSITORY || format('{0}/ci-exports', github.repository_owner) }}
           EXPORT_DIR: ${{ runner.temp }}/combined-export
           DOCKER_TAG: ${{ matrix.tag }}
           DOCKER_IMAGE: ${{ matrix.image }}
         run: bash .github/scripts/publish-export.sh
-      - name: Comment on application pull request
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number != '' }}
+
+  comment:
+    # Wait for the entire publication matrix, including branch-main, before comparing.
+    needs: [prepare, publish]
+    if: ${{ needs.prepare.outputs.has_comments == 'true' }}
+    name: Comment on PR ${{ matrix.pr_number }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.prepare.outputs.comments) }}
+    env:
+      SOURCE_REPOSITORY: ${{ inputs.source_repository || 'dataspecer/dataspecer' }}
+      PR_NUMBER: ${{ matrix.pr_number }}
+      EXPORT_REPOSITORY: ${{ vars.EXPORT_REPOSITORY || format('{0}/ci-exports', github.repository_owner) }}
+      DOCKER_TAG: ${{ matrix.tag }}
+      DOCKER_IMAGE: ${{ matrix.image }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Resolve pull request base export branch
+        id: base
         env:
           GH_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
-          SOURCE_REPOSITORY: ${{ inputs.source_repository || 'dataspecer/dataspecer' }}
-          PR_NUMBER: ${{ inputs.pr_number }}
+        run: python3 .github/scripts/comment-export.py base
+      - name: Compare published export snapshots
+        env:
+          EXPORT_TOKEN: ${{ secrets.EXPORT_REPOSITORY_TOKEN }}
+          BASE_EXPORT_TAG: ${{ steps.base.outputs.tag }}
+        run: bash .github/scripts/compare-exports.sh
+      - name: Comment on application pull request
+        env:
+          GH_TOKEN: ${{ secrets.PR_COMMENT_TOKEN }}
           SOURCE_COMMIT: ${{ inputs.source_commit }}
-          EXPORT_REPOSITORY: ${{ vars.EXPORT_REPOSITORY || format('{0}/ci-exports', github.repository_owner) }}
-          DOCKER_TAG: ${{ matrix.tag }}
         run: python3 .github/scripts/comment-export.py comment
