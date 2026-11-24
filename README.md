@@ -23,7 +23,7 @@ Create a new directory in `specifications/` and upload `backup.zip` or `backup/`
 | Secret | `PR_COMMENT_TOKEN` | Fine-grained PAT with **Pull requests: Read and write** on the application repository; required for PR comments on both dispatches and push rebuilds |
 | Variable | `EXPORT_REPOSITORY` | `owner/ci-exports`; defaults to this repository's owner plus `/ci-exports` |
 | Variable | `DOCKER_IMAGE_REPOSITORY` | Image repository without a tag, e.g. `ghcr.io/owner/application`; required for pushes |
-| Variable | `PUSH_DOCKER_TAGS` | Base tags for pushes as a JSON array, defaults to `["branch-main","latest"]`; published open-PR tags are added automatically |
+| Variable | `PUSH_DOCKER_TAGS` | Base tags for pushes as a JSON array, defaults to `["branch-main","latest"]`; open-PR tags and their base branch tags are added automatically; unpublished tags are skipped |
 
 For cron updates, create a fine-grained personal access token scoped to this
 repository and save it as the `CRON_REPOSITORY_TOKEN` Actions secret above. Branch
@@ -137,7 +137,7 @@ without needing a shared ancestor. Publish the target base branch exports at lea
 using these comparisons. The report starts with a short bot introduction and says whether
 exports are identical or gives counts of added, removed, and modified files
 (including file type changes as modifications). It includes the branch comparison
-link and the original PR commit’s seven-character SHA and first message line, and explicitly
+link and the original PR commit’s linked seven-character SHA and first message line, and explicitly
 reports a missing baseline. The comparison link follows current branch tips.
 
 The workflow's `GITHUB_TOKEN` cannot comment in the separate application repository,
@@ -148,16 +148,25 @@ publication cannot compare against the base branch from before this run's public
 For both dispatches and push rebuilds, it updates the same marked comment for its
 export repository and tag, authored by
 the token owner, or creates one if absent. Keep the token owner stable to reuse comments.
-Push rebuild comments identify the specifications commit and the published image
-used, since that image may predate the PR's current head. Non-PR tags do not post comments.
+The closing paragraph includes the report update time in 24-hour Prague time
+(`Europe/Prague`, with CET/CEST as appropriate) and clearly identifies whether a
+specifications push or PR image build triggered the report. Push rebuild comments
+link to the specifications commit and include its first message line and branch.
+Both trigger types show the PR and base branch tags and the image references
+recorded in the compared export commits, since these images may predate the current
+application revisions. Missing base exports or older snapshots without image metadata
+are explicitly identified. Non-PR tags do not post comments.
 
 Prefer an immutable digest reference for dispatches so all jobs build the same
 image even if its tag moves. Push runs pull `DOCKER_IMAGE_REPOSITORY:<tag>` for each
-configured tag and each published `pr-<number>` tag for an open pull request in
-`dataspecer/dataspecer`, including draft PRs and PRs ready for review. The prepare
-job lists all open PRs and checks their image manifests before creating the build
-and publish matrices. Missing PR images are skipped without spawning per-specification
-jobs; API or other registry errors fail preparation. Discovery uses the workflow's
+configured tag, each `pr-<number>` tag for an open pull request in
+`dataspecer/dataspecer`, and each PR's `branch-<base>` tag, including draft PRs and
+PRs ready for review. For example, PR 1234 targeting `feature/x` adds `pr-1234`
+and `branch-feature-x`. Tags are deduplicated before checking their image manifests
+and creating the build and publish matrices, so shared base branches build only once
+per specification. Unpublished tags are skipped, including configured tags; if none
+exist, the build and publication jobs are skipped. API or other registry errors fail
+preparation. Discovery uses the workflow's
 `GITHUB_TOKEN` to read the public application repository and needs no additional secret.
 Avoid moving these tags during a run if consistent image identity across specifications
 is required.

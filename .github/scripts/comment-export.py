@@ -2,6 +2,7 @@
 """Render an export snapshot report, or create/update its PR comment."""
 
 import html
+from datetime import datetime
 import json
 import os
 from pathlib import Path
@@ -9,10 +10,19 @@ import re
 import subprocess
 import sys
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
 
 def run(*args):
     return subprocess.check_output(args)
+
+
+def snapshot_image(revision):
+    # Read the image recorded with the snapshot actually used in the comparison.
+    # In particular, a dispatch may compare against an older base publication.
+    message = run('git', 'show', '-s', '--format=%b', revision).decode()
+    match = re.search(r'^Docker image: (.+)$', message, re.MULTILINE)
+    return f'<code>{html.escape(match[1])}</code>' if match else 'not recorded in this export'
 
 
 def report(baseline):
@@ -48,6 +58,10 @@ def report(baseline):
     else:
         lines += ['⚠️ Comparison unavailable: the base branch exports have not been published yet.', '']
     lines += [f'[Compare with the base branch]({compare})', '']
+    base_image = snapshot_image(base) if baseline else 'unavailable (no published base export)'
+    lines += ['Comparison images:', '',
+              f'- PR tag <code>{html.escape(tag)}</code>: {snapshot_image(head)}.',
+              f'- Base branch tag <code>{html.escape(base_tag)}</code>: {base_image}.', '']
     Path(env['RUNNER_TEMP'], 'export-pr-comment.md').write_text('\n'.join(lines))
 
 
@@ -74,12 +88,18 @@ def comment():
     env = os.environ
     repository, number = pull_request()
     body = Path(env['RUNNER_TEMP'], 'export-pr-comment.md').read_text()
+    updated = datetime.now(ZoneInfo('Europe/Prague')).strftime('%d %B %Y at %H:%M:%S %Z')
     if env['GITHUB_EVENT_NAME'] == 'push':
         # The published PR image can predate the current PR head. Do not attribute
         # its exports to an application revision we did not actually build.
-        body += (f'\nThis message was generated after specifications commit '
-                 f'<code>{html.escape(env["GITHUB_SHA"][:7])}</code> using published image '
-                 f'<code>{html.escape(env["DOCKER_IMAGE"])}</code>.\n')
+        commit = env['GITHUB_SHA']
+        commit_repository = env['GITHUB_REPOSITORY']
+        event = json.loads(Path(env['GITHUB_EVENT_PATH']).read_text())
+        title = (event.get('head_commit') or {}).get('message', 'Specifications updated').split('\n', 1)[0]
+        trigger = (f'a commit was pushed to the specifications repository '
+                   f'<code>{html.escape(commit_repository)}</code> '
+                   f'(branch <code>{html.escape(env["GITHUB_REF_NAME"])}</code>), '
+                   'triggering a rebuild with the published images')
     else:
         commit = env['SOURCE_COMMIT']
         if not re.fullmatch(r'[0-9a-fA-F]{40}', commit):
@@ -91,8 +111,12 @@ def comment():
             commit = source['parents'][1]['sha']
             source = json.loads(run('gh', 'api', f'repos/{repository}/git/commits/{commit}'))
         title = source['message'].split('\n', 1)[0]
-        body += (f'\nThis message was generated from commit <code>{commit[:7]}</code>: '
-                 f'<strong>{html.escape(title)}</strong>.\n')
+        commit_repository = repository
+        trigger = 'this pull request triggered an application image build and specification export'
+    commit_url = f'{env["GITHUB_SERVER_URL"]}/{commit_repository}/commit/{commit}'
+    body += (f'\nReport updated on **{updated} (Europe/Prague)** because {trigger}. '
+             f'Triggering commit: [`{commit[:7]}`]({commit_url}) — '
+             f'<strong>{html.escape(title)}</strong>.\n')
     marker = body.splitlines()[0]
     author = json.loads(run('gh', 'api', 'user'))['id']
     pages = json.loads(run('gh', 'api', '--paginate', '--slurp',

@@ -1,4 +1,5 @@
 """Check PR comment creation and updates without posting to GitHub."""
+from datetime import datetime, timezone
 import importlib.util
 import json
 import os
@@ -23,9 +24,19 @@ class CommentExportTests(unittest.TestCase):
             "PR_NUMBER": "42",
             "GITHUB_EVENT_NAME": "push",
             "GITHUB_SHA": "b" * 40,
+            "GITHUB_SERVER_URL": "https://github.com",
+            "GITHUB_REPOSITORY": "dataspecer/ci-specifications",
+            "GITHUB_REF_NAME": "main",
+            "GITHUB_EVENT_PATH": str(Path(temporary, "event.json")),
             "SOURCE_COMMIT": "",
             "DOCKER_IMAGE": "ghcr.io/dataspecer/ws:pr-42",
         }))
+        Path(temporary, "event.json").write_text(json.dumps({
+            "head_commit": {"message": "Update <specifications>\nMore details"},
+        }))
+        self.clock = self.enterContext(patch.object(comments, "datetime"))
+        self.instant = datetime(2026, 11, 24, 13, 5, 9, tzinfo=timezone.utc)
+        self.clock.now.side_effect = lambda zone: self.instant.astimezone(zone)
         self.marker = '<!-- specification-exports:dataspecer/ci-exports:pr-42 -->'
         Path(temporary, "export-pr-comment.md").write_text(self.marker + "\nReport\n")
         self.api = self.enterContext(patch.object(comments, "run"))
@@ -41,8 +52,14 @@ class CommentExportTests(unittest.TestCase):
             "gh", "api", "--method", "POST",
             "repos/dataspecer/dataspecer/issues/42/comments", "--input", "-",
         ])
-        self.assertIn("specifications commit <code>bbbbbbb</code>", self.body())
-        self.assertIn("ghcr.io/dataspecer/ws:pr-42", self.body())
+        self.assertIn("24 November 2026 at 14:05:09 CET (Europe/Prague)", self.body())
+        self.assertEqual(self.clock.now.call_args.args[0].key, "Europe/Prague")
+        self.assertIn("a commit was pushed to the specifications repository", self.body())
+        self.assertIn("<code>dataspecer/ci-specifications</code> (branch <code>main</code>)", self.body())
+        self.assertIn(f"[`bbbbbbb`](https://github.com/dataspecer/ci-specifications/commit/{'b' * 40})",
+                      self.body())
+        self.assertIn("<strong>Update &lt;specifications&gt;</strong>", self.body())
+        self.assertNotIn("More details", self.body())
         self.assertFalse(any("/git/commits/" in call.args[-1]
                              for call in self.api.call_args_list))
 
@@ -65,10 +82,19 @@ class CommentExportTests(unittest.TestCase):
             b'{"message": "Fix <schema>\\nDetails"}', b'{"id": 7}', b'[[]]',
         ]
         comments.comment()
-        self.assertIn("commit <code>ddddddd</code>", self.body())
+        self.assertIn(f"[`ddddddd`](https://github.com/dataspecer/dataspecer/commit/{'d' * 40})",
+                      self.body())
+        self.assertIn("this pull request triggered an application image build", self.body())
+        self.assertIn("24 November 2026 at 14:05:09 CET (Europe/Prague)", self.body())
         self.assertIn("Fix &lt;schema&gt;", self.body())
         self.assertNotIn("Details", self.body())
         self.assertNotIn("specifications commit", self.body())
+
+    def test_summer_timestamp_uses_prague_daylight_saving_time(self):
+        self.instant = datetime(2026, 7, 1, 22, 5, 9, tzinfo=timezone.utc)
+        self.api.side_effect = [b'{"id": 7}', b'[[]]']
+        comments.comment()
+        self.assertIn("02 July 2026 at 00:05:09 CEST (Europe/Prague)", self.body())
 
 
 if __name__ == "__main__":

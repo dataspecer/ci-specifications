@@ -40,6 +40,7 @@ jobs:
     outputs:
       builds: ${{ steps.matrix.outputs.builds }}
       tags: ${{ steps.matrix.outputs.tags }}
+      has_builds: ${{ steps.matrix.outputs.has_builds }}
       comments: ${{ steps.matrix.outputs.comments }}
       has_comments: ${{ steps.matrix.outputs.has_comments }}
     steps:
@@ -56,6 +57,7 @@ jobs:
 
   build:
     needs: prepare
+    if: ${{ needs.prepare.outputs.has_builds == 'true' }}
     name: Build ${{ matrix.specification }} (${{ matrix.tag }})
     runs-on: ubuntu-latest
     strategy:
@@ -98,6 +100,7 @@ jobs:
 
   publish:
     needs: [prepare, build]
+    if: ${{ needs.prepare.outputs.has_builds == 'true' }}
     name: Publish ${{ matrix.tag }}
     runs-on: ubuntu-latest
     strategy:
@@ -137,7 +140,7 @@ jobs:
         run: bash .github/scripts/publish-export.sh
 
   comment:
-    # Wait for the entire publication matrix, including branch-main, before comparing.
+    # Wait for the entire publication matrix, including PR base branches, before comparing.
     needs: [prepare, publish]
     if: ${{ needs.prepare.outputs.has_comments == 'true' }}
     name: Comment on PR ${{ matrix.pr_number }}

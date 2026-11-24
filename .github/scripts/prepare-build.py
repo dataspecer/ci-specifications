@@ -13,13 +13,13 @@ def validate_tag(tag):
     return tag
 
 
-def open_pr_tags():
+def open_pull_requests():
     # state=open includes both draft PRs and PRs ready for review.
     pages = json.loads(subprocess.check_output([
         "gh", "api", "--paginate", "--slurp",
         "repos/dataspecer/dataspecer/pulls?state=open&per_page=100",
     ]))
-    return [validate_tag(f"pr-{pr['number']}") for page in pages for pr in page]
+    return [pr for page in pages for pr in page]
 
 
 def image_exists(image):
@@ -30,7 +30,7 @@ def image_exists(image):
     error = result.stderr.strip()
     if any(message in error.lower() for message in
            ("no such manifest", "manifest unknown", "manifest_unknown")):
-        print(f"Skipping unpublished PR image: {image}")
+        print(f"Skipping unpublished image: {image}")
         return False
     raise RuntimeError(f"Could not inspect {image}: {error}")
 
@@ -51,14 +51,15 @@ def main():
         tags = json.loads(os.environ.get("PUSH_DOCKER_TAGS", '["branch-main","latest"]'))
         if not isinstance(tags, list) or not tags:
             raise ValueError("PUSH_DOCKER_TAGS must be a nonempty JSON array of tags")
-        tags = list(dict.fromkeys(validate_tag(tag) for tag in tags))
-        pr_tags = dict.fromkeys(open_pr_tags())
-        for tag in pr_tags:
-            if tag not in tags and image_exists(f"{repository}:{tag}"):
-                tags.append(tag)
+        prs = open_pull_requests()
+        pr_tags = dict.fromkeys(validate_tag(f"pr-{pr['number']}") for pr in prs)
+        # Match the branch tag sanitization used by the image pipeline and PR comments.
+        base_tags = [re.sub(r"[^a-zA-Z0-9_.-]+", "-", f"branch-{pr['base']['ref']}")
+                     for pr in prs]
+        tags = dict.fromkeys(validate_tag(tag) for tag in [*tags, *pr_tags, *base_tags])
         targets = [{"tag": tag, "image": f"{repository}:{tag}",
                     "pr_number": tag.removeprefix("pr-") if tag in pr_tags else ""}
-                   for tag in tags]
+                   for tag in tags if image_exists(f"{repository}:{tag}")]
     specifications = [{"directory": str(path), "specification": path.name}
                       for path in sorted(Path("specifications").glob("*"))
                       if path.is_dir() and not path.name.startswith(".")]
@@ -72,6 +73,7 @@ def main():
     with open(os.environ["GITHUB_OUTPUT"], "a") as output:
         output.write("builds=" + json.dumps({"include": builds}) + "\n")
         output.write("tags=" + json.dumps({"include": targets}) + "\n")
+        output.write("has_builds=" + json.dumps(bool(builds)) + "\n")
         output.write("comments=" + json.dumps({"include": comments}) + "\n")
         output.write("has_comments=" + json.dumps(bool(comments)) + "\n")
 

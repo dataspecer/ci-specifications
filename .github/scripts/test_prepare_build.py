@@ -32,7 +32,7 @@ class PrepareBuildTests(unittest.TestCase):
         }))
         self.api = self.enterContext(patch.object(prepare.subprocess, "check_output"))
         self.api.return_value = b"[[]]"
-        self.images = {}
+        self.images = {"branch-main": "", "latest": ""}
         self.inspected = []
         self.enterContext(patch.object(prepare.subprocess, "run", side_effect=self.run_command))
 
@@ -50,11 +50,13 @@ class PrepareBuildTests(unittest.TestCase):
 
     def test_published_draft_and_ready_prs_across_pages(self):
         self.api.return_value = json.dumps([
-            [{"number": 1, "draft": True}, {"number": 2, "draft": False}],
-            [{"number": 3, "draft": True}, {"number": 4, "draft": False}],
+            [{"number": 1, "draft": True, "base": {"ref": "main"}},
+             {"number": 2, "draft": False, "base": {"ref": "main"}}],
+            [{"number": 3, "draft": True, "base": {"ref": "main"}},
+             {"number": 4, "draft": False, "base": {"ref": "main"}}],
         ]).encode()
-        self.images = {"pr-1": "", "pr-2": "", "pr-3": "manifest unknown",
-                       "pr-4": "no such manifest: ghcr.io/dataspecer/ws:pr-4"}
+        self.images.update({"pr-1": "", "pr-2": "", "pr-3": "manifest unknown",
+                            "pr-4": "no such manifest: ghcr.io/dataspecer/ws:pr-4"})
         prepare.main()
         self.api.assert_called_once_with([
             "gh", "api", "--paginate", "--slurp",
@@ -72,31 +74,87 @@ class PrepareBuildTests(unittest.TestCase):
         self.assertEqual({(b["tag"], b["specification"]) for b in builds},
                          {(tag, name) for tag in tags for name in ("first", "second")})
         self.assertTrue(all(b["image"] == f"ghcr.io/dataspecer/ws:{b['tag']}" for b in builds))
-        self.assertEqual(len(self.inspected), 4)
+        self.assertTrue(output["has_builds"])
+        self.assertEqual(len(self.inspected), 6)
 
     def test_no_open_prs_keeps_base_tags(self):
         prepare.main()
         self.assertEqual(len(self.output()["builds"]["include"]), 4)
         self.assertEqual(self.output()["comments"], {"include": []})
         self.assertFalse(self.output()["has_comments"])
-        self.assertEqual(self.inspected, [])
+        self.assertEqual(self.inspected, ["ghcr.io/dataspecer/ws:branch-main",
+                                          "ghcr.io/dataspecer/ws:latest"])
 
     def test_all_pr_images_missing_keeps_base_tags(self):
-        self.api.return_value = b'[[{"number": 1}]]'
-        self.images = {"pr-1": "MANIFEST_UNKNOWN: manifest unknown"}
+        self.api.return_value = b'[[{"number": 1, "base": {"ref": "main"}}]]'
+        self.images["pr-1"] = "MANIFEST_UNKNOWN: manifest unknown"
         prepare.main()
         self.assertEqual([t["tag"] for t in self.output()["tags"]["include"]],
                          ["branch-main", "latest"])
         self.assertFalse(self.output()["has_comments"])
 
+    def test_base_tags_are_sanitized_and_deduplicated_across_pages_and_config(self):
+        os.environ["PUSH_DOCKER_TAGS"] = '["branch-main","latest","branch-feature-x","latest"]'
+        self.api.return_value = json.dumps([
+            [{"number": 1234, "base": {"ref": "feature/x"}},
+             {"number": 1235, "base": {"ref": "release/next"}}],
+            [{"number": 1236, "base": {"ref": "feature/x"}},
+             {"number": 1237, "base": {"ref": "release///next"}}],
+        ]).encode()
+        self.images.update(dict.fromkeys([
+            "pr-1234", "pr-1235", "pr-1236", "pr-1237",
+            "branch-feature-x", "branch-release-next",
+        ], ""))
+        prepare.main()
+        output = self.output()
+        targets = output["tags"]["include"]
+        expected = ["branch-main", "latest", "branch-feature-x", "pr-1234",
+                    "pr-1235", "pr-1236", "pr-1237", "branch-release-next"]
+        self.assertEqual([t["tag"] for t in targets], expected)
+        self.assertEqual(self.inspected, [f"ghcr.io/dataspecer/ws:{tag}" for tag in expected])
+        self.assertEqual(len(output["builds"]["include"]), 2 * len(expected))
+        self.assertEqual([t["pr_number"] for t in output["comments"]["include"]],
+                         ["1234", "1235", "1236", "1237"])
+        self.assertTrue(all(not t["pr_number"] for t in targets if t["tag"].startswith("branch-")))
+
+    def test_missing_pr_and_base_images_are_skipped_independently(self):
+        self.api.return_value = json.dumps([[
+            {"number": 1, "base": {"ref": "feature/x"}},
+            {"number": 2, "base": {"ref": "feature/y"}},
+            {"number": 3, "base": {"ref": "feature/y"}},
+        ]]).encode()
+        self.images.update({"pr-1": "manifest unknown", "branch-feature-x": "",
+                            "pr-2": "", "pr-3": "", "branch-feature-y": "manifest unknown"})
+        prepare.main()
+        self.assertEqual([t["tag"] for t in self.output()["tags"]["include"]],
+                         ["branch-main", "latest", "pr-2", "pr-3", "branch-feature-x"])
+        self.assertEqual(self.inspected.count("ghcr.io/dataspecer/ws:branch-feature-y"), 1)
+
+    def test_missing_configured_tag_is_skipped(self):
+        self.images["latest"] = "manifest unknown"
+        prepare.main()
+        self.assertEqual([t["tag"] for t in self.output()["tags"]["include"]], ["branch-main"])
+        self.assertTrue(self.output()["has_builds"])
+
+    def test_all_images_missing_produces_empty_matrices(self):
+        self.images = dict.fromkeys(self.images, "manifest unknown")
+        prepare.main()
+        output = self.output()
+        for name in ("builds", "tags", "comments"):
+            self.assertEqual(output[name], {"include": []})
+        self.assertFalse(output["has_builds"])
+        self.assertFalse(output["has_comments"])
+
     def test_registry_errors_fail_before_matrix_output(self):
-        self.api.return_value = b'[[{"number": 1}]]'
-        for error in ("unauthorized", "toomanyrequests", "connection timed out"):
-            with self.subTest(error=error):
-                self.images = {"pr-1": error}
-                with self.assertRaisesRegex(RuntimeError, error):
-                    prepare.main()
-                self.assertFalse(Path("output").exists())
+        self.api.return_value = b'[[{"number": 1, "base": {"ref": "feature/x"}}]]'
+        for tag in ("branch-main", "pr-1", "branch-feature-x"):
+            for error in ("unauthorized", "toomanyrequests", "connection timed out"):
+                with self.subTest(tag=tag, error=error):
+                    self.images = dict.fromkeys(["branch-main", "latest", "pr-1", "branch-feature-x"], "")
+                    self.images[tag] = error
+                    with self.assertRaisesRegex(RuntimeError, error):
+                        prepare.main()
+                    self.assertFalse(Path("output").exists())
 
     def test_api_errors_fail_before_matrix_output(self):
         self.api.side_effect = subprocess.CalledProcessError(1, "gh")
